@@ -2,6 +2,8 @@
 
 > 本文件是本專案的**唯一需求來源（single source of truth）**，供執行開發的 AI 模型依循。
 > 執行時逐 Phase 進行，每個 Phase 完成並通過驗收標準後 commit，再進入下一個 Phase。
+>
+> **接手指引**：先看 git log 與文末「變更紀錄」判斷目前進度；repo 只有文件、沒有程式碼時，從 Phase 0 開始。
 
 ---
 
@@ -119,7 +121,7 @@ sources:                  # 查證來源 URL（官方來源優先）
   "id": "pe-2025-tax-law-01",       // pe=歷屆 / gen=生成
   "subject": "tax-law",
   "source": { "type": "past-exam", "year": 2025, "number": 1 },  // 或 {"type":"generated"}
-  "type": "single-choice",           // single-choice | multi-choice
+  "type": "single-choice",           // single-choice | multi-choice | essay（歷屆申論題，僅供閱讀不計分，見 §6.4）
   "stem": "題幹…",
   "options": ["…", "…", "…", "…"],
   "answer": [1],                     // 0-based index 陣列
@@ -143,11 +145,16 @@ sources:                  # 查證來源 URL（官方來源優先）
 ```
 
 **IndexedDB 使用者資料表**（Dexie）：
-- `progress`：教材節閱讀狀態（materialId, status, updatedAt）
+- `progress`：教材節完成狀態（materialId, status, updatedAt）
 - `notes`：使用者對教材節的筆記（materialId, content, updatedAt）
 - `attempts`：每次答題紀錄（questionId, correct, chosenAt）——錯題本與正確率由此推導
 - `srs_cards`：每張卡的 FSRS 狀態（cardId, due, stability, difficulty, …）
 - `exam_sessions`：模擬考紀錄（科目、題目清單、得分、用時）
+- `feedback`：詳解「看不懂」等回饋標記（questionId, type, createdAt）——供 §8.3 分析報告
+- `settings`：key-value 設定（字級、主題、lastBackupAt、streak 統計等）
+- `sim_progress`：Phase 6 模擬闖關進度（scenarioId, month, status, answers）
+
+其他內容 schema（分錄練習題、Phase 6 模擬劇本）於對應 Phase 動工時設計，但一律比照上方規範：含 `id`、`verified_at`、`sources`（涉法規數字時）、`material_ref`（可連回教材時）。
 
 ### 4.3 多人擴充預留（只做隔離，不做實作）
 
@@ -167,7 +174,7 @@ sources:                  # 查證來源 URL（官方來源優先）
 4. **記帳相關法規**（考科：記帳相關法規概要）——記帳士法、商業會計法、商業會計處理準則、公司法總則
 5. **實務專區**（非考科，對應主要目標）——傳產公司實際帳務流程：發票開立與進項管理、每期營業稅申報流程、各類所得扣繳與申報、二代健保補充保費、勞健保費用處理、年度結算申報時程表
 
-> **執行模型注意**：正式考科名稱與範圍以考選部（wcberereg.moex.gov.tw／moex.gov.tw）公告為準，開始生成內容前先以 WebSearch 查證當年度考科與命題大綱，若與上表不符，以官方公告修正上表。國文（作文）科不納入本網站範圍。
+> **執行模型注意**：正式考科名稱與範圍以考選部官網（moex.gov.tw）公告為準，開始生成內容前先以 WebSearch 查證當年度考科與命題大綱，若與上表不符，以官方公告修正上表。國文（作文）科不納入本網站範圍。
 
 ---
 
@@ -197,7 +204,7 @@ sources:                  # 查證來源 URL（官方來源優先）
 
 ### 6.4 歷屆試題匯入
 
-1. 從考選部「考畢試題查詢平臺」（wq-doc.moex.gov.tw 或 moex 官網）下載記帳士近 5 年、4 個專業科目的試題與公告答案 PDF
+1. 從考選部官網（moex.gov.tw）的考畢試題查詢服務下載記帳士近 5 年、4 個專業科目的試題與公告答案 PDF（實際入口以 WebSearch 查得的現行網址為準，查到後記入 `docs/maintenance/`）
 2. 以 `scripts/import-past-exam.ts` 輔助 + AI 逐題轉為題目 JSON（選擇題全收；申論／計算題收錄題幹與參考擬答方向，型別另訂 `essay`，僅供閱讀不計分）
 3. 每題由 AI 補寫詳解，詳解中的法規數字同樣走 §6.2 查證（舊試題若因修法答案已不同，於詳解中標註「本題依當年法規，現行規定為…」）
 4. 版權注意：考選部試題為政府公開資訊，收錄時標明出處年度與科目
@@ -215,13 +222,14 @@ sources:                  # 查證來源 URL（官方來源優先）
 - GitHub Actions CI：push 時自動跑 `validate-content` 與 Vitest
 - 建立 §4.1 目錄骨架、§4.2 各 schema 的 TS 型別、`validate-content.ts` 雛形
 - 建立 `StorageProvider` 介面與 Dexie 實作骨架
+- README：一段話簡介＋本地啟動指令＋指向本文件的連結
 
 **驗收**：`npm run dev` 可跑；Vercel 上看得到首頁；push 後 CI 綠燈。
 
 ### Phase 1：教材系統 + 第一批內容
 
 - 教材瀏覽 UI：科目列表 → 章節側欄 → MDX 內容頁（含 `<TaxParam>` 元件）
-- 節末「標記已讀」與使用者筆記（存 IndexedDB）
+- 節末「標記完成」（暫代方案，Phase 2 將升級為節末快測）與使用者筆記（存 IndexedDB）
 - 閱讀體驗：字級調整鈕；每節有獨立網址（可書籤，跨裝置以網址接續進度）
 - 全站搜尋（教材標題／標籤，客製 build-time 索引即可，不引入外部服務）
 - **內容**：完成「會計學」第 1–3 章 + 建立 `tax-parameters/2026.json`（走 §6.2 查證）
@@ -232,7 +240,7 @@ sources:                  # 查證來源 URL（官方來源優先）
 
 - 練習模式：依科目／章／標籤抽題，即答即解；詳解旁提供「看不懂」回饋鈕（存 IndexedDB，供 §8.3 優化循環使用）
 - 混合練習模式：跨科目／跨章節交錯抽題（interleaving），訓練「先判斷題型」的能力
-- 節末快測：每個教材節末嵌入 3–5 題快測，全對才將該節標記為「完成」（取代 Phase 1 的手動標記已讀，落實 retrieval practice）
+- 節末快測：每個教材節末嵌入 3–5 題快測，全對才將該節標記為「完成」（取代 Phase 1 的手動標記，落實 retrieval practice）
 - 模擬考模式：依科目、計時、交卷後計分與逐題檢討
 - 選擇題支援鍵盤作答（A–D 或 1–4 鍵）
 - 錯題本：自動收集答錯題，支援重練、掌握後移除
@@ -268,11 +276,10 @@ sources:                  # 查證來源 URL（官方來源優先）
 
 ### Phase 5：內容補完（持續進行）
 
-- 依 §5 地圖補完四個考科所有章節教材＋配套題目／卡片
-- 實務專區補完（二代健保、勞健保、年度申報時程表等）
-- 建立 `docs/maintenance/` 年度維運 checklist（§8.1 三個時間點各一份，含逐步操作指引）
-- GitHub Actions 維運 workflow：每年 1／5／12 月排程自動開 Issue 附對應 checklist；每月檢查教材 `sources` 連結有效性、輸出待複驗清單
-- 每完成一科跑一次 validate 並 commit
+- 依 §5 地圖補完四個考科所有章節教材＋配套題目／卡片，**依知識依賴順序進行**：會計學 → 記帳相關法規（商業會計法與會計學相輔）→ 稅務相關法規 → 租稅申報實務（需要前三者為基礎）；每科都是「大綱確認 → 生成 → 查證 → validate → commit」一輪
+- 實務專區補完（二代健保、勞健保、年度申報時程表等），可與考科內容穿插進行
+- 建立 `docs/maintenance/` 維運 checklist（§8.1 三個年度時間點＋季度優化各一份，含逐步操作指引）
+- GitHub Actions 維運 workflow：每年 1／5／12 月排程開 Issue 附年度任務 checklist，每年 4／7／10 月開 Issue 提醒 §8.3 季度優化（1 月的年度 Issue 已涵蓋當季）；每月檢查教材 `sources` 連結有效性、輸出待複驗清單
 
 **驗收**：科目地圖上所有章節皆有教材；每節皆有 ≥5 題與 ≥5 卡；維運 checklist 齊備，進入 §8 維運循環。
 
@@ -319,7 +326,7 @@ sources:                  # 查證來源 URL（官方來源優先）
 - 複驗＝重新走 §6.2 查證流程：法規未變則僅更新 `verified_at`；有修法則修正內容並於文末加「修法紀錄」（原規定 → 現行規定 → 生效日）
 - 「待複驗清單清空」是每年 1 月循環的驗收標準
 
-### 8.3 數據驅動的內容自我優化（每季執行）
+### 8.3 數據驅動的內容自我優化（每季執行，由 GitHub Actions 季度 Issue 提醒）
 
 儀表板提供「學習分析報告」一鍵匯出（Markdown），內含：各章節答題錯誤率排行、重複答錯 ≥3 次的題目、SRS 中反覆遺忘（lapse 數高）的卡片、超過 60 天未讀的章節、被標記「看不懂」的詳解。
 
@@ -332,7 +339,7 @@ sources:                  # 查證來源 URL（官方來源優先）
 
 ### 8.4 年度檢討與計畫演進
 
-- **本文件是活文件**：需求、範圍、技術決策變更時直接修改本文件並 commit，同步在文末「變更紀錄」加一行（日期＋摘要＋理由）
+- **本文件是活文件**：需求、範圍、技術決策變更時直接修改本文件並 commit，同步在文末「變更紀錄」加一行（日期＋摘要，重大變更須在摘要中寫明理由）
 - 每年 12 月檢討：實際使用頻率低的功能考慮精簡；缺口納入下年度；§7「未來擴充」清單是否有項目該啟動（例如決定報考年度後，啟動讀書計畫排程）
 - 重大技術變更（換框架、加後端、引入付費服務）必須先在變更紀錄寫明理由與影響範圍，經使用者確認後才動工
 
@@ -366,3 +373,4 @@ sources:                  # 查證來源 URL（官方來源優先）
 | 2026-07-05 | 新增 §8 長期維運與自我優化機制（五年循環）；Phase 2/4/5 補上對應功能；守則加入可交接性與計畫同步原則 |
 | 2026-07-05 | 學習成效優化：Phase 2 加混合練習（interleaving）與節末快測（retrieval practice）；Phase 4 加每日學習佇列＋streak、快測答錯連動 SRS；新增 Phase 6 虛擬公司全年帳務模擬；未來擴充加入稅務行事曆、錯因標記、擬真文件填寫 |
 | 2026-07-05 | 零成本體驗優化：Phase 0 加 GitHub Actions CI；Phase 4 加 PWA 離線、深色模式、鍵盤操作；Phase 5 加維運排程 Issue 與連結檢查 workflow；§3 與守則加入效能原則（系統字體、靜態生成）；未來擴充加 .ics 行事曆匯出 |
+| 2026-07-05 | 全文一致性校訂：補齊 IndexedDB 表（feedback／settings／sim_progress）與 essay 題型；季度優化納入 Actions 排程提醒（原本只有年度三時點，季度循環會被遺忘）；Phase 5 內容補完明定科目依賴順序；移除未經查證的考選部子網域，統一以 moex.gov.tw 起查；文件開頭加接手指引；Phase 0 加 README |
