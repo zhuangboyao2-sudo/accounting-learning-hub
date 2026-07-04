@@ -13,4 +13,6 @@
 
 ## 技術棧
 
-Next.js (App Router) + TypeScript + Tailwind CSS；內容為 MDX/JSON 檔；本地資料用 Dexie (IndexedDB)；SRS 用 ts-fsrs；部署 Vercel 免費方案。
+Next.js (App Router) + TypeScript + Tailwind CSS；內容為 MDX/JSON 檔；本地資料用 Dexie (IndexedDB)；SRS 用 ts-fsrs；部署 Vercel 免費方案；CI 與維運排程提醒用 GitHub Actions。
+
+效能原則：不用中文 webfont（一律系統字體）、教材頁靜態生成。
