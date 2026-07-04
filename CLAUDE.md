@@ -4,7 +4,7 @@
 
 ## 必讀
 
-- 開發前先讀 [DEVELOPMENT_PLAN.md](DEVELOPMENT_PLAN.md)，它是唯一需求來源；依 Phase 順序執行，目前進度見 git log；Phase 0–5 完成後依計畫 §8 進入年度維運循環（維運步驟見 `docs/maintenance/`）
+- 開發前先讀 [DEVELOPMENT_PLAN.md](DEVELOPMENT_PLAN.md)，它是唯一需求來源；依 Phase 順序執行（Phase 0–6），目前進度見 git log；Phase 5 完成後即依計畫 §8 啟動年度維運循環（維運步驟見 `docs/maintenance/`）
 - 計畫 §9「給執行模型的守則」為硬性規定，重點：
   - 含稅務數字的內容必須先經官方來源（law.moj.gov.tw、etax.nat.gov.tw）WebSearch 查證，並填 `verified_at` 與 `sources`
   - 程式碼不得硬編碼稅務數字，一律讀 `content/tax-parameters/`
