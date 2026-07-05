@@ -7,9 +7,17 @@ const subjectSchema = z.enum([
   "tax-practice",
   "tax-law",
   "bookkeeping-law",
+  "practice-zone",
 ]);
 
-const dateStringSchema = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "verified_at 必須是 YYYY-MM-DD 格式");
+// gray-matter 解析 MDX frontmatter 的 YAML 時，會把 2026-07-05 這類寫法自動轉成 Date 物件；
+// JSON 內容檔則維持字串，這裡統一正規化成 YYYY-MM-DD 字串再驗證格式。
+const dateStringSchema = z.preprocess((value) => {
+  if (value instanceof Date) {
+    return value.toISOString().slice(0, 10);
+  }
+  return value;
+}, z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "verified_at 必須是 YYYY-MM-DD 格式"));
 
 export const materialFrontmatterSchema = z.object({
   id: z.string().min(1),

@@ -1,0 +1,60 @@
+{
+  "year": 2026,
+  "verified_at": "2026-07-05",
+  "sources": [
+    "https://www.mof.gov.tw/singlehtml/384fb3077bb349ea973e7fc6f13b6974?cntId=34b463dc8f1b49f29d440d92a6fd5139",
+    "https://www.etax.nat.gov.tw/etwmain/tax-info/understanding/tax-q-and-a/national/profit-seeking-enterprise-income-tax/file-payment/62nOrYR",
+    "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=G0340003&flno=5",
+    "https://law-out.mof.gov.tw/LawContent.aspx?id=FL006082",
+    "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0340028",
+    "https://www.etax.nat.gov.tw/etwmain/tax-info/understanding/tax-q-and-a/national/individual-income-tax/withheld-rule/rule/BZYB5p2",
+    "https://www.nhi.gov.tw/ch/cp-4516-74b0f-2613-1.html"
+  ],
+  "notes": "本檔為民國115年度（即西元2026年度）稅務參數，適用於116年（2027年）5月申報。每人基本生活所需之費用金額115年度官方公告尚未查得明確數字，故未列入，待查得後補上（見計畫 §8.2）。",
+  "individualIncomeTax": {
+    "personalExemption": 101000,
+    "personalExemptionElderly": 151500,
+    "standardDeductionSingle": 136000,
+    "standardDeductionMarried": 272000,
+    "salaryIncomeSpecialDeduction": 227000,
+    "disabilitySpecialDeduction": 227000,
+    "longTermCareSpecialDeduction": 180000,
+    "brackets": [
+      { "upTo": 610000, "rate": 0.05, "progressiveDifference": 0 },
+      { "upTo": 1380000, "rate": 0.12, "progressiveDifference": 42700 },
+      { "upTo": 2770000, "rate": 0.20, "progressiveDifference": 153100 },
+      { "upTo": 5190000, "rate": 0.30, "progressiveDifference": 430100 },
+      { "upTo": null, "rate": 0.40, "progressiveDifference": 949100 }
+    ]
+  },
+  "businessIncomeTax": {
+    "rate": 0.20,
+    "smallProfitExemptionThreshold": 120000,
+    "halfTaxBufferThreshold": 200000,
+    "note": "課稅所得額12萬元以下免徵；超過12萬元至20萬元者，應納稅額不得超過超過12萬元部分之半數；超過20萬元者，全額按20%課徵。"
+  },
+  "businessTax": {
+    "generalRate": 0.05,
+    "filingCycle": "bimonthly",
+    "filingDeadlineRule": "每2個月為一期，於次期開始15日內申報（例如1-2月銷售額於3月15日前申報）"
+  },
+  "withholdingRates": {
+    "salary": { "rate": 0.05, "note": "得依薪資所得扣繳辦法之扣繳稅額表，或按全月給付總額扣取5%" },
+    "professionalFees": { "rate": 0.10 },
+    "rent": { "rate": 0.10 },
+    "interest": { "rate": 0.10, "note": "軍公教退休金優惠存款利息免予扣繳" }
+  },
+  "secondGenNhiSupplementaryPremium": {
+    "rate": 0.0211,
+    "itemThresholdNTD": 20000,
+    "itemThresholdNote": "股利、利息、租金、執行業務、兼職薪資，每筆或全年合計超過2萬元部分扣取",
+    "highBonusThresholdMultiple": 4,
+    "highBonusNote": "當月獎金超過月投保金額4倍部分扣取"
+  },
+  "filingDeadlines": {
+    "individualIncomeTaxSettlement": "每年5月1日至5月31日",
+    "businessIncomeTaxSettlement": "每年5月1日至5月31日",
+    "businessTax401": "雙月申報，於次期開始15日內（奇數月15日前）",
+    "withholdingStatement": "次年1月底前申報，2月10日前填發納稅義務人（遇連續3日以上國定假日順延）"
+  }
+}

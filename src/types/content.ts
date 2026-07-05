@@ -4,7 +4,16 @@ export type Subject =
   | "accounting"
   | "tax-practice"
   | "tax-law"
-  | "bookkeeping-law";
+  | "bookkeeping-law"
+  | "practice-zone";
+
+export const SUBJECTS: { id: Subject; label: string }[] = [
+  { id: "accounting", label: "會計學" },
+  { id: "tax-practice", label: "租稅申報實務" },
+  { id: "tax-law", label: "稅務相關法規" },
+  { id: "bookkeeping-law", label: "記帳相關法規" },
+  { id: "practice-zone", label: "實務專區" },
+];
 
 export interface MaterialFrontmatter {
   id: string;

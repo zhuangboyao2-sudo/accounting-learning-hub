@@ -1,0 +1,22 @@
+[
+  { "category": "資產", "name": "現金", "normalBalance": "debit", "description": "庫存現金與零用金" },
+  { "category": "資產", "name": "銀行存款", "normalBalance": "debit", "description": "存放於金融機構的存款" },
+  { "category": "資產", "name": "應收帳款", "normalBalance": "debit", "description": "因賒銷貨物或勞務而產生的債權" },
+  { "category": "資產", "name": "存貨", "normalBalance": "debit", "description": "供銷售或生產用的商品、原料、在製品、製成品" },
+  { "category": "資產", "name": "預付費用", "normalBalance": "debit", "description": "已支付但尚未受益的費用，如預付租金、預付保險費" },
+  { "category": "資產", "name": "機器設備", "normalBalance": "debit", "description": "供生產或營業使用的固定資產" },
+  { "category": "資產", "name": "累計折舊", "normalBalance": "credit", "description": "固定資產的備抵科目，記錄已提列的折舊金額，餘額為貸方" },
+  { "category": "負債", "name": "應付帳款", "normalBalance": "credit", "description": "因賒購貨物或勞務而產生的債務" },
+  { "category": "負債", "name": "應付薪資", "normalBalance": "credit", "description": "已發生但尚未支付的員工薪資" },
+  { "category": "負債", "name": "應付營業稅", "normalBalance": "credit", "description": "當期銷項稅額減進項稅額後應繳納的營業稅款" },
+  { "category": "負債", "name": "應付所得稅", "normalBalance": "credit", "description": "本期估列應繳納的營利事業所得稅" },
+  { "category": "負債", "name": "短期借款", "normalBalance": "credit", "description": "一年內到期的銀行借款" },
+  { "category": "權益", "name": "股本", "normalBalance": "credit", "description": "股東投入的資本" },
+  { "category": "權益", "name": "保留盈餘", "normalBalance": "credit", "description": "歷年累積尚未分配的盈餘" },
+  { "category": "收入", "name": "銷貨收入", "normalBalance": "credit", "description": "銷售商品或勞務所得的收入" },
+  { "category": "收入", "name": "銷貨退回及折讓", "normalBalance": "debit", "description": "銷貨收入的減項，記錄退貨或折讓金額" },
+  { "category": "費用", "name": "銷貨成本", "normalBalance": "debit", "description": "已銷售商品所對應的成本" },
+  { "category": "費用", "name": "薪資費用", "normalBalance": "debit", "description": "員工薪資、獎金等人事費用" },
+  { "category": "費用", "name": "租金費用", "normalBalance": "debit", "description": "租用辦公室、廠房等支付的租金" },
+  { "category": "費用", "name": "折舊費用", "normalBalance": "debit", "description": "本期固定資產耗用而認列的折舊金額" }
+]
