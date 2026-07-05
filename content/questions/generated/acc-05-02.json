@@ -1,0 +1,80 @@
+[
+  {
+    "id": "gen-acc-05-02-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承教材範例（成本500,000元、殘值50,000元、可用5年），年數合計法下的「年數合計」為？",
+    "options": ["5", "10", "15", "25"],
+    "answer": [2],
+    "explanation": "年數合計＝5+4+3+2+1＝15（或用公式5×6÷2＝15）。",
+    "material_ref": "acc-05-02",
+    "tags": ["年數合計法"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-05-02-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承上題，年數合計法下第1年的折舊費用為？",
+    "options": ["90,000元", "120,000元", "150,000元", "450,000元"],
+    "answer": [2],
+    "explanation": "可折舊總額450,000元×5/15＝150,000元。",
+    "material_ref": "acc-05-02",
+    "tags": ["年數合計法"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-05-02-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承教材範例（可折舊總額450,000元、估計總產量90,000件），生產數量法下每單位折舊為？",
+    "options": ["4元／件", "5元／件", "50元／件", "90元／件"],
+    "answer": [1],
+    "explanation": "每單位折舊＝可折舊總額450,000元÷估計總產量90,000件＝5元／件。",
+    "material_ref": "acc-05-02",
+    "tags": ["生產數量法"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-05-02-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承上題，若當年度生產18,000件，當年折舊費用為？",
+    "options": ["18,000元", "45,000元", "90,000元", "450,000元"],
+    "answer": [2],
+    "explanation": "當年折舊費用＝18,000件×5元＝90,000元。",
+    "material_ref": "acc-05-02",
+    "tags": ["生產數量法"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-05-02-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "年數合計法屬於加速折舊法，最適合下列哪種資產？",
+    "options": ["平均耗損、使用效率穩定的建築物", "前期使用效率高、技術快速淘汰的電腦設備", "產量隨景氣大幅波動的生產設備", "不需要提列折舊的土地"],
+    "answer": [1],
+    "explanation": "年數合計法前期折舊費用較高，適合前期使用效率高、後期效率下降或技術快速淘汰的資產。",
+    "material_ref": "acc-05-02",
+    "tags": ["年數合計法"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-05-02-06",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "下列關於折舊方法一致性的敘述，何者正確？",
+    "options": ["企業可依當年度損益需求任意變更折舊方法", "同一資產原則上應一致採用同一折舊方法，不得任意變更以操縱損益", "折舊方法只影響資產負債表，不影響損益表", "折舊方法一旦選定就永遠不能變更，即使情況改變也不行"],
+    "answer": [1],
+    "explanation": "折舊方法應維持一致性，不得任意變更以操縱損益；但若資產的耗損型態確實改變，仍可依規定合理變更。",
+    "material_ref": "acc-05-02",
+    "tags": ["折舊方法"],
+    "verified_at": "2026-07-05"
+  }
+]

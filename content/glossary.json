@@ -130,5 +130,53 @@
     "term": "淨變現價值",
     "definition": "正常營業過程中之估計售價，減除至完工尚需投入之成本及銷售費用後之餘額，是存貨期末評價「成本與淨變現價值孰低法」的比較基準。",
     "material_ref": "acc-04-04"
+  },
+  {
+    "id": "ppe",
+    "term": "不動產、廠房及設備",
+    "definition": "用於商品、農業產品或勞務之生產或提供、出租予他人或供管理目的而持有，且預期使用期間超過一年之有形資產，包括土地、建築物、機器設備、運輸設備、辦公設備及生產性植物等。",
+    "material_ref": "acc-05-01"
+  },
+  {
+    "id": "capital-expenditure",
+    "term": "資本支出",
+    "definition": "能增加資產未來經濟效益、延長使用年限或提升產能的支出，應計入資產成本，透過折舊分年攤銷，而非於當期一次認列為費用。",
+    "material_ref": "acc-05-01"
+  },
+  {
+    "id": "revenue-expenditure",
+    "term": "收益支出",
+    "definition": "維持資產正常運作的例行維修、保養費用，應於發生當期認列為費用，不計入資產成本。",
+    "material_ref": "acc-05-01"
+  },
+  {
+    "id": "straight-line",
+    "term": "直線法",
+    "definition": "折舊方法之一，每年折舊費用固定，公式為（成本－殘值）÷耐用年限。",
+    "material_ref": "acc-05-02"
+  },
+  {
+    "id": "sum-of-years-digits",
+    "term": "年數合計法",
+    "definition": "一種加速折舊法，把可折舊總額依剩餘年數占年數合計的比例分攤，前期折舊費用較高、後期較低。",
+    "material_ref": "acc-05-02"
+  },
+  {
+    "id": "units-of-production",
+    "term": "生產數量法",
+    "definition": "依資產的實際使用量（如產量、行駛里程）分攤折舊，而非以時間為基礎，最貼近資產實際耗損。",
+    "material_ref": "acc-05-02"
+  },
+  {
+    "id": "disposal-gain-loss",
+    "term": "處分損益",
+    "definition": "固定資產處分時，處分價款與帳面價值（原始成本－累計折舊）的差額；價款高於帳面價值認列處分利益，反之認列處分損失。",
+    "material_ref": "acc-05-03"
+  },
+  {
+    "id": "intangible-asset",
+    "term": "無形資產",
+    "definition": "無實體形式之可辨認非貨幣性資產及商譽，包括商標權、專利權、著作權、電腦軟體等商譽以外之無形資產，以及企業合併取得的商譽。",
+    "material_ref": "acc-05-04"
   }
 ]

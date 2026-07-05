@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-acc-05-04-01",
+    "subject": "accounting",
+    "front": "商業會計處理準則第21條對無形資產的定義？",
+    "back": "無實體形式之可辨認非貨幣性資產及商譽，包括商譽以外之無形資產（商標權、專利權、著作權、電腦軟體等）與商譽。",
+    "material_ref": "acc-05-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-05-04-02",
+    "subject": "accounting",
+    "front": "無形資產的攤銷原則？",
+    "back": "具明確經濟效益期限者應分期攤銷；商譽及無明確效益期限者得攤銷或每年定期進行減損測試，不強制攤銷。",
+    "material_ref": "acc-05-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-05-04-03",
+    "subject": "accounting",
+    "front": "研究支出與發展支出如何處理？",
+    "back": "研究支出原則上於發生當期認列為費用；發展支出符合資產認列條件者，得列為無形資產。",
+    "material_ref": "acc-05-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-05-04-04",
+    "subject": "accounting",
+    "front": "無形資產在資產負債表上如何列示？",
+    "back": "以成本減除累計攤銷及累計減損後之帳面金額列示，攤銷期限及計算方法應予揭露。",
+    "material_ref": "acc-05-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-05-04-05",
+    "subject": "accounting",
+    "front": "無形資產攤銷與固定資產折舊的實務差異？",
+    "back": "無形資產通常直接貸記資產科目本身，不像固定資產另設累計折舊科目。",
+    "material_ref": "acc-05-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-05-04-06",
+    "subject": "accounting",
+    "front": "商譽的定義？",
+    "back": "自企業合併取得之不可辨認及未單獨認列未來經濟效益之無形資產。",
+    "material_ref": "acc-05-04",
+    "verified_at": "2026-07-05"
+  }
+]

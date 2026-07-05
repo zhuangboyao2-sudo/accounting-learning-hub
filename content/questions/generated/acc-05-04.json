@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-acc-05-04-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依商業會計處理準則第21條，無形資產包括下列哪些項目？",
+    "options": ["僅指商標權", "商譽以外之無形資產（如商標權、專利權）與商譽", "所有預期使用超過一年的有形資產", "僅指研究支出"],
+    "answer": [1],
+    "explanation": "商業會計處理準則第21條規定無形資產包括商譽以外之無形資產（如商標權、專利權、著作權、電腦軟體）以及商譽。",
+    "material_ref": "acc-05-04",
+    "tags": ["無形資產", "商業會計處理準則"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moea.gov.tw/LawContent.aspx?id=FL011301"]
+  },
+  {
+    "id": "gen-acc-05-04-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "商譽及無明確經濟效益期限之無形資產，依規定應如何處理？",
+    "options": ["強制每年分期攤銷", "得以合理有系統之方法分期攤銷，或每年定期進行減損測試", "不需要在財務報表上列示", "一律於取得當期全數列為費用"],
+    "answer": [1],
+    "explanation": "商譽及無明確經濟效益期限之無形資產，得以合理有系統之方法分期攤銷，或每年定期進行減損測試，並非強制攤銷。",
+    "material_ref": "acc-05-04",
+    "tags": ["無形資產"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-05-04-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承教材範例，專利權取得成本120,000元、估計效益年限6年，採直線法攤銷，年攤銷費用為？",
+    "options": ["10,000元", "20,000元", "24,000元", "120,000元"],
+    "answer": [1],
+    "explanation": "年攤銷費用＝120,000元÷6年＝20,000元。",
+    "material_ref": "acc-05-04",
+    "tags": ["無形資產攤銷"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-05-04-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依規定，研究支出應如何處理？",
+    "options": ["一律資本化為無形資產", "除受委託研究、成本依契約可全數收回者外，應於發生當期認列為費用", "分10年平均攤銷", "併入商譽列示"],
+    "answer": [1],
+    "explanation": "研究支出原則上應於發生當期認列為費用，只有符合資產認列條件的「發展」支出才可列為無形資產。",
+    "material_ref": "acc-05-04",
+    "tags": ["研究發展支出"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-05-04-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "無形資產在資產負債表上應如何列示？",
+    "options": ["以取得成本列示，不考慮攤銷", "以成本減除累計攤銷及累計減損後之帳面金額列示", "以市價列示", "不需要在資產負債表上列示"],
+    "answer": [1],
+    "explanation": "依商業會計處理準則第21條，無形資產應以成本減除累計攤銷及累計減損後之帳面金額列示。",
+    "material_ref": "acc-05-04",
+    "tags": ["無形資產"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-05-04-06",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "無形資產的攤銷分錄與固定資產折舊分錄，最主要的實務差異是什麼？",
+    "options": ["無形資產不能認列任何費用", "無形資產通常直接貸記資產科目本身，不像固定資產另設累計折舊科目", "固定資產不需要提列折舊", "兩者完全沒有差異"],
+    "answer": [1],
+    "explanation": "無形資產攤銷實務上多直接貸記資產科目本身，固定資產折舊則另設累計折舊科目，兩者列示方式略有不同。",
+    "material_ref": "acc-05-04",
+    "tags": ["無形資產", "折舊"],
+    "verified_at": "2026-07-05"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "gen-acc-05-03-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "固定資產處分時，帳務處理的第一個步驟是什麼？",
+    "options": ["直接比較處分價款與原始成本", "補提處分當期截至處分日為止的折舊", "先沖銷累計折舊科目", "直接認列處分利益"],
+    "answer": [1],
+    "explanation": "處分前須先補提當期折舊至處分日，才能正確計算處分日的帳面價值。",
+    "material_ref": "acc-05-03",
+    "tags": ["固定資產處分"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-05-03-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承教材範例（原始成本300,000元、累計折舊240,000元），以70,000元出售，應認列處分損益為？",
+    "options": ["處分利益10,000元", "處分損失10,000元", "處分利益70,000元", "沒有損益"],
+    "answer": [0],
+    "explanation": "帳面價值＝300,000−240,000＝60,000元；售價70,000元高於帳面價值，認列處分利益10,000元。",
+    "material_ref": "acc-05-03",
+    "tags": ["固定資產處分"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-05-03-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承上題，若改以50,000元出售，應認列處分損益為？",
+    "options": ["處分利益10,000元", "處分損失10,000元", "處分損失50,000元", "沒有損益"],
+    "answer": [1],
+    "explanation": "帳面價值60,000元高於售價50,000元，差額10,000元認列為處分損失。",
+    "material_ref": "acc-05-03",
+    "tags": ["固定資產處分"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-05-03-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "資產報廢且無殘值可回收時，剩餘帳面價值應如何處理？",
+    "options": ["直接沖銷不入帳", "全數認列為處分損失", "全數認列為處分利益", "轉列為預付費用"],
+    "answer": [1],
+    "explanation": "報廢且無回收價值時，剩餘帳面價值（成本減累計折舊）應全數認列為處分損失。",
+    "material_ref": "acc-05-03",
+    "tags": ["固定資產報廢"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-05-03-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "固定資產的帳面價值如何計算？",
+    "options": ["原始成本＋累計折舊", "原始成本－累計折舊", "淨變現價值－累計折舊", "重置成本－累計折舊"],
+    "answer": [1],
+    "explanation": "帳面價值＝原始成本－累計折舊。",
+    "material_ref": "acc-05-03",
+    "tags": ["固定資產處分"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-05-03-06",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "下列關於固定資產處分分錄的敘述，何者正確？",
+    "options": ["處分時不需要沖銷累計折舊科目", "處分時要同時沖銷原始成本與累計折舊，並認列處分損益", "處分損益一律列在銷貨成本項下", "處分利益與處分損失可以互相抵銷後才入帳"],
+    "answer": [1],
+    "explanation": "處分分錄要同時貸記（沖銷）原始成本、借記沖銷累計折舊，差額則認列處分利益或損失。",
+    "material_ref": "acc-05-03",
+    "tags": ["固定資產處分"],
+    "verified_at": "2026-07-05"
+  }
+]

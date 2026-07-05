@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-acc-05-03-01",
+    "subject": "accounting",
+    "front": "固定資產處分的帳務處理三步驟？",
+    "back": "1. 補提處分當期截至處分日的折舊 2. 結算帳面價值（原始成本－累計折舊）3. 比較處分價款與帳面價值，認列處分損益。",
+    "material_ref": "acc-05-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-05-03-02",
+    "subject": "accounting",
+    "front": "固定資產帳面價值怎麼算？",
+    "back": "帳面價值＝原始成本－累計折舊。",
+    "material_ref": "acc-05-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-05-03-03",
+    "subject": "accounting",
+    "front": "處分價款高於帳面價值時，認列什麼？",
+    "back": "認列處分固定資產利益（差額部分）。",
+    "material_ref": "acc-05-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-05-03-04",
+    "subject": "accounting",
+    "front": "處分價款低於帳面價值時，認列什麼？",
+    "back": "認列處分固定資產損失（差額部分）。",
+    "material_ref": "acc-05-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-05-03-05",
+    "subject": "accounting",
+    "front": "資產報廢且無殘值可回收時如何處理？",
+    "back": "剩餘帳面價值全數認列為處分損失。",
+    "material_ref": "acc-05-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-05-03-06",
+    "subject": "accounting",
+    "front": "處分固定資產分錄要同時處理哪些科目？",
+    "back": "貸記（沖銷）原始成本、借記沖銷累計折舊，並認列處分利益或損失作為差額。",
+    "material_ref": "acc-05-03",
+    "verified_at": "2026-07-05"
+  }
+]

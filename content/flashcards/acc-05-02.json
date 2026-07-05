@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-acc-05-02-01",
+    "subject": "accounting",
+    "front": "年數合計法的年數合計怎麼算？",
+    "back": "可使用年限n的年數合計＝n+(n-1)+…+1，或用公式n(n+1)÷2；例如可用5年則為5+4+3+2+1=15。",
+    "material_ref": "acc-05-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-05-02-02",
+    "subject": "accounting",
+    "front": "年數合計法各年折舊如何計算？",
+    "back": "各年折舊＝可折舊總額×（該年初剩餘年數／年數合計），前期折舊費用較高、後期較低，屬於加速折舊法。",
+    "material_ref": "acc-05-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-05-02-03",
+    "subject": "accounting",
+    "front": "生產數量法的每單位折舊怎麼算？",
+    "back": "每單位折舊＝可折舊總額÷估計總產量；當年折舊費用＝當年實際產量×每單位折舊。",
+    "material_ref": "acc-05-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-05-02-04",
+    "subject": "accounting",
+    "front": "直線法、年數合計法、生產數量法各適合什麼資產？",
+    "back": "直線法：平均耗損的資產（辦公設備、建築物）。年數合計法：前期效率高、技術快速淘汰的資產。生產數量法：產量波動大的生產設備。",
+    "material_ref": "acc-05-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-05-02-05",
+    "subject": "accounting",
+    "front": "可折舊總額怎麼算？",
+    "back": "可折舊總額＝資產成本－估計殘值。",
+    "material_ref": "acc-05-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-05-02-06",
+    "subject": "accounting",
+    "front": "折舊方法可以任意變更來調整當年度損益嗎？",
+    "back": "不可以，同一資產原則上應一致採用同一折舊方法，不得任意變更以操縱損益。",
+    "material_ref": "acc-05-02",
+    "verified_at": "2026-07-05"
+  }
+]

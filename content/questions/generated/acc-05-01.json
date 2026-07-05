@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-acc-05-01-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依商業會計處理準則第18條，下列何者屬於不動產、廠房及設備的認列範圍？",
+    "options": ["僅指土地與建築物", "土地、建築物、機器設備、運輸設備、辦公設備及生產性植物等有形資產", "任何預期使用一年以下的資產", "所有無實體形式的資產"],
+    "answer": [1],
+    "explanation": "商業會計處理準則第18條規定，不動產、廠房及設備包括土地、建築物、機器設備、運輸設備、辦公設備及生產性植物等，且預期使用期間須超過一年。",
+    "material_ref": "acc-05-01",
+    "tags": ["不動產廠房及設備", "商業會計處理準則"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moea.gov.tw/LawContent.aspx?id=FL011301"]
+  },
+  {
+    "id": "gen-acc-05-01-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承教材範例，機器設備發票價300,000元、運費5,000元、安裝調試費10,000元，應認列的機器設備原始成本為？",
+    "options": ["300,000元", "305,000元", "310,000元", "315,000元"],
+    "answer": [3],
+    "explanation": "原始成本應包含使資產達到可運作狀態的必要成本：300,000+5,000+10,000=315,000元。",
+    "material_ref": "acc-05-01",
+    "tags": ["取得成本"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-05-01-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "下列何者屬於資本支出？",
+    "options": ["機器例行更換潤滑油", "更換核心零件、延長機器使用年限5年", "當月份的水電費", "辦公室日常清潔費用"],
+    "answer": [1],
+    "explanation": "能延長資產使用年限或提升產能的支出屬於資本支出，應計入資產成本；例行維護保養則屬於收益支出。",
+    "material_ref": "acc-05-01",
+    "tags": ["資本支出", "收益支出"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-05-01-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "把一筆資本支出誤記為收益支出（當期費用），會造成什麼影響？",
+    "options": ["當期費用高估、當期淨利低估、資產金額低估", "當期費用低估、當期淨利高估、資產金額高估", "沒有影響，反正長期總額相同", "只影響資產負債表，不影響損益表"],
+    "answer": [0],
+    "explanation": "把應資本化的支出誤列為當期費用，會使當期費用虛增、淨利虛減，且資產金額被低估。",
+    "material_ref": "acc-05-01",
+    "tags": ["資本支出", "收益支出"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-05-01-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "進貨運費、安裝費等直接可歸屬成本，在購入固定資產時應如何處理？",
+    "options": ["列為當期銷售費用", "列為當期管理費用", "計入資產原始成本", "不入帳，僅供備查"],
+    "answer": [2],
+    "explanation": "使資產達到預期運作方式之必要狀態及地點所發生的直接可歸屬成本，應計入資產原始成本。",
+    "material_ref": "acc-05-01",
+    "tags": ["取得成本"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-05-01-06",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "把一筆收益支出誤記為資本支出（列為資產），會造成什麼影響？",
+    "options": ["當期費用高估、當期淨利低估", "當期費用低估、當期淨利高估、資產金額高估", "對財務報表完全沒有影響", "只影響現金流量表"],
+    "answer": [1],
+    "explanation": "把應費用化的支出誤資本化，會使當期費用虛減、淨利虛增，且資產金額被高估。",
+    "material_ref": "acc-05-01",
+    "tags": ["資本支出", "收益支出"],
+    "verified_at": "2026-07-05"
+  }
+]
