@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-law-07-01-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "書面行政處分自何時起發生效力？",
+    "options": ["作成之日起", "自送達相對人及已知之利害關係人起", "自處分機關內部核定之日起", "自公告後三十日起"],
+    "answer": [1],
+    "explanation": "行政程序法第110條規定，書面行政處分自送達相對人及已知之利害關係人起發生效力。",
+    "material_ref": "law-07-01",
+    "tags": ["行政處分效力", "行政程序法"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://www.6laws.net/6law/law/%E8%A1%8C%E6%94%BF%E7%A8%8B%E5%BA%8F%E6%B3%95.htm"]
+  },
+  {
+    "id": "gen-law-07-01-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "無效之行政處分依第110條規定其效力為何？",
+    "options": ["自送達時起生效，須經撤銷才失效", "自始不生效力", "須經法院判決確定後才失效", "無效處分仍然完全有效"],
+    "answer": [1],
+    "explanation": "行政程序法第110條第4項規定，無效之行政處分自始不生效力，不需要另外撤銷。",
+    "material_ref": "law-07-01",
+    "tags": ["行政處分無效"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-07-01-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第111條規定，下列何者屬於行政處分無效的事由？",
+    "options": ["處分機關內部意見不一致", "所要求或許可之行為構成犯罪者", "處分金額超過十萬元", "處分書字體太小"],
+    "answer": [1],
+    "explanation": "行政程序法第111條第4款規定，所要求或許可之行為構成犯罪者，行政處分無效。",
+    "material_ref": "law-07-01",
+    "tags": ["行政處分無效事由"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-07-01-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "行政處分一部分無效者，依第112條規定其他部分如何處理？",
+    "options": ["全部無效", "其他部分仍為有效，除非除去無效部分處分已無法成立", "自動轉為得撤銷處分", "須重新作成整個處分"],
+    "answer": [1],
+    "explanation": "行政程序法第112條規定，行政處分一部分無效者，其他部分仍為有效；但除去該無效部分，行政處分不能成立者，全部無效。",
+    "material_ref": "law-07-01",
+    "tags": ["一部無效"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-07-01-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "行政處分之無效，依第113條規定得由何者確認？",
+    "options": ["只有法院可以確認", "行政機關得依職權確認之", "只有相對人可以自行認定", "只有記帳士可以確認"],
+    "answer": [1],
+    "explanation": "行政程序法第113條規定，行政處分之無效，行政機關得依職權確認之；相對人或利害關係人有正當理由請求時，處分機關應確認其為有效或無效。",
+    "material_ref": "law-07-01",
+    "tags": ["無效確認"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-07-01-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "「無效」的行政處分與「得撤銷」的違法行政處分，兩者最主要的差異是什麼？",
+    "options": ["兩者完全相同，沒有差異", "無效處分自始不生效力，不需經撤銷程序；得撤銷處分在被撤銷前仍然有效", "得撤銷處分比無效處分更嚴重", "無效處分需要當事人申請才會無效"],
+    "answer": [1],
+    "explanation": "無效處分自始、當然、確定不生效力；得撤銷的違法處分在被撤銷之前仍然有效，須經撤銷程序才失效。",
+    "material_ref": "law-07-01",
+    "tags": ["無效與撤銷比較"],
+    "verified_at": "2026-07-05"
+  }
+]

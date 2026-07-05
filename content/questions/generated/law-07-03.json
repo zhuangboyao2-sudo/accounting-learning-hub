@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-law-07-03-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第117條規定，下列何種情形違法行政處分不得撤銷？",
+    "options": ["撤銷對公益有重大危害者", "處分已經送達相對人", "處分機關認為麻煩不想撤銷", "受益人主動要求撤銷"],
+    "answer": [0],
+    "explanation": "行政程序法第117條規定，撤銷對公益有重大危害者，或受益人信賴利益顯然大於撤銷所欲維護之公益者，不得撤銷。",
+    "material_ref": "law-07-03",
+    "tags": ["撤銷限制", "行政程序法"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://www.6laws.net/6law/law/%E8%A1%8C%E6%94%BF%E7%A8%8B%E5%BA%8F%E6%B3%95.htm"]
+  },
+  {
+    "id": "gen-law-07-03-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "違法行政處分經撤銷後，依第118條規定其效力為何？",
+    "options": ["只向未來失效，過去的效力不受影響", "溯及既往失其效力（但撤銷機關得另定失效日期）", "永遠不會失效", "由當事人自行決定失效日期"],
+    "answer": [1],
+    "explanation": "行政程序法第118條規定，違法行政處分經撤銷後，溯及既往失其效力；但為維護公益或避免受益人財產損失，撤銷機關得另定失效日期。",
+    "material_ref": "law-07-03",
+    "tags": ["撤銷效力"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-07-03-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第119條規定，下列何者屬於信賴不值得保護的情形？",
+    "options": ["依合理注意仍無法發現處分違法者", "以詐欺、脅迫或賄賂方法使行政機關作成處分者", "誠實提供正確資料者", "對處分內容有正當合理的信賴者"],
+    "answer": [1],
+    "explanation": "行政程序法第119條第1款規定，以詐欺、脅迫或賄賂方法，使行政機關作成行政處分者，其信賴不值得保護。",
+    "material_ref": "law-07-03",
+    "tags": ["信賴不值得保護"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-07-03-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第120條規定，違法授益處分撤銷後的信賴補償額度上限為何？",
+    "options": ["沒有上限，補償多少由受益人決定", "不得超過受益人因該處分存續可得之利益", "一律補償固定金額新臺幣十萬元", "補償額度由法院自由裁量，無任何限制"],
+    "answer": [1],
+    "explanation": "行政程序法第120條第2項規定，補償額度不得超過受益人因該處分存續可得之利益。",
+    "material_ref": "law-07-03",
+    "tags": ["信賴補償"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-07-03-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第121條規定，撤銷權應自何時起二年內為之？",
+    "options": ["處分作成之日起", "原處分機關或其上級機關知有撤銷原因時起", "相對人收到處分之日起", "處分生效滿一年後才開始計算"],
+    "answer": [1],
+    "explanation": "行政程序法第121條規定，撤銷權應自原處分機關或其上級機關知有撤銷原因時起二年內為之。",
+    "material_ref": "law-07-03",
+    "tags": ["撤銷除斥期間"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-07-03-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "補償請求權自處分撤銷時起逾多少年不行使而消滅？",
+    "options": ["二年", "三年", "五年", "十年"],
+    "answer": [2],
+    "explanation": "行政程序法第121條第2項規定，補償請求權自機關告知事由時起因二年不行使而消滅，自處分撤銷時起逾五年者亦同。",
+    "material_ref": "law-07-03",
+    "tags": ["補償請求權時效"],
+    "verified_at": "2026-07-05"
+  }
+]

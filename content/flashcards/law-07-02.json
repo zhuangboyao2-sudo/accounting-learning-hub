@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-law-07-02-01",
+    "subject": "bookkeeping-law",
+    "front": "第114條哪五種瑕疵可以補正？",
+    "back": "須經申請已補提申請、必須記明理由已事後記明、應給予陳述意見已事後給予、應參與委員會已事後決議、應參與其他機關已事後參與。",
+    "material_ref": "law-07-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-07-02-02",
+    "subject": "bookkeeping-law",
+    "front": "後四款補正的最後期限？",
+    "back": "訴願程序終結前；得不經訴願程序者，僅得於向行政法院起訴前為之。",
+    "material_ref": "law-07-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-07-02-03",
+    "subject": "bookkeeping-law",
+    "front": "違反土地管轄的處分如何處理？",
+    "back": "除第111條第6款無效者外，有管轄權機關若仍應為相同處分，原處分無須撤銷（第115條）。",
+    "material_ref": "law-07-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-07-02-04",
+    "subject": "bookkeeping-law",
+    "front": "羈束處分可以轉換為裁量處分嗎？",
+    "back": "不可以，第116條明文禁止。",
+    "material_ref": "law-07-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-07-02-05",
+    "subject": "bookkeeping-law",
+    "front": "違法行政處分轉換的三種禁止情形？",
+    "back": "依第117條但書不得撤銷者、轉換不符原處分目的、轉換法律效果對當事人更不利。",
+    "material_ref": "law-07-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-07-02-06",
+    "subject": "bookkeeping-law",
+    "front": "當事人因補正致遲誤法定期間怎麼辦？",
+    "back": "視為不應歸責於當事人，回復原狀期間自瑕疵補正時起算（第114條第3項）。",
+    "material_ref": "law-07-02",
+    "verified_at": "2026-07-05"
+  }
+]

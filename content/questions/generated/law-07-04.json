@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-law-07-04-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第122條規定，非授予利益之合法行政處分可以如何處理？",
+    "options": ["永遠不能廢止", "得由原處分機關依職權為全部或一部之廢止（但廢止後仍應為同一內容處分者除外）", "只能由上級機關廢止", "只能經法院裁定廢止"],
+    "answer": [1],
+    "explanation": "行政程序法第122條規定，非授予利益之合法行政處分，得由原處分機關依職權為全部或一部之廢止；但廢止後仍應為同一內容之處分或依法不得廢止者，不在此限。",
+    "material_ref": "law-07-04",
+    "tags": ["非授益處分廢止", "行政程序法"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://www.6laws.net/6law/law/%E8%A1%8C%E6%94%BF%E7%A8%8B%E5%BA%8F%E6%B3%95.htm"]
+  },
+  {
+    "id": "gen-law-07-04-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第123條規定，授益處分附負擔者，若受益人未履行負擔，可以如何處理？",
+    "options": ["不受影響，處分繼續有效", "得由原處分機關依職權廢止", "必須先提起訴訟才能處理", "自動視為受益人放棄權利"],
+    "answer": [1],
+    "explanation": "行政程序法第123條第3款規定，附負擔之行政處分，受益人未履行該負擔者，得由原處分機關依職權為全部或一部之廢止。",
+    "material_ref": "law-07-04",
+    "tags": ["授益處分廢止"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-07-04-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第124條規定，廢止授益處分應自廢止原因發生後多久內為之？",
+    "options": ["一年內", "二年內", "三年內", "五年內"],
+    "answer": [1],
+    "explanation": "行政程序法第124條規定，前條之廢止，應自廢止原因發生後二年內為之。",
+    "material_ref": "law-07-04",
+    "tags": ["廢止除斥期間"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-07-04-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第131條規定，公法上請求權，當請求權人為行政機關時，因幾年不行使而消滅？",
+    "options": ["三年", "五年", "十年", "十五年"],
+    "answer": [1],
+    "explanation": "行政程序法第131條規定，公法上之請求權，於請求權人為行政機關時，因五年間不行使而消滅。",
+    "material_ref": "law-07-04",
+    "tags": ["公法上請求權時效"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-07-04-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第131條規定，公法上請求權，當請求權人為人民時，因幾年不行使而消滅？",
+    "options": ["三年", "五年", "十年", "十五年"],
+    "answer": [2],
+    "explanation": "行政程序法第131條規定，公法上之請求權，於請求權人為人民時，因十年間不行使而消滅。",
+    "material_ref": "law-07-04",
+    "tags": ["公法上請求權時效"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-07-04-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "撤銷與廢止的主要差異為何？",
+    "options": ["撤銷針對違法處分，廢止針對合法處分，兩者適用對象不同", "撤銷與廢止完全相同，只是名稱不同", "撤銷只適用於授益處分，廢止只適用於非授益處分", "撤銷沒有除斥期間限制，廢止有二年除斥期間"],
+    "answer": [0],
+    "explanation": "撤銷（第117條）是針對違法行政處分；廢止（第122、123條）是針對合法行政處分，兩者適用對象不同，但除斥期間都是二年。",
+    "material_ref": "law-07-04",
+    "tags": ["撤銷與廢止比較"],
+    "verified_at": "2026-07-05"
+  }
+]

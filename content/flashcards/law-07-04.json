@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-law-07-04-01",
+    "subject": "bookkeeping-law",
+    "front": "非授益處分的廢止原則？",
+    "back": "得由原處分機關依職權為全部或一部之廢止，但廢止後仍應為同一內容處分者除外（第122條）。",
+    "material_ref": "law-07-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-07-04-02",
+    "subject": "bookkeeping-law",
+    "front": "授益處分可廢止的五種情形？",
+    "back": "法規准許、保留廢止權、附負擔未履行、法規事實變更致不廢止有公益危害、其他防止重大公益危害（第123條）。",
+    "material_ref": "law-07-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-07-04-03",
+    "subject": "bookkeeping-law",
+    "front": "廢止的除斥期間？",
+    "back": "自廢止原因發生後二年內（第124條）。",
+    "material_ref": "law-07-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-07-04-04",
+    "subject": "bookkeeping-law",
+    "front": "公法上請求權時效：行政機關為請求權人？",
+    "back": "五年間不行使而消滅（第131條）。",
+    "material_ref": "law-07-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-07-04-05",
+    "subject": "bookkeeping-law",
+    "front": "公法上請求權時效：人民為請求權人？",
+    "back": "十年間不行使而消滅（第131條）。",
+    "material_ref": "law-07-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-07-04-06",
+    "subject": "bookkeeping-law",
+    "front": "撤銷與廢止的核心差異？",
+    "back": "撤銷針對違法處分；廢止針對合法處分。兩者除斥期間都是二年。",
+    "material_ref": "law-07-04",
+    "verified_at": "2026-07-05"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-law-07-01-01",
+    "subject": "bookkeeping-law",
+    "front": "書面行政處分自何時起發生效力？",
+    "back": "自送達相對人及已知之利害關係人起（第110條）。",
+    "material_ref": "law-07-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-07-01-02",
+    "subject": "bookkeeping-law",
+    "front": "無效行政處分的效力？",
+    "back": "自始不生效力，不需要另外撤銷。",
+    "material_ref": "law-07-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-07-01-03",
+    "subject": "bookkeeping-law",
+    "front": "第111條行政處分無效的七款事由？",
+    "back": "不能得知處分機關、應以證書作成而未給予、內容不能實現、要求行為構成犯罪、違背公序良俗、違背專屬管轄或缺乏事務權限、其他重大明顯瑕疵。",
+    "material_ref": "law-07-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-07-01-04",
+    "subject": "bookkeeping-law",
+    "front": "行政處分一部無效，其他部分如何處理？",
+    "back": "其他部分仍為有效，除非除去無效部分處分已無法成立，才全部無效（第112條）。",
+    "material_ref": "law-07-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-07-01-05",
+    "subject": "bookkeeping-law",
+    "front": "行政處分無效可以由誰確認？",
+    "back": "行政機關得依職權確認；相對人或利害關係人有正當理由請求時，處分機關應確認（第113條）。",
+    "material_ref": "law-07-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-07-01-06",
+    "subject": "bookkeeping-law",
+    "front": "無效 vs 得撤銷的行政處分最大差異？",
+    "back": "無效處分自始不生效力，不需撤銷；得撤銷處分在被撤銷前仍然有效。",
+    "material_ref": "law-07-01",
+    "verified_at": "2026-07-05"
+  }
+]
