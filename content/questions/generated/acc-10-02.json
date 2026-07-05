@@ -1,0 +1,80 @@
+[
+  {
+    "id": "gen-acc-10-02-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "生產成本表的計算公式為何？",
+    "options": ["期初在製品+本期直接原料+本期直接人工+本期製造費用-期末在製品=本期製成品成本", "本期直接原料+本期直接人工+本期製造費用=本期製成品成本", "期末在製品-期初在製品=本期製成品成本", "本期銷貨收入-本期銷貨成本=本期製成品成本"],
+    "answer": [0],
+    "explanation": "生產成本表＝期初在製品+本期直接原料+本期直接人工+本期製造費用-期末在製品=本期製成品成本。",
+    "material_ref": "acc-10-02",
+    "tags": ["生產成本表"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-10-02-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承教材範例（期初在製品10,000元、直接原料50,000元、直接人工30,000元、製造費用20,000元），本期生產總成本為？",
+    "options": ["100,000元", "110,000元", "120,000元", "130,000元"],
+    "answer": [1],
+    "explanation": "本期生產總成本＝10,000+50,000+30,000+20,000＝110,000元。",
+    "material_ref": "acc-10-02",
+    "tags": ["生產成本表"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-10-02-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承上題，若期末在製品為15,000元，本期製成品成本為？",
+    "options": ["85,000元", "95,000元", "110,000元", "125,000元"],
+    "answer": [1],
+    "explanation": "本期製成品成本＝110,000-15,000＝95,000元。",
+    "material_ref": "acc-10-02",
+    "tags": ["生產成本表"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-10-02-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "生產成本表計算中，忘記把期初在製品成本加入，會造成什麼影響？",
+    "options": ["沒有影響，反正金額不大", "本期製成品成本會被低估", "本期製成品成本會被高估", "只影響資產負債表，不影響損益表"],
+    "answer": [1],
+    "explanation": "忘記加入期初在製品成本，會使本期生產總成本被低估，進而使製成品成本被低估。",
+    "material_ref": "acc-10-02",
+    "tags": ["生產成本表"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-10-02-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "期末在製品成本估計時，通常需要考慮什麼？",
+    "options": ["完全不需要估計，直接以零計算", "依完工程度估算尚未完工部分已投入的成本", "只考慮直接原料，不考慮人工與製造費用", "以市價直接列示，不需要成本計算"],
+    "answer": [1],
+    "explanation": "期末在製品尚未完工，成本估計通常需要依完工程度估算已投入的原料、人工、製造費用金額。",
+    "material_ref": "acc-10-02",
+    "tags": ["在製品"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-10-02-06",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "生產成本表主要用來計算什麼？",
+    "options": ["本期銷貨收入", "本期製成品（完工產品）成本", "本期應納稅額", "本期業主權益變動"],
+    "answer": [1],
+    "explanation": "生產成本表彙總本期投入生產的原料、人工、製造費用，計算出本期製成品（完工產品）成本。",
+    "material_ref": "acc-10-02",
+    "tags": ["生產成本表"],
+    "verified_at": "2026-07-05"
+  }
+]

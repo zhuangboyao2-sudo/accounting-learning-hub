@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-acc-10-01-01",
+    "subject": "accounting",
+    "front": "製造業與買賣業的存貨結構差異？",
+    "back": "買賣業只有商品一種存貨；製造業有原料、在製品、製成品三種存貨。",
+    "material_ref": "acc-10-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-10-01-02",
+    "subject": "accounting",
+    "front": "三大成本要素是什麼？",
+    "back": "直接原料、直接人工、製造費用。",
+    "material_ref": "acc-10-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-10-01-03",
+    "subject": "accounting",
+    "front": "直接原料與直接人工的共同特徵？",
+    "back": "都可以直接追溯、確實可辨認地歸屬於特定產品。",
+    "material_ref": "acc-10-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-10-01-04",
+    "subject": "accounting",
+    "front": "製造費用包含哪些項目？",
+    "back": "無法直接歸屬到特定產品、但為生產而發生的成本，如工廠水電費、機器折舊、間接人工、間接材料。",
+    "material_ref": "acc-10-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-10-01-05",
+    "subject": "accounting",
+    "front": "工廠管理人員的薪資應歸類為什麼？",
+    "back": "製造費用（間接人工），而非直接人工，因為無法直接歸屬到特定產品。",
+    "material_ref": "acc-10-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-10-01-06",
+    "subject": "accounting",
+    "front": "領用木材投入生產的分錄？",
+    "back": "借：在製品；貸：原料。",
+    "material_ref": "acc-10-01",
+    "verified_at": "2026-07-05"
+  }
+]

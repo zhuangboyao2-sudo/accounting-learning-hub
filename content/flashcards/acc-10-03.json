@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-acc-10-03-01",
+    "subject": "accounting",
+    "front": "完工轉入製成品的分錄？",
+    "back": "借：製成品；貸：在製品。",
+    "material_ref": "acc-10-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-10-03-02",
+    "subject": "accounting",
+    "front": "製成品出售時要做哪兩筆分錄？",
+    "back": "1. 認列銷貨收入（借應收帳款、貸銷貨收入）2. 結轉銷貨成本（借銷貨成本、貸製成品）。",
+    "material_ref": "acc-10-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-10-03-03",
+    "subject": "accounting",
+    "front": "商業會計處理準則第7條對製造業存貨成本計算的規定？",
+    "back": "得依其種類或性質，採用個別認定法、先進先出法或平均法計算，原料、在製品、製成品皆適用。",
+    "material_ref": "acc-10-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-10-03-04",
+    "subject": "accounting",
+    "front": "製造業存貨期末評價基礎？",
+    "back": "成本與淨變現價值孰低，與買賣業存貨評價原則一致。",
+    "material_ref": "acc-10-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-10-03-05",
+    "subject": "accounting",
+    "front": "在製品淨變現價值估計要額外考慮什麼？",
+    "back": "完工尚需投入的成本。",
+    "material_ref": "acc-10-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-10-03-06",
+    "subject": "accounting",
+    "front": "忘記結轉銷貨成本會有什麼問題？",
+    "back": "製成品存貨餘額虛增，銷貨成本被低估，毛利被高估。",
+    "material_ref": "acc-10-03",
+    "verified_at": "2026-07-05"
+  }
+]

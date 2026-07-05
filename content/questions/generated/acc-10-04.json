@@ -1,0 +1,80 @@
+[
+  {
+    "id": "gen-acc-10-04-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承教材範例（期初原料20,000元、本期採購60,000元、期末原料15,000元），本期領用原料（直接原料）為？",
+    "options": ["55,000元", "60,000元", "65,000元", "80,000元"],
+    "answer": [2],
+    "explanation": "本期領用原料＝期初20,000+本期採購60,000-期末15,000＝65,000元。",
+    "material_ref": "acc-10-04",
+    "tags": ["生產成本"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-10-04-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承教材範例（直接原料65,000元、直接人工40,000元、製造費用25,000元、期初在製品5,000元、期末在製品8,000元），本期製成品成本為？",
+    "options": ["119,000元", "127,000元", "130,000元", "135,000元"],
+    "answer": [1],
+    "explanation": "本期生產總成本＝65,000+40,000+25,000+5,000＝135,000元；製成品成本＝135,000-8,000＝127,000元。",
+    "material_ref": "acc-10-04",
+    "tags": ["生產成本"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-10-04-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承上題，若本期製成品127,000元、本期銷售出的製成品成本100,000元，期末製成品為？",
+    "options": ["0元", "27,000元", "100,000元", "127,000元"],
+    "answer": [1],
+    "explanation": "期末製成品＝期初0+本期製成品127,000-銷售出100,000＝27,000元。",
+    "material_ref": "acc-10-04",
+    "tags": ["製成品"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-10-04-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "本期生產成本核算的正確科目轉換順序為？",
+    "options": ["製成品→在製品→原料", "原料→在製品→製成品", "在製品→原料→製成品", "沒有固定順序，可以任意轉換"],
+    "answer": [1],
+    "explanation": "生產流程的存貨科目轉換順序為：原料（領用投入生產）→在製品（生產中）→製成品（完工）。",
+    "material_ref": "acc-10-04",
+    "tags": ["生產成本"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-10-04-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "計算本期領用原料時，常見的錯誤是什麼？",
+    "options": ["忘記扣除期末未用完的原料庫存", "忘記加上本期採購金額", "把原料誤算成製成品", "忘記計算直接人工"],
+    "answer": [0],
+    "explanation": "常見錯誤是忘記期末未用完的原料要先扣除，正確公式為期初+本期採購-期末＝本期領用原料。",
+    "material_ref": "acc-10-04",
+    "tags": ["生產成本"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-10-04-06",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "完工轉入製成品、銷售結轉銷貨成本，這兩個步驟的分錄順序應該是？",
+    "options": ["先銷售結轉銷貨成本，再完工轉入製成品", "先完工轉入製成品，再銷售結轉銷貨成本", "兩者可以同時進行，順序不重要", "只需要做其中一個步驟"],
+    "answer": [1],
+    "explanation": "必須先完工轉入製成品（在製品→製成品），才能在銷售時從製成品結轉銷貨成本，順序不能顛倒。",
+    "material_ref": "acc-10-04",
+    "tags": ["生產成本"],
+    "verified_at": "2026-07-05"
+  }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-acc-10-03-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "生產完工的產品，從在製品轉入製成品的分錄為？",
+    "options": ["借：製成品；貸：在製品", "借：在製品；貸：製成品", "借：銷貨成本；貸：製成品", "借：原料；貸：在製品"],
+    "answer": [0],
+    "explanation": "完工轉入製成品應借記製成品、貸記在製品。",
+    "material_ref": "acc-10-03",
+    "tags": ["製成品"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-10-03-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "製成品出售時，除了認列銷貨收入外，還需要做什麼分錄？",
+    "options": ["不需要其他分錄", "同時結轉銷貨成本（借銷貨成本、貸製成品）", "同時沖銷原料科目", "同時認列製造費用"],
+    "answer": [1],
+    "explanation": "比照買賣業永續盤存制，製成品出售時要同時做兩筆分錄：認列銷貨收入、結轉銷貨成本。",
+    "material_ref": "acc-10-03",
+    "tags": ["銷貨成本"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-10-03-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依商業會計處理準則第7條，製造業的原料、在製品、製成品存貨成本計算方式為何？",
+    "options": ["一律強制採用先進先出法", "得依其種類或性質，採用個別認定法、先進先出法或平均法計算", "只能採用生產數量法", "不需要計算成本，以市價列示"],
+    "answer": [1],
+    "explanation": "商業會計處理準則第7條規定，存貨成本得依其種類或性質，採用個別認定法、先進先出法或平均法計算之，製造業的三種存貨也適用此規定。",
+    "material_ref": "acc-10-03",
+    "tags": ["存貨評價", "商業會計處理準則"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moea.gov.tw/LawContent.aspx?id=FL011301"]
+  },
+  {
+    "id": "gen-acc-10-03-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "製造業存貨期末評價，應以下列何種基礎衡量？",
+    "options": ["一律以原始成本列示", "成本與淨變現價值孰低", "市價與重置成本孰高", "不需要期末評價"],
+    "answer": [1],
+    "explanation": "製造業的原料、在製品、製成品同樣應以成本與淨變現價值孰低衡量，與買賣業存貨評價原則一致。",
+    "material_ref": "acc-10-03",
+    "tags": ["存貨評價"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-10-03-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承教材範例，餐桌成本95,000元全數以150,000元售出，結轉銷貨成本的分錄為？",
+    "options": ["借：銷貨成本150,000；貸：製成品150,000", "借：銷貨成本95,000；貸：製成品95,000", "借：製成品95,000；貸：銷貨成本95,000", "借：應收帳款95,000；貸：製成品95,000"],
+    "answer": [1],
+    "explanation": "結轉銷貨成本應以製成品的實際成本95,000元入帳，借記銷貨成本、貸記製成品。",
+    "material_ref": "acc-10-03",
+    "tags": ["銷貨成本"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-10-03-06",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "在製品的淨變現價值估計，需要額外考慮什麼因素？",
+    "options": ["不需要考慮任何額外因素，與製成品計算方式相同", "完工尚需投入的成本", "只考慮原始採購成本", "只考慮市場競爭對手的價格"],
+    "answer": [1],
+    "explanation": "在製品尚未完工，淨變現價值估計需要額外扣除完工尚需投入的成本及銷售費用。",
+    "material_ref": "acc-10-03",
+    "tags": ["在製品"],
+    "verified_at": "2026-07-05"
+  }
+]

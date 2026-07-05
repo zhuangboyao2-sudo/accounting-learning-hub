@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-acc-10-02-01",
+    "subject": "accounting",
+    "front": "生產成本表的計算公式？",
+    "back": "期初在製品+本期直接原料+本期直接人工+本期製造費用-期末在製品＝本期製成品成本。",
+    "material_ref": "acc-10-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-10-02-02",
+    "subject": "accounting",
+    "front": "本期生產總成本包含哪些項目？",
+    "back": "期初在製品成本＋本期直接原料＋本期直接人工＋本期製造費用。",
+    "material_ref": "acc-10-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-10-02-03",
+    "subject": "accounting",
+    "front": "忘記加入期初在製品成本會有什麼影響？",
+    "back": "本期製成品成本會被低估。",
+    "material_ref": "acc-10-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-10-02-04",
+    "subject": "accounting",
+    "front": "期末在製品成本如何估計？",
+    "back": "依完工程度估算尚未完工部分已投入的原料、人工、製造費用金額。",
+    "material_ref": "acc-10-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-10-02-05",
+    "subject": "accounting",
+    "front": "生產成本表的主要用途？",
+    "back": "彙總本期投入生產的成本，計算出本期製成品（完工產品）成本。",
+    "material_ref": "acc-10-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-10-02-06",
+    "subject": "accounting",
+    "front": "期初在製品10,000元、直接原料50,000元、直接人工30,000元、製造費用20,000元，生產總成本？",
+    "back": "110,000元。",
+    "material_ref": "acc-10-02",
+    "verified_at": "2026-07-05"
+  }
+]

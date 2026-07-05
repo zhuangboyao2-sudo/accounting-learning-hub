@@ -1,0 +1,80 @@
+[
+  {
+    "id": "gen-acc-10-01-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "製造業與買賣業的存貨結構有何差異？",
+    "options": ["兩者完全相同，都只有一種商品存貨", "製造業有原料、在製品、製成品三種存貨；買賣業只有商品一種存貨", "買賣業有三種存貨；製造業只有一種存貨", "製造業不需要記錄存貨"],
+    "answer": [1],
+    "explanation": "買賣業只有商品一種存貨；製造業則有原料、在製品、製成品三種存貨。",
+    "material_ref": "acc-10-01",
+    "tags": ["製造業會計"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-10-01-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "下列何者屬於直接原料？",
+    "options": ["工廠管理人員的薪資", "家具工廠製作餐桌所使用的木材", "工廠的水電費", "機器設備的折舊費用"],
+    "answer": [1],
+    "explanation": "直接原料是可直接追溯、確實可辨認地歸屬於特定產品的原料成本，例如家具工廠的木材。",
+    "material_ref": "acc-10-01",
+    "tags": ["直接原料"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-10-01-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "下列何者屬於製造費用，而非直接人工？",
+    "options": ["組裝木材的生產線工人薪資", "工廠管理人員（非直接生產線）的薪資", "領用的木材成本", "客戶的貨款"],
+    "answer": [1],
+    "explanation": "工廠管理人員的薪資無法直接歸屬到特定產品，屬於製造費用（間接人工），而非直接人工。",
+    "material_ref": "acc-10-01",
+    "tags": ["製造費用"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-10-01-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承教材範例，領用木材50,000元的分錄為？",
+    "options": ["借：在製品50,000；貸：原料50,000", "借：原料50,000；貸：在製品50,000", "借：製成品50,000；貸：原料50,000", "借：銷貨成本50,000；貸：原料50,000"],
+    "answer": [0],
+    "explanation": "領用原料投入生產，應借記在製品、貸記原料。",
+    "material_ref": "acc-10-01",
+    "tags": ["生產成本"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-10-01-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "製造費用的認列方式與直接原料、直接人工有何不同？",
+    "options": ["完全相同，都直接歸屬到特定產品", "製造費用無法直接歸屬到特定產品，須透過分攤才能計入產品成本", "製造費用不需要計入產品成本", "製造費用只在期末才需要考慮"],
+    "answer": [1],
+    "explanation": "製造費用無法像直接原料、直接人工那樣直接歸屬到特定產品，需要透過合理的分攤基礎才能計入產品成本。",
+    "material_ref": "acc-10-01",
+    "tags": ["製造費用"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-10-01-06",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "生產線消耗的少量潤滑油、螺絲等次要材料，應如何歸類？",
+    "options": ["直接原料", "間接材料，屬於製造費用", "直接人工", "銷售費用"],
+    "answer": [1],
+    "explanation": "生產線消耗的少量次要材料通常難以直接追溯到特定產品，歸類為間接材料，屬於製造費用。",
+    "material_ref": "acc-10-01",
+    "tags": ["製造費用"],
+    "verified_at": "2026-07-05"
+  }
+]
