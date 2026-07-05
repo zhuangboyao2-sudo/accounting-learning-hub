@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-law-06-01-01",
+    "subject": "bookkeeping-law",
+    "front": "行政處分的四個構成要件？",
+    "back": "行政機關所為、公法上具體事件、對外直接發生法律效果、單方行政行為（第92條）。",
+    "material_ref": "law-06-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-06-01-02",
+    "subject": "bookkeeping-law",
+    "front": "什麼是一般處分？",
+    "back": "相對人雖非特定，而依一般性特徵可得確定其範圍者；有關公物之設定變更廢止或一般使用者亦同。",
+    "material_ref": "law-06-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-06-01-03",
+    "subject": "bookkeeping-law",
+    "front": "行政處分的五種附款？",
+    "back": "期限、條件、負擔、保留行政處分之廢止權、保留負擔之事後附加或變更（第93條）。",
+    "material_ref": "law-06-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-06-01-04",
+    "subject": "bookkeeping-law",
+    "front": "無裁量權時可以附款的條件？",
+    "back": "以法律有明文規定，或為確保行政處分法定要件之履行而以該要件為附款內容者為限。",
+    "material_ref": "law-06-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-06-01-05",
+    "subject": "bookkeeping-law",
+    "front": "附款的限制原則？",
+    "back": "不得違背行政處分之目的，並應與該處分之目的具有正當合理之關聯（第94條）。",
+    "material_ref": "law-06-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-06-01-06",
+    "subject": "bookkeeping-law",
+    "front": "行政機關內部簽呈屬於行政處分嗎？",
+    "back": "不屬於，因為未對外直接發生法律效果，缺少行政處分的構成要件之一。",
+    "material_ref": "law-06-01",
+    "verified_at": "2026-07-05"
+  }
+]

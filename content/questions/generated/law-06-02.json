@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-law-06-02-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第95條規定，行政處分的作成方式為何？",
+    "options": ["必須一律以書面為之", "除法規另有要式規定外，得以書面、言詞或其他方式為之", "只能以言詞為之", "只能透過電子郵件為之"],
+    "answer": [1],
+    "explanation": "行政程序法第95條規定，行政處分除法規另有要式之規定者外，得以書面、言詞或其他方式為之。",
+    "material_ref": "law-06-02",
+    "tags": ["行政處分方式", "行政程序法"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://www.6laws.net/6law/law/%E8%A1%8C%E6%94%BF%E7%A8%8B%E5%BA%8F%E6%B3%95.htm"]
+  },
+  {
+    "id": "gen-law-06-02-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "以書面以外方式作成的行政處分，相對人有正當理由要求作成書面時，處分機關應如何處理？",
+    "options": ["可以拒絕，因為原處分已合法作成", "不得拒絕", "須經上級機關核准才能提供書面", "只有涉及金額超過十萬元才需提供書面"],
+    "answer": [1],
+    "explanation": "行政程序法第95條第2項規定，相對人或利害關係人有正當理由要求作成書面時，處分機關不得拒絕。",
+    "material_ref": "law-06-02",
+    "tags": ["行政處分方式"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-06-02-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第96條規定，書面行政處分應記載下列何項？",
+    "options": ["只需記載處分機關名稱", "主旨、事實、理由及其法令依據等六款事項", "只需記載發文字號", "不需要記載任何救濟方法"],
+    "answer": [1],
+    "explanation": "行政程序法第96條規定書面行政處分應記載相對人資料、主旨事實理由及法令依據、附款內容、處分機關署名蓋章、發文字號年月日、救濟方法期間及受理機關等六款事項。",
+    "material_ref": "law-06-02",
+    "tags": ["書面行政處分應記載事項"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-06-02-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第97條規定，下列何種情形書面行政處分得不記明理由？",
+    "options": ["涉及重大財產處分者", "大量作成之同種類行政處分或以自動機器作成之行政處分依其狀況無須說明理由者", "所有稅務處分都不需要記明理由", "只有涉及個人隱私者才不需要記明理由"],
+    "answer": [1],
+    "explanation": "行政程序法第97條第3款規定，大量作成之同種類行政處分或以自動機器作成之行政處分依其狀況無須說明理由者，得不記明理由。",
+    "material_ref": "law-06-02",
+    "tags": ["不記明理由例外"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-06-02-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "書面行政處分若未限制人民之權益，依第97條規定可以如何處理？",
+    "options": ["必須強制記明理由", "得不記明理由", "必須加倍記載理由", "須送交上級機關審查後才能決定"],
+    "answer": [1],
+    "explanation": "行政程序法第97條第1款規定，未限制人民之權益者，書面行政處分得不記明理由。",
+    "material_ref": "law-06-02",
+    "tags": ["不記明理由例外"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-06-02-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "有關專門知識、技能或資格所為之考試、檢定或鑑定等程序，依第97條規定如何處理理由記載？",
+    "options": ["一律須詳細記載評分理由", "得不記明理由", "須經法院核准才能免除記明理由", "只有筆試不需要記明理由，口試仍須記明"],
+    "answer": [1],
+    "explanation": "行政程序法第97條第5款規定，有關專門知識、技能或資格所為之考試、檢定或鑑定等程序，得不記明理由。",
+    "material_ref": "law-06-02",
+    "tags": ["不記明理由例外"],
+    "verified_at": "2026-07-05"
+  }
+]

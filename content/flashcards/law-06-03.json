@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-law-06-03-01",
+    "subject": "bookkeeping-law",
+    "front": "處分機關告知救濟期間有錯誤時如何處理？",
+    "back": "應以通知更正之，並自通知送達之翌日起算法定期間（第98條）。",
+    "material_ref": "law-06-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-06-03-02",
+    "subject": "bookkeeping-law",
+    "front": "處分機關未告知救濟期間，相對人遲誤的保護機制？",
+    "back": "自處分書送達後一年內聲明不服者，視為於法定期間內所為。",
+    "material_ref": "law-06-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-06-03-03",
+    "subject": "bookkeeping-law",
+    "front": "向無管轄權機關聲明不服時該機關應如何處理？",
+    "back": "應於十日內移送有管轄權之機關，並通知當事人（第99條）。視為自始向有管轄權機關聲明不服。",
+    "material_ref": "law-06-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-06-03-04",
+    "subject": "bookkeeping-law",
+    "front": "行政處分有誤寫誤算等顯然錯誤如何處理？",
+    "back": "處分機關得隨時或依申請更正之（第101條）。",
+    "material_ref": "law-06-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-06-03-05",
+    "subject": "bookkeeping-law",
+    "front": "更正無法附記於原處分書時怎麼辦？",
+    "back": "應製作更正書，以書面通知相對人及已知之利害關係人。",
+    "material_ref": "law-06-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-06-03-06",
+    "subject": "bookkeeping-law",
+    "front": "第98條對記帳士執業的實務意義？",
+    "back": "若稅捐機關處分書救濟期間告知錯誤，記帳士協助委任人聲明不服時仍受保護，不因處分機關疏失喪失救濟機會。",
+    "material_ref": "law-06-03",
+    "verified_at": "2026-07-05"
+  }
+]

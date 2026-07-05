@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-law-06-01-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依行政程序法第92條，構成行政處分須同時符合下列哪些要件？",
+    "options": ["行政機關所為、公法上具體事件、對外直接發生法律效果、單方行政行為", "只需是行政機關所為的任何行為", "只需對外發生效果，不論公法或私法事件", "只需是書面作成的決定"],
+    "answer": [0],
+    "explanation": "行政程序法第92條規定，行政處分係指行政機關就公法上具體事件所為之決定或其他公權力措施而對外直接發生法律效果之單方行政行為，四要件缺一不可。",
+    "material_ref": "law-06-01",
+    "tags": ["行政處分定義", "行政程序法"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://www.6laws.net/6law/law/%E8%A1%8C%E6%94%BF%E7%A8%8B%E5%BA%8F%E6%B3%95.htm"]
+  },
+  {
+    "id": "gen-law-06-01-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "什麼是「一般處分」？",
+    "options": ["針對特定單一人所為的決定", "相對人雖非特定，而依一般性特徵可得確定其範圍者", "只適用於公物設定的處分", "行政機關內部的簽呈"],
+    "answer": [1],
+    "explanation": "行政程序法第92條第2項規定，決定或措施之相對人雖非特定，而依一般性特徵可得確定其範圍者，為一般處分，適用本法有關行政處分之規定。",
+    "material_ref": "law-06-01",
+    "tags": ["一般處分"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-06-01-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "行政機關作成行政處分無裁量權時，得為附款的條件為何？",
+    "options": ["可以隨意附加任何條件", "以法律有明文規定或為確保法定要件履行而以該要件為附款內容者為限", "只要相對人同意即可任意附款", "無裁量權的處分完全不能附款"],
+    "answer": [1],
+    "explanation": "行政程序法第93條規定，無裁量權者，以法律有明文規定或為確保行政處分法定要件之履行而以該要件為附款內容者為限，始得為附款。",
+    "material_ref": "law-06-01",
+    "tags": ["行政處分附款"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-06-01-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "下列何者屬於行政處分的附款種類？",
+    "options": ["期限、條件、負擔、保留廢止權、保留負擔事後附加或變更", "只有期限一種", "只有金錢賠償一種", "附款不屬於行政程序法規範範圍"],
+    "answer": [0],
+    "explanation": "行政程序法第93條第2項列舉附款種類為期限、條件、負擔、保留行政處分之廢止權、保留負擔之事後附加或變更。",
+    "material_ref": "law-06-01",
+    "tags": ["行政處分附款"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-06-01-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第94條規定，行政處分的附款有何限制？",
+    "options": ["沒有任何限制", "不得違背行政處分之目的，並應與該處分之目的具有正當合理之關聯", "只能由上級機關核准後才能附加", "附款只能適用於稅務案件"],
+    "answer": [1],
+    "explanation": "行政程序法第94條規定，附款不得違背行政處分之目的，並應與該處分之目的具有正當合理之關聯。",
+    "material_ref": "law-06-01",
+    "tags": ["行政處分附款限制"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-06-01-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "國稅局對某地區道路公告禁止停車，這屬於下列何種行政行為？",
+    "options": ["私法契約", "一般處分（公物之設定或使用）", "行政指導", "行政契約"],
+    "answer": [1],
+    "explanation": "此公告的相對人雖不特定，但依「行經該路段之用路人」可得確定範圍，且涉及公物之一般使用，屬於一般處分。",
+    "material_ref": "law-06-01",
+    "tags": ["一般處分"],
+    "verified_at": "2026-07-05"
+  }
+]

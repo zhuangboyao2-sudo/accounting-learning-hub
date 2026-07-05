@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-law-06-04-01",
+    "subject": "bookkeeping-law",
+    "front": "作成限制或剝奪人民自由權利的行政處分前，原則上應如何？",
+    "back": "應給予該處分相對人陳述意見之機會（第102條）。",
+    "material_ref": "law-06-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-06-04-02",
+    "subject": "bookkeeping-law",
+    "front": "第103條得不給予陳述意見機會的情形有哪些？",
+    "back": "大量作成同種類處分、情況急迫違背公益、受法定期間限制、行政強制執行處置、事實客觀明白、限制輕微、應先踐行其他程序、保全或限制出境處分。",
+    "material_ref": "law-06-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-06-04-03",
+    "subject": "bookkeeping-law",
+    "front": "行政機關舉行聽證的情形？",
+    "back": "法規明文規定應舉行聽證者，或行政機關認為有舉行聽證之必要者（第107條）。",
+    "material_ref": "law-06-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-06-04-04",
+    "subject": "bookkeeping-law",
+    "front": "不服經聽證作成的行政處分，救濟程序有何特別之處？",
+    "back": "免除訴願及其先行程序，可直接提起行政訴訟（第109條）。",
+    "material_ref": "law-06-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-06-04-05",
+    "subject": "bookkeeping-law",
+    "front": "陳述意見與聽證的門檻高低？",
+    "back": "陳述意見門檻較低（多數限制權益處分即應給予）；聽證門檻較高（限法規明定或行政機關認為必要）。",
+    "material_ref": "law-06-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-06-04-06",
+    "subject": "bookkeeping-law",
+    "front": "為避免相對人潛逃出境所為的保全處分，須先陳述意見嗎？",
+    "back": "不需要，屬於第103條第8款例外情形。",
+    "material_ref": "law-06-04",
+    "verified_at": "2026-07-05"
+  }
+]
