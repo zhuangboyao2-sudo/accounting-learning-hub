@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fc-acc-03-02-01",
+    "subject": "accounting",
+    "front": "預付費用的調整分錄方向？",
+    "back": "借記費用科目、貸記預付費用（資產減少），依受益期間分攤。",
+    "material_ref": "acc-03-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-03-02-02",
+    "subject": "accounting",
+    "front": "折舊分錄的借貸科目分別是？",
+    "back": "借記折舊費用，貸記累計折舊；不可直接貸記固定資產本身。",
+    "material_ref": "acc-03-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-03-02-03",
+    "subject": "accounting",
+    "front": "直線法折舊的計算公式？",
+    "back": "年折舊費用＝（原始成本－殘值）÷估計使用年限。",
+    "material_ref": "acc-03-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-03-02-04",
+    "subject": "accounting",
+    "front": "累計折舊為什麼正常餘額在貸方？",
+    "back": "因為它是資產的備抵（減項）科目，用來抵減資產帳面價值，方向與一般資產科目相反。",
+    "material_ref": "acc-03-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-03-02-05",
+    "subject": "accounting",
+    "front": "資產帳面價值怎麼算？",
+    "back": "帳面價值＝原始成本－累計折舊。",
+    "material_ref": "acc-03-02",
+    "verified_at": "2026-07-05"
+  }
+]

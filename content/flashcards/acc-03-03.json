@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fc-acc-03-03-01",
+    "subject": "accounting",
+    "front": "損益表與資產負債表分別反映什麼？",
+    "back": "損益表反映某段期間的經營成果；資產負債表反映某個時點的財務狀況。",
+    "material_ref": "acc-03-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-03-03-02",
+    "subject": "accounting",
+    "front": "本期淨利如何連結損益表與資產負債表？",
+    "back": "本期淨利併入保留盈餘（權益的一部分），是連結兩張報表的橋樑。",
+    "material_ref": "acc-03-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-03-03-03",
+    "subject": "accounting",
+    "front": "損益表的基本結構？",
+    "back": "營業收入－營業費用＝本期淨利。",
+    "material_ref": "acc-03-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-03-03-04",
+    "subject": "accounting",
+    "front": "資產負債表上機器設備該怎麼列示？",
+    "back": "同時列示原始成本與累計折舊，兩者相減得出帳面價值。",
+    "material_ref": "acc-03-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-03-03-05",
+    "subject": "accounting",
+    "front": "編製資產負債表前，通常先編哪一張表？為什麼？",
+    "back": "先編損益表，因為要先算出本期淨利，才能併入保留盈餘、正確列示資產負債表的權益金額。",
+    "material_ref": "acc-03-03",
+    "verified_at": "2026-07-05"
+  }
+]

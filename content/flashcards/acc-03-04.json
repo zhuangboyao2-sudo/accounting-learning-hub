@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fc-acc-03-04-01",
+    "subject": "accounting",
+    "front": "暫時性科目與永久性科目的差別？",
+    "back": "暫時性科目（收入、費用）每期結帳歸零；永久性科目（資產、負債、權益）延續到下一期。",
+    "material_ref": "acc-03-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-03-04-02",
+    "subject": "accounting",
+    "front": "結帳三步驟？",
+    "back": "①結清收入科目到本期損益 ②結清費用科目到本期損益 ③本期損益結轉保留盈餘。",
+    "material_ref": "acc-03-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-03-04-03",
+    "subject": "accounting",
+    "front": "結清收入科目時，借貸方向為何？",
+    "back": "借記收入科目（使其歸零）、貸記本期損益。",
+    "material_ref": "acc-03-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-03-04-04",
+    "subject": "accounting",
+    "front": "結後試算表會出現哪些科目？",
+    "back": "只剩資產、負債、權益等永久性科目，收入費用科目已歸零不會出現。",
+    "material_ref": "acc-03-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-03-04-05",
+    "subject": "accounting",
+    "front": "本期損益科目的作用是什麼？",
+    "back": "結帳過程中暫時使用的清算科目，用來彙總收入與費用的差額，最終轉入保留盈餘。",
+    "material_ref": "acc-03-04",
+    "verified_at": "2026-07-05"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fc-acc-03-01-01",
+    "subject": "accounting",
+    "front": "商業會計法第10條對決算時的收益費用有何要求？",
+    "back": "應按其歸屬年度作調整分錄，這是調整分錄的法律依據。",
+    "material_ref": "acc-03-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-03-01-02",
+    "subject": "accounting",
+    "front": "應計項目與遞延項目的差別？",
+    "back": "應計項目：已發生但現金尚未收付；遞延項目：現金已收付但尚未認列，方向相反。",
+    "material_ref": "acc-03-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-03-01-03",
+    "subject": "accounting",
+    "front": "預付一年保費，這屬於哪一類調整項目？",
+    "back": "遞延項目中的預付費用（現金已付，費用要遞延分期認列）。",
+    "material_ref": "acc-03-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-03-01-04",
+    "subject": "accounting",
+    "front": "月底已使用但帳單未到的電費，屬於哪一類調整項目？",
+    "back": "應計費用（已發生但尚未收付現金、尚未入帳）。",
+    "material_ref": "acc-03-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-03-01-05",
+    "subject": "accounting",
+    "front": "調整分錄通常什麼時候進行？",
+    "back": "會計期間結束、正式編製財務報表之前（決算時）。",
+    "material_ref": "acc-03-01",
+    "verified_at": "2026-07-05"
+  }
+]

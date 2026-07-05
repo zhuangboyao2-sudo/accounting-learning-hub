@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gen-acc-03-01-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依商業會計法第10條，決算時對收益及費用應如何處理？",
+    "options": ["不需要特別處理，維持平時記帳結果即可", "按其歸屬年度作調整分錄", "只需調整收益，不需調整費用", "只有大型企業才需要調整"],
+    "answer": [1],
+    "explanation": "商業會計法第10條規定決算時收益及費用應按其歸屬年度作調整分錄，這是調整分錄的法律依據。",
+    "material_ref": "acc-03-01",
+    "tags": ["調整分錄", "商業會計法"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=J0080009"]
+  },
+  {
+    "id": "gen-acc-03-01-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "公司一次預付一年份保險費，這屬於哪一類調整項目？",
+    "options": ["應計費用", "應計收入", "預付費用（遞延項目）", "預收收入"],
+    "answer": [2],
+    "explanation": "預付保險費是現金已經支付，但費用要遞延到未來受益期間才逐步認列，屬於遞延項目中的預付費用。",
+    "material_ref": "acc-03-01",
+    "tags": ["調整分錄"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-03-01-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "月底已使用的電費，帳單要到下月中才會寄達，這屬於哪一類調整項目？",
+    "options": ["應計費用", "預付費用", "預收收入", "應計收入"],
+    "answer": [0],
+    "explanation": "費用已經發生但尚未收到憑證入帳，屬於應計費用，須在期末先估列入帳。",
+    "material_ref": "acc-03-01",
+    "tags": ["調整分錄"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-03-01-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "下列敘述何者正確？",
+    "options": ["應計費用是「已付錢但還沒發生」", "預付費用是「還沒付錢但已經發生」", "應計費用是「還沒付錢但已經發生」，預付費用是「已經付錢但還沒發生」", "應計與預付項目沒有差別"],
+    "answer": [2],
+    "explanation": "應計項目是現金尚未收付但已發生；遞延（預付）項目是現金已收付但尚未認列，兩者方向相反。",
+    "material_ref": "acc-03-01",
+    "tags": ["調整分錄"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-03-01-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "如果一次把預付一年的保費全部認列為當月費用，會造成什麼影響？",
+    "options": ["沒有影響，反正全年費用總額不變", "高估當月費用、低估其餘各月費用", "低估當月費用、高估其餘各月費用", "只影響資產負債表，不影響損益表"],
+    "answer": [1],
+    "explanation": "一次全部認列會使當月費用嚴重高估，其餘受益月份的費用則被低估，導致各期損益失真。",
+    "material_ref": "acc-03-01",
+    "tags": ["調整分錄"],
+    "verified_at": "2026-07-05"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "gen-acc-03-04-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "下列何者屬於「暫時性科目」，需要在期末結帳歸零？",
+    "options": ["現金", "應付帳款", "銷貨收入", "股本"],
+    "answer": [2],
+    "explanation": "收入、費用科目屬於暫時性科目，每期都要歸零重新累計；資產、負債、權益科目則是永久性科目，會延續到下一期。",
+    "material_ref": "acc-03-04",
+    "tags": ["結帳"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-03-04-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "結清銷貨收入200,000元的結帳分錄應為何？",
+    "options": [
+      "借：本期損益200,000／貸：銷貨收入200,000",
+      "借：銷貨收入200,000／貸：本期損益200,000",
+      "借：保留盈餘200,000／貸：銷貨收入200,000",
+      "借：銷貨收入200,000／貸：保留盈餘200,000"
+    ],
+    "answer": [1],
+    "explanation": "收入科目正常餘額在貸方，結清時要借記銷貨收入使其歸零，貸記本期損益（清算科目）。",
+    "material_ref": "acc-03-04",
+    "tags": ["結帳"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-03-04-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "「本期損益」科目結清後的餘額，最後應轉入哪個科目？",
+    "options": ["股本", "保留盈餘", "現金", "應付帳款"],
+    "answer": [1],
+    "explanation": "本期損益是結帳過程中暫時使用的清算科目，最終餘額（本期淨利或淨損）應整筆轉入保留盈餘。",
+    "material_ref": "acc-03-04",
+    "tags": ["結帳", "保留盈餘"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-03-04-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "結後試算表應包含哪些科目？",
+    "options": ["只有收入與費用科目", "只有資產、負債、權益等永久性科目", "所有科目，包含已結清的收入費用", "只有現金科目"],
+    "answer": [1],
+    "explanation": "結帳後，收入、費用科目都已歸零，結後試算表只會剩下資產、負債、權益等永久性科目。",
+    "material_ref": "acc-03-04",
+    "tags": ["結帳", "試算表"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-03-04-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "為什麼收入、費用科目每期都要歸零重新累計？",
+    "options": ["因為法律規定不能累積太多金額", "因為這些科目反映的是「某段期間」的活動，若不歸零會與下期混在一起、失去意義", "因為現金不夠支付", "因為老闆要求"],
+    "answer": [1],
+    "explanation": "收入、費用科目是期間概念，每期都要重新從零開始累計，才能正確反映各期各自的經營成果。",
+    "material_ref": "acc-03-04",
+    "tags": ["結帳"],
+    "verified_at": "2026-07-05"
+  }
+]
