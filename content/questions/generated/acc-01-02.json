@@ -1,0 +1,69 @@
+[
+  {
+    "id": "gen-acc-01-02-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依商業會計法第10條規定，商業會計基礎應採用下列何者？",
+    "options": ["現金收付制", "權責發生制", "應計基礎僅適用於大型企業", "可自由選擇不需調整"],
+    "answer": [1],
+    "explanation": "商業會計法第10條規定會計基礎採用權責發生制；平時採現金收付制者，決算時應照權責發生制調整。",
+    "material_ref": "acc-01-02",
+    "tags": ["權責發生制", "商業會計法"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=J0080009"]
+  },
+  {
+    "id": "gen-acc-01-02-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "工廠本月出貨給客戶 30 萬元，約定 60 天後收款，本月尚未收到現金。依權責發生制，這筆收入應何時認列？",
+    "options": ["等 60 天後實際收到現金時才認列", "出貨、確定應收的當月即認列", "永遠不認列，因為現金還沒收到", "由老闆自行決定認列時點"],
+    "answer": [1],
+    "explanation": "權責發生制下，收入於確定應收時即入帳，不需等現金實際收到，因此出貨當月即應認列這筆收入。",
+    "material_ref": "acc-01-02",
+    "tags": ["權責發生制"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-01-02-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依商業會計法第11條，會計事項的記錄應使用何種方法？",
+    "options": ["單式記帳", "雙式簿記", "現金流水帳即可", "只需記錄收入不需記錄費用"],
+    "answer": [1],
+    "explanation": "商業會計法第11條規定會計事項之記錄應用雙式簿記方法為之，這是會計恆等式能夠恆成立的法律依據。",
+    "material_ref": "acc-01-02",
+    "tags": ["商業會計法", "雙式簿記"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=J0080009"]
+  },
+  {
+    "id": "gen-acc-01-02-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "工廠向銀行借款 20 萬元存入公司帳戶，這筆交易對會計恆等式的影響為何？",
+    "options": ["資產增加20萬，負債增加20萬", "資產增加20萬，權益增加20萬", "資產不變，負債增加20萬", "負債減少20萬，權益增加20萬"],
+    "answer": [0],
+    "explanation": "借款使公司現金（資產）增加20萬元，同時對銀行的還款義務（負債）也增加20萬元，等式兩邊同步增加，維持平衡。",
+    "material_ref": "acc-01-02",
+    "tags": ["會計恆等式"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-01-02-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "會計恆等式「資產＝負債＋業主權益」，主要說明的是什麼？",
+    "options": ["公司的收入一定大於費用", "公司擁有的資源，來自於借來的錢加上業主自己出的錢", "資產一定要大於負債", "業主權益一定要為正數"],
+    "answer": [1],
+    "explanation": "會計恆等式描述公司資產的資金來源：一部分來自債權人（負債），一部分來自業主自己投入或累積的盈餘（業主權益）。",
+    "material_ref": "acc-01-02",
+    "tags": ["會計恆等式"],
+    "verified_at": "2026-07-05"
+  }
+]

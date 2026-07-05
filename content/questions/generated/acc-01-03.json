@@ -1,0 +1,67 @@
+[
+  {
+    "id": "gen-acc-01-03-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "資產科目的正常餘額在哪一邊？",
+    "options": ["借方", "貸方", "視科目而定，沒有固定方向", "兩邊都可以"],
+    "answer": [0],
+    "explanation": "資產科目增加記借方、減少記貸方，正常餘額在借方。",
+    "material_ref": "acc-01-03",
+    "tags": ["借貸法則"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-01-03-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "下列哪一組科目的借貸方向規則相同（增加都記在同一邊）？",
+    "options": ["資產與負債", "資產與費用", "收入與費用", "負債與資產"],
+    "answer": [1],
+    "explanation": "資產與費用同一組，增加都記借方；負債、業主權益、收入是另一組，增加都記貸方。",
+    "material_ref": "acc-01-03",
+    "tags": ["借貸法則"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-01-03-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "「應付帳款」屬於負債科目，當公司支付現金清償這筆帳款時，應付帳款應記在哪一邊？",
+    "options": ["借方（減少）", "貸方（增加）", "借方與貸方都要記", "不需要記錄"],
+    "answer": [0],
+    "explanation": "負債科目減少記借方；償還應付帳款代表負債減少，因此記借方，同時現金（資產）減少記貸方。",
+    "material_ref": "acc-01-03",
+    "tags": ["借貸法則"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-01-03-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "「銷貨收入」科目本期借方合計 5,000 元、貸方合計 205,000 元，期末餘額為何？",
+    "options": ["借方餘額 200,000 元", "貸方餘額 200,000 元", "借方餘額 210,000 元", "貸方餘額 210,000 元"],
+    "answer": [1],
+    "explanation": "收入科目正常餘額在貸方；貸方合計205,000減去借方合計5,000，餘額200,000元記在貸方。",
+    "material_ref": "acc-01-03",
+    "tags": ["借貸法則", "T字帳"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-01-03-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "下列敘述何者正確？",
+    "options": ["借方代表壞事、貸方代表好事", "收到現金一定記在貸方", "借貸只是記帳的方向，沒有好壞之分", "費用科目增加要記在貸方"],
+    "answer": [2],
+    "explanation": "借貸只是表示科目增減的方向，沒有好壞之分；收到現金因為現金是資產，增加記借方；費用科目增加記借方而非貸方。",
+    "material_ref": "acc-01-03",
+    "tags": ["借貸法則"],
+    "verified_at": "2026-07-05"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gen-acc-01-01-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "小明用自己的私人信用卡幫女兒買生日禮物，卻把這筆支出記進工廠的費用帳。這違反了哪一項會計基本假設？",
+    "options": ["企業個體假設", "繼續經營假設", "貨幣單位假設", "會計期間假設"],
+    "answer": [0],
+    "explanation": "企業個體假設要求公司的帳只記公司的經濟活動，老闆個人消費與公司業務無關，不應記入公司帳。",
+    "material_ref": "acc-01-01",
+    "tags": ["會計假設"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-01-01-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "在繼續經營假設下，公司的固定資產原則上應以何種金額入帳？",
+    "options": ["目前的清算變賣價值", "原始取得成本", "未來重置成本", "市場公允價值"],
+    "answer": [1],
+    "explanation": "繼續經營假設預設公司會持續營運下去，不會立即清算，因此資產以原始取得成本入帳，而非以清算價值衡量。",
+    "material_ref": "acc-01-01",
+    "tags": ["會計假設"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-01-01-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "會計上把企業無限期的經營活動切成一年一年來編製報表，這是依據哪一項假設？",
+    "options": ["企業個體假設", "貨幣單位假設", "會計期間假設", "繼續經營假設"],
+    "answer": [2],
+    "explanation": "會計期間假設將企業持續的經營活動劃分成固定期間（通常一年），以便定期編製報表、對應年度申報。",
+    "material_ref": "acc-01-01",
+    "tags": ["會計假設"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-01-01-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "台灣商業會計事務之處理，依何項法律規定？",
+    "options": ["公司法", "所得稅法", "商業會計法", "稅捐稽徵法"],
+    "answer": [2],
+    "explanation": "商業會計法第1條規定：商業會計事務之處理，依本法之規定。",
+    "material_ref": "acc-01-01",
+    "tags": ["商業會計法"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=J0080009"]
+  },
+  {
+    "id": "gen-acc-01-01-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "下列何者不是財務報表的外部使用者？",
+    "options": ["提供貸款的銀行", "課徵所得稅的國稅局", "決定是否賒帳的供應商", "負責記帳的公司會計人員"],
+    "answer": [3],
+    "explanation": "公司內部的會計人員、經理人屬於內部使用者；銀行、國稅局、供應商則是需要了解公司財務狀況的外部使用者。",
+    "material_ref": "acc-01-01",
+    "tags": ["會計基本概念"],
+    "verified_at": "2026-07-05"
+  }
+]

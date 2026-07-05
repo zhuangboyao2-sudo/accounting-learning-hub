@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fc-acc-01-04-01",
+    "subject": "accounting",
+    "front": "分錄是什麼？",
+    "back": "把一筆交易翻譯成借貸雙方會計科目與金額的紀錄，是複式簿記的基本操作單位。",
+    "material_ref": "acc-01-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-01-04-02",
+    "subject": "accounting",
+    "front": "銷貨時向客戶收取的營業稅，會計上應記為哪個科目？",
+    "back": "應付營業稅（負債），因為是公司代國稅局暫收的稅款，不是公司的收入。",
+    "material_ref": "acc-01-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-01-04-03",
+    "subject": "accounting",
+    "front": "過帳是什麼？",
+    "back": "把分錄簿中的借貸金額，轉記到對應會計科目分類帳（帳戶）的動作。",
+    "material_ref": "acc-01-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-01-04-04",
+    "subject": "accounting",
+    "front": "分錄和分類帳的差別是什麼？",
+    "back": "分錄按時間先後逐筆記錄交易；分類帳按會計科目分類彙整，方便查看單一科目的增減與餘額。",
+    "material_ref": "acc-01-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-01-04-05",
+    "subject": "accounting",
+    "front": "分錄書寫格式的慣例是什麼？",
+    "back": "借方科目在上、金額靠左；貸方科目名稱縮排在下、金額靠右。",
+    "material_ref": "acc-01-04",
+    "verified_at": "2026-07-05"
+  }
+]

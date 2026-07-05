@@ -2,27 +2,32 @@
   {
     "id": "debit",
     "term": "借方",
-    "definition": "會計分錄的左側。資產、費用增加記借方；負債、權益、收入增加記貸方。"
+    "definition": "會計分錄的左側。資產、費用增加記借方；負債、權益、收入增加記貸方。",
+    "material_ref": "acc-01-03"
   },
   {
     "id": "credit",
     "term": "貸方",
-    "definition": "會計分錄的右側。負債、業主權益、收入增加記貸方；資產、費用增加記借方。"
+    "definition": "會計分錄的右側。負債、業主權益、收入增加記貸方；資產、費用增加記借方。",
+    "material_ref": "acc-01-03"
   },
   {
     "id": "accrual-basis",
     "term": "權責發生制",
-    "definition": "收入於賺得時認列、費用於發生時認列，不論現金是否已收付。台灣營利事業所得稅原則上採權責發生制。"
+    "definition": "收入於賺得時認列、費用於發生時認列，不論現金是否已收付。台灣營利事業所得稅原則上採權責發生制。",
+    "material_ref": "acc-01-02"
   },
   {
     "id": "cash-basis",
     "term": "現金基礎",
-    "definition": "收入於實際收到現金時認列、費用於實際支付現金時認列，不考慮權責歸屬期間。"
+    "definition": "收入於實際收到現金時認列、費用於實際支付現金時認列，不考慮權責歸屬期間。",
+    "material_ref": "acc-01-02"
   },
   {
     "id": "accounting-equation",
     "term": "會計恆等式",
-    "definition": "資產＝負債＋業主權益。複式簿記下，每筆交易都必須維持這個等式的平衡。"
+    "definition": "資產＝負債＋業主權益。複式簿記下，每筆交易都必須維持這個等式的平衡。",
+    "material_ref": "acc-01-02"
   },
   {
     "id": "trial-balance",
@@ -32,12 +37,14 @@
   {
     "id": "journal-entry",
     "term": "分錄",
-    "definition": "以借貸雙方記錄一筆交易對會計科目影響的紀錄方式，是複式簿記的基本操作單位。"
+    "definition": "以借貸雙方記錄一筆交易對會計科目影響的紀錄方式，是複式簿記的基本操作單位。",
+    "material_ref": "acc-01-04"
   },
   {
     "id": "posting",
     "term": "過帳",
-    "definition": "把分錄簿中的借貸金額，轉記到對應會計科目分類帳的動作。"
+    "definition": "把分錄簿中的借貸金額，轉記到對應會計科目分類帳的動作。",
+    "material_ref": "acc-01-04"
   },
   {
     "id": "input-tax",
@@ -48,5 +55,11 @@
     "id": "output-tax",
     "term": "銷項稅額",
     "definition": "營業人銷售貨物或勞務時，依規定稅率向買受人收取的營業稅額。"
+  },
+  {
+    "id": "business-accounting-act",
+    "term": "商業會計法",
+    "definition": "規範台灣商業會計事務處理的基本法律，規定會計基礎採權責發生制、會計事項應以雙式簿記記錄等原則。",
+    "material_ref": "acc-01-02"
   }
 ]

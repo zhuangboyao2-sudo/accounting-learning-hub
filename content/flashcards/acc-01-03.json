@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fc-acc-01-03-01",
+    "subject": "accounting",
+    "front": "資產科目：增加記哪邊？正常餘額在哪邊？",
+    "back": "增加記借方，正常餘額在借方。",
+    "material_ref": "acc-01-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-01-03-02",
+    "subject": "accounting",
+    "front": "負債、業主權益、收入：增加記哪邊？",
+    "back": "增加都記貸方，正常餘額在貸方。",
+    "material_ref": "acc-01-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-01-03-03",
+    "subject": "accounting",
+    "front": "費用科目：增加記哪邊？為什麼跟資產同一組？",
+    "back": "增加記借方；因為費用會使業主權益減少，方向與權益（貸方增加）相反，故與資產同組。",
+    "material_ref": "acc-01-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-01-03-04",
+    "subject": "accounting",
+    "front": "借貸法則的記憶技巧是什麼？",
+    "back": "把「資產、費用」分一組（借方增加），「負債、權益、收入」分另一組（貸方增加），同組方向永遠一致。",
+    "material_ref": "acc-01-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-01-03-05",
+    "subject": "accounting",
+    "front": "計算 T 字帳期末餘額的方法？",
+    "back": "借方合計減貸方合計；若結果為正，餘額記在正常餘額的那一邊。",
+    "material_ref": "acc-01-03",
+    "verified_at": "2026-07-05"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fc-acc-01-01-01",
+    "subject": "accounting",
+    "front": "企業個體假設是什麼？",
+    "back": "公司的帳只記公司本身的經濟活動，不與老闆或股東的個人財務混在一起。",
+    "material_ref": "acc-01-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-01-01-02",
+    "subject": "accounting",
+    "front": "繼續經營假設下，資產通常以什麼金額入帳？",
+    "back": "原始取得成本，而非清算變賣價值。",
+    "material_ref": "acc-01-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-01-01-03",
+    "subject": "accounting",
+    "front": "貨幣單位假設是什麼？",
+    "back": "所有交易都用同一種貨幣（台灣為新臺幣）衡量，才能加總與比較。",
+    "material_ref": "acc-01-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-01-01-04",
+    "subject": "accounting",
+    "front": "會計期間假設的目的是什麼？",
+    "back": "把企業無限期的經營活動切成固定期間（通常一年）編製報表，以便定期檢視經營成效並對應年度申報。",
+    "material_ref": "acc-01-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-01-01-05",
+    "subject": "accounting",
+    "front": "台灣商業會計事務之處理，依據哪部法律？",
+    "back": "商業會計法（第1條）。",
+    "material_ref": "acc-01-01",
+    "verified_at": "2026-07-05"
+  }
+]

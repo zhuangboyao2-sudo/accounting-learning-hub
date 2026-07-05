@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fc-acc-01-02-01",
+    "subject": "accounting",
+    "front": "商業會計法第10條規定會計基礎採用什麼？",
+    "back": "權責發生制；平時採現金收付制者，決算時應照權責發生制調整。",
+    "material_ref": "acc-01-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-01-02-02",
+    "subject": "accounting",
+    "front": "權責發生制下，收入何時認列？",
+    "back": "確定應收時即入帳，不需等到實際收到現金。",
+    "material_ref": "acc-01-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-01-02-03",
+    "subject": "accounting",
+    "front": "商業會計法第11條規定會計事項應如何記錄？",
+    "back": "應用雙式簿記（複式簿記）方法記錄，每筆交易同時影響至少兩個科目且金額相等。",
+    "material_ref": "acc-01-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-01-02-04",
+    "subject": "accounting",
+    "front": "會計恆等式是什麼？",
+    "back": "資產＝負債＋業主權益。",
+    "material_ref": "acc-01-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-01-02-05",
+    "subject": "accounting",
+    "front": "向銀行借款存入公司帳戶，對會計恆等式有何影響？",
+    "back": "資產（現金）與負債（借款）同步增加相同金額，恆等式維持平衡。",
+    "material_ref": "acc-01-02",
+    "verified_at": "2026-07-05"
+  }
+]
