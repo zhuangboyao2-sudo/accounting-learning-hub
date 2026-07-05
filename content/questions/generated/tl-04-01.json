@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-tl-04-01-01",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依所得稅法第22條，公司組織之營利事業應採用何種會計基礎？",
+    "options": ["現金收付制", "權責發生制", "由公司自由選擇", "混合制"],
+    "answer": [1],
+    "explanation": "所得稅法第22條規定，會計基礎凡屬公司組織者，應採用權責發生制。",
+    "material_ref": "tl-04-01",
+    "tags": ["會計基礎", "所得稅法"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0340003"]
+  },
+  {
+    "id": "gen-tl-04-01-02",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "非公司組織之營利事業，在何種情形下可採用現金收付制？",
+    "options": ["一律不得採用", "得因原有習慣或營業範圍狹小，申報該管稽徵機關採用", "只有虧損企業才能採用", "須經財政部特別核准"],
+    "answer": [1],
+    "explanation": "所得稅法第22條規定，非公司組織者，得因原有習慣或因營業範圍狹小，申報該管稽徵機關採用現金收付制。",
+    "material_ref": "tl-04-01",
+    "tags": ["會計基礎"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-04-01-03",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "非公司組織變更已確定之會計制度，須於何時申報該管稽徵機關？",
+    "options": ["變更後一個月內補辦即可", "須於各會計年度開始三個月前申報", "不需要申報，自行變更即可", "須經立法院同意"],
+    "answer": [1],
+    "explanation": "所得稅法第22條第2項規定，非公司組織會計制度既經確定仍得變更，惟須於各會計年度開始三個月前申報該管稽徵機關。",
+    "material_ref": "tl-04-01",
+    "tags": ["會計制度變更"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-04-01-04",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第23條規定，營利事業會計年度原則上為何？",
+    "options": ["每年四月一日起至隔年三月三十一日止", "每年一月一日起至十二月三十一日止", "由營利事業自行決定，無任何原則", "每年七月一日起至隔年六月三十日止"],
+    "answer": [1],
+    "explanation": "所得稅法第23條規定，會計年度應為每年一月一日起至十二月三十一日止，但因原有習慣或營業季節特殊情形，經核准者得變更。",
+    "material_ref": "tl-04-01",
+    "tags": ["會計年度"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-04-01-05",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "營利事業變更會計年度起訖日期，是否可以自行決定？",
+    "options": ["可以，完全自主決定", "不可以，須因原有習慣或營業季節特殊情形，並呈經該管稽徵機關核准", "只要書面通知稽徵機關即可，不需核准", "須經股東會決議即可，不需稽徵機關同意"],
+    "answer": [1],
+    "explanation": "所得稅法第23條規定，變更會計年度起訖日期須因原有習慣或營業季節之特殊情形，並呈經該管稽徵機關核准。",
+    "material_ref": "tl-04-01",
+    "tags": ["會計年度變更"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-04-01-06",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "所得稅法第21條規定營利事業帳簿憑證的基本義務為何？",
+    "options": ["不需要保持任何帳簿", "應保持足以正確計算其營利事業所得額之帳簿憑證及會計紀錄", "只需要保存三個月的帳簿", "只有上市公司才需要保持帳簿"],
+    "answer": [1],
+    "explanation": "所得稅法第21條規定，營利事業應保持足以正確計算其營利事業所得額之帳簿憑證及會計紀錄。",
+    "material_ref": "tl-04-01",
+    "tags": ["帳簿憑證義務"],
+    "verified_at": "2026-07-05"
+  }
+]
