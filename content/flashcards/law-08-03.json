@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-law-08-03-01",
+    "subject": "bookkeeping-law",
+    "front": "商業登記法所稱「商業」？",
+    "back": "以營利為目的，以獨資或合夥方式經營之事業（第3條）。",
+    "material_ref": "law-08-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-08-03-02",
+    "subject": "bookkeeping-law",
+    "front": "第5條得免登記的小規模商業？",
+    "back": "攤販、家庭農林漁牧業者、家庭手工業者、民宿經營者、每月銷售額未達營業稅起徵點者。",
+    "material_ref": "law-08-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-08-03-03",
+    "subject": "bookkeeping-law",
+    "front": "商業開業前應登記的事項？",
+    "back": "名稱、組織、所營業務、資本額、所在地、負責人資料、合夥人資料及合夥契約副本等（第9條）。",
+    "material_ref": "law-08-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-08-03-04",
+    "subject": "bookkeeping-law",
+    "front": "獨資組織的商業負責人？",
+    "back": "出資人或其法定代理人（第10條）。",
+    "material_ref": "law-08-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-08-03-05",
+    "subject": "bookkeeping-law",
+    "front": "經理人任免調動的申請登記期限？",
+    "back": "自事實發生之日起十五日內（第13條）。",
+    "material_ref": "law-08-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-08-03-06",
+    "subject": "bookkeeping-law",
+    "front": "商業登記法與公司法的適用區別？",
+    "back": "商業登記法適用獨資、合夥；公司法適用無限、有限、兩合、股份有限公司四種類型。",
+    "material_ref": "law-08-03",
+    "verified_at": "2026-07-05"
+  }
+]

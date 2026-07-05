@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-law-08-04-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依商業登記法第28條，商業名稱可以使用「公司」字樣嗎？",
+    "options": ["可以，只要負責人同意即可", "不可以", "只有資本額超過百萬元才可以使用", "只要有登記就可以使用"],
+    "answer": [1],
+    "explanation": "商業登記法第28條第2項明文規定，商業之名稱，不得使用公司字樣。",
+    "material_ref": "law-08-04",
+    "tags": ["商業名稱限制", "商業登記法"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moea.gov.tw/LawContent.aspx?id=FL011295"]
+  },
+  {
+    "id": "gen-law-08-04-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第29條規定，下列何者屬於主管機關得撤銷或廢止商業登記的情形？",
+    "options": ["商業正常營運且按時申報稅務", "登記後滿六個月尚未開始營業", "商業負責人身體不適休養", "商業獲利表現不佳"],
+    "answer": [1],
+    "explanation": "商業登記法第29條規定，商業登記後滿六個月尚未開始營業，或開始營業後自行停止營業六個月以上者，主管機關得撤銷或廢止其登記。",
+    "material_ref": "law-08-04",
+    "tags": ["撤銷廢止登記"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-08-04-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第31條規定，未經設立登記而以商業名義經營業務者，處以何種罰鍰？",
+    "options": ["新臺幣一千元以上五千元以下", "新臺幣二千元以上一萬元以下", "新臺幣一萬元以上五萬元以下，並得按次處罰", "新臺幣六千元以上三萬元以下"],
+    "answer": [2],
+    "explanation": "商業登記法第31條規定，未經設立登記而以商業名義經營業務或為其他法律行為者，商業所在地主管機關應命行為人限期辦妥登記，屆期未辦妥者，處新臺幣一萬元以上五萬元以下罰鍰，並得按次處罰。",
+    "material_ref": "law-08-04",
+    "tags": ["未登記營業罰則"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-08-04-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第30條規定，申請登記事項有虛偽情事者，處以何種罰鍰？",
+    "options": ["新臺幣一千元以上五千元以下", "新臺幣六千元以上三萬元以下", "新臺幣一萬元以上五萬元以下", "新臺幣十萬元以上五十萬元以下"],
+    "answer": [1],
+    "explanation": "商業登記法第30條規定，申請登記事項有虛偽情事者，其商業負責人處新臺幣六千元以上三萬元以下罰鍰。",
+    "material_ref": "law-08-04",
+    "tags": ["虛偽登記罰則"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-08-04-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第33條規定，逾第12條至第15條規定申請登記期限者，處以何種罰鍰？",
+    "options": ["新臺幣一千元以上五千元以下", "新臺幣二千元以上一萬元以下", "新臺幣六千元以上三萬元以下", "新臺幣一萬元以上五萬元以下"],
+    "answer": [0],
+    "explanation": "商業登記法第33條規定，逾第12條至第15條規定申請登記之期限者，其商業負責人處新臺幣一千元以上五千元以下罰鍰，是本節罰則中最輕的一項。",
+    "material_ref": "law-08-04",
+    "tags": ["逾期登記罰則"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-08-04-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "商業在同一直轄市或縣（市），是否可以使用與已登記商業相同之名稱？",
+    "options": ["可以，沒有任何限制", "原則上不可以，但有行政區域調整或增設分支機構附記明確字樣等例外", "只要負責人姓氏相同就可以使用相同名稱", "只有股份有限公司才受此限制"],
+    "answer": [1],
+    "explanation": "商業登記法第28條規定，商業在同一直轄市或縣（市），原則上不得使用與已登記之商業相同之名稱，但有法定例外情形。",
+    "material_ref": "law-08-04",
+    "tags": ["商業名稱限制"],
+    "verified_at": "2026-07-05"
+  }
+]

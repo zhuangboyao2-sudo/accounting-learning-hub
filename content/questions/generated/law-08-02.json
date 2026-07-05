@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-law-08-02-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依公司法第6條，公司何時成立？",
+    "options": ["股東簽約當下即成立", "非在中央主管機關登記後，不得成立", "營業開始當日成立", "資本額到位時即成立"],
+    "answer": [1],
+    "explanation": "公司法第6條規定，公司非在中央主管機關登記後，不得成立，登記是公司成立的要件。",
+    "material_ref": "law-08-02",
+    "tags": ["公司登記", "公司法"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moea.gov.tw/LawContent.aspx?id=FL011292"]
+  },
+  {
+    "id": "gen-law-08-02-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依公司法第12條，已登記事項有變更而未辦理變更登記者，效果為何？",
+    "options": ["該事項自動視為無效", "不得以其事項對抗第三人", "公司自動解散", "須立即補繳罰款才有效"],
+    "answer": [1],
+    "explanation": "公司法第12條規定，已登記之事項有變更而不為變更之登記者，不得以其事項對抗第三人，屬於對抗要件而非生效要件。",
+    "material_ref": "law-08-02",
+    "tags": ["登記對抗效力"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-08-02-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依公司法第387條，公司登記申請若委任代理人，代理人資格為何？",
+    "options": ["任何成年人皆可", "以會計師、律師為限", "以記帳士為限", "不需要任何資格限制"],
+    "answer": [1],
+    "explanation": "公司法第387條第3項規定，公司登記申請得委任代理人，代理人以會計師、律師為限。",
+    "material_ref": "law-08-02",
+    "tags": ["公司登記代理"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-08-02-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依公司法第393條，下列何者屬於主管機關應公開、任何人得申請查閱的事項？",
+    "options": ["公司名稱、董監事姓名及持股、資本總額", "只有股東的手機號碼", "員工的薪資明細", "只有主管機關內部人員可查閱的機密資料"],
+    "answer": [0],
+    "explanation": "公司法第393條第2項列舉九款公開事項，包括公司名稱、所營事業、所在地、董監事姓名持股、經理人姓名、資本總額等。",
+    "material_ref": "law-08-02",
+    "tags": ["登記查閱"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-08-02-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依公司法第391條，登記事項有錯誤或遺漏時可以如何處理？",
+    "options": ["不能更正，須重新申請設立登記", "申請人於登記後確知有錯誤或遺漏時，得申請更正", "只能透過訴訟途徑更正", "須經股東會重新決議"],
+    "answer": [1],
+    "explanation": "公司法第391條規定，申請人於登記後確知其登記事項有錯誤或遺漏時，得申請更正。",
+    "material_ref": "law-08-02",
+    "tags": ["登記更正"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-08-02-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "記帳士可以代理辦理公司登記申請嗎？",
+    "options": ["可以，記帳士業務範圍包括公司登記代理", "不可以，公司法第387條規定登記代理人以會計師、律師為限", "只有取得會計師執照的記帳士才可以", "須視公司規模大小而定"],
+    "answer": [1],
+    "explanation": "公司法第387條第3項限定公司登記申請的代理人為會計師、律師，記帳士並不在此列（記帳士辦理的是稅務及商業登記等業務）。",
+    "material_ref": "law-08-02",
+    "tags": ["公司登記代理"],
+    "verified_at": "2026-07-05"
+  }
+]

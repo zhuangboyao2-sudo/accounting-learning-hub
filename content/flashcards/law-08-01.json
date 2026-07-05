@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-law-08-01-01",
+    "subject": "bookkeeping-law",
+    "front": "公司法第1條對公司的定義？",
+    "back": "以營利為目的，依照本法組織、登記、成立之社團法人。",
+    "material_ref": "law-08-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-08-01-02",
+    "subject": "bookkeeping-law",
+    "front": "公司法第2條的四種公司類型？",
+    "back": "無限公司（連帶無限責任）、有限公司（出資額為限）、兩合公司（無限+有限責任股東並存）、股份有限公司（股份為限）。",
+    "material_ref": "law-08-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-08-01-03",
+    "subject": "bookkeeping-law",
+    "front": "有限公司、股份有限公司的公司負責人？",
+    "back": "董事（無限公司、兩合公司則為執行業務或代表公司之股東）。",
+    "material_ref": "law-08-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-08-01-04",
+    "subject": "bookkeeping-law",
+    "front": "什麼是「實質董事」？其法律責任？",
+    "back": "非董事而實質控制公司人事財務業務並指揮董事執行業務者，與董事同負民事、刑事及行政罰責任（第8條第3項）。",
+    "material_ref": "law-08-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-08-01-05",
+    "subject": "bookkeeping-law",
+    "front": "無限公司股東的責任？",
+    "back": "對公司債務負連帶無限清償責任。",
+    "material_ref": "law-08-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-08-01-06",
+    "subject": "bookkeeping-law",
+    "front": "股份有限公司股東的責任？",
+    "back": "就其所認股份，對公司負其責任（有限責任）。",
+    "material_ref": "law-08-01",
+    "verified_at": "2026-07-05"
+  }
+]

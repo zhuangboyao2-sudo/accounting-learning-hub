@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-law-08-02-01",
+    "subject": "bookkeeping-law",
+    "front": "公司何時成立？",
+    "back": "非在中央主管機關登記後，不得成立（第6條）。",
+    "material_ref": "law-08-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-08-02-02",
+    "subject": "bookkeeping-law",
+    "front": "登記事項變更未辦理變更登記的效果？",
+    "back": "不得以其事項對抗第三人（第12條），屬於對抗要件而非生效要件。",
+    "material_ref": "law-08-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-08-02-03",
+    "subject": "bookkeeping-law",
+    "front": "公司登記代理人的資格限制？",
+    "back": "以會計師、律師為限（第387條），記帳士不在此列。",
+    "material_ref": "law-08-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-08-02-04",
+    "subject": "bookkeeping-law",
+    "front": "登記事項有錯誤或遺漏怎麼辦？",
+    "back": "申請人於登記後確知有錯誤或遺漏時，得申請更正（第391條）。",
+    "material_ref": "law-08-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-08-02-05",
+    "subject": "bookkeeping-law",
+    "front": "第393條主管機關應公開的九款事項？",
+    "back": "公司名稱、所營事業、所在地、執行業務股東、董監事姓名持股、經理人姓名、資本總額、特別股類型等，任何人可查閱。",
+    "material_ref": "law-08-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-08-02-06",
+    "subject": "bookkeeping-law",
+    "front": "公司章程是否可上網公開查閱？",
+    "back": "須經公司同意才能上網公開（第393條第10款，與其他九款不同）。",
+    "material_ref": "law-08-02",
+    "verified_at": "2026-07-05"
+  }
+]

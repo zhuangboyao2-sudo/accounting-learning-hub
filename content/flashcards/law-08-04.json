@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-law-08-04-01",
+    "subject": "bookkeeping-law",
+    "front": "商業名稱可以使用「公司」字樣嗎？",
+    "back": "不可以（第28條第2項）。",
+    "material_ref": "law-08-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-08-04-02",
+    "subject": "bookkeeping-law",
+    "front": "第29條撤銷或廢止商業登記的情形？",
+    "back": "登記文書偽造變造經判刑確定、登記滿六月未開業或停業六月以上、遷離逾六月未變更登記、無營業跡象、名稱經法院判決不得使用逾期未變更。",
+    "material_ref": "law-08-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-08-04-03",
+    "subject": "bookkeeping-law",
+    "front": "未經設立登記擅自營業的罰鍰？",
+    "back": "新臺幣一萬元以上五萬元以下，並得按次處罰（第31條）。",
+    "material_ref": "law-08-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-08-04-04",
+    "subject": "bookkeeping-law",
+    "front": "申請登記事項虛偽的罰鍰？",
+    "back": "新臺幣六千元以上三萬元以下（第30條）。",
+    "material_ref": "law-08-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-08-04-05",
+    "subject": "bookkeeping-law",
+    "front": "逾期申請登記的罰鍰？",
+    "back": "新臺幣一千元以上五千元以下（第33條），是本節最輕的罰則。",
+    "material_ref": "law-08-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-08-04-06",
+    "subject": "bookkeeping-law",
+    "front": "商業在同一直轄市縣市可以用相同名稱嗎？",
+    "back": "原則上不可以，但行政區域調整或增設分支機構附記明確字樣者例外（第28條）。",
+    "material_ref": "law-08-04",
+    "verified_at": "2026-07-05"
+  }
+]

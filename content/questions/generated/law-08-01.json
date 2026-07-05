@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-law-08-01-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依公司法第1條，公司的定義為何？",
+    "options": ["以營利為目的，依照本法組織、登記、成立之社團法人", "任何以獲利為目標的組織", "只限於股份有限公司", "不需要登記即可成立的營利組織"],
+    "answer": [0],
+    "explanation": "公司法第1條規定，本法所稱公司，謂以營利為目的，依照本法組織、登記、成立之社團法人。",
+    "material_ref": "law-08-01",
+    "tags": ["公司定義", "公司法"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moea.gov.tw/LawContent.aspx?id=FL011292"]
+  },
+  {
+    "id": "gen-law-08-01-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依公司法第2條，下列何種公司股東對公司債務負連帶無限清償責任？",
+    "options": ["有限公司", "股份有限公司", "無限公司", "以上皆非"],
+    "answer": [2],
+    "explanation": "公司法第2條規定，無限公司指二人以上股東所組織，對公司債務負連帶無限清償責任之公司。",
+    "material_ref": "law-08-01",
+    "tags": ["公司種類"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-08-01-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "兩合公司的股東結構為何？",
+    "options": ["全部股東皆負無限責任", "全部股東皆負有限責任", "一人以上無限責任股東與一人以上有限責任股東所組織", "只能由一人組成"],
+    "answer": [2],
+    "explanation": "公司法第2條規定，兩合公司指一人以上無限責任股東與一人以上有限責任股東所組織，無限責任股東負連帶無限清償責任，有限責任股東就出資額為限負責。",
+    "material_ref": "law-08-01",
+    "tags": ["公司種類"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-08-01-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依公司法第8條，有限公司、股份有限公司的公司負責人為何？",
+    "options": ["執行業務或代表公司之股東", "董事", "所有股東", "只有總經理"],
+    "answer": [1],
+    "explanation": "公司法第8條規定，公司負責人在有限公司、股份有限公司為董事；在無限公司、兩合公司則為執行業務或代表公司之股東。",
+    "material_ref": "law-08-01",
+    "tags": ["公司負責人"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-08-01-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依公司法第8條第3項，非董事而實質控制公司人事、財務或業務經營並實質指揮董事執行業務者，其法律責任為何？",
+    "options": ["完全不負任何責任，因為不是登記的董事", "與本法董事同負民事、刑事及行政罰之責任", "只負民事責任，不負刑事責任", "只有經股東會決議才負責任"],
+    "answer": [1],
+    "explanation": "公司法第8條第3項規定，實質董事與本法董事同負民事、刑事及行政罰之責任，但政府指派董事因發展經濟等公益目的之指揮不適用。",
+    "material_ref": "law-08-01",
+    "tags": ["實質董事"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-08-01-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "股份有限公司股東的責任範圍為何？",
+    "options": ["對公司債務負連帶無限清償責任", "就其所認股份，對公司負其責任", "不需要負任何責任", "須以個人全部財產對公司債務負責"],
+    "answer": [1],
+    "explanation": "公司法第2條規定，股份有限公司股東就其所認股份，對公司負其責任，屬於有限責任。",
+    "material_ref": "law-08-01",
+    "tags": ["公司種類"],
+    "verified_at": "2026-07-05"
+  }
+]

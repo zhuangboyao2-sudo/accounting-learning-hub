@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-law-08-03-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依商業登記法第3條，本法所稱商業指下列何者？",
+    "options": ["以營利為目的，以獨資或合夥方式經營之事業", "所有以營利為目的的組織，包括公司", "只限於股份有限公司", "只限於個人工作室"],
+    "answer": [0],
+    "explanation": "商業登記法第3條規定，本法所稱商業，指以營利為目的，以獨資或合夥方式經營之事業。",
+    "material_ref": "law-08-03",
+    "tags": ["商業登記法"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moea.gov.tw/LawContent.aspx?id=FL011295"]
+  },
+  {
+    "id": "gen-law-08-03-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第5條規定，下列何者得免依商業登記法申請登記？",
+    "options": ["大型連鎖零售商", "攤販", "股份有限公司", "上市公司"],
+    "answer": [1],
+    "explanation": "商業登記法第5條規定，攤販、家庭農林漁牧業者、家庭手工業者、民宿經營者、每月銷售額未達營業稅起徵點者等小規模商業，得免依本法申請登記。",
+    "material_ref": "law-08-03",
+    "tags": ["免登記商業"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-08-03-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第9條規定，商業開業前應申請登記的事項不包括下列何者？",
+    "options": ["名稱、組織、所營業務", "資本額、所在地", "負責人之姓名住居所身分證明文件字號", "員工的個人所得稅申報紀錄"],
+    "answer": [3],
+    "explanation": "商業登記法第9條列舉開業前應登記事項包括名稱、組織、所營業務、資本額、所在地、負責人資料等，不包括員工個人所得稅申報紀錄。",
+    "material_ref": "law-08-03",
+    "tags": ["商業登記事項"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-08-03-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第10條規定，獨資組織的商業負責人為何？",
+    "options": ["出資人或其法定代理人", "執行業務之合夥人", "公司董事", "股東會"],
+    "answer": [0],
+    "explanation": "商業登記法第10條規定，本法所稱商業負責人，在獨資組織，為出資人或其法定代理人；在合夥組織者，為執行業務之合夥人。",
+    "material_ref": "law-08-03",
+    "tags": ["商業負責人"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-08-03-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第13條規定，經理人之任免或調動應於多久內申請登記？",
+    "options": ["十日內", "十五日內", "三十日內", "六十日內"],
+    "answer": [1],
+    "explanation": "商業登記法第13條規定，經理人之任免或調動，應自事實發生之日起十五日內申請登記。",
+    "material_ref": "law-08-03",
+    "tags": ["登記期限"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-08-03-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "商業登記法與公司法的主要適用區別為何？",
+    "options": ["兩者適用對象完全相同", "商業登記法適用獨資、合夥；公司法適用四種公司類型", "商業登記法只適用於大企業", "公司法只適用於獨資商業"],
+    "answer": [1],
+    "explanation": "商業登記法規範以獨資或合夥方式經營之事業；公司法規範無限、有限、兩合、股份有限公司四種公司類型，兩者適用對象不同。",
+    "material_ref": "law-08-03",
+    "tags": ["商業登記法與公司法比較"],
+    "verified_at": "2026-07-05"
+  }
+]
