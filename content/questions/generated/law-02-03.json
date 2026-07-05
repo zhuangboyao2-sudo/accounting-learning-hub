@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-law-02-03-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第17條規定，下列何者屬於記帳士不得為的行為？",
+    "options": ["依法拒絕不合理的委任要求", "將執業證書出租或出借", "婉拒接受新委任案件", "按照約定收取合理酬金"],
+    "answer": [1],
+    "explanation": "記帳士法第17條第4款明定，記帳士不得將執業證書出租或出借。",
+    "material_ref": "law-02-03",
+    "tags": ["記帳士禁止行為"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law-out.mof.gov.tw/LawContent.aspx?id=FL030279"]
+  },
+  {
+    "id": "gen-law-02-03-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "記帳士因懈怠或疏忽，致委任人受有損害時，應負何種責任？",
+    "options": ["不需負任何責任，除非是故意行為", "應負賠償責任，屬於過失責任，不以故意為要件", "只有造成重大損害才需負責", "只有經法院判決確定犯罪才需負責"],
+    "answer": [1],
+    "explanation": "記帳士法第18條規定，記帳士因懈怠或疏忽（過失）致委任人或其利害關係人受有損害時，應負賠償責任，不以故意為要件。",
+    "material_ref": "law-02-03",
+    "tags": ["賠償責任"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-02-03-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "下列何者也屬於第17條規定記帳士不得為之行為？",
+    "options": ["未經委任人許可洩漏業務上之秘密", "積極協助委任人合法節稅", "依法定程序申請延長申報期限", "拒絕不合理的服務要求"],
+    "answer": [0],
+    "explanation": "記帳士法第17條第1款規定，未經委任人之許可，洩漏業務上之秘密，屬於禁止行為。",
+    "material_ref": "law-02-03",
+    "tags": ["記帳士禁止行為"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-02-03-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "記帳士對於業務事件主管機關通知提示有關文件，無正當理由予以拒絕或遲延，屬於下列何種情形？",
+    "options": ["合法行使拒絕權", "第17條明文禁止的行為", "與記帳士法無關的私人事務", "只是行政效率問題，不涉及違法"],
+    "answer": [1],
+    "explanation": "記帳士法第17條第2款明定，無正當理由拒絕或遲延回應業務事件主管機關的通知或查詢，屬於記帳士不得為之行為。",
+    "material_ref": "law-02-03",
+    "tags": ["記帳士禁止行為"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-02-03-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "幫助或教唆他人逃漏稅捐，依記帳士法屬於什麼性質的行為？",
+    "options": ["合法的稅務規劃建議", "第17條明文禁止的行為，也是懲戒事由", "只要客戶要求就必須配合的服務", "與記帳士業務無關的事項"],
+    "answer": [1],
+    "explanation": "記帳士法第17條第5款明定不得幫助或教唆他人逃漏稅捐，此行為同時也是第26條懲戒事由之一。",
+    "material_ref": "law-02-03",
+    "tags": ["記帳士禁止行為"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-02-03-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "第18條規定的賠償責任性質為何？",
+    "options": ["嚴格責任，不論有無過失皆須負責", "過失責任，因懈怠或疏忽致生損害即須負責", "僅限於故意行為才須負責", "只有經懲戒後才須負賠償責任"],
+    "answer": [1],
+    "explanation": "第18條規定的是過失責任，記帳士因懈怠或疏忽（即過失）致委任人或利害關係人受損害時即須負賠償責任。",
+    "material_ref": "law-02-03",
+    "tags": ["賠償責任"],
+    "verified_at": "2026-07-05"
+  }
+]

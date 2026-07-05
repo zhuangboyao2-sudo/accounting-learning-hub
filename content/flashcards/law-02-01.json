@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-law-02-01-01",
+    "subject": "bookkeeping-law",
+    "front": "第13條記帳士的五款業務範圍？",
+    "back": "營業登記事項、稅捐申報申請、稅務諮詢、商業會計事務、其他經主管機關核可事項。",
+    "material_ref": "law-02-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-02-01-02",
+    "subject": "bookkeeping-law",
+    "front": "記帳士業務範圍不包括什麼？",
+    "back": "各項稅捐之查核簽證申報及訴願、行政訴訟事項（屬於會計師與律師的業務）。",
+    "material_ref": "law-02-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-02-01-03",
+    "subject": "bookkeeping-law",
+    "front": "接受委任代理業務應訂立什麼文件？",
+    "back": "委任書，並隨同代理案件附送受理機關。",
+    "material_ref": "law-02-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-02-01-04",
+    "subject": "bookkeeping-law",
+    "front": "委任書應載明哪三大項？",
+    "back": "1.委任雙方姓名地址及受委任人證書字號 2.委任案件內容及權限 3.委任日期。",
+    "material_ref": "law-02-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-02-01-05",
+    "subject": "bookkeeping-law",
+    "front": "稅捐查核簽證申報屬於誰的業務範圍？",
+    "back": "會計師，不屬於記帳士業務範圍。",
+    "material_ref": "law-02-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-02-01-06",
+    "subject": "bookkeeping-law",
+    "front": "委任書須送交哪裡？",
+    "back": "隨同代理案件附送受理機關，不能只是記帳士自行留存。",
+    "material_ref": "law-02-01",
+    "verified_at": "2026-07-05"
+  }
+]

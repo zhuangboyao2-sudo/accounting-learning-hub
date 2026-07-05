@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-law-02-03-01",
+    "subject": "bookkeeping-law",
+    "front": "第17條記帳士不得為的六款行為？",
+    "back": "洩漏業務秘密、無正當理由拒絕答覆主管機關查詢、不正當招攬業務、出租出借執業證書、幫助教唆逃漏稅捐、其他不正當行為或廢弛業務義務。",
+    "material_ref": "law-02-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-02-03-02",
+    "subject": "bookkeeping-law",
+    "front": "記帳士因懈怠或疏忽致委任人受損害，責任性質為何？",
+    "back": "過失責任，不以故意為要件，應負賠償責任（第18條）。",
+    "material_ref": "law-02-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-02-03-03",
+    "subject": "bookkeeping-law",
+    "front": "執業證書可以出租或出借嗎？",
+    "back": "不可以，第17條第4款明文禁止。",
+    "material_ref": "law-02-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-02-03-04",
+    "subject": "bookkeeping-law",
+    "front": "幫助或教唆他人逃漏稅捐的法律效果？",
+    "back": "違反第17條禁止行為，同時也是第26條懲戒事由之一。",
+    "material_ref": "law-02-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-02-03-05",
+    "subject": "bookkeeping-law",
+    "front": "洩漏業務秘密在什麼情況下不算違反第17條？",
+    "back": "經委任人許可的情況下。",
+    "material_ref": "law-02-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-02-03-06",
+    "subject": "bookkeeping-law",
+    "front": "第17條的六款禁止行為跟第26條懲戒事由有什麼關係？",
+    "back": "違反第17條的行為，同時也是構成第26條懲戒事由的重要依據。",
+    "material_ref": "law-02-03",
+    "verified_at": "2026-07-05"
+  }
+]

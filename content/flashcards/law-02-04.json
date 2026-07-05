@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-law-02-04-01",
+    "subject": "bookkeeping-law",
+    "front": "記帳士登錄後可以不加入公會執業嗎？",
+    "back": "不可以，非加入記帳士公會，不得執行業務（第19條）。",
+    "material_ref": "law-02-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-02-04-02",
+    "subject": "bookkeeping-law",
+    "front": "直轄市及縣市記帳士公會發起組織的最低人數？",
+    "back": "開業記帳士三十人以上（第21條）。",
+    "material_ref": "law-02-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-02-04-03",
+    "subject": "bookkeeping-law",
+    "front": "各級記帳士公會理監事任期？",
+    "back": "四年，連選連任不得超過二分之一（第23條）。",
+    "material_ref": "law-02-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-02-04-04",
+    "subject": "bookkeeping-law",
+    "front": "記帳士公會理事長連任限制？",
+    "back": "以一次為限（第23條）。",
+    "material_ref": "law-02-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-02-04-05",
+    "subject": "bookkeeping-law",
+    "front": "同一區域內同級記帳士公會可以有幾個？",
+    "back": "以一個為限（第20條）。",
+    "material_ref": "law-02-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-02-04-06",
+    "subject": "bookkeeping-law",
+    "front": "記帳士公會章程須載明記帳士紀律委員會的什麼事項？",
+    "back": "組織及風紀維持方法（第24條第8款）。",
+    "material_ref": "law-02-04",
+    "verified_at": "2026-07-05"
+  }
+]

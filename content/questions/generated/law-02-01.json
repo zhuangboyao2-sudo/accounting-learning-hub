@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-law-02-01-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第13條規定，記帳士業務範圍不包括下列何者？",
+    "options": ["受委任辦理商業會計事務", "受理稅務諮詢事項", "各項稅捐之查核簽證申報及訴願、行政訴訟事項", "受委任辦理營業登記事項"],
+    "answer": [2],
+    "explanation": "記帳士法第13條第2項明定，各項稅捐之查核簽證申報及訴願、行政訴訟事項不包括在記帳士業務範圍內，屬於會計師與律師的業務。",
+    "material_ref": "law-02-01",
+    "tags": ["記帳士業務範圍"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law-out.mof.gov.tw/LawContent.aspx?id=FL030279"]
+  },
+  {
+    "id": "gen-law-02-01-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "記帳士接受委任代理業務時，應與委任人訂立什麼文件？",
+    "options": ["保密協議", "委任書", "股東協議書", "勞動契約"],
+    "answer": [1],
+    "explanation": "記帳士法第14條規定，記帳士接受委任代理業務，應與委任人訂立委任書，並隨同代理案件附送受理機關。",
+    "material_ref": "law-02-01",
+    "tags": ["委任書"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-02-01-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "委任書應載明下列哪些事項？",
+    "options": ["只需載明委任日期", "委任人與受委任人姓名或名稱、地址及受委任人證書字號、委任案件內容及權限、委任日期", "只需載明受委任人姓名", "只需載明酬金金額"],
+    "answer": [1],
+    "explanation": "記帳士法第14條規定，委任書應載明委任雙方姓名地址及受委任人證書字號、委任案件內容及委任權限、委任日期三大項。",
+    "material_ref": "law-02-01",
+    "tags": ["委任書"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-02-01-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "委任書應如何處理？",
+    "options": ["由記帳士自行留存即可，不需對外提供", "應隨同代理案件附送受理機關", "只需交給委任人保管", "無需書面，口頭約定即可"],
+    "answer": [1],
+    "explanation": "記帳士法第14條規定，記帳士應將委任書隨同代理案件附送受理機關。",
+    "material_ref": "law-02-01",
+    "tags": ["委任書"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-02-01-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "稅捐查核簽證申報業務主要屬於下列何種專業人員的業務範圍？",
+    "options": ["記帳士", "會計師", "律師（僅限行政訴訟）", "記帳士與會計師皆可辦理"],
+    "answer": [1],
+    "explanation": "稅捐之查核簽證申報屬於會計師的專屬業務，記帳士法第13條第2項已明文排除記帳士辦理此類業務。",
+    "material_ref": "law-02-01",
+    "tags": ["業務範圍區分"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-02-01-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "記帳士在登錄區域內可以受委任辦理下列何者？",
+    "options": ["公司併購案的法律訴訟", "營業登記之變更、註銷、停業、復業等登記事項", "稅捐訴願程序", "行政訴訟程序"],
+    "answer": [1],
+    "explanation": "記帳士法第13條第1項第1款規定，記帳士得受委任辦理營業、變更、註銷、停業、復業及其他登記事項。",
+    "material_ref": "law-02-01",
+    "tags": ["記帳士業務範圍"],
+    "verified_at": "2026-07-05"
+  }
+]

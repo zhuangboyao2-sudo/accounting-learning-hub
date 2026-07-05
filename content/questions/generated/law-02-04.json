@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-law-02-04-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "記帳士登錄後，是否可以不加入記帳士公會就執行業務？",
+    "options": ["可以，加入公會是自由選擇", "不可以，非加入記帳士公會，不得執行業務", "只有大型事務所才需要加入公會", "只有想擔任理監事的人才需要加入公會"],
+    "answer": [1],
+    "explanation": "記帳士法第19條規定，記帳士登錄後，非加入記帳士公會，不得執行業務；公會也不得拒絕具有會員資格者加入。",
+    "material_ref": "law-02-04",
+    "tags": ["公會"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law-out.mof.gov.tw/LawContent.aspx?id=FL030279"]
+  },
+  {
+    "id": "gen-law-02-04-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "直轄市及縣市記帳士公會，應由該行政區域內開業記帳士滿多少人以上發起組織？",
+    "options": ["十人以上", "二十人以上", "三十人以上", "五十人以上"],
+    "answer": [2],
+    "explanation": "記帳士法第21條規定，直轄市及縣市記帳士公會，應由該行政區域內開業記帳士三十人以上發起組織之。",
+    "material_ref": "law-02-04",
+    "tags": ["公會組織"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-02-04-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "各級記帳士公會理事、監事任期為幾年？",
+    "options": ["二年", "三年", "四年", "六年"],
+    "answer": [2],
+    "explanation": "記帳士法第23條規定，各級記帳士公會理事、監事任期均為四年。",
+    "material_ref": "law-02-04",
+    "tags": ["公會理監事"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-02-04-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "記帳士公會理事長的連任次數限制為何？",
+    "options": ["不限次數，可無限期連任", "以一次為限", "以二次為限", "理事長不得連任"],
+    "answer": [1],
+    "explanation": "記帳士法第23條規定，理事長之連任，以一次為限。",
+    "material_ref": "law-02-04",
+    "tags": ["公會理監事"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-02-04-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "在同一區域內，同級之記帳士公會依規定最多可以有幾個？",
+    "options": ["可以有多個，方便會員選擇", "以一個為限", "沒有限制", "須經財政部個別核准才能有多個"],
+    "answer": [1],
+    "explanation": "記帳士法第20條規定，在同一區域內，同級之記帳士公會以一個為限。",
+    "material_ref": "law-02-04",
+    "tags": ["公會組織"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-02-04-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第24條規定，各級記帳士公會章程應載明下列何項？",
+    "options": ["只需載明名稱與會址", "記帳士紀律委員會之組織及風紀維持方法等十項事項", "只需載明理監事人數", "章程內容由主管機關全權訂定，公會無須另訂"],
+    "answer": [1],
+    "explanation": "記帳士法第24條列舉章程應載明的十項事項，包括名稱區域會址、宗旨組織任務、理監事事項、記帳士紀律委員會之組織及風紀維持方法等。",
+    "material_ref": "law-02-04",
+    "tags": ["公會章程"],
+    "verified_at": "2026-07-05"
+  }
+]

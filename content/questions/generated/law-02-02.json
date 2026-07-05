@@ -1,0 +1,80 @@
+[
+  {
+    "id": "gen-law-02-02-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "記帳士受委任後，非有正當事由，得否任意終止契約？",
+    "options": ["可以隨時終止，不需任何理由", "不得任意終止，如須終止契約應於十五日前通知委任人", "只要委任人同意即可終止，不需事先通知", "終止契約需經法院裁准"],
+    "answer": [1],
+    "explanation": "記帳士法第15條規定，記帳士受委任後，非有正當事由，不得終止其契約；如須終止契約，應於十五日前通知委任人。",
+    "material_ref": "law-02-02",
+    "tags": ["契約終止"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-02-02-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "記帳士業務簿冊應載明下列哪些事項？",
+    "options": ["只需載明委任人姓名", "委任案件之類別及內容、委任人姓名或名稱及地址、酬金數額、委任日期", "只需載明酬金數額", "只需載明委任日期"],
+    "answer": [1],
+    "explanation": "記帳士法第16條規定業務簿冊應載明委任案件類別內容、委任人資料、酬金數額、委任日期四項。",
+    "material_ref": "law-02-02",
+    "tags": ["業務簿冊"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-02-02-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "記帳士業務簿冊應保存多久？",
+    "options": ["一年", "三年", "五年", "十年"],
+    "answer": [2],
+    "explanation": "記帳士法第16條第2項規定，設置之簿冊應保存五年。",
+    "material_ref": "law-02-02",
+    "tags": ["業務簿冊"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-02-02-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "為什麼記帳士終止契約須提前十五日通知委任人？",
+    "options": ["純粹是行政程序上的形式要求，沒有實質意義", "為了保護委任人的權益，避免記帳士任意中斷服務導致委任人措手不及", "是為了讓記帳士有更多時間收取尾款", "是為了配合記帳士公會的內部管理"],
+    "answer": [1],
+    "explanation": "此規定是為了保護委任人的權益，避免記帳士任意中斷服務，導致委任人的申報或登記事項措手不及。",
+    "material_ref": "law-02-02",
+    "tags": ["契約終止"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-02-02-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "「非有正當事由，不得終止其契約」中的「正當事由」，其舉證責任較合理應由何方承擔？",
+    "options": ["委任人", "記帳士本人須能說明有正當事由", "主管機關無條件推定為正當", "記帳士公會全國聯合會"],
+    "answer": [1],
+    "explanation": "記帳士若欲終止契約，須有正當事由，實務上應由記帳士本人說明終止契約的正當理由。",
+    "material_ref": "law-02-02",
+    "tags": ["契約終止"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-02-02-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "業務簿冊的保存期限與商業會計法規定的傳票、帳簿保存年限，兩者是否相同？",
+    "options": ["完全相同，都是五年", "記帳士業務簿冊為五年，商業會計法對傳票、帳簿另有其保存年限規定，兩者是不同的規範", "記帳士業務簿冊沒有保存期限規定", "兩者規範內容完全一致，沒有區別必要"],
+    "answer": [1],
+    "explanation": "記帳士業務簿冊依記帳士法規定保存五年，商業會計法對傳票、帳簿另有其保存年限規定，屬於不同法規的不同規範對象，容易混淆但應分別記憶。",
+    "material_ref": "law-02-02",
+    "tags": ["業務簿冊"],
+    "verified_at": "2026-07-05"
+  }
+]

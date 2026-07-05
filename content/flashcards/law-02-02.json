@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-law-02-02-01",
+    "subject": "bookkeeping-law",
+    "front": "記帳士終止契約的限制？",
+    "back": "非有正當事由不得終止；須終止時應於十五日前通知委任人。",
+    "material_ref": "law-02-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-02-02-02",
+    "subject": "bookkeeping-law",
+    "front": "業務簿冊應載明哪四項？",
+    "back": "委任案件類別內容、委任人姓名或名稱及地址、酬金數額、委任日期。",
+    "material_ref": "law-02-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-02-02-03",
+    "subject": "bookkeeping-law",
+    "front": "業務簿冊應保存幾年？",
+    "back": "五年。",
+    "material_ref": "law-02-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-02-02-04",
+    "subject": "bookkeeping-law",
+    "front": "為什麼終止契約要提前十五日通知？",
+    "back": "保護委任人權益，避免服務任意中斷導致委任人措手不及。",
+    "material_ref": "law-02-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-02-02-05",
+    "subject": "bookkeeping-law",
+    "front": "記帳士業務簿冊保存年限與商業會計法帳簿保存年限是同一件事嗎？",
+    "back": "不是，兩者是不同法規的不同規範對象，記帳士業務簿冊依記帳士法保存五年。",
+    "material_ref": "law-02-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-02-02-06",
+    "subject": "bookkeeping-law",
+    "front": "記帳士可以隨意終止契約嗎？",
+    "back": "不可以，須有正當事由，且應提前十五日通知委任人。",
+    "material_ref": "law-02-02",
+    "verified_at": "2026-07-05"
+  }
+]
