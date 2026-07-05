@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-law-03-04-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "未依法取得記帳士資格，擅自執行第13條第1項第1款至第3款及第5款業務者，處以何種處罰？",
+    "options": ["新臺幣一萬元以上五萬元以下罰鍰", "新臺幣三萬元以上十五萬元以下罰鍰", "一年以下有期徒刑（第一次即處刑事罰）", "沒有任何處罰，僅口頭警告"],
+    "answer": [1],
+    "explanation": "記帳士法第34條規定，未依法取得記帳士資格擅自執行相關業務者，由主管機關處新臺幣三萬元以上十五萬元以下罰鍰。",
+    "material_ref": "law-03-04",
+    "tags": ["無照執業罰則"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law-out.mof.gov.tw/LawContent.aspx?id=FL030279"]
+  },
+  {
+    "id": "gen-law-03-04-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "受罰鍰處分幾次以上，仍繼續從事記帳士業務者，處一年以下有期徒刑、拘役或科或併科新臺幣十五萬元以下罰金？",
+    "options": ["一次以上", "二次以上", "三次以上", "五次以上"],
+    "answer": [2],
+    "explanation": "記帳士法第34條第3項規定，受第一項處分三次以上，仍繼續從事記帳士業務者，處一年以下有期徒刑、拘役或科或併科新臺幣十五萬元以下罰金。",
+    "material_ref": "law-03-04",
+    "tags": ["無照執業罰則"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-03-04-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "未取得記帳士資格而辦理商業會計事務（第13條第1項第4款），依第34條規定會受罰嗎？",
+    "options": ["會，與其他款業務一樣受罰", "不會，第34條的處罰對象排除了第4款商業會計事務", "只有金額超過100萬元的案件才受罰", "須視委任人是否同意而定"],
+    "answer": [1],
+    "explanation": "記帳士法第34條的處罰對象是第13條第1項第1款至第3款及第5款業務，並不包括第4款商業會計事務，因為這項業務原本就不限記帳士才能辦理。",
+    "material_ref": "law-03-04",
+    "tags": ["無照執業罰則"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-03-04-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "第34條所定罰鍰，經限期繳納屆期仍不繳納者，應如何處理？",
+    "options": ["自動免除罰鍰", "依法移送強制執行", "改處以拘役", "轉為記帳士懲戒案件處理"],
+    "answer": [1],
+    "explanation": "記帳士法第34條第2項規定，罰鍰經限期繳納，屆期仍不繳納者，依法移送強制執行。",
+    "material_ref": "law-03-04",
+    "tags": ["無照執業罰則"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-03-04-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "第34條罰則設計的用意為何？",
+    "options": ["純粹增加財政部收入", "嚇阻無照執業，並對屢罰屢犯者升級為刑事處罰", "限制記帳士人數成長", "沒有特別用意，只是形式規定"],
+    "answer": [1],
+    "explanation": "第34條的罰則設計從行政罰鍰開始，對於屢罰屢犯者升級為刑事處罰，用意在嚇阻無照執業行為。",
+    "material_ref": "law-03-04",
+    "tags": ["無照執業罰則"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-03-04-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "第34條規定的除外情形，除商業會計事務外，還包括依第35條或其他法令規定得執行報稅業務者，這是指什麼樣的人？",
+    "options": ["完全沒有任何資格的一般民眾", "本法施行前已從事記帳及報稅代理業務滿三年、依第35條登錄繼續執業者", "只要是會計相關科系畢業生", "只要年滿二十歲的成年人"],
+    "answer": [1],
+    "explanation": "第35條規定本法施行前已從事記帳及報稅代理業務滿三年、且均有報繳執行業務所得者，得登錄繼續執業，屬於第34條的除外對象。",
+    "material_ref": "law-03-04",
+    "tags": ["無照執業罰則"],
+    "verified_at": "2026-07-05"
+  }
+]

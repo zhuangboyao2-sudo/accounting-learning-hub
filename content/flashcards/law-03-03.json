@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-law-03-03-01",
+    "subject": "bookkeeping-law",
+    "front": "記帳士懲戒案件由誰處理？",
+    "back": "記帳士懲戒委員會（第29條）。",
+    "material_ref": "law-03-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-03-03-02",
+    "subject": "bookkeeping-law",
+    "front": "被付懲戒人答辯期限？",
+    "back": "通知送達之翌日起二十日內提出答辯或到會陳述。",
+    "material_ref": "law-03-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-03-03-03",
+    "subject": "bookkeeping-law",
+    "front": "懲戒委員會發現有犯罪嫌疑時應如何處理？",
+    "back": "應即移送司法機關偵辦（第30條），不能自行認定有罪。",
+    "material_ref": "law-03-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-03-03-04",
+    "subject": "bookkeeping-law",
+    "front": "不服懲戒決議可以怎麼救濟？",
+    "back": "於決議書送達之翌日起二十日內，向記帳士懲戒覆審委員會請求覆審（第31條）。",
+    "material_ref": "law-03-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-03-03-05",
+    "subject": "bookkeeping-law",
+    "front": "未依限提出答辯的後果？",
+    "back": "懲戒委員會得逕行決議。",
+    "material_ref": "law-03-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-03-03-06",
+    "subject": "bookkeeping-law",
+    "front": "懲戒程序與刑事程序的關係？",
+    "back": "兩者分開進行，懲戒委員會不能自行認定犯罪，須移送司法機關偵辦。",
+    "material_ref": "law-03-03",
+    "verified_at": "2026-07-05"
+  }
+]

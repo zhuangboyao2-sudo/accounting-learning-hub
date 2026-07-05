@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-law-03-01-01",
+    "subject": "bookkeeping-law",
+    "front": "第26條記帳士應付懲戒的六款事由？",
+    "back": "業務犯罪判刑確定、逃漏稅捐經處分有案、幫助教唆他人逃漏稅捐、違反法令受行政處分情節重大、違反公會章程情節重大、其他違反本法規定。",
+    "material_ref": "law-03-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-03-01-02",
+    "subject": "bookkeeping-law",
+    "front": "第26條第2款與第3款的差異？",
+    "back": "第2款：記帳士自己逃漏稅捐經處分有案。第3款：幫助或教唆他人（客戶）逃漏稅捐且經移送法辦。",
+    "material_ref": "law-03-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-03-01-03",
+    "subject": "bookkeeping-law",
+    "front": "誰可以提出懲戒申請？",
+    "back": "利害關係人、業務事件主管機關或記帳士公會（第28條）。",
+    "material_ref": "law-03-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-03-01-04",
+    "subject": "bookkeeping-law",
+    "front": "第26條第6款的性質？",
+    "back": "概括條款，涵蓋前五款未列舉的其他違反本法規定情形。",
+    "material_ref": "law-03-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-03-01-05",
+    "subject": "bookkeeping-law",
+    "front": "違反其他法令受行政處分要達到什麼程度才構成懲戒事由？",
+    "back": "情節重大，足以影響記帳士信譽者。",
+    "material_ref": "law-03-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-03-01-06",
+    "subject": "bookkeeping-law",
+    "front": "違反公會章程要達到什麼程度才構成懲戒事由？",
+    "back": "情節重大者。",
+    "material_ref": "law-03-01",
+    "verified_at": "2026-07-05"
+  }
+]

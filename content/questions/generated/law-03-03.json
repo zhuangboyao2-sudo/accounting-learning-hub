@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-law-03-03-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "記帳士應付懲戒者，由何機構處理？",
+    "options": ["記帳士公會全國聯合會", "記帳士懲戒委員會", "財政部部長", "地方法院"],
+    "answer": [1],
+    "explanation": "記帳士法第29條規定，記帳士應付懲戒者，由記帳士懲戒委員會處理之。",
+    "material_ref": "law-03-03",
+    "tags": ["懲戒程序"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law-out.mof.gov.tw/LawContent.aspx?id=FL030279"]
+  },
+  {
+    "id": "gen-law-03-03-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "被付懲戒人應於通知送達之翌日起幾日內提出答辯或到會陳述？",
+    "options": ["十日內", "十五日內", "二十日內", "三十日內"],
+    "answer": [2],
+    "explanation": "記帳士法第29條規定，應命被付懲戒人於通知送達之翌日起二十日內提出答辯或到會陳述。",
+    "material_ref": "law-03-03",
+    "tags": ["懲戒程序"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-03-03-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "懲戒委員會處理懲戒事件，認為有犯罪嫌疑者，應如何處理？",
+    "options": ["直接認定有罪並予以除名", "應即移送司法機關偵辦", "不予理會，繼續進行懲戒程序即可", "通知記帳士公會自行調查"],
+    "answer": [1],
+    "explanation": "記帳士法第30條規定，懲戒委員會處理懲戒事件，認為有犯罪嫌疑者，應即移送司法機關偵辦。",
+    "material_ref": "law-03-03",
+    "tags": ["懲戒程序"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-03-03-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "被懲戒人對懲戒委員會的決議不服，可以向何機構請求覆審？",
+    "options": ["記帳士懲戒覆審委員會", "地方法院", "財政部部長", "記帳士公會理事長"],
+    "answer": [0],
+    "explanation": "記帳士法第31條規定，被懲戒人對決議不服者，得於決議書送達之翌日起二十日內，向記帳士懲戒覆審委員會請求覆審。",
+    "material_ref": "law-03-03",
+    "tags": ["懲戒覆審"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-03-03-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "請求懲戒覆審的期限為何？",
+    "options": ["決議書送達之翌日起十日內", "決議書送達之翌日起二十日內", "決議書送達之翌日起三十日內", "決議書送達之翌日起六十日內"],
+    "answer": [1],
+    "explanation": "記帳士法第31條規定，應於決議書送達之翌日起二十日內向記帳士懲戒覆審委員會請求覆審。",
+    "material_ref": "law-03-03",
+    "tags": ["懲戒覆審"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-03-03-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "被付懲戒人未依限提出答辯或到會陳述時，懲戒委員會可以如何處理？",
+    "options": ["自動撤銷懲戒案件", "得逕行決議", "必須無限期等待答辯", "移送法院強制傳喚"],
+    "answer": [1],
+    "explanation": "記帳士法第29條規定，未依限提出答辯或到會陳述時，懲戒委員會得逕行決議。",
+    "material_ref": "law-03-03",
+    "tags": ["懲戒程序"],
+    "verified_at": "2026-07-05"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-law-03-04-01",
+    "subject": "bookkeeping-law",
+    "front": "未依法取得資格擅自執業的罰鍰金額？",
+    "back": "新臺幣三萬元以上十五萬元以下（第34條）。",
+    "material_ref": "law-03-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-03-04-02",
+    "subject": "bookkeeping-law",
+    "front": "受罰鍰處分幾次以上仍繼續執業會升級為刑事處罰？",
+    "back": "三次以上，處一年以下有期徒刑、拘役或科或併科新臺幣十五萬元以下罰金。",
+    "material_ref": "law-03-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-03-04-03",
+    "subject": "bookkeeping-law",
+    "front": "第34條的處罰對象排除哪一款業務？",
+    "back": "第13條第1項第4款商業會計事務，因為這項業務原本就不限記帳士才能辦理。",
+    "material_ref": "law-03-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-03-04-04",
+    "subject": "bookkeeping-law",
+    "front": "罰鍰逾期不繳納的後果？",
+    "back": "依法移送強制執行。",
+    "material_ref": "law-03-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-03-04-05",
+    "subject": "bookkeeping-law",
+    "front": "第34條罰則的設計邏輯？",
+    "back": "先行政罰鍰，屢罰屢犯（三次以上）才升級為刑事處罰，用意在嚇阻無照執業。",
+    "material_ref": "law-03-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-03-04-06",
+    "subject": "bookkeeping-law",
+    "front": "第35條登錄繼續執業者是指誰？",
+    "back": "本法施行前已從事記帳及報稅代理業務滿三年、且均有報繳執行業務所得者。",
+    "material_ref": "law-03-04",
+    "verified_at": "2026-07-05"
+  }
+]

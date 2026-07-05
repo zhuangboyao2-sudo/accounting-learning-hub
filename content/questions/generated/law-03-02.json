@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-law-03-02-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第27條規定，記帳士懲戒處分有哪四種？",
+    "options": ["警告、申誡、停止執行業務二月以上二年以下、除名", "罰鍰、警告、停職、除名", "申誡、罰金、拘役、除名", "警告、記過、停職、開除"],
+    "answer": [0],
+    "explanation": "記帳士法第27條規定懲戒處分依序為警告、申誡、停止執行業務二月以上二年以下、除名。",
+    "material_ref": "law-03-02",
+    "tags": ["懲戒處分"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law-out.mof.gov.tw/LawContent.aspx?id=FL030279"]
+  },
+  {
+    "id": "gen-law-03-02-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "記帳士受申誡處分達幾次以上，應另受停止執行業務之處分？",
+    "options": ["二次以上", "三次以上", "四次以上", "五次以上"],
+    "answer": [1],
+    "explanation": "記帳士法第27條第2項規定，記帳士受申誡處分三次以上者，應另受停止執行業務之處分。",
+    "material_ref": "law-03-02",
+    "tags": ["懲戒處分累計"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-03-02-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "記帳士受停止執行業務處分累計滿幾年，應予除名？",
+    "options": ["二年", "三年", "五年", "十年"],
+    "answer": [2],
+    "explanation": "記帳士法第27條第2項規定，受停止執行業務處分累計滿五年者，應予除名。",
+    "material_ref": "law-03-02",
+    "tags": ["懲戒處分累計"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-03-02-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "停止執行業務的處分期間範圍為何？",
+    "options": ["一月以上、一年以下", "二月以上、二年以下", "三月以上、三年以下", "六月以上、五年以下"],
+    "answer": [1],
+    "explanation": "記帳士法第27條規定，停止執行業務處分為二月以上、二年以下。",
+    "material_ref": "law-03-02",
+    "tags": ["懲戒處分"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-03-02-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "四種懲戒處分中，最嚴重的是哪一種？",
+    "options": ["警告", "申誡", "停止執行業務", "除名"],
+    "answer": [3],
+    "explanation": "除名是最嚴重的懲戒處分，等同於終身喪失記帳士執業資格。",
+    "material_ref": "law-03-02",
+    "tags": ["懲戒處分"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-03-02-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "累計效果的設計目的為何？",
+    "options": ["讓記帳士可以無限次犯輕微違規而不受更嚴重處分", "避免記帳士屢犯輕微違規卻始終只受最輕處分，讓多次違規累積後自動升級為更嚴重處分", "純粹增加行政作業程序，沒有實質嚇阻效果", "只適用於初犯記帳士，資深記帳士不適用"],
+    "answer": [1],
+    "explanation": "累計效果的設計是為了避免記帳士屢犯輕微違規卻始終只受最輕的警告或申誡，讓違規累積達到一定程度後自動升級為更嚴重的處分。",
+    "material_ref": "law-03-02",
+    "tags": ["懲戒處分累計"],
+    "verified_at": "2026-07-05"
+  }
+]

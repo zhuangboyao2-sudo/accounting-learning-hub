@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-law-03-01-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第26條規定，下列何者屬於記帳士應付懲戒的事由？",
+    "options": ["依法按時申報稅務案件", "逃漏稅捐，經稅捐稽徵機關處分有案者", "積極參與公會活動", "依法拒絕不合理的委任要求"],
+    "answer": [1],
+    "explanation": "記帳士法第26條第2款規定，逃漏稅捐，經稅捐稽徵機關處分有案者，應付懲戒。",
+    "material_ref": "law-03-01",
+    "tags": ["懲戒事由"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law-out.mof.gov.tw/LawContent.aspx?id=FL030279"]
+  },
+  {
+    "id": "gen-law-03-01-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "第26條第2款「逃漏稅捐」與第3款「幫助、教唆他人逃漏稅捐」的差異為何？",
+    "options": ["兩者完全相同，沒有差異", "第2款指記帳士自己逃漏稅捐；第3款指記帳士協助或教唆客戶逃漏稅捐", "第2款只適用於個人所得稅；第3款只適用於營業稅", "兩款規定的懲戒效果完全不同"],
+    "answer": [1],
+    "explanation": "第2款規範記帳士自己逃漏稅捐並經處分有案的情形；第3款規範記帳士幫助或教唆他人（如客戶）逃漏稅捐且經移送法辦的情形。",
+    "material_ref": "law-03-01",
+    "tags": ["懲戒事由"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-03-01-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "下列何人可以提出懲戒申請？",
+    "options": ["只有受害的委任人本人", "利害關係人、業務事件主管機關或記帳士公會", "只有記帳士公會全國聯合會", "只有法院"],
+    "answer": [1],
+    "explanation": "記帳士法第28條規定，利害關係人、業務事件主管機關或記帳士公會得列舉事實，提出證據，報請主管機關交付懲戒。",
+    "material_ref": "law-03-01",
+    "tags": ["懲戒申請"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-03-01-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "第26條第6款「其他違反本法規定者」的性質為何？",
+    "options": ["無實質意義的贅述條款", "概括條款，用來涵蓋前五款未列舉的其他違法情形", "只適用於第一次犯規的記帳士", "只適用於新進記帳士"],
+    "answer": [1],
+    "explanation": "第6款是概括條款，用來涵蓋前五款未特別列舉、但仍屬違反記帳士法規定的其他情形。",
+    "material_ref": "law-03-01",
+    "tags": ["懲戒事由"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-03-01-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "違反其他有關法令，受有行政處分，須達到何種程度才構成懲戒事由？",
+    "options": ["任何行政處分都構成懲戒事由，不論輕重", "情節重大，足以影響記帳士信譽者", "只有刑事處罰才構成懲戒事由", "只有稅捐機關的處分才構成懲戒事由"],
+    "answer": [1],
+    "explanation": "記帳士法第26條第4款規定，須違反其他有關法令受有行政處分，且情節重大、足以影響記帳士信譽者，才構成懲戒事由。",
+    "material_ref": "law-03-01",
+    "tags": ["懲戒事由"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-03-01-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "違反記帳士公會章程的規定，須達到何種程度才構成懲戒事由？",
+    "options": ["任何違反公會章程的行為都構成懲戒事由", "情節重大者", "只有違反入會規定才構成懲戒事由", "違反公會章程不構成懲戒事由，只是內部管理問題"],
+    "answer": [1],
+    "explanation": "記帳士法第26條第5款規定，違反記帳士公會章程之規定，情節重大者，才構成懲戒事由。",
+    "material_ref": "law-03-01",
+    "tags": ["懲戒事由"],
+    "verified_at": "2026-07-05"
+  }
+]

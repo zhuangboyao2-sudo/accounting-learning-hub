@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-law-03-02-01",
+    "subject": "bookkeeping-law",
+    "front": "第27條四種懲戒處分？",
+    "back": "警告、申誡、停止執行業務二月以上二年以下、除名（依嚴重程度遞增）。",
+    "material_ref": "law-03-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-03-02-02",
+    "subject": "bookkeeping-law",
+    "front": "受申誡處分幾次以上會加重為停止執行業務？",
+    "back": "三次以上。",
+    "material_ref": "law-03-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-03-02-03",
+    "subject": "bookkeeping-law",
+    "front": "停止執行業務累計滿幾年會除名？",
+    "back": "五年。",
+    "material_ref": "law-03-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-03-02-04",
+    "subject": "bookkeeping-law",
+    "front": "停止執行業務處分的期間範圍？",
+    "back": "二月以上、二年以下。",
+    "material_ref": "law-03-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-03-02-05",
+    "subject": "bookkeeping-law",
+    "front": "四種懲戒處分中最嚴重的是？",
+    "back": "除名，等同終身喪失執業資格。",
+    "material_ref": "law-03-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-03-02-06",
+    "subject": "bookkeeping-law",
+    "front": "累計效果設計的目的？",
+    "back": "避免記帳士屢犯輕微違規卻始終只受最輕處分，讓累積違規自動升級為更嚴重處分。",
+    "material_ref": "law-03-02",
+    "verified_at": "2026-07-05"
+  }
+]
