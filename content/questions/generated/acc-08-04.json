@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-acc-08-04-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依商業會計處理準則第26條，長期借款的定義為何？",
+    "options": ["到期日在一年以上之借款", "到期日在一年以內之借款", "沒有到期日的借款", "只限於向股東借入的款項"],
+    "answer": [0],
+    "explanation": "商業會計處理準則第26條規定，長期借款指到期日在一年以上之借款，應以攤銷後成本衡量。",
+    "material_ref": "acc-08-04",
+    "tags": ["長期借款", "商業會計處理準則"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moea.gov.tw/LawContent.aspx?id=FL011301"]
+  },
+  {
+    "id": "gen-acc-08-04-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "長期借款依規定應揭露哪些事項？",
+    "options": ["只需揭露借款總額", "內容、到期日、利率、擔保品名稱、帳面金額及其他約定重要限制條款", "只需揭露借款銀行名稱", "不需要揭露任何事項"],
+    "answer": [1],
+    "explanation": "商業會計處理準則規定，長期借款應揭露其內容、到期日、利率、擔保品名稱、帳面金額及其他約定重要限制條款。",
+    "material_ref": "acc-08-04",
+    "tags": ["長期借款"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-08-04-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "若長期借款有一部分將於未來十二個月內到期清償，應如何處理？",
+    "options": ["仍全數列為非流動負債", "該部分應重分類為流動負債列示（一年內到期長期負債）", "全數轉列為流動負債", "不需要調整分類"],
+    "answer": [1],
+    "explanation": "長期借款中將於未來十二個月內到期的部分，應重分類為流動負債列示，通常稱為「一年內到期長期負債」。",
+    "material_ref": "acc-08-04",
+    "tags": ["長期借款", "報表表達"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-08-04-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承教材範例，阿華的批發行向銀行借入長期借款2,000,000元，正確分錄為？",
+    "options": ["借：長期借款2,000,000；貸：銀行存款2,000,000", "借：銀行存款2,000,000；貸：長期借款2,000,000", "借：銀行存款2,000,000；貸：短期借款2,000,000", "不需要入帳"],
+    "answer": [1],
+    "explanation": "借入長期借款應借記銀行存款（資產增加）、貸記長期借款（負債增加）。",
+    "material_ref": "acc-08-04",
+    "tags": ["長期借款"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-08-04-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "資產負債表上負債如何分類列示？",
+    "options": ["不分類，全部合併列示", "分為流動負債與非流動負債兩大類", "依負債人分類", "依負債金額大小排序，不分類別"],
+    "answer": [1],
+    "explanation": "資產負債表上負債分為流動負債與非流動負債兩大類，依到期清償時點區分。",
+    "material_ref": "acc-08-04",
+    "tags": ["報表表達"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-08-04-06",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "把短期借款與長期借款混合列示，沒有依到期時點分類，會有什麼問題？",
+    "options": ["沒有問題，反正加總金額相同", "會使報表使用者無法正確判斷企業短期償債能力", "只影響損益表，不影響資產負債表", "會導致淨利計算錯誤"],
+    "answer": [1],
+    "explanation": "混合列示會使報表使用者無法正確判斷企業的短期償債能力與財務結構，違反分類列示的原則。",
+    "material_ref": "acc-08-04",
+    "tags": ["報表表達"],
+    "verified_at": "2026-07-05"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-acc-08-02-01",
+    "subject": "accounting",
+    "front": "負債準備的認列三要件？",
+    "back": "因過去事件而負有現時義務、很有可能需要流出經濟效益資源清償、且金額能可靠估計。",
+    "material_ref": "acc-08-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-08-02-02",
+    "subject": "accounting",
+    "front": "保固負債準備的分錄範例？",
+    "back": "借：保固費用；貸：保固負債準備（依過去經驗估計保固期間可能發生的維修成本）。",
+    "material_ref": "acc-08-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-08-02-03",
+    "subject": "accounting",
+    "front": "或有負債僅是「可能」發生時應如何處理？",
+    "back": "只在財務報表附註中揭露，不入帳。",
+    "material_ref": "acc-08-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-08-02-04",
+    "subject": "accounting",
+    "front": "負債準備與或有負債的差異？",
+    "back": "負債準備符合認列三要件而入帳；或有負債因不符合要件（機率不高或無法可靠估計）而僅附註揭露。",
+    "material_ref": "acc-08-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-08-02-05",
+    "subject": "accounting",
+    "front": "負債準備的常見錯誤是什麼？",
+    "back": "把僅是「可能」發生、機率不高的事項也提列負債準備，不符合「很有可能」的認列要件。",
+    "material_ref": "acc-08-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-08-02-06",
+    "subject": "accounting",
+    "front": "應計負債與負債準備的差別？",
+    "back": "應計負債通常金額與時點較明確；負債準備則是不確定時點或金額、需要合理估計的負債。",
+    "material_ref": "acc-08-02",
+    "verified_at": "2026-07-05"
+  }
+]

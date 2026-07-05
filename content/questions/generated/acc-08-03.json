@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-acc-08-03-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依商業會計處理準則第26條，應付公司債的溢價、折價應如何處理？",
+    "options": ["發行當年度一次認列損益", "列為應付公司債之加項或減項，並按有效利息法於債券流通期間攤銷", "直接列為業主權益項目", "不需要攤銷，維持原始金額至到期"],
+    "answer": [1],
+    "explanation": "商業會計處理準則第26條規定，公司債溢價、折價應列為應付公司債之加項或減項，並按有效利息法於流通期間攤銷。",
+    "material_ref": "acc-08-03",
+    "tags": ["應付公司債", "商業會計處理準則"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moea.gov.tw/LawContent.aspx?id=FL011301"]
+  },
+  {
+    "id": "gen-acc-08-03-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "公司債以「溢價發行」時，通常代表什麼情況？",
+    "options": ["市場利率高於票面利率", "市場利率低於票面利率", "市場利率等於票面利率", "與市場利率完全無關"],
+    "answer": [1],
+    "explanation": "溢價發行（發行價格高於面額）通常發生在市場利率低於票面利率的情況，投資人願意付更高價格取得較高票面利息。",
+    "material_ref": "acc-08-03",
+    "tags": ["應付公司債"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-08-03-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承教材範例，面額1,000,000元的公司債以1,020,000元發行，正確分錄為？",
+    "options": ["借：銀行存款1,020,000；貸：應付公司債1,020,000", "借：銀行存款1,020,000；貸：應付公司債1,000,000、應付公司債溢價20,000", "借：銀行存款1,000,000；貸：應付公司債1,000,000", "借：應付公司債1,020,000；貸：銀行存款1,020,000"],
+    "answer": [1],
+    "explanation": "溢價發行時，貸記應付公司債（面額）與應付公司債溢價（差額），借記實收的銀行存款總額。",
+    "material_ref": "acc-08-03",
+    "tags": ["應付公司債"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-08-03-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "應付公司債溢價科目的性質為何？",
+    "options": ["獨立的負債科目", "應付公司債的加項", "應付公司債的減項", "業主權益項目"],
+    "answer": [1],
+    "explanation": "應付公司債溢價是應付公司債的評價加項，而非獨立的負債科目。",
+    "material_ref": "acc-08-03",
+    "tags": ["應付公司債"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-08-03-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "公司債溢價攤銷對利息費用的影響為何？",
+    "options": ["逐期增加利息費用", "逐期沖減利息費用", "對利息費用完全沒有影響", "只影響現金流量，不影響利息費用"],
+    "answer": [1],
+    "explanation": "溢價代表投資人多付的金額，攤銷時會逐期沖減利息費用（折價則相反，逐期增加利息費用）。",
+    "material_ref": "acc-08-03",
+    "tags": ["應付公司債"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-08-03-06",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "下列關於公司債折價發行的敘述，何者正確？",
+    "options": ["折價發行代表市場利率低於票面利率", "折價須分期攤銷，逐期增加利息費用", "折價不需要攤銷，維持原始金額列示", "折價會逐期沖減利息費用"],
+    "answer": [1],
+    "explanation": "折價發行通常因市場利率高於票面利率，折價須分期攤銷，且攤銷會逐期增加利息費用。",
+    "material_ref": "acc-08-03",
+    "tags": ["應付公司債"],
+    "verified_at": "2026-07-05"
+  }
+]

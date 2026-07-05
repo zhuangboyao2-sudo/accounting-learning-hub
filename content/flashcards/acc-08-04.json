@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-acc-08-04-01",
+    "subject": "accounting",
+    "front": "商業會計處理準則第26條對長期借款的定義？",
+    "back": "到期日在一年以上之借款，應以攤銷後成本衡量。",
+    "material_ref": "acc-08-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-08-04-02",
+    "subject": "accounting",
+    "front": "長期借款依規定應揭露哪些事項？",
+    "back": "內容、到期日、利率、擔保品名稱、帳面金額及其他約定重要限制條款。",
+    "material_ref": "acc-08-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-08-04-03",
+    "subject": "accounting",
+    "front": "長期借款中十二個月內到期的部分應如何處理？",
+    "back": "應重分類為流動負債列示，通常稱為「一年內到期長期負債」。",
+    "material_ref": "acc-08-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-08-04-04",
+    "subject": "accounting",
+    "front": "資產負債表上負債如何分類？",
+    "back": "分為流動負債與非流動負債兩大類，依到期清償時點區分。",
+    "material_ref": "acc-08-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-08-04-05",
+    "subject": "accounting",
+    "front": "借入長期借款2,000,000元的分錄？",
+    "back": "借：銀行存款2,000,000；貸：長期借款2,000,000。",
+    "material_ref": "acc-08-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-08-04-06",
+    "subject": "accounting",
+    "front": "短期借款與長期借款混合列示會有什麼問題？",
+    "back": "會使報表使用者無法正確判斷企業的短期償債能力與財務結構。",
+    "material_ref": "acc-08-04",
+    "verified_at": "2026-07-05"
+  }
+]

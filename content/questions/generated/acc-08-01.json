@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-acc-08-01-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依商業會計處理準則第25條，下列何者屬於流動負債的定義？",
+    "options": ["所有負債，不論到期時間長短", "商業預期於其正常營業週期中清償之負債、主要為交易目的而持有之負債，或預期於資產負債表日後十二個月內到期清償之負債", "只有應付帳款一項", "只有短期借款一項"],
+    "answer": [1],
+    "explanation": "商業會計處理準則第25條規定，流動負債指正常營業週期中清償之負債、主要為交易目的而持有之負債，及預期於資產負債表日後十二個月內到期清償之負債等。",
+    "material_ref": "acc-08-01",
+    "tags": ["流動負債", "商業會計處理準則"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moea.gov.tw/LawContent.aspx?id=FL011301"]
+  },
+  {
+    "id": "gen-acc-08-01-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "阿華的批發行賒購原料50,000元，正確的分錄為？",
+    "options": ["借：存貨50,000；貸：現金50,000", "借：存貨50,000；貸：應付帳款50,000", "借：應付帳款50,000；貸：存貨50,000", "借：進貨50,000；貸：應收帳款50,000"],
+    "answer": [1],
+    "explanation": "賒購（尚未付款）應借記存貨、貸記應付帳款。",
+    "material_ref": "acc-08-01",
+    "tags": ["應付帳款"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-08-01-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "月底應付未付的員工薪資，屬於下列哪一類負債？",
+    "options": ["非流動負債", "流動負債（其他應付款）", "或有負債", "負債準備"],
+    "answer": [1],
+    "explanation": "應付薪資是已發生但尚未支付的費用，屬於流動負債中的其他應付款。",
+    "material_ref": "acc-08-01",
+    "tags": ["應付薪資"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-08-01-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "應付帳款與應付票據，依規定應如何列示？",
+    "options": ["一律合併列示，不需要區分", "應區分「因營業而發生」與「非因營業而發生」分別列示", "只需要列示總額，不需要任何分類", "只有金額超過100萬元才需要單獨列示"],
+    "answer": [1],
+    "explanation": "依商業會計處理準則規定，應付票據與應付帳款應區分因營業而發生與非因營業而發生者分別列示。",
+    "material_ref": "acc-08-01",
+    "tags": ["應付帳款", "應付票據"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-08-01-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "下列何者不屬於常見的流動負債項目？",
+    "options": ["應付帳款", "預收款項", "到期日在五年後的長期借款", "應付薪資"],
+    "answer": [2],
+    "explanation": "到期日在五年後的長期借款屬於非流動負債，不是流動負債。",
+    "material_ref": "acc-08-01",
+    "tags": ["流動負債"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-08-01-06",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "把預期一年後才清償的長期借款誤列為流動負債，會有什麼問題？",
+    "options": ["沒有問題，反正都是負債", "會使財務報表的流動性分析失真，誤導報表使用者對企業短期償債能力的判斷", "只影響損益表，不影響資產負債表", "會使當期淨利被高估"],
+    "answer": [1],
+    "explanation": "流動負債與非流動負債的分類攸關企業短期償債能力的判斷，分類錯誤會使流動性分析失真。",
+    "material_ref": "acc-08-01",
+    "tags": ["流動負債"],
+    "verified_at": "2026-07-05"
+  }
+]
