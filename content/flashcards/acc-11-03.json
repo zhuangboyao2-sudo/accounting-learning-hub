@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-acc-11-03-01",
+    "subject": "accounting",
+    "front": "商業會計處理準則第42條對權益變動表的定義？",
+    "back": "表示權益組成項目變動情形之報表。",
+    "material_ref": "acc-11-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-11-03-02",
+    "subject": "accounting",
+    "front": "保留盈餘變動的五個項目分類？",
+    "back": "期初餘額、追溯適用及追溯重編之影響數、本期淨利（或淨損）、提列公積及分派股利、期末餘額。",
+    "material_ref": "acc-11-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-11-03-03",
+    "subject": "accounting",
+    "front": "股利分配應在哪張報表呈現？",
+    "back": "權益變動表，作為保留盈餘的減項，不是損益表的費用。",
+    "material_ref": "acc-11-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-11-03-04",
+    "subject": "accounting",
+    "front": "「追溯適用及追溯重編之影響數」反映什麼？",
+    "back": "會計政策變動或前期財務報表錯誤更正對保留盈餘的影響。",
+    "material_ref": "acc-11-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-11-03-05",
+    "subject": "accounting",
+    "front": "期初保留盈餘0元、本期淨利136,000元、提列公積13,600元、分派股利60,000元，期末保留盈餘為？",
+    "back": "62,400元。",
+    "material_ref": "acc-11-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-11-03-06",
+    "subject": "accounting",
+    "front": "股利分配放進損益表計算會有什麼問題？",
+    "back": "股利不是費用，誤放入損益表會使本期淨利計算錯誤。",
+    "material_ref": "acc-11-03",
+    "verified_at": "2026-07-05"
+  }
+]

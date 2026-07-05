@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-acc-11-01-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依商業會計處理準則第14條，資產負債表的權益項下應如何分類？",
+    "options": ["只需列示總額，不分類", "資本（或股本）、資本公積、保留盈餘（或累積虧損）、其他權益、庫藏股票", "只需列示股本與淨利", "依股東人數分類"],
+    "answer": [1],
+    "explanation": "商業會計處理準則第14條規定，權益分類為資本（或股本）、資本公積、保留盈餘（或累積虧損）、其他權益、庫藏股票五項。",
+    "material_ref": "acc-11-01",
+    "tags": ["資產負債表", "商業會計處理準則"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moea.gov.tw/LawContent.aspx?id=FL011301"]
+  },
+  {
+    "id": "gen-acc-11-01-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "資產負債表上，應收帳款應如何列示？",
+    "options": ["以總額列示，不考慮備抵壞帳", "以淨額列示（應收帳款總額減備抵壞帳）", "以市價列示", "不需要在資產負債表上列示"],
+    "answer": [1],
+    "explanation": "應收帳款應以淨額列示，即應收帳款總額減除備抵壞帳，反映實際預期可收回的金額。",
+    "material_ref": "acc-11-01",
+    "tags": ["資產負債表"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-11-01-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承教材範例，機器設備原始成本2,000,000元、累計折舊600,000元，應以何金額列示於資產負債表？",
+    "options": ["2,000,000元", "1,400,000元", "600,000元", "2,600,000元"],
+    "answer": [1],
+    "explanation": "機器設備應以帳面價值（原始成本-累計折舊）列示：2,000,000-600,000=1,400,000元。",
+    "material_ref": "acc-11-01",
+    "tags": ["資產負債表"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-11-01-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "會計恆等式在資產負債表上如何呈現？",
+    "options": ["資產總計必須大於負債及權益總計", "資產總計＝負債總計＋權益總計", "資產總計＝負債總計－權益總計", "資產、負債、權益三者互不相關"],
+    "answer": [1],
+    "explanation": "會計恆等式：資產＝負債＋權益，資產負債表上資產總計必須等於負債及權益總計。",
+    "material_ref": "acc-11-01",
+    "tags": ["會計恆等式"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-11-01-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "資產若一部分長期借款將於未來十二個月內到期，應如何列示？",
+    "options": ["仍列為非流動負債", "重分類為流動負債", "從資產負債表中刪除", "列為業主權益減項"],
+    "answer": [1],
+    "explanation": "長期借款中將於未來十二個月內到期清償的部分，應重分類為流動負債列示。",
+    "material_ref": "acc-11-01",
+    "tags": ["資產負債表"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-11-01-06",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "資產負債表上，資產與負債各分為哪兩大類？",
+    "options": ["流動與非流動", "有形與無形", "國內與國外", "現金與非現金"],
+    "answer": [0],
+    "explanation": "依商業會計處理準則，資產與負債均分為流動與非流動兩大類，依變現或清償時點區分。",
+    "material_ref": "acc-11-01",
+    "tags": ["資產負債表"],
+    "verified_at": "2026-07-05"
+  }
+]

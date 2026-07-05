@@ -1,0 +1,80 @@
+[
+  {
+    "id": "gen-acc-11-04-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "損益表的本期淨利會流入哪一張報表？",
+    "options": ["現金流量表", "權益變動表（保留盈餘變動）", "資產負債表的資產項下", "不會流入其他報表，是獨立的最終結果"],
+    "answer": [1],
+    "explanation": "損益表的本期淨利會流入權益變動表，作為保留盈餘變動的其中一項增加金額。",
+    "material_ref": "acc-11-04",
+    "tags": ["報表勾稽"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-11-04-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "權益變動表的期末保留盈餘餘額會流入哪一張報表？",
+    "options": ["損益表", "資產負債表的權益項下", "現金流量表", "不會流入其他報表"],
+    "answer": [1],
+    "explanation": "權益變動表算出的期末保留盈餘餘額，會流入資產負債表的權益項下，作為權益的組成之一。",
+    "material_ref": "acc-11-04",
+    "tags": ["報表勾稽"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-11-04-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承教材整合範例，本期淨利136,000元，經權益變動表計算後流入資產負債表的保留盈餘金額為？",
+    "options": ["55,000元", "62,400元", "136,000元", "150,000元"],
+    "answer": [1],
+    "explanation": "本期淨利136,000元扣除提列法定盈餘公積13,600元、分派股利60,000元後，期末保留盈餘為62,400元，此金額流入資產負債表。",
+    "material_ref": "acc-11-04",
+    "tags": ["報表勾稽"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-11-04-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "三張報表之間的正確連動順序為？",
+    "options": ["資產負債表→損益表→權益變動表", "損益表→權益變動表→資產負債表", "權益變動表→資產負債表→損益表", "三者沒有固定連動順序"],
+    "answer": [1],
+    "explanation": "正確連動順序為：損益表的本期淨利流入權益變動表，權益變動表的期末保留盈餘再流入資產負債表的權益項下。",
+    "material_ref": "acc-11-04",
+    "tags": ["報表勾稽"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-11-04-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "資產負債表兩邊金額對不上時，正確的處理方式是什麼？",
+    "options": ["直接調整某個科目金額，讓兩邊湊成相等", "回頭檢查交易記錄或報表編製過程哪裡有誤", "把差額列為營業外收益", "忽略差異，繼續完成報表"],
+    "answer": [1],
+    "explanation": "資產負債表兩邊金額對不上時，應回頭檢查交易記錄或報表編製過程哪裡有誤，而不是勉強湊數。",
+    "material_ref": "acc-11-04",
+    "tags": ["報表勾稽"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-11-04-06",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "下列關於三張報表關係的敘述，何者正確？",
+    "options": ["三張報表各自獨立，互不影響", "三張報表環環相扣，損益表淨利透過權益變動表流入資產負債表", "只有資產負債表重要，其他兩張報表可以省略", "三張報表的編製順序沒有先後關係"],
+    "answer": [1],
+    "explanation": "三張報表環環相扣：損益表淨利流入權益變動表，權益變動表的期末餘額再流入資產負債表，共同維持會計恆等式的平衡。",
+    "material_ref": "acc-11-04",
+    "tags": ["報表勾稽"],
+    "verified_at": "2026-07-05"
+  }
+]

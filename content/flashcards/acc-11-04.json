@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-acc-11-04-01",
+    "subject": "accounting",
+    "front": "三張報表的連動順序？",
+    "back": "損益表本期淨利→流入權益變動表的保留盈餘變動→流入資產負債表的權益項下。",
+    "material_ref": "acc-11-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-11-04-02",
+    "subject": "accounting",
+    "front": "資產負債表的會計恆等式？",
+    "back": "資產總計＝負債總計＋權益總計。",
+    "material_ref": "acc-11-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-11-04-03",
+    "subject": "accounting",
+    "front": "資產負債表兩邊金額對不上時該怎麼辦？",
+    "back": "回頭檢查交易記錄或報表編製過程哪裡有誤，不能勉強調整科目湊數。",
+    "material_ref": "acc-11-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-11-04-04",
+    "subject": "accounting",
+    "front": "整合範例中，本期淨利136,000元最終流入資產負債表的保留盈餘金額？",
+    "back": "62,400元（扣除法定盈餘公積13,600元與股利60,000元後）。",
+    "material_ref": "acc-11-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-11-04-05",
+    "subject": "accounting",
+    "front": "三張報表是否各自獨立、互不影響？",
+    "back": "不是，三張報表環環相扣，共同維持會計恆等式的平衡。",
+    "material_ref": "acc-11-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-11-04-06",
+    "subject": "accounting",
+    "front": "學完第6-11章後，會計學概要考科的官方大綱範圍是否已涵蓋？",
+    "back": "是，第1-11章依序涵蓋會計原理程序、資產（現金、應收款項、存貨、固定資產、無形資產）、負債、權益、製造業會計、財務報表五大官方大綱項目。",
+    "material_ref": "acc-11-04",
+    "verified_at": "2026-07-05"
+  }
+]

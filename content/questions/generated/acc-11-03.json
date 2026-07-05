@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-acc-11-03-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依商業會計處理準則第42條，權益變動表的主要功能為何？",
+    "options": ["表示企業當期的現金流量狀況", "表示權益組成項目的變動情形", "表示企業的存貨週轉率", "表示企業的稅務申報狀況"],
+    "answer": [1],
+    "explanation": "商業會計處理準則第42條規定，權益變動表為表示權益組成項目變動情形之報表。",
+    "material_ref": "acc-11-03",
+    "tags": ["權益變動表", "商業會計處理準則"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moea.gov.tw/LawContent.aspx?id=FL011301"]
+  },
+  {
+    "id": "gen-acc-11-03-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "保留盈餘變動表的項目分類，依規定包括哪些？",
+    "options": ["只有期初餘額與期末餘額", "期初餘額、追溯適用及追溯重編之影響數、本期淨利、提列公積及分派股利、期末餘額", "只有本期淨利一項", "只有分派股利一項"],
+    "answer": [1],
+    "explanation": "商業會計處理準則第42條規定保留盈餘變動包括期初餘額、追溯適用及追溯重編之影響數、本期淨利（或淨損）、提列法定盈餘公積、特別盈餘公積及分派股利項目、期末餘額。",
+    "material_ref": "acc-11-03",
+    "tags": ["權益變動表"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-11-03-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承教材範例（期初保留盈餘0、本期淨利136,000元、提列法定盈餘公積13,600元、分派股利60,000元），期末保留盈餘為？",
+    "options": ["62,400元", "76,000元", "122,400元", "136,000元"],
+    "answer": [0],
+    "explanation": "期末保留盈餘＝0+136,000-13,600-60,000＝62,400元。",
+    "material_ref": "acc-11-03",
+    "tags": ["權益變動表"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-11-03-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "股利分配應在哪一張報表中呈現？",
+    "options": ["損益表，作為費用項目", "權益變動表，作為保留盈餘的減項", "資產負債表，作為資產項目", "現金流量表，作為投資活動"],
+    "answer": [1],
+    "explanation": "股利分配不是費用，不影響本期淨利，而是在權益變動表中作為保留盈餘的減項。",
+    "material_ref": "acc-11-03",
+    "tags": ["股利分配"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-11-03-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "「追溯適用及追溯重編之影響數」主要反映什麼情況？",
+    "options": ["本期正常的營業損益", "會計政策變動或前期錯誤更正的影響", "股利分配金額", "資本公積的變動"],
+    "answer": [1],
+    "explanation": "追溯適用及追溯重編之影響數，反映會計政策變動或前期財務報表錯誤更正對保留盈餘的影響。",
+    "material_ref": "acc-11-03",
+    "tags": ["權益變動表"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-11-03-06",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "把股利分配誤放在損益表中計算，會造成什麼問題？",
+    "options": ["沒有問題，反正都是權益的減項", "會使本期淨利被誤認為受股利分配影響而降低，實際上股利不是費用", "會使資產負債表無法平衡", "只影響現金流量表"],
+    "answer": [1],
+    "explanation": "股利不是費用，不應影響本期淨利的計算；誤放入損益表會使淨利計算錯誤。",
+    "material_ref": "acc-11-03",
+    "tags": ["股利分配"],
+    "verified_at": "2026-07-05"
+  }
+]

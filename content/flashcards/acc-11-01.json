@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-acc-11-01-01",
+    "subject": "accounting",
+    "front": "商業會計處理準則第14條對資產負債表權益項下的分類？",
+    "back": "資本（或股本）、資本公積、保留盈餘（或累積虧損）、其他權益、庫藏股票。",
+    "material_ref": "acc-11-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-11-01-02",
+    "subject": "accounting",
+    "front": "應收帳款在資產負債表上如何列示？",
+    "back": "以淨額列示（應收帳款總額減備抵壞帳）。",
+    "material_ref": "acc-11-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-11-01-03",
+    "subject": "accounting",
+    "front": "固定資產在資產負債表上如何列示？",
+    "back": "以帳面價值（原始成本-累計折舊）列示。",
+    "material_ref": "acc-11-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-11-01-04",
+    "subject": "accounting",
+    "front": "會計恆等式在資產負債表上如何呈現？",
+    "back": "資產總計＝負債總計＋權益總計。",
+    "material_ref": "acc-11-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-11-01-05",
+    "subject": "accounting",
+    "front": "資產與負債各分為哪兩大類？",
+    "back": "流動與非流動兩大類，依變現或清償時點區分。",
+    "material_ref": "acc-11-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-11-01-06",
+    "subject": "accounting",
+    "front": "一年內到期的長期借款應如何列示？",
+    "back": "重分類為流動負債列示。",
+    "material_ref": "acc-11-01",
+    "verified_at": "2026-07-05"
+  }
+]
