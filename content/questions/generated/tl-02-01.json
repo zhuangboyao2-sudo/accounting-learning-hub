@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-tl-02-01-01",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依所得稅法第1條，所得稅分為哪兩種？",
+    "options": ["綜合所得稅及營利事業所得稅", "個人所得稅及企業所得稅法", "國稅及地方稅", "直接稅及間接稅"],
+    "answer": [0],
+    "explanation": "所得稅法第1條規定，所得稅分為綜合所得稅及營利事業所得稅。",
+    "material_ref": "tl-02-01",
+    "tags": ["所得稅種類", "所得稅法"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0340003"]
+  },
+  {
+    "id": "gen-tl-02-01-02",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "非中華民國境內居住之個人，而有中華民國來源所得者，其應納稅額如何處理？",
+    "options": ["併入結算申報，依累進稅率課稅", "分別就源扣繳", "完全免稅", "須先取得居留證才能課稅"],
+    "answer": [1],
+    "explanation": "所得稅法第2條規定，非中華民國境內居住之個人而有中華民國來源所得者，除本法另有規定外，其應納稅額分別就源扣繳。",
+    "material_ref": "tl-02-01",
+    "tags": ["非居住者課稅"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-02-01-03",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "總機構在中華民國境內之營利事業，其課稅範圍為何？",
+    "options": ["僅就境內所得課稅", "應就境內外全部營利事業所得，合併課徵營利事業所得稅", "只有出口貿易所得需要課稅", "境外所得完全不併入計算"],
+    "answer": [1],
+    "explanation": "所得稅法第3條第2項規定，營利事業之總機構在中華民國境內者，應就其中華民國境內外全部營利事業所得，合併課徵營利事業所得稅。",
+    "material_ref": "tl-02-01",
+    "tags": ["營利事業課稅範圍"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-02-01-04",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "總機構在中華民國境外之營利事業，而有中華民國來源所得者，課稅範圍為何？",
+    "options": ["就其全球所得課稅", "僅就其中華民國境內之營利事業所得課徵營利事業所得稅", "完全免稅", "須先在台灣設立分公司才能課稅"],
+    "answer": [1],
+    "explanation": "所得稅法第3條第3項規定，總機構在境外而有中華民國來源所得之營利事業，應就其境內之營利事業所得課徵營利事業所得稅。",
+    "material_ref": "tl-02-01",
+    "tags": ["境外營利事業課稅"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-02-01-05",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "境外已納所得稅額扣抵的限制為何？",
+    "options": ["可以無限額扣抵", "扣抵之數不得超過因加計國外所得而依國內稅率計算增加之結算應納稅額", "只能扣抵一半", "完全不能扣抵，須雙重課稅"],
+    "answer": [1],
+    "explanation": "所得稅法第3條第2項但書規定，扣抵之數不得超過因加計其國外所得，而依國內適用稅率計算增加之結算應納稅額，避免扣抵過度。",
+    "material_ref": "tl-02-01",
+    "tags": ["境外稅額扣抵"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-02-01-06",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "台灣的個人所得稅與企業所得稅是規定在同一部法律還是不同法律？",
+    "options": ["不同法律，各自獨立", "同一部法律（所得稅法），分為綜合所得稅與營利事業所得稅兩種稅目", "個人所得稅無專法規範", "企業所得稅由公司法規範"],
+    "answer": [1],
+    "explanation": "所得稅法第1條規定所得稅分為綜合所得稅及營利事業所得稅，兩者同屬一部所得稅法規範，並非兩部不同的法律。",
+    "material_ref": "tl-02-01",
+    "tags": ["所得稅法架構"],
+    "verified_at": "2026-07-05"
+  }
+]

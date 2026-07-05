@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-tl-02-03-01",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依所得稅法第4條，下列何者屬於免納所得稅之所得？",
+    "options": ["傷害或死亡之損害賠償金", "營利事業的營業收入", "個人的薪資所得", "個人執行業務所得"],
+    "answer": [0],
+    "explanation": "所得稅法第4條第3款規定，傷害或死亡之損害賠償金，及依國家賠償法規定取得之賠償金，免納所得稅。",
+    "material_ref": "tl-02-03",
+    "tags": ["免稅所得", "所得稅法"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0340003"]
+  },
+  {
+    "id": "gen-tl-02-03-02",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "個人稿費、版稅等收入免稅的額度限制為何？",
+    "options": ["全年合計數不超過10萬元", "全年合計數不超過18萬元", "全年合計數不超過30萬元", "沒有金額限制，全部免稅"],
+    "answer": [1],
+    "explanation": "所得稅法第4條第23款規定，個人稿費、版稅、樂譜、作曲、編劇、漫畫及講演之鐘點費之收入，全年合計數以不超過18萬元為限，免納所得稅。",
+    "material_ref": "tl-02-03",
+    "tags": ["稿費免稅額度"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-02-03-03",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承上題，若稿費收入全年合計25萬元，應如何課稅？",
+    "options": ["全部25萬元免稅", "全部25萬元須課稅", "18萬元以下免稅，超過18萬元的7萬元部分須課稅", "全部免稅但須申報備查"],
+    "answer": [2],
+    "explanation": "免稅額度以內（18萬元）免稅，超過部分（7萬元）仍須併入所得課稅，並非全部免稅或全部課稅。",
+    "material_ref": "tl-02-03",
+    "tags": ["稿費免稅額度計算"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-02-03-04",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "因繼承、遺贈或贈與而取得之財產，是否一律免納所得稅？",
+    "options": ["一律免納所得稅，沒有例外", "原則上免納所得稅，但取自營利事業贈與之財產不在此限", "一律須課徵所得稅", "只有繼承免稅，遺贈與贈與都要課稅"],
+    "answer": [1],
+    "explanation": "所得稅法第4條第17款規定，因繼承、遺贈或贈與而取得之財產免納所得稅，但取自營利事業贈與之財產不在此限，仍須課稅。",
+    "material_ref": "tl-02-03",
+    "tags": ["繼承贈與免稅例外"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-02-03-05",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "個人出售土地之交易所得，是否完全不用繳納任何稅捐？",
+    "options": ["完全不用繳納任何稅捐", "免納所得稅，但仍須課徵土地增值稅", "須課徵所得稅，不課徵土地增值稅", "須同時課徵所得稅與土地增值稅"],
+    "answer": [1],
+    "explanation": "個人出售土地之交易所得依第4條第16款免納所得稅，但仍須依土地稅法規定課徵土地增值稅，兩者性質不同，避免重複課徵所得稅。",
+    "material_ref": "tl-02-03",
+    "tags": ["土地交易所得"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-02-03-06",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "各級政府機關之各種所得，依第4條規定如何處理？",
+    "options": ["須課徵營利事業所得稅", "免納所得稅", "只有地方政府免稅，中央政府須課稅", "須課徵綜合所得稅"],
+    "answer": [1],
+    "explanation": "所得稅法第4條第18款規定，各級政府機關之各種所得，免納所得稅。",
+    "material_ref": "tl-02-03",
+    "tags": ["政府機關免稅"],
+    "verified_at": "2026-07-05"
+  }
+]

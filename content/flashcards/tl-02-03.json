@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-tl-02-03-01",
+    "subject": "tax-law",
+    "front": "第4條免稅所得的常考項目？",
+    "back": "傷害死亡賠償金、人身保險給付、繼承遺贈贈與財產、政府機關所得、稿費版稅（18萬元內）、土地交易所得等。",
+    "material_ref": "tl-02-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-02-03-02",
+    "subject": "tax-law",
+    "front": "稿費版稅免稅額度？",
+    "back": "全年合計數不超過18萬元，超過部分仍須課稅。",
+    "material_ref": "tl-02-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-02-03-03",
+    "subject": "tax-law",
+    "front": "繼承遺贈贈與財產免稅的例外？",
+    "back": "取自營利事業贈與之財產不在免稅之列，仍須課徵所得稅。",
+    "material_ref": "tl-02-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-02-03-04",
+    "subject": "tax-law",
+    "front": "個人出售土地交易所得的稅務處理？",
+    "back": "免納所得稅，但仍須課徵土地增值稅，避免重複課徵所得稅。",
+    "material_ref": "tl-02-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-02-03-05",
+    "subject": "tax-law",
+    "front": "各級政府機關之各種所得如何處理？",
+    "back": "免納所得稅（第4條第18款）。",
+    "material_ref": "tl-02-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-02-03-06",
+    "subject": "tax-law",
+    "front": "傷害或死亡的損害賠償金需要課稅嗎？",
+    "back": "不需要，第4條第3款明定免納所得稅。",
+    "material_ref": "tl-02-03",
+    "verified_at": "2026-07-05"
+  }
+]

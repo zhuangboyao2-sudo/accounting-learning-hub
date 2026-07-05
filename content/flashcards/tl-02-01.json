@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-tl-02-01-01",
+    "subject": "tax-law",
+    "front": "所得稅法第1條所得稅的兩種類型？",
+    "back": "綜合所得稅及營利事業所得稅。",
+    "material_ref": "tl-02-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-02-01-02",
+    "subject": "tax-law",
+    "front": "非境內居住個人有中華民國來源所得如何課稅？",
+    "back": "分別就源扣繳（第2條）。",
+    "material_ref": "tl-02-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-02-01-03",
+    "subject": "tax-law",
+    "front": "總機構在境內的營利事業課稅範圍？",
+    "back": "應就境內外全部營利事業所得合併課徵（屬人主義，境外已納稅額可扣抵）。",
+    "material_ref": "tl-02-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-02-01-04",
+    "subject": "tax-law",
+    "front": "總機構在境外的營利事業課稅範圍？",
+    "back": "僅就境內之營利事業所得課徵（屬地主義）。",
+    "material_ref": "tl-02-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-02-01-05",
+    "subject": "tax-law",
+    "front": "境外已納稅額扣抵的限制？",
+    "back": "不得超過因加計國外所得而依國內稅率計算增加之結算應納稅額。",
+    "material_ref": "tl-02-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-02-01-06",
+    "subject": "tax-law",
+    "front": "個人所得稅與企業所得稅是不同法律嗎？",
+    "back": "不是，同屬一部所得稅法規範的兩種稅目。",
+    "material_ref": "tl-02-01",
+    "verified_at": "2026-07-05"
+  }
+]
