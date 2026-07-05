@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-law-09-02-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依規範規定，誠正原則的核心意涵為何？",
+    "options": ["記帳士收費應誠實透明", "誠正樹立了他人之信任，提供對其判斷寄予信賴之基礎", "誠正只是要求不犯罪", "誠正只適用於稅務申報案件"],
+    "answer": [1],
+    "explanation": "規範參之一規定，誠正：記帳士之誠正樹立了他人之信任，因而提供對其判斷寄予信賴之基礎。",
+    "material_ref": "law-09-02",
+    "tags": ["誠正原則", "職業倫理規範"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://www.6laws.net/6law/law3/%E8%A8%98%E5%B8%B3%E5%A3%AB%E8%81%B7%E6%A5%AD%E5%80%AB%E7%90%86%E9%81%93%E5%BE%B7%E8%A6%8F%E7%AF%84.htm"]
+  },
+  {
+    "id": "gen-law-09-02-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "誠正原則的兩項行為準則為何？",
+    "options": ["應以尊嚴謹慎負責之態度執行任務；應遵守法律並依照法律及記帳士專業要求辦理委任工作", "應保密所有客戶資訊；應收取合理酬金", "應參加公會活動；應持續進修", "應避免特殊利益；應力求客觀評估"],
+    "answer": [0],
+    "explanation": "規範肆之一列舉誠正的行為準則：應以尊嚴、謹慎及負責之態度執行其任務；應遵守法律並依照法律及記帳士專業之要求辦理委任工作。",
+    "material_ref": "law-09-02",
+    "tags": ["誠正行為準則"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-09-02-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "阿華發現客戶提供的憑證有明顯瑕疵，依誠正原則應如何處理？",
+    "options": ["為了盡快完成申報，視而不見", "向客戶說明問題並要求提供正確憑證", "自行偽造正確憑證代替", "直接拒絕該客戶所有業務往來"],
+    "answer": [1],
+    "explanation": "依誠正原則「以謹慎及負責之態度執行其任務」，記帳士應向客戶說明憑證問題並要求提供正確憑證，而非視而不見。",
+    "material_ref": "law-09-02",
+    "tags": ["誠正實務應用"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-09-02-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "誠正原則與記帳士法哪一條規定的精神相呼應？",
+    "options": ["第17條禁止幫助教唆他人逃漏稅捐、以不正當方法招攬業務等規定", "第9條登記備置名簿規定", "第20條公會組織規定", "第39條施行日期規定"],
+    "answer": [0],
+    "explanation": "誠正原則要求記帳士遵守法律、以負責態度執行任務，與記帳士法第17條禁止幫助教唆逃漏稅捐、不正當招攬業務等規定的精神一致。",
+    "material_ref": "law-09-02",
+    "tags": ["誠正與記帳士法呼應"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-09-02-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "誠正原則在四大基本原則中的排序位置？",
+    "options": ["排序第四項（最後）", "排序第一項", "沒有排序，四項並列", "只有誠正才是唯一的基本原則"],
+    "answer": [1],
+    "explanation": "規範參列舉四大基本原則，誠正排序第一項，是委任人願意信賴記帳士專業判斷的根本前提。",
+    "material_ref": "law-09-02",
+    "tags": ["誠正原則排序"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-09-02-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "誠正原則是否只約束記帳士對委任人的關係？",
+    "options": ["是，只約束對委任人的關係", "不是，也適用於對業務事件主管機關的互動，如不得無正當理由拒絕或遲延答覆查詢", "誠正原則只適用於稅務案件", "誠正原則只是道德口號，沒有實際約束力"],
+    "answer": [1],
+    "explanation": "誠正原則同樣適用於記帳士對業務事件主管機關的互動，這與記帳士法第17條第2款不得無正當理由拒絕或遲延答覆查詢的規定相呼應。",
+    "material_ref": "law-09-02",
+    "tags": ["誠正適用範圍"],
+    "verified_at": "2026-07-05"
+  }
+]

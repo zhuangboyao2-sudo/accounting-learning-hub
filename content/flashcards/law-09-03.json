@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-law-09-03-01",
+    "subject": "bookkeeping-law",
+    "front": "保密原則的內容？",
+    "back": "尊重所獲得資訊之價值及所有權，非經適當授權不得揭露，但有法律或專業義務應予揭露者不在此限。",
+    "material_ref": "law-09-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-09-03-02",
+    "subject": "bookkeeping-law",
+    "front": "保密原則的兩項行為準則？",
+    "back": "謹慎使用及保護執行業務過程中獲得之資訊；取得個人資料時應依法令辦理。",
+    "material_ref": "law-09-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-09-03-03",
+    "subject": "bookkeeping-law",
+    "front": "保密原則與記帳士法哪一條呼應？",
+    "back": "第17條第1款未經委任人許可不得洩漏業務上之秘密。",
+    "material_ref": "law-09-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-09-03-04",
+    "subject": "bookkeeping-law",
+    "front": "保密義務是絕對的嗎？",
+    "back": "不是，有法律或專業義務應予揭露者不在此限。",
+    "material_ref": "law-09-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-09-03-05",
+    "subject": "bookkeeping-law",
+    "front": "國稅局依法要求提供資料時記帳士應如何處理？",
+    "back": "應依法配合提供，屬於法律義務應予揭露的例外情形。",
+    "material_ref": "law-09-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-09-03-06",
+    "subject": "bookkeeping-law",
+    "front": "保密原則只是消極不揭露嗎？",
+    "back": "不是，還包括積極謹慎使用及保護資訊的義務。",
+    "material_ref": "law-09-03",
+    "verified_at": "2026-07-05"
+  }
+]

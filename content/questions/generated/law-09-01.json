@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-law-09-01-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "記帳士職業倫理道德規範由何機關制定？",
+    "options": ["財政部", "立法院", "中華民國記帳士公會全國聯合會", "考選部"],
+    "answer": [2],
+    "explanation": "記帳士職業倫理道德規範由中華民國記帳士公會全國聯合會於民國102年12月4日會員代表大會通過發布，屬於專業公會的自律規範，不是國家法律。",
+    "material_ref": "law-09-01",
+    "tags": ["職業倫理規範", "制定機關"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://www.6laws.net/6law/law3/%E8%A8%98%E5%B8%B3%E5%A3%AB%E8%81%B7%E6%A5%AD%E5%80%AB%E7%90%86%E9%81%93%E5%BE%B7%E8%A6%8F%E7%AF%84.htm"]
+  },
+  {
+    "id": "gen-law-09-01-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "記帳士法與記帳士職業倫理道德規範的制定機關是否相同？",
+    "options": ["相同，都是立法院", "不同，記帳士法為立法院制定，職業倫理道德規範為記帳士公會全國聯合會制定", "相同，都是記帳士公會全國聯合會", "不同，記帳士法為財政部制定"],
+    "answer": [1],
+    "explanation": "記帳士法是立法院制定、總統公布的法律；記帳士職業倫理道德規範是記帳士公會全國聯合會制定的自律規範，兩者制定機關不同，是常見考點。",
+    "material_ref": "law-09-01",
+    "tags": ["制定機關比較"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-09-01-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "記帳士職業倫理道德規範適用於下列何者？",
+    "options": ["所有從事會計工作的人員", "提供記帳士服務之個人及個體（本會會員公會之所屬會員）", "只適用於財政部官員", "只適用於考選部命題委員"],
+    "answer": [1],
+    "explanation": "規範貳「適用範圍」規定，本職業倫理道德規範適用於提供記帳士服務之個人及個體，即本會會員公會之所屬會員。",
+    "material_ref": "law-09-01",
+    "tags": ["適用範圍"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-09-01-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "若記帳士的行為未被本規範明文列舉，是否可能仍受紀律處分？",
+    "options": ["不可能，只有明文列舉的行為才會受處分", "可能，未規範之特定行為仍可能被視為不可接受或不名譽之行為而受紀律處分", "只有造成金錢損失的行為才會受處分", "紀律處分只適用於違反記帳士法的情形"],
+    "answer": [1],
+    "explanation": "規範貳規定，如有行為準則未規範之特定行為發生，並不排除其被視為不可接受或不名譽之行為，因而使會員遭受紀律處分。",
+    "material_ref": "law-09-01",
+    "tags": ["紀律處分"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-09-01-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "本規範包含哪兩個構成要素？",
+    "options": ["基本原則與行為準則", "刑事責任與民事責任", "考試科目與命題大綱", "公會章程與內規"],
+    "answer": [0],
+    "explanation": "規範前言指出，本會之職業倫理道德規範包含基本原則（攸關記帳士專業及實務）與行為準則（對記帳士行為標準表達期望）兩個要素。",
+    "material_ref": "law-09-01",
+    "tags": ["規範架構"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-09-01-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "本規範制定的主要目的為何？",
+    "options": ["增加記帳士的考試難度", "砥礪記帳士專業之道德文化", "限制記帳士的業務範圍", "取代記帳士法的法律效力"],
+    "answer": [1],
+    "explanation": "規範前言明白指出，記帳士職業倫理道德規範之目的在於砥礪記帳士專業之道德文化。",
+    "material_ref": "law-09-01",
+    "tags": ["制定目的"],
+    "verified_at": "2026-07-05"
+  }
+]

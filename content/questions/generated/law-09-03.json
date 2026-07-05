@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-law-09-03-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依規範規定，保密原則的內容為何？",
+    "options": ["記帳士應尊重其所獲得資訊之價值及所有權，非經適當授權不得揭露，但有法律或專業義務應予揭露者不在此限", "記帳士絕對不能透露任何客戶資訊，即使法院要求也不行", "保密只適用於書面文件，口頭資訊不受保密義務拘束", "保密原則只適用於上市公司客戶"],
+    "answer": [0],
+    "explanation": "規範參之三規定，保密：記帳士應尊重其所獲得資訊之價值及所有權，非經適當授權不得揭露此等資訊，但有法律或專業義務應予揭露者不在此限。",
+    "material_ref": "law-09-03",
+    "tags": ["保密原則", "職業倫理規範"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://www.6laws.net/6law/law3/%E8%A8%98%E5%B8%B3%E5%A3%AB%E8%81%B7%E6%A5%AD%E5%80%AB%E7%90%86%E9%81%93%E5%BE%B7%E8%A6%8F%E7%AF%84.htm"]
+  },
+  {
+    "id": "gen-law-09-03-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "保密原則的兩項行為準則為何？",
+    "options": ["應謹慎使用及保護執行業務過程中獲得之資訊；取得個人資料時應依法令辦理", "應收取合理酬金；應準時完成申報", "應參加公會活動；應避免特殊利益", "應遵守法律；應持續進修"],
+    "answer": [0],
+    "explanation": "規範肆之三列舉保密的行為準則：應謹慎使用及保護其在執行業務過程中所獲得之資訊；執行業務時如有取得個人資料之必要時，應依法令辦理。",
+    "material_ref": "law-09-03",
+    "tags": ["保密行為準則"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-09-03-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "保密原則與記帳士法哪一條規定相呼應？",
+    "options": ["第17條第1款未經委任人許可不得洩漏業務上之秘密", "第20條公會組織規定", "第26條懲戒事由規定", "第35條登錄繼續執業規定"],
+    "answer": [0],
+    "explanation": "保密原則與記帳士法第17條第1款「未經委任人之許可，洩漏業務上之秘密」屬於禁止行為的規定互相呼應。",
+    "material_ref": "law-09-03",
+    "tags": ["保密與記帳士法呼應"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-09-03-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "若國稅局依法要求記帳士提供特定申報資料，記帳士應如何處理？",
+    "options": ["一律拒絕，因為保密原則絕對優先", "應依法配合提供，屬於法律義務應予揭露的例外情形", "須先徵得所有其他客戶同意才能提供", "只能提供部分資料，不能提供完整資料"],
+    "answer": [1],
+    "explanation": "保密原則規定「但有法律或專業義務應予揭露者不在此限」，國稅局依法要求提供資料屬於此例外情形，記帳士應依法配合。",
+    "material_ref": "law-09-03",
+    "tags": ["保密例外"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-09-03-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "保密原則是否為絕對不可揭露任何資訊的原則？",
+    "options": ["是，任何情況下都不能揭露", "不是，有法律或專業義務應予揭露者不在此限", "只有客戶同意才能有例外", "保密原則沒有任何例外規定"],
+    "answer": [1],
+    "explanation": "保密原則明文規定有例外情形，「但有法律或專業義務應予揭露者不在此限」，並非絕對不可揭露。",
+    "material_ref": "law-09-03",
+    "tags": ["保密例外"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-09-03-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "保密原則的行為準則除了不揭露外，還要求記帳士做到什麼？",
+    "options": ["只需要不主動告訴別人即可", "應謹慎使用及保護執行業務過程中獲得之資訊，屬於積極的保護義務", "只需要簽署保密協議即可", "沒有其他額外要求"],
+    "answer": [1],
+    "explanation": "保密原則的行為準則不只是消極不揭露，還包括積極「謹慎使用及保護」執行業務過程中獲得之資訊。",
+    "material_ref": "law-09-03",
+    "tags": ["保密行為準則"],
+    "verified_at": "2026-07-05"
+  }
+]
