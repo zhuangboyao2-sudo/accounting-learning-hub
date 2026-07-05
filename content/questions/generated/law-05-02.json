@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-law-05-02-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依商業會計法第38條，各項會計憑證至少應保存幾年？",
+    "options": ["三年", "五年", "十年", "永久保存"],
+    "answer": [1],
+    "explanation": "商業會計法第38條規定，各項會計憑證（除應永久保存或未結會計事項者外）於年度決算程序辦理終了後，至少保存五年。",
+    "material_ref": "law-05-02",
+    "tags": ["憑證保存年限", "商業會計法"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=J0080009"]
+  },
+  {
+    "id": "gen-law-05-02-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依商業會計法第38條，各項會計帳簿及財務報表至少應保存幾年？",
+    "options": ["三年", "五年", "十年", "二十年"],
+    "answer": [2],
+    "explanation": "商業會計法第38條規定，各項會計帳簿及財務報表於年度決算程序辦理終了後，至少保存十年（有關未結會計事項者不在此限）。",
+    "material_ref": "law-05-02",
+    "tags": ["帳簿保存年限"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-05-02-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "商業之利害關係人請求查閱決算報表，代表商業之負責人應如何處理？",
+    "options": ["一律拒絕，決算報表屬於商業機密", "因正當理由請求且不違反商業利益之限度內，應許其查閱", "只有股東才能查閱，其他利害關係人一律不得查閱", "須經法院裁定後才能查閱"],
+    "answer": [1],
+    "explanation": "商業會計法第69條規定，利害關係人因正當理由請求查閱決算報表時，負責人於不違反商業利益之限度內，應許其查閱。",
+    "material_ref": "law-05-02",
+    "tags": ["決算報表查閱"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-05-02-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "商業之利害關係人若對查閱結果仍有疑慮，可以採取下列何種進一步措施？",
+    "options": ["自行闖入商業辦公室查看帳冊", "聲請法院選派檢查員，檢查該商業之會計帳簿報表及憑證", "直接向媒體爆料", "沒有其他救濟管道"],
+    "answer": [1],
+    "explanation": "商業會計法第70條規定，商業之利害關係人得因正當理由，聲請法院選派檢查員，檢查該商業之會計帳簿報表及憑證。",
+    "material_ref": "law-05-02",
+    "tags": ["法院選派檢查員"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-05-02-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "記帳士業務簿冊保存五年，與商業會計法會計憑證保存五年，是否為同一件事？",
+    "options": ["是，兩者規範的是完全相同的文件", "不是，兩者是不同法規對不同文件的規範，只是保存年限剛好都是五年", "記帳士業務簿冊保存年限比會計憑證長", "商業會計法沒有規定憑證保存年限"],
+    "answer": [1],
+    "explanation": "記帳士業務簿冊（記載委任案件、酬金等）依記帳士法保存五年；會計憑證依商業會計法保存五年，兩者是不同法規規範的不同文件，容易混淆但應分別記憶。",
+    "material_ref": "law-05-02",
+    "tags": ["保存年限比較"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-05-02-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "會計憑證與會計帳簿的保存年限，何者較長？",
+    "options": ["會計憑證較長（十年），會計帳簿較短（五年）", "會計帳簿及財務報表較長（十年），會計憑證較短（五年）", "兩者相同，都是五年", "兩者相同，都是十年"],
+    "answer": [1],
+    "explanation": "會計憑證保存五年，會計帳簿及財務報表保存十年，帳簿報表的保存年限較長。",
+    "material_ref": "law-05-02",
+    "tags": ["保存年限比較"],
+    "verified_at": "2026-07-05"
+  }
+]

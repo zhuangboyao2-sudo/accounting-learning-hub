@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-law-05-02-01",
+    "subject": "bookkeeping-law",
+    "front": "會計憑證保存年限？",
+    "back": "五年（第38條，永久保存或未結會計事項者除外）。",
+    "material_ref": "law-05-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-05-02-02",
+    "subject": "bookkeeping-law",
+    "front": "會計帳簿及財務報表保存年限？",
+    "back": "十年（第38條，未結會計事項者除外）。",
+    "material_ref": "law-05-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-05-02-03",
+    "subject": "bookkeeping-law",
+    "front": "利害關係人查閱決算報表的權利？",
+    "back": "因正當理由請求，且不違反商業利益之限度內，負責人應許其查閱（第69條）。",
+    "material_ref": "law-05-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-05-02-04",
+    "subject": "bookkeeping-law",
+    "front": "利害關係人的進一步救濟手段？",
+    "back": "聲請法院選派檢查員，檢查該商業之會計帳簿報表及憑證（第70條）。",
+    "material_ref": "law-05-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-05-02-05",
+    "subject": "bookkeeping-law",
+    "front": "記帳士業務簿冊保存年限 vs 商業會計法憑證保存年限？",
+    "back": "都是五年，但屬於不同法規對不同文件的規範，不能混為一談。",
+    "material_ref": "law-05-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-05-02-06",
+    "subject": "bookkeeping-law",
+    "front": "憑證與帳簿報表保存年限哪個較長？",
+    "back": "帳簿及財務報表較長（十年），憑證較短（五年）。",
+    "material_ref": "law-05-02",
+    "verified_at": "2026-07-05"
+  }
+]

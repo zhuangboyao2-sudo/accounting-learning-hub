@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-law-05-01-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "商業之決算，應於會計年度終了後多久內辦理完竣？",
+    "options": ["一個月內", "二個月內（必要時得延長二個半月）", "三個月內", "六個月內"],
+    "answer": [1],
+    "explanation": "商業會計法第65條規定，商業之決算，應於會計年度終了後二個月內辦理完竣；必要時得延長二個半月。",
+    "material_ref": "law-05-01",
+    "tags": ["決算期限", "商業會計法"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=J0080009"]
+  },
+  {
+    "id": "gen-law-05-01-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "商業每屆決算應編製哪兩種報表？",
+    "options": ["營業報告書與財務報表", "資產負債表與損益表", "現金流量表與權益變動表", "只需編製財務報表"],
+    "answer": [0],
+    "explanation": "商業會計法第66條規定，商業每屆決算應編製營業報告書與財務報表兩種報表。",
+    "material_ref": "law-05-01",
+    "tags": ["決算報表"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-05-01-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "有分支機構之商業，於會計年度終了時應如何辦理決算？",
+    "options": ["只需辦理總公司帳目決算", "應將本、分支機構之帳目合併辦理決算", "分支機構可以自行單獨決算，不需併入總公司", "分支機構不需要參與決算程序"],
+    "answer": [1],
+    "explanation": "商業會計法第67條規定，有分支機構之商業，於會計年度終了時，應將其本、分支機構之帳目合併辦理決算。",
+    "material_ref": "law-05-01",
+    "tags": ["分支機構決算"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-05-01-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "商業負責人應於會計年度終了後多久內，將決算報表提請商業出資人、合夥人或股東承認？",
+    "options": ["三個月內", "四個月內", "六個月內", "十二個月內"],
+    "answer": [2],
+    "explanation": "商業會計法第68條規定，商業負責人應於會計年度終了後六個月內，將決算報表提請承認。",
+    "material_ref": "law-05-01",
+    "tags": ["決算承認"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-05-01-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "決算報表獲得承認後，商業負責人及主辦會計人員的責任如何處理？",
+    "options": ["無條件全部解除，不論有無不法行為", "於承認後解除，但有不法或不正當行為者不在此限", "永遠不會解除", "只有會計師簽證過的報表才能解除責任"],
+    "answer": [1],
+    "explanation": "商業會計法第68條第3項規定，於決算報表獲得承認後解除責任，但有不法或不正當行為者，不在此限。",
+    "material_ref": "law-05-01",
+    "tags": ["責任解除"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-05-01-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "決算完竣期限（二個月，可延長二個半月）與決算報表提請承認期限（六個月）是否為同一件事？",
+    "options": ["是，兩者是同一個期限", "不是，兩者是決算程序中不同階段的期限，容易混淆", "決算完竣期限比提請承認期限長", "提請承認期限沒有法定規定"],
+    "answer": [1],
+    "explanation": "決算完竣期限（二個月，必要時延長二個半月）是編製決算報表的期限；提請承認期限（六個月）是把已編製完成的報表提請出資人等承認的期限，兩者是不同階段。",
+    "material_ref": "law-05-01",
+    "tags": ["決算期限比較"],
+    "verified_at": "2026-07-05"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-law-05-04-01",
+    "subject": "bookkeeping-law",
+    "front": "第76條罰鍰級距與適用情形？",
+    "back": "六萬至三十萬元。適用未設帳簿、毀損帳簿頁數、未依限保存、未如期決算、決算報表顯不確實等。",
+    "material_ref": "law-05-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-05-04-02",
+    "subject": "bookkeeping-law",
+    "front": "第78條罰鍰級距與適用情形？",
+    "back": "三萬至十五萬元。適用違反支付工具規定、不取得原始憑證、不按時記帳、未依規定裝訂保管憑證等。",
+    "material_ref": "law-05-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-05-04-03",
+    "subject": "bookkeeping-law",
+    "front": "第79條罰鍰級距與適用情形？",
+    "back": "一萬至五萬元。適用未依規定記帳文字、不設帳簿目錄、未簽名蓋章、未依限提請承認、規避拒絕檢查等。",
+    "material_ref": "law-05-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-05-04-04",
+    "subject": "bookkeeping-law",
+    "front": "商業負責人未依第5條規定置會計人員的罰則？",
+    "back": "處新臺幣三萬元以上十五萬元以下罰鍰（第77條）。",
+    "material_ref": "law-05-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-05-04-05",
+    "subject": "bookkeeping-law",
+    "front": "哪一款罰鍰由法院裁罰，而非主管機關？",
+    "back": "第79條第6款（規避、妨礙或拒絕檢查），其餘由各級主管機關裁罰（第81條）。",
+    "material_ref": "law-05-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-05-04-06",
+    "subject": "bookkeeping-law",
+    "front": "記帳士受託處理商業會計事務違規時適用什麼罰則？",
+    "back": "依第80條，比照第76、78、79條規定處罰，與商業本身人員適用相同罰則。",
+    "material_ref": "law-05-04",
+    "verified_at": "2026-07-05"
+  }
+]

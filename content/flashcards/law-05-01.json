@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-law-05-01-01",
+    "subject": "bookkeeping-law",
+    "front": "商業決算完竣期限？",
+    "back": "會計年度終了後二個月內，必要時得延長二個半月（第65條）。",
+    "material_ref": "law-05-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-05-01-02",
+    "subject": "bookkeeping-law",
+    "front": "商業每屆決算應編製哪兩種報表？",
+    "back": "營業報告書與財務報表（第66條）。",
+    "material_ref": "law-05-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-05-01-03",
+    "subject": "bookkeeping-law",
+    "front": "有分支機構的商業如何辦理決算？",
+    "back": "應將本、分支機構之帳目合併辦理決算（第67條）。",
+    "material_ref": "law-05-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-05-01-04",
+    "subject": "bookkeeping-law",
+    "front": "決算報表提請承認的期限？",
+    "back": "會計年度終了後六個月內（第68條）。",
+    "material_ref": "law-05-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-05-01-05",
+    "subject": "bookkeeping-law",
+    "front": "決算報表獲承認後責任如何解除？",
+    "back": "商業負責人及主辦會計人員責任解除，但有不法或不正當行為者不在此限。",
+    "material_ref": "law-05-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-05-01-06",
+    "subject": "bookkeeping-law",
+    "front": "決算完竣期限與提請承認期限的差異？",
+    "back": "決算完竣：二個月（可延長二個半月）。提請承認：六個月。兩者是決算程序不同階段的期限。",
+    "material_ref": "law-05-01",
+    "verified_at": "2026-07-05"
+  }
+]

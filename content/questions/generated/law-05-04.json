@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-law-05-04-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第76條規定，未設置會計帳簿者（依規定免設者除外），處以何種罰鍰？",
+    "options": ["新臺幣一萬元以上五萬元以下", "新臺幣三萬元以上十五萬元以下", "新臺幣六萬元以上三十萬元以下", "新臺幣十萬元以上五十萬元以下"],
+    "answer": [2],
+    "explanation": "商業會計法第76條規定，違反第23條未設置會計帳簿者，處新臺幣六萬元以上三十萬元以下罰鍰。",
+    "material_ref": "law-05-04",
+    "tags": ["行政罰鍰", "商業會計法"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=J0080009"]
+  },
+  {
+    "id": "gen-law-05-04-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "商業負責人違反第5條規定（未置會計人員、任免程序不合規定或委外處理程序不合規定），處以何種罰鍰？",
+    "options": ["新臺幣一萬元以上五萬元以下", "新臺幣三萬元以上十五萬元以下", "新臺幣六萬元以上三十萬元以下", "不受罰鍰處分"],
+    "answer": [1],
+    "explanation": "商業會計法第77條規定，商業負責人違反第5條第1項、第2項或第5項規定者，處新臺幣三萬元以上十五萬元以下罰鍰。",
+    "material_ref": "law-05-04",
+    "tags": ["行政罰鍰"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-05-04-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "違反第34條規定不按時記帳者，依第78條規定處以何種罰鍰？",
+    "options": ["新臺幣一萬元以上五萬元以下", "新臺幣三萬元以上十五萬元以下", "新臺幣六萬元以上三十萬元以下", "不受任何處罰"],
+    "answer": [1],
+    "explanation": "商業會計法第78條規定，違反第34條規定不按時記帳者，處新臺幣三萬元以上十五萬元以下罰鍰。",
+    "material_ref": "law-05-04",
+    "tags": ["行政罰鍰"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-05-04-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "規避、妨礙或拒絕第70條所規定之檢查，依第79條規定應由何機關裁罰？",
+    "options": ["由各級主管機關裁罰", "由法院裁罰", "由記帳士公會裁罰", "由會計師公會裁罰"],
+    "answer": [1],
+    "explanation": "商業會計法第81條規定，本法所定罰鍰，除第79條第6款（規避妨礙或拒絕檢查）由法院裁罰外，由各級主管機關裁罰之。",
+    "material_ref": "law-05-04",
+    "tags": ["裁罰機關"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-05-04-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "會計師或記帳士受託處理商業會計事務，違反第76條、第78條、第79條規定情事之一者，依第80條規定應如何處理？",
+    "options": ["不受任何處罰，因為委任人才是責任主體", "應依各該條規定處罰，與商業本身人員適用相同罰則", "只受記帳士公會內部懲戒，不受商業會計法罰則拘束", "只需要口頭道歉"],
+    "answer": [1],
+    "explanation": "商業會計法第80條規定，會計師或依法取得代他人處理會計事務資格之人，有違反第76條、第78條、第79條各款規定情事之一者，應依各該條規定處罰。",
+    "material_ref": "law-05-04",
+    "tags": ["會計師記帳士罰則"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-05-04-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "商業會計法第76、78、79條三個罰鍰級距，由高到低排序為何？",
+    "options": ["第76條＞第78條＞第79條", "第79條＞第78條＞第76條", "第78條＞第76條＞第79條", "三者金額相同"],
+    "answer": [0],
+    "explanation": "罰鍰級距由高到低為：第76條（六萬至三十萬）＞第78條（三萬至十五萬）＞第79條（一萬至五萬）。",
+    "material_ref": "law-05-04",
+    "tags": ["行政罰鍰比較"],
+    "verified_at": "2026-07-05"
+  }
+]

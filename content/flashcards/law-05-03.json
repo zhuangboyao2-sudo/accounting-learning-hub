@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-law-05-03-01",
+    "subject": "bookkeeping-law",
+    "front": "第71條做假帳的刑責？",
+    "back": "處五年以下有期徒刑、拘役或科或併科新臺幣六十萬元以下罰金。",
+    "material_ref": "law-05-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-05-03-02",
+    "subject": "bookkeeping-law",
+    "front": "第71條的五款情事？",
+    "back": "明知不實填製憑證、故意使憑證帳簿滅失毀損、偽造變造憑證帳簿、故意遺漏記錄、其他不正當方法致財報不實。",
+    "material_ref": "law-05-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-05-03-03",
+    "subject": "bookkeeping-law",
+    "front": "電子方式處理會計資料造假的罰則？",
+    "back": "比照第71條，處五年以下有期徒刑、拘役或科或併科新臺幣六十萬元以下罰金（第72條）。",
+    "material_ref": "law-05-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-05-03-04",
+    "subject": "bookkeeping-law",
+    "front": "第73條減免刑責的條件？",
+    "back": "於事前曾表示拒絕或提出更正意見，且有確實證據者，得減輕或免除其刑。",
+    "material_ref": "law-05-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-05-03-05",
+    "subject": "bookkeeping-law",
+    "front": "未取得資格擅自處理會計事務初犯的罰則？",
+    "back": "處新臺幣十萬元以下罰金（第74條）。",
+    "material_ref": "law-05-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-05-03-06",
+    "subject": "bookkeeping-law",
+    "front": "無資格處理會計事務三年內再犯的罰則？",
+    "back": "處一年以下有期徒刑、拘役或科或併科新臺幣十五萬元以下罰金。",
+    "material_ref": "law-05-03",
+    "verified_at": "2026-07-05"
+  }
+]

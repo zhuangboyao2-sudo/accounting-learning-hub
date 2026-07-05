@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-law-05-03-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依商業會計法第71條，以明知為不實之事項而填製會計憑證者，應受何種處罰？",
+    "options": ["僅處行政罰鍰", "處五年以下有期徒刑、拘役或科或併科新臺幣六十萬元以下罰金", "只需口頭警告", "由記帳士公會自行懲戒即可"],
+    "answer": [1],
+    "explanation": "商業會計法第71條規定，以明知為不實之事項而填製會計憑證或記入帳冊者，處五年以下有期徒刑、拘役或科或併科新臺幣六十萬元以下罰金。",
+    "material_ref": "law-05-03",
+    "tags": ["刑事罰則", "商業會計法"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=J0080009"]
+  },
+  {
+    "id": "gen-law-05-03-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "使用電子方式處理會計資料，故意登錄不實資料者，依第72條規定應受何種處罰？",
+    "options": ["不受任何處罰，因為是電子資料", "比照第71條，處五年以下有期徒刑、拘役或科或併科新臺幣六十萬元以下罰金", "只受行政罰鍰", "只需要更正資料即可，不受處罰"],
+    "answer": [1],
+    "explanation": "商業會計法第72條規定，使用電子方式處理會計資料，故意登錄不實資料者，比照第71條處五年以下有期徒刑、拘役或科或併科新臺幣六十萬元以下罰金。",
+    "material_ref": "law-05-03",
+    "tags": ["電子會計資料罰則"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-05-03-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第73條規定，主辦或經辦會計人員於事前曾表示拒絕或提出更正意見有確實證據者，可以如何處理？",
+    "options": ["仍須負完全相同的刑責", "得減輕或免除其刑", "自動免除所有民事責任", "必須先辭職才能免責"],
+    "answer": [1],
+    "explanation": "商業會計法第73條規定，主辦、經辦會計人員犯第71條、第72條之罪，於事前曾表示拒絕或提出更正意見有確實證據者，得減輕或免除其刑。",
+    "material_ref": "law-05-03",
+    "tags": ["減免刑責"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-05-03-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "未依法取得代他人處理會計事務之資格而擅自代他人處理商業會計事務，依第74條規定初犯應如何處罰？",
+    "options": ["處新臺幣十萬元以下罰金", "一律處一年以下有期徒刑", "不受任何處罰", "只需書面警告"],
+    "answer": [0],
+    "explanation": "商業會計法第74條規定，未依法取得資格擅自代他人處理商業會計事務者，處新臺幣十萬元以下罰金。",
+    "material_ref": "law-05-03",
+    "tags": ["無資格處理會計事務"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-05-03-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承上題，經查獲後三年內再犯者，應如何處罰？",
+    "options": ["仍處新臺幣十萬元以下罰金，沒有加重", "處一年以下有期徒刑、拘役或科或併科新臺幣十五萬元以下罰金", "自動免除處罰", "只需要提高罰金一倍"],
+    "answer": [1],
+    "explanation": "商業會計法第74條規定，經查獲後三年內再犯者，處一年以下有期徒刑、拘役或科或併科新臺幣十五萬元以下罰金。",
+    "material_ref": "law-05-03",
+    "tags": ["無資格處理會計事務"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-05-03-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "第73條減免刑責機制的設計用意為何？",
+    "options": ["讓所有違法行為都可以輕易免責", "鼓勵內部人員及早反映異常、拒絕配合做假帳", "純粹是為了減輕法院工作量", "只適用於商業負責人，不適用於一般會計人員"],
+    "answer": [1],
+    "explanation": "第73條的設計用意是鼓勵主辦、經辦會計人員等內部人員在事前及早反映異常、拒絕配合做假帳，若有確實證據可以減輕或免除刑責。",
+    "material_ref": "law-05-03",
+    "tags": ["減免刑責"],
+    "verified_at": "2026-07-05"
+  }
+]
