@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { compileMDX } from "next-mdx-remote/rsc";
+import remarkGfm from "remark-gfm";
 import { SUBJECTS } from "@/types/content";
 import {
   getAdjacentMaterials,
@@ -38,6 +39,7 @@ export default async function MaterialSectionPage({
   const { content } = await compileMDX({
     source: material.body,
     components: { TaxParam, Term },
+    options: { mdxOptions: { remarkPlugins: [remarkGfm] } },
   });
 
   const { prev, next } = getAdjacentMaterials(subjectInfo.id, id);
