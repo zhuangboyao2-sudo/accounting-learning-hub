@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-acc-06-04-01",
+    "subject": "accounting",
+    "front": "現金短少時的分錄？",
+    "back": "借：現金短溢；貸：零用金（或庫存現金）。",
+    "material_ref": "acc-06-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-06-04-02",
+    "subject": "accounting",
+    "front": "現金溢餘時的分錄？",
+    "back": "借：零用金（或庫存現金）；貸：現金短溢。",
+    "material_ref": "acc-06-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-06-04-03",
+    "subject": "accounting",
+    "front": "現金短溢科目的性質？",
+    "back": "暫記性質，查明原因後應更正分錄、沖回並改列正確科目。",
+    "material_ref": "acc-06-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-06-04-04",
+    "subject": "accounting",
+    "front": "現金短溢原因查無所以時，期末如何處理？",
+    "back": "結轉列入其他費用（短少情形）或其他收入（溢餘情形）。",
+    "material_ref": "acc-06-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-06-04-05",
+    "subject": "accounting",
+    "front": "零用金帳列10,000元、實際盤點9,700元，短少金額與分錄？",
+    "back": "短少300元。借：現金短溢300；貸：零用金300。",
+    "material_ref": "acc-06-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-06-04-06",
+    "subject": "accounting",
+    "front": "短溢原因不明時，可以直接分攤到某個費用科目嗎？",
+    "back": "不可以，應先掛現金短溢暫記，避免原因不明就勉強歸類到錯誤科目。",
+    "material_ref": "acc-06-04",
+    "verified_at": "2026-07-05"
+  }
+]

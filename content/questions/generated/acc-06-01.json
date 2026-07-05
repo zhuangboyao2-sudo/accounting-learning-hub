@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-acc-06-01-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依商業會計處理準則第15條，下列何者屬於現金及約當現金的範圍？",
+    "options": ["庫存現金、活期存款及可隨時轉換成定額現金且價值變動風險甚小之短期高流動性定期存款", "所有的應收帳款", "所有的存貨", "所有的長期投資"],
+    "answer": [0],
+    "explanation": "商業會計處理準則第15條規定現金及約當現金指庫存現金、活期存款及可隨時轉換成定額現金且價值變動風險甚小之短期並具高度流動性之定期存款或投資。",
+    "material_ref": "acc-06-01",
+    "tags": ["現金", "商業會計處理準則"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moea.gov.tw/LawContent.aspx?id=FL011301"]
+  },
+  {
+    "id": "gen-acc-06-01-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "內部控制中的「職能分工」原則主要是指什麼？",
+    "options": ["所有現金收支都由老闆一人親自處理", "經手現金的人與負責記帳的人應分開", "每筆交易都要兩個人同時簽名", "只需要定期盤點即可，不需要分工"],
+    "answer": [1],
+    "explanation": "職能分工是指經手現金的人與負責記帳的人應分開，避免監守自盜難以被發現，是內部控制的基本原則之一。",
+    "material_ref": "acc-06-01",
+    "tags": ["內部控制"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-06-01-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "定額零用金制下，零用金動用時（尚未撥補前）應如何處理？",
+    "options": ["立即依支出項目做分錄，借記費用貸記零用金", "不做分錄，只保留憑證，待撥補時才彙總入帳", "立即借記零用金貸記銀行存款", "動用金額直接列為損失"],
+    "answer": [1],
+    "explanation": "定額零用金制下，平時動用只保留憑證不做分錄，等撥補時才依憑證彙總，借記各項費用、貸記銀行存款。",
+    "material_ref": "acc-06-01",
+    "tags": ["零用金"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-06-01-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承教材範例，零用金10,000元，月底憑證累計郵電費600元、茶水費400元、文具用品300元，撥補分錄的貸方金額為？",
+    "options": ["1,000元", "1,300元", "10,000元", "9,700元"],
+    "answer": [1],
+    "explanation": "撥補金額＝憑證累計總額＝600+400+300＝1,300元，貸記銀行存款1,300元。",
+    "material_ref": "acc-06-01",
+    "tags": ["零用金"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-06-01-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "定額零用金制下，撥補後零用金科目的餘額應該如何？",
+    "options": ["增加為原定額加上撥補金額", "維持設立時的固定金額不變", "減少為零", "隨每次撥補金額變動"],
+    "answer": [1],
+    "explanation": "定額零用金制下，撥補只是把現金補回原定額，零用金科目餘額應維持設立時的固定金額不變。",
+    "material_ref": "acc-06-01",
+    "tags": ["零用金"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-06-01-06",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "下列何者違反了內部控制的職能分工原則？",
+    "options": ["會計人員負責記帳，出納人員負責保管現金", "同一人既負責收款、保管現金，又負責記帳與對帳", "重大支出須經主管簽核後才能動用", "定期盤點現金並與帳列金額核對"],
+    "answer": [1],
+    "explanation": "讓同一人同時經手現金又負責記帳，會削弱內部控制、增加舞弊不易被發現的風險，違反職能分工原則。",
+    "material_ref": "acc-06-01",
+    "tags": ["內部控制"],
+    "verified_at": "2026-07-05"
+  }
+]

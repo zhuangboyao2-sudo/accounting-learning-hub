@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-acc-06-03-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依商業會計處理準則第15條，短期性投資的分類主要依據為何？",
+    "options": ["投資標的的市值大小", "持有目的與合約現金流量特性", "投資標的是否為上市公司", "投資金額是否超過100萬元"],
+    "answer": [1],
+    "explanation": "商業會計處理準則第15條規定短期性投資依持有目的與合約現金流量特性分類為不同金融資產項目。",
+    "material_ref": "acc-06-03",
+    "tags": ["短期投資", "商業會計處理準則"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moea.gov.tw/LawContent.aspx?id=FL011301"]
+  },
+  {
+    "id": "gen-acc-06-03-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "企業持有股票並非以長期控制或重大影響為目的時，通常分類為？",
+    "options": ["透過損益按公允價值衡量之金融資產－流動", "按攤銷後成本衡量之金融資產", "採用權益法之投資", "投資性不動產"],
+    "answer": [0],
+    "explanation": "非以長期控制、重大影響為目的，也非以收取合約現金流量為主要目的持有的股票，通常分類為透過損益按公允價值衡量之金融資產－流動。",
+    "material_ref": "acc-06-03",
+    "tags": ["短期投資"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-06-03-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承教材範例，投資成本1,000,000元的股票，年底市價上升到1,050,000元，應認列的評價利益為？",
+    "options": ["0元", "5,000元", "50,000元", "1,050,000元"],
+    "answer": [2],
+    "explanation": "評價利益＝市價1,050,000元－成本1,000,000元＝50,000元，列入當期損益。",
+    "material_ref": "acc-06-03",
+    "tags": ["短期投資"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-06-03-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "透過損益按公允價值衡量之金融資產－流動，其期末評價損益應如何處理？",
+    "options": ["列入業主權益項目，不影響損益表", "列入當期損益", "不需要調整，維持原始成本列示", "列入遞延收入"],
+    "answer": [1],
+    "explanation": "透過損益按公允價值衡量之金融資產，期末依公允價值調整帳面金額，評價損益列入當期損益。",
+    "material_ref": "acc-06-03",
+    "tags": ["短期投資"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-06-03-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "判斷投資屬於「短期」或「長期」的關鍵依據為何？",
+    "options": ["投資金額大小", "是否預期於資產負債表日後十二個月內實現、或是否主要為交易目的而持有", "投資標的是否為股票", "公司負責人的主觀認定"],
+    "answer": [1],
+    "explanation": "短期與長期投資的認定關鍵在於是否預期於資產負債表日後十二個月內實現、或是否主要為交易目的而持有。",
+    "material_ref": "acc-06-03",
+    "tags": ["短期投資"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-06-03-06",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "若年底投資股票市價下跌，應如何處理？",
+    "options": ["不需要調整，等出售時再認列損失", "認列評價損失，列入當期損益", "認列為業主權益減項", "直接沖銷投資成本，不留紀錄"],
+    "answer": [1],
+    "explanation": "透過損益按公允價值衡量之金融資產，市價下跌時應認列評價損失，列入當期損益，與市價上升時的處理方向相反。",
+    "material_ref": "acc-06-03",
+    "tags": ["短期投資"],
+    "verified_at": "2026-07-05"
+  }
+]

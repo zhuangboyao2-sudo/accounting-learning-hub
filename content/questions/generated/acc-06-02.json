@@ -1,0 +1,80 @@
+[
+  {
+    "id": "gen-acc-06-02-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "編製銀行往來調節表的主要目的是什麼？",
+    "options": ["計算本期應納稅額", "找出銀行對帳單餘額與公司帳列餘額不一致的原因，核對出正確的現金餘額", "計算本期折舊費用", "編製損益表"],
+    "answer": [1],
+    "explanation": "銀行往來調節表用來找出銀行對帳單與公司帳列現金餘額不一致的原因（通常是時間差或錯誤），核對出正確的現金餘額。",
+    "material_ref": "acc-06-02",
+    "tags": ["銀行往來調節表"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-06-02-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "「在途存款」在銀行往來調節表中應如何處理？",
+    "options": ["從銀行對帳單餘額中加回", "從銀行對帳單餘額中減除", "從公司帳列餘額中加回", "從公司帳列餘額中減除"],
+    "answer": [0],
+    "explanation": "在途存款是公司已入帳、但銀行對帳單尚未反映的存款，應加回銀行對帳單餘額。",
+    "material_ref": "acc-06-02",
+    "tags": ["銀行往來調節表"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-06-02-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "「未兌現支票」在銀行往來調節表中應如何處理？",
+    "options": ["從銀行對帳單餘額中加回", "從銀行對帳單餘額中減除", "從公司帳列餘額中加回", "從公司帳列餘額中減除"],
+    "answer": [1],
+    "explanation": "未兌現支票是公司已開票入帳、但收款人尚未去銀行兌現的支票，應從銀行對帳單餘額中減除。",
+    "material_ref": "acc-06-02",
+    "tags": ["銀行往來調節表"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-06-02-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承教材範例（銀行對帳單餘額195,000元、在途存款25,000元、未兌現支票10,000元），調整後銀行餘額為？",
+    "options": ["180,000元", "195,000元", "210,000元", "230,000元"],
+    "answer": [2],
+    "explanation": "195,000+25,000-10,000＝210,000元。",
+    "material_ref": "acc-06-02",
+    "tags": ["銀行往來調節表"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-06-02-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "銀行代收貨款、銀行手續費這類「公司端」調節項目，公司應如何處理？",
+    "options": ["不需要做任何分錄，等下期銀行對帳單自然反映", "需要公司補做分錄入帳，因為那是公司帳上還不知道的事項", "只需要在調節表上記錄，永遠不需要入帳", "應該從銀行對帳單餘額中扣除"],
+    "answer": [1],
+    "explanation": "銀行代收款項、手續費等是銀行已經處理、但公司帳上還不知道的事項，公司需要補做分錄入帳。",
+    "material_ref": "acc-06-02",
+    "tags": ["銀行往來調節表"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-06-02-06",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "下列何者不需要公司做分錄調整？",
+    "options": ["銀行代收貨款", "銀行手續費", "在途存款與未兌現支票", "銀行代付的水電費"],
+    "answer": [2],
+    "explanation": "在途存款與未兌現支票只是銀行端的時間差，不需要公司做分錄調整，等下期銀行對帳單自然會反映。",
+    "material_ref": "acc-06-02",
+    "tags": ["銀行往來調節表"],
+    "verified_at": "2026-07-05"
+  }
+]

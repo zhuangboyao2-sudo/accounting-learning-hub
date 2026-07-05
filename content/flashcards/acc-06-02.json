@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-acc-06-02-01",
+    "subject": "accounting",
+    "front": "編製銀行往來調節表的目的？",
+    "back": "找出銀行對帳單餘額與公司帳列餘額不一致的原因，核對出正確的現金餘額。",
+    "material_ref": "acc-06-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-06-02-02",
+    "subject": "accounting",
+    "front": "在途存款如何在調節表中處理？",
+    "back": "加回銀行對帳單餘額（公司已入帳但銀行尚未反映）。",
+    "material_ref": "acc-06-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-06-02-03",
+    "subject": "accounting",
+    "front": "未兌現支票如何在調節表中處理？",
+    "back": "從銀行對帳單餘額中減除（公司已開票入帳但收款人尚未兌現）。",
+    "material_ref": "acc-06-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-06-02-04",
+    "subject": "accounting",
+    "front": "銀行代收貨款、銀行手續費屬於哪一端的調節項目？需要做分錄嗎？",
+    "back": "屬於公司端調節項目，需要公司補做分錄入帳，因為那是銀行已處理但公司帳上還不知道的事項。",
+    "material_ref": "acc-06-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-06-02-05",
+    "subject": "accounting",
+    "front": "在途存款與未兌現支票需要公司做分錄調整嗎？",
+    "back": "不需要，那只是銀行端的時間差，下期銀行對帳單自然會反映。",
+    "material_ref": "acc-06-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-06-02-06",
+    "subject": "accounting",
+    "front": "調節表編製完成後，兩邊調整後餘額應該？",
+    "back": "相等，這個相等的金額才是真正的正確現金餘額。",
+    "material_ref": "acc-06-02",
+    "verified_at": "2026-07-05"
+  }
+]

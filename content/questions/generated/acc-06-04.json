@@ -1,0 +1,80 @@
+[
+  {
+    "id": "gen-acc-06-04-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "盤點零用金時，若實際金額少於帳列金額，應如何處理？",
+    "options": ["不需理會，下期自然平衡", "借記現金短溢、貸記零用金", "借記零用金、貸記現金短溢", "直接調整零用金設立金額"],
+    "answer": [1],
+    "explanation": "現金短少時，借記現金短溢（費用/損失）、貸記零用金，沖減零用金帳面金額至實際數。",
+    "material_ref": "acc-06-04",
+    "tags": ["現金短溢"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-06-04-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承教材範例，零用金帳列10,000元，實際盤點只有9,700元，應認列的現金短溢金額為？",
+    "options": ["0元", "300元", "9,700元", "10,000元"],
+    "answer": [1],
+    "explanation": "現金短少金額＝10,000-9,700＝300元，借記現金短溢300元、貸記零用金300元。",
+    "material_ref": "acc-06-04",
+    "tags": ["現金短溢"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-06-04-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "若盤點結果實際現金金額多於帳列金額（現金溢餘），應如何處理？",
+    "options": ["借記現金短溢、貸記零用金", "借記零用金、貸記現金短溢", "不需入帳", "全部列為業主權益增加"],
+    "answer": [1],
+    "explanation": "現金溢餘時，借記零用金（增加至實際數）、貸記現金短溢。",
+    "material_ref": "acc-06-04",
+    "tags": ["現金短溢"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-06-04-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "現金短溢科目的性質為何？",
+    "options": ["永久性資產科目", "暫記性質，查明原因後應更正轉列正確科目", "固定不變的費用科目", "只能在年底才能使用的科目"],
+    "answer": [1],
+    "explanation": "現金短溢科目具有暫記性質，原因查明後應更正分錄、沖回並改列正確科目。",
+    "material_ref": "acc-06-04",
+    "tags": ["現金短溢"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-06-04-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "若現金短溢原因查無所以，期末應如何處理？",
+    "options": ["永遠掛在資產負債表上不結轉", "結轉列入其他費用（短少）或其他收入（溢餘）", "轉列為存貨", "轉列為應收帳款"],
+    "answer": [1],
+    "explanation": "查無原因的現金短溢，於期末結轉時列入其他費用（短少情形）或其他收入（溢餘情形）。",
+    "material_ref": "acc-06-04",
+    "tags": ["現金短溢"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-06-04-06",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "下列處理現金短溢的做法，何者正確？",
+    "options": ["短溢原因不明時，直接分攤計入某個費用科目", "先掛現金短溢暫記，查明原因後再更正轉列正確科目", "只要金額不大，就不需要入帳", "現金短溢只適用於零用金，不適用於庫存現金"],
+    "answer": [1],
+    "explanation": "正確做法是先以現金短溢暫記，待查明原因後再更正轉列正確科目，避免原因不明就勉強歸類。",
+    "material_ref": "acc-06-04",
+    "tags": ["現金短溢"],
+    "verified_at": "2026-07-05"
+  }
+]
