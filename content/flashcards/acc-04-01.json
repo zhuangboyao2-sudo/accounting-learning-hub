@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-acc-04-01-01",
+    "subject": "accounting",
+    "front": "永續盤存制與定期盤存制的差異？",
+    "back": "永續盤存制：進貨時立即入存貨科目、銷貨同時結轉銷貨成本，隨時知道存貨餘額。定期盤存制：進貨記入「進貨」科目，期末才透過盤點與公式反算銷貨成本。",
+    "material_ref": "acc-04-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-04-01-02",
+    "subject": "accounting",
+    "front": "定期盤存制下銷貨成本的計算公式？",
+    "back": "期初存貨＋本期進貨－期末存貨＝銷貨成本",
+    "material_ref": "acc-04-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-04-01-03",
+    "subject": "accounting",
+    "front": "進貨運費（買方負擔）應如何處理？",
+    "back": "計入存貨成本，而非列為當期費用。",
+    "material_ref": "acc-04-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-04-01-04",
+    "subject": "accounting",
+    "front": "永續盤存制下，進貨退回及折讓的分錄？",
+    "back": "借：應付帳款；貸：存貨（減少存貨成本）。",
+    "material_ref": "acc-04-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-04-01-05",
+    "subject": "accounting",
+    "front": "買賣業的存貨主要是指什麼？",
+    "back": "已購入尚未售出、準備轉售的商品。",
+    "material_ref": "acc-04-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-04-01-06",
+    "subject": "accounting",
+    "front": "永續盤存制下平時還需要盤點嗎？",
+    "back": "需要，目的是核對帳載與實際數量、抓出短缺，而不是為了計算銷貨成本。",
+    "material_ref": "acc-04-01",
+    "verified_at": "2026-07-05"
+  }
+]

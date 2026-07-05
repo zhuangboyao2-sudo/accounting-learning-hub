@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-acc-04-04-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依商業會計法第43條規定，存貨應以何種基礎衡量？",
+    "options": ["成本與淨變現價值孰低", "一律以成本衡量", "一律以市價衡量", "淨變現價值與市價孰高"],
+    "answer": [0],
+    "explanation": "商業會計法第43條規定存貨以成本與淨變現價值孰低衡量，成本高於淨變現價值時應沖減至淨變現價值。",
+    "material_ref": "acc-04-04",
+    "tags": ["存貨評價", "商業會計法"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=J0080009"]
+  },
+  {
+    "id": "gen-acc-04-04-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "存貨成本高於淨變現價值時，沖減金額應於發生當期認列為什麼？",
+    "options": ["營業外損失", "銷貨成本", "保留盈餘減項", "遞延資產"],
+    "answer": [1],
+    "explanation": "依商業會計法第43條，存貨成本沖減至淨變現價值的金額應於發生當期認列為銷貨成本。",
+    "material_ref": "acc-04-04",
+    "tags": ["存貨跌價損失"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-04-04-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "淨變現價值的定義為何？",
+    "options": ["商品的原始進貨成本", "商品目前的市場重置成本", "正常營業過程中之估計售價，減除至完工尚需投入之成本及銷售費用後之餘額", "商品的帳面淨值加計利息"],
+    "answer": [2],
+    "explanation": "淨變現價值＝正常營業過程中之估計售價，減除至完工尚需投入之成本及銷售費用後之餘額。",
+    "material_ref": "acc-04-04",
+    "tags": ["淨變現價值"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-04-04-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承教材範例（成本10,000元、淨變現價值9,000元），應認列多少存貨跌價損失？",
+    "options": ["0元", "500元", "1,000元", "9,000元"],
+    "answer": [2],
+    "explanation": "成本10,000元高於淨變現價值9,000元，差額1,000元應認列為存貨跌價損失。",
+    "material_ref": "acc-04-04",
+    "tags": ["存貨跌價損失"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-04-04-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "定期盤點時發現實際數量少於帳列數量（存貨短缺），應如何處理？",
+    "options": ["不需處理，下期自然會平衡", "將短缺部分沖銷，借記存貨短缺損失（或銷貨成本），貸記存貨", "將短缺部分列為應付帳款", "調整期初存貨金額"],
+    "answer": [1],
+    "explanation": "存貨短缺應沖銷帳列金額，借記存貨短缺損失（或銷貨成本），貸記存貨。",
+    "material_ref": "acc-04-04",
+    "tags": ["存貨短缺"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-04-04-06",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "資產負債表上，存貨應以下列何種金額列示？",
+    "options": ["原始進貨成本，不考慮市價變動", "成本與淨變現價值孰低者", "淨變現價值與市價孰高者", "重置成本"],
+    "answer": [1],
+    "explanation": "依商業會計法第43條，資產負債表上存貨應以成本與淨變現價值孰低者的金額列示。",
+    "material_ref": "acc-04-04",
+    "tags": ["存貨評價"],
+    "verified_at": "2026-07-05"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-acc-04-02-01",
+    "subject": "accounting",
+    "front": "永續盤存制下，每次銷貨要做的兩筆分錄是？",
+    "back": "1. 認列銷貨收入（借應收帳款／現金，貸銷貨收入）2. 結轉銷貨成本（借銷貨成本，貸存貨）。",
+    "material_ref": "acc-04-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-04-02-02",
+    "subject": "accounting",
+    "front": "銷貨毛利的計算公式？",
+    "back": "銷貨收入淨額－銷貨成本。",
+    "material_ref": "acc-04-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-04-02-03",
+    "subject": "accounting",
+    "front": "銷貨退回及折讓、銷貨折扣的性質？",
+    "back": "都是銷貨收入的抵減科目（借方餘額），用抵銷科目單獨記錄，保留分析資訊，而非直接沖銷銷貨收入本身。",
+    "material_ref": "acc-04-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-04-02-04",
+    "subject": "accounting",
+    "front": "忘記結轉銷貨成本會有什麼後果？",
+    "back": "存貨帳面餘額虛增，銷貨成本被低估，當期毛利被高估。",
+    "material_ref": "acc-04-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-04-02-05",
+    "subject": "accounting",
+    "front": "銷貨毛利與淨利的差別？",
+    "back": "毛利只扣除銷貨成本；淨利還要再扣除營業費用等其他損益項目。",
+    "material_ref": "acc-04-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-04-02-06",
+    "subject": "accounting",
+    "front": "「2/10, n/30」代表什麼意思？",
+    "back": "10天內付款可享2%現金折扣，最遲須於30天內付清全額。",
+    "material_ref": "acc-04-02",
+    "verified_at": "2026-07-05"
+  }
+]

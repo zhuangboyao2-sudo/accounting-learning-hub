@@ -1,0 +1,80 @@
+[
+  {
+    "id": "gen-acc-04-02-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "永續盤存制下，每次銷貨需要做幾筆分錄？",
+    "options": ["一筆，只認列銷貨收入", "兩筆，認列銷貨收入並結轉銷貨成本", "三筆，另外還要調整存貨備抵科目", "不需要作分錄，期末再處理"],
+    "answer": [1],
+    "explanation": "永續盤存制下每次銷貨要同時做兩筆分錄：一筆認列銷貨收入，一筆結轉銷貨成本並沖減存貨。",
+    "material_ref": "acc-04-02",
+    "tags": ["銷貨成本"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-04-02-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "「銷貨退回及折讓」科目的正常餘額方向為何？",
+    "options": ["借方（銷貨收入的抵減項目）", "貸方（銷貨收入的增加項目）", "借方（資產增加項目）", "貸方（負債增加項目）"],
+    "answer": [0],
+    "explanation": "銷貨退回及折讓是銷貨收入的抵減科目，正常餘額在借方。",
+    "material_ref": "acc-04-02",
+    "tags": ["銷貨退回及折讓"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-04-02-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "銷貨毛利的計算公式為何？",
+    "options": ["銷貨收入淨額－銷貨成本", "銷貨收入淨額－營業費用", "銷貨收入淨額－銷貨成本－營業費用", "銷貨收入總額－進貨總額"],
+    "answer": [0],
+    "explanation": "銷貨毛利＝銷貨收入淨額（已扣除銷貨退回折讓與折扣）－銷貨成本，尚未扣除營業費用。",
+    "material_ref": "acc-04-02",
+    "tags": ["銷貨毛利"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-04-02-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "付款條件「2/10, n/30」代表什麼意思？",
+    "options": ["10天內付款可享2%折扣，最遲30天內付清全額", "30天內付款可享2%折扣，最遲10天內付清全額", "每期折扣2%，共可分10次、30天付清", "必須在2天內付款，否則罰款10%"],
+    "answer": [0],
+    "explanation": "2/10, n/30表示10天內付款享2%現金折扣，最遲須於30天內付清全額。",
+    "material_ref": "acc-04-02",
+    "tags": ["銷貨折扣"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-04-02-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "永續盤存制下，若只做了銷貨收入分錄卻忘記結轉銷貨成本，會造成什麼後果？",
+    "options": ["沒有影響，反正期末盤點會自動修正", "存貨帳面餘額虛增，當期毛利被高估", "存貨帳面餘額虛減，當期毛利被低估", "只影響資產負債表，不影響損益表"],
+    "answer": [1],
+    "explanation": "忘記結轉銷貨成本會導致存貨科目沒有被沖減（餘額虛增），且銷貨成本被低估，使毛利虛高。",
+    "material_ref": "acc-04-02",
+    "tags": ["銷貨成本"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-04-02-06",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "銷貨退回及折讓、銷貨折扣為何要用抵銷科目單獨記錄，而不是直接沖銷「銷貨收入」本身？",
+    "options": ["法規強制規定必須分開", "分開記錄才能保留退貨率、折扣使用率等分析資訊", "分開記錄可以少繳營業稅", "兩者性質完全不同，不能互相抵銷"],
+    "answer": [1],
+    "explanation": "用抵銷科目單獨記錄可以保留銷貨收入的原始總額，並個別追蹤退貨與折扣的比例，供管理分析使用。",
+    "material_ref": "acc-04-02",
+    "tags": ["銷貨退回及折讓", "銷貨折扣"],
+    "verified_at": "2026-07-05"
+  }
+]

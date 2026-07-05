@@ -1,0 +1,80 @@
+[
+  {
+    "id": "gen-acc-04-01-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "永續盤存制下，進貨時應如何記錄？",
+    "options": ["借記進貨，貸記應付帳款", "借記存貨，貸記應付帳款", "借記銷貨成本，貸記應付帳款", "不需要作分錄，期末再處理"],
+    "answer": [1],
+    "explanation": "永續盤存制下進貨時立即借記存貨科目，貸記應付帳款（或現金），帳上隨時可得知存貨餘額。",
+    "material_ref": "acc-04-01",
+    "tags": ["存貨", "永續盤存制"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-04-01-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "定期盤存制下，銷貨成本是如何計算出來的？",
+    "options": ["期初存貨＋本期進貨－期末存貨", "期末存貨－期初存貨＋本期進貨", "本期進貨－期末存貨", "期初存貨－本期進貨＋期末存貨"],
+    "answer": [0],
+    "explanation": "定期盤存制下平時不記錄銷貨成本，期末以「期初存貨＋本期進貨－期末存貨」反算銷貨成本。",
+    "material_ref": "acc-04-01",
+    "tags": ["定期盤存制"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-04-01-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "進貨運費由買方負擔時，應如何處理？",
+    "options": ["列為當期銷售費用", "列為當期管理費用", "計入存貨成本", "不入帳，僅供備查"],
+    "answer": [2],
+    "explanation": "進貨運費是使商品達到可出售狀態的必要成本，應計入存貨成本，而非列為當期費用。",
+    "material_ref": "acc-04-01",
+    "tags": ["存貨成本"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-04-01-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "永續盤存制下，進貨退回及折讓應貸記下列哪個科目？",
+    "options": ["進貨", "銷貨收入", "存貨", "應收帳款"],
+    "answer": [2],
+    "explanation": "永續盤存制下進貨相關成本都記在存貨科目，退回及折讓時貸記存貨以沖減其成本。",
+    "material_ref": "acc-04-01",
+    "tags": ["進貨退回及折讓"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-04-01-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "下列關於永續盤存制的敘述，何者正確？",
+    "options": ["採用永續盤存制就完全不需要盤點", "永續盤存制下帳上隨時可得知存貨餘額，但仍需定期盤點以核對並抓出短缺", "永續盤存制的記帳工作量一定比定期盤存制少", "永續盤存制下不會發生存貨短缺"],
+    "answer": [1],
+    "explanation": "永續盤存制平時仍需定期盤點，目的是核對帳載與實際數量、抓出短缺，而不是為了計算銷貨成本。",
+    "material_ref": "acc-04-01",
+    "tags": ["永續盤存制"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-04-01-06",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "買賣業（批發、零售）的存貨主要是指什麼？",
+    "options": ["原料、在製品、製成品", "已購入尚未售出、準備轉售的商品", "僅指已完工的製成品", "僅指生產所需的原料"],
+    "answer": [1],
+    "explanation": "買賣業的存貨主要就是已購入尚未售出的商品；製造業則還會細分原料、在製品、製成品。",
+    "material_ref": "acc-04-01",
+    "tags": ["存貨"],
+    "verified_at": "2026-07-05"
+  }
+]

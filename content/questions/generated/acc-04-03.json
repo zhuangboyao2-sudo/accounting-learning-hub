@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-acc-04-03-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依商業會計處理準則規定，存貨成本原則上應採用下列哪些方法計算？",
+    "options": ["先進先出法或加權平均法", "僅能採用個別認定法", "後進先出法或個別認定法", "一律採市價法"],
+    "answer": [0],
+    "explanation": "商業會計處理準則規定存貨成本計算應採先進先出法或加權平均法，不得採用個別認定法（性質特殊、不可替代之存貨除外）。",
+    "material_ref": "acc-04-03",
+    "tags": ["存貨", "商業會計處理準則"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moea.gov.tw/LawContent.aspx?id=FL011301"]
+  },
+  {
+    "id": "gen-acc-04-03-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承教材範例（期初存貨100件@40元、進貨200件@45元、進貨200件@50元，期末剩200件），先進先出法下的期末存貨金額為？",
+    "options": ["8,000元", "9,200元", "10,000元", "13,000元"],
+    "answer": [2],
+    "explanation": "先進先出法下期末存貨由最近一批進貨組成：200件×50元＝10,000元。",
+    "material_ref": "acc-04-03",
+    "tags": ["先進先出法"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-04-03-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承上題，先進先出法下的銷貨成本為？",
+    "options": ["9,200元", "10,000元", "13,000元", "14,000元"],
+    "answer": [2],
+    "explanation": "可供銷售商品總成本23,000元－期末存貨10,000元＝銷貨成本13,000元。",
+    "material_ref": "acc-04-03",
+    "tags": ["先進先出法"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-04-03-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承教材範例，加權平均法下的加權平均單位成本為？",
+    "options": ["40元／件", "45元／件", "46元／件", "50元／件"],
+    "answer": [2],
+    "explanation": "加權平均單位成本＝可供銷售商品總成本23,000元÷總數量500件＝46元／件。",
+    "material_ref": "acc-04-03",
+    "tags": ["加權平均法"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-04-03-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承上題，加權平均法下的期末存貨金額為？",
+    "options": ["9,000元", "9,200元", "10,000元", "10,400元"],
+    "answer": [1],
+    "explanation": "期末存貨＝200件×46元＝9,200元。",
+    "material_ref": "acc-04-03",
+    "tags": ["加權平均法"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-04-03-06",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "在物價持續上漲期間，先進先出法與加權平均法相比，通常會使企業呈現？",
+    "options": ["期末存貨較低、銷貨成本較高、毛利較低", "期末存貨較高、銷貨成本較低、毛利較高", "兩法計算結果完全相同", "無法比較，需視個別情況而定"],
+    "answer": [1],
+    "explanation": "物價上漲時，先進先出法的期末存貨較接近最新市價、銷貨成本較低，因此毛利較高；加權平均法則介於中間。",
+    "material_ref": "acc-04-03",
+    "tags": ["先進先出法", "加權平均法"],
+    "verified_at": "2026-07-05"
+  }
+]

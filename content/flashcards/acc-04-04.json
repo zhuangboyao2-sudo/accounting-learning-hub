@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-acc-04-04-01",
+    "subject": "accounting",
+    "front": "商業會計法第43條對存貨衡量的規定？",
+    "back": "存貨以成本與淨變現價值孰低衡量，成本高於淨變現價值時應沖減至淨變現價值。",
+    "material_ref": "acc-04-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-04-04-02",
+    "subject": "accounting",
+    "front": "淨變現價值如何計算？",
+    "back": "正常營業過程中之估計售價，減除至完工尚需投入之成本及銷售費用後之餘額。",
+    "material_ref": "acc-04-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-04-04-03",
+    "subject": "accounting",
+    "front": "存貨跌價損失沖減金額應計入哪個科目？",
+    "back": "銷貨成本（依商業會計法第43條規定，而非營業外損失）。",
+    "material_ref": "acc-04-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-04-04-04",
+    "subject": "accounting",
+    "front": "存貨盤點短缺的分錄？",
+    "back": "借：存貨短缺損失（或銷貨成本）；貸：存貨。",
+    "material_ref": "acc-04-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-04-04-05",
+    "subject": "accounting",
+    "front": "資產負債表上存貨如何列示？",
+    "back": "以成本與淨變現價值孰低者（即沖減後金額）列示於流動資產。",
+    "material_ref": "acc-04-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-04-04-06",
+    "subject": "accounting",
+    "front": "淨變現價值下跌卻忘記做跌價評價分錄，會有什麼後果？",
+    "back": "存貨帳面金額虛列，高於實際可回收價值，資產與損益雙雙失真。",
+    "material_ref": "acc-04-04",
+    "verified_at": "2026-07-05"
+  }
+]

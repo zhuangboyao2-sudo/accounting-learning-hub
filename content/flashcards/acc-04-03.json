@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-acc-04-03-01",
+    "subject": "accounting",
+    "front": "依商業會計處理準則，存貨成本原則上可採用哪兩種方法？",
+    "back": "先進先出法、加權平均法（性質特殊、不可替代之存貨才用個別認定法）。",
+    "material_ref": "acc-04-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-04-03-02",
+    "subject": "accounting",
+    "front": "先進先出法（FIFO）的基本假設？",
+    "back": "假設先買進的商品先賣出，期末存貨由最近期進貨的成本組成。",
+    "material_ref": "acc-04-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-04-03-03",
+    "subject": "accounting",
+    "front": "定期盤存制下，加權平均單位成本怎麼算？",
+    "back": "可供銷售商品總成本 ÷ 可供銷售商品總數量。",
+    "material_ref": "acc-04-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-04-03-04",
+    "subject": "accounting",
+    "front": "物價上漲時，先進先出法與加權平均法對毛利的影響？",
+    "back": "先進先出法的銷貨成本較低、毛利較高；加權平均法居中。",
+    "material_ref": "acc-04-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-04-03-05",
+    "subject": "accounting",
+    "front": "永續盤存制下的加權平均概念稱作什麼？",
+    "back": "移動平均法——每次進貨後立即重新計算一次平均單位成本。",
+    "material_ref": "acc-04-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-04-03-06",
+    "subject": "accounting",
+    "front": "為什麼需要存貨成本流動假設？",
+    "back": "因不同批次進貨單價常不同，實務上難以逐件追蹤實際成本，需要一套假設分攤可供銷售商品成本至銷貨成本與期末存貨之間。",
+    "material_ref": "acc-04-03",
+    "verified_at": "2026-07-05"
+  }
+]
