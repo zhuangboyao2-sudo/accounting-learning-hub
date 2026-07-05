@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fc-acc-02-03-01",
+    "subject": "accounting",
+    "front": "試算表的目的是什麼？",
+    "back": "把所有科目的期末餘額彙總列示，檢查借貸雙方合計金額是否相等。",
+    "material_ref": "acc-02-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-02-03-02",
+    "subject": "accounting",
+    "front": "編製試算表時，科目餘額該填哪一欄？",
+    "back": "依該科目正常餘額所在方向（資產、費用在借方；負債、權益、收入在貸方）。",
+    "material_ref": "acc-02-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-02-03-03",
+    "subject": "accounting",
+    "front": "試算表抓不到哪些錯誤？",
+    "back": "整筆分錄漏記、科目用錯但借貸方向與金額都對、兩筆金額剛好互相抵銷等。",
+    "material_ref": "acc-02-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-02-03-04",
+    "subject": "accounting",
+    "front": "試算表平衡代表帳務完全正確嗎？",
+    "back": "不代表。試算表平衡只是必要條件，不是充分條件，仍可能有試算表抓不到的錯誤。",
+    "material_ref": "acc-02-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-02-03-05",
+    "subject": "accounting",
+    "front": "編製試算表的步驟？",
+    "back": "①算出每個帳戶期末餘額 ②依正常餘額方向填入借方或貸方欄 ③分別加總 ④檢查兩欄合計是否相等。",
+    "material_ref": "acc-02-03",
+    "verified_at": "2026-07-05"
+  }
+]

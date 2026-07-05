@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fc-acc-02-01-01",
+    "subject": "accounting",
+    "front": "賒銷與現銷分錄的差別？",
+    "back": "借方科目從現金改為應收帳款，銷貨收入與應付營業稅的認列相同。",
+    "material_ref": "acc-02-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-02-01-02",
+    "subject": "accounting",
+    "front": "進項稅額是什麼？可以做什麼？",
+    "back": "採購貨物或勞務時支付的營業稅額，日後申報時可扣抵銷項稅額。",
+    "material_ref": "acc-02-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-02-01-03",
+    "subject": "accounting",
+    "front": "存貨成本應以含稅還是不含稅金額入帳？",
+    "back": "不含稅金額；進項稅額應另立科目，不併入存貨成本。",
+    "material_ref": "acc-02-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-02-01-04",
+    "subject": "accounting",
+    "front": "應收帳款、應付帳款分別是什麼性質的科目？",
+    "back": "應收帳款是資產（別人欠我們）；應付帳款是負債（我們欠別人）。",
+    "material_ref": "acc-02-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-02-01-05",
+    "subject": "accounting",
+    "front": "銷項稅額是什麼？",
+    "back": "銷售貨物或勞務時，依規定稅率向買受人收取的營業稅額，屬於應付營業稅（負債）。",
+    "material_ref": "acc-02-01",
+    "verified_at": "2026-07-05"
+  }
+]

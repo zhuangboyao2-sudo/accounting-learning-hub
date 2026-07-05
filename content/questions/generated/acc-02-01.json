@@ -1,0 +1,72 @@
+[
+  {
+    "id": "gen-acc-02-01-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "客戶向工廠賒購貨物，貨款10萬元、營業稅5,000元，約定30天後付款。工廠的分錄借方科目應為何？",
+    "options": ["現金", "應收帳款", "應付帳款", "銷貨收入"],
+    "answer": [1],
+    "explanation": "賒銷交易尚未收到現金，依權責發生制應認列應收帳款（資產），待客戶付款時才轉為現金。",
+    "material_ref": "acc-02-01",
+    "tags": ["分錄", "應收帳款"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-02-01-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "公司向供應商採購原料所支付的營業稅，稱為什麼？未來可以做什麼用途？",
+    "options": ["銷項稅額；用來繳給國稅局", "進項稅額；可用來扣抵銷項稅額", "進項稅額；直接列為費用", "銷項稅額；併入存貨成本"],
+    "answer": [1],
+    "explanation": "採購時支付的稅額稱為進項稅額，日後申報營業稅時可用來扣抵銷項稅額，減少應繳稅款。",
+    "material_ref": "acc-02-01",
+    "tags": ["進項稅額"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-02-01-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "現購原料50,000元，進項稅額2,500元，以現金支付，下列分錄何者正確？",
+    "options": [
+      "借：存貨52,500／貸：現金52,500",
+      "借：存貨50,000、應收退稅（進項稅額）2,500／貸：現金52,500",
+      "借：存貨52,500、貸：現金50,000、應付營業稅2,500",
+      "借：現金52,500／貸：存貨50,000、應收退稅2,500"
+    ],
+    "answer": [1],
+    "explanation": "存貨成本應以不含稅金額50,000元入帳，進項稅額2,500元另立科目，不應併入存貨成本。",
+    "material_ref": "acc-02-01",
+    "tags": ["分錄", "進項稅額", "存貨"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-02-01-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "應收帳款與應付帳款的科目性質分別是？",
+    "options": ["應收帳款是負債、應付帳款是資產", "應收帳款是資產、應付帳款是負債", "兩者都是資產", "兩者都是負債"],
+    "answer": [1],
+    "explanation": "應收帳款代表別人欠我們錢，是資產；應付帳款代表我們欠別人錢，是負債。",
+    "material_ref": "acc-02-01",
+    "tags": ["應收帳款", "應付帳款"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-02-01-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "現銷交易與賒銷交易的分錄，主要差別在於？",
+    "options": ["銷貨收入的金額不同", "借方科目從現金改為應收帳款，其餘相同", "營業稅的稅率不同", "賒銷不需要認列銷貨收入"],
+    "answer": [1],
+    "explanation": "現銷與賒銷的銷貨收入、營業稅認列時點相同（依權責發生制），只差在借方科目是現金還是應收帳款。",
+    "material_ref": "acc-02-01",
+    "tags": ["分錄"],
+    "verified_at": "2026-07-05"
+  }
+]

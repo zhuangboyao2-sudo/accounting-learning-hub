@@ -1,0 +1,69 @@
+[
+  {
+    "id": "gen-acc-02-02-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "本月電費8,000元已使用但尚未支付，依權責發生制應如何處理？",
+    "options": ["不用入帳，等實際付款時才記錄", "借：水電費用8,000／貸：應付費用8,000", "借：應付費用8,000／貸：水電費用8,000", "借：現金8,000／貸：水電費用8,000"],
+    "answer": [1],
+    "explanation": "依權責發生制，費用於發生時即應入帳，即使尚未付款，也要借記水電費用、貸記應付費用（負債）。",
+    "material_ref": "acc-02-02",
+    "tags": ["權責發生制", "應付費用"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-02-02-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "員工薪資總額50,000元，代扣所得稅1,500元、代扣勞健保費5,000元，公司應認列的「薪資費用」是多少？",
+    "options": ["43,500元（實發金額）", "50,000元（總額）", "48,500元", "6,500元（代扣總額）"],
+    "answer": [1],
+    "explanation": "薪資費用應以公司真正的人事成本（總額）50,000元認列，實發金額只是扣除代扣款項後員工實際領到的部分。",
+    "material_ref": "acc-02-02",
+    "tags": ["薪資費用"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-02-02-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依加值型及非加值型營業稅法第19條，下列何種支出的進項稅額不得扣抵銷項稅額？",
+    "options": ["購買生產用原料", "購買自用乘人小汽車", "購買生產用機器設備", "支付廠房租金"],
+    "answer": [1],
+    "explanation": "自用乘人小汽車（非供銷售或提供勞務使用的九人座以下小客車）的進項稅額，依法不得扣抵銷項稅額。",
+    "material_ref": "acc-02-02",
+    "tags": ["營業稅法", "進項稅額"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=G0340080&flno=19"]
+  },
+  {
+    "id": "gen-acc-02-02-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "老闆用公司名義買了交際應酬用的禮品，取得統一發票，稅額該如何處理？",
+    "options": ["單獨列進項稅額科目扣抵銷項稅額", "併入交際費（費用）金額，不得扣抵", "當作銷項稅額處理", "退回國稅局"],
+    "answer": [1],
+    "explanation": "交際應酬用之貨物或勞務，依營業稅法第19條規定進項稅額不得扣抵，發票上的稅額應併入費用金額認列。",
+    "material_ref": "acc-02-02",
+    "tags": ["營業稅法", "進項稅額"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=G0340080&flno=19"]
+  },
+  {
+    "id": "gen-acc-02-02-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "下列何者是導致薪資分錄常出錯的主要原因？",
+    "options": ["薪資費用不需要每月認列", "誤把員工實發金額當作公司的薪資費用總額", "代扣稅款不需要入帳", "薪資費用一定要用現金支付"],
+    "answer": [1],
+    "explanation": "常見錯誤是把員工實際領到的淨額誤記為薪資費用，忽略了公司代扣、代繳的稅款與勞健保費部分。",
+    "material_ref": "acc-02-02",
+    "tags": ["薪資費用"],
+    "verified_at": "2026-07-05"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fc-acc-02-02-01",
+    "subject": "accounting",
+    "front": "費用已發生但尚未支付，依權責發生制應如何處理？",
+    "back": "借記該項費用、貸記應付費用（負債），不需等到實際付款。",
+    "material_ref": "acc-02-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-02-02-02",
+    "subject": "accounting",
+    "front": "薪資費用應以實發金額還是總額認列？",
+    "back": "應以總額（公司真正的人事成本）認列，實發金額是扣除代扣款項後員工拿到的部分。",
+    "material_ref": "acc-02-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-02-02-03",
+    "subject": "accounting",
+    "front": "哪些支出的進項稅額依法不得扣抵銷項稅額？",
+    "back": "交際應酬用貨物或勞務、酬勞員工個人之貨物或勞務、自用乘人小汽車等（營業稅法第19條）。",
+    "material_ref": "acc-02-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-02-02-04",
+    "subject": "accounting",
+    "front": "不得扣抵的進項稅額，取得發票後稅額該怎麼處理？",
+    "back": "併入相關費用或資產成本認列，不得單獨列進項稅額扣抵。",
+    "material_ref": "acc-02-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-02-02-05",
+    "subject": "accounting",
+    "front": "自用乘人小汽車的定義是什麼？",
+    "back": "非供銷售或提供勞務使用的九人座以下乘人小客車。",
+    "material_ref": "acc-02-02",
+    "verified_at": "2026-07-05"
+  }
+]

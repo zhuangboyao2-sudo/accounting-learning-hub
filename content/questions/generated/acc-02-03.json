@@ -1,0 +1,67 @@
+[
+  {
+    "id": "gen-acc-02-03-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "試算表的主要目的是什麼？",
+    "options": ["計算公司的淨利", "檢查借貸雙方合計金額是否相等", "取代財務報表", "計算應繳的營業稅"],
+    "answer": [1],
+    "explanation": "試算表把所有科目的期末餘額彙總列示，用來檢查借貸雙方合計是否相等，是編製財報前的檢查工具。",
+    "material_ref": "acc-02-03",
+    "tags": ["試算表"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-02-03-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "編製試算表時，某科目的餘額應填入哪一欄？",
+    "options": ["一律填入借方欄", "依該科目正常餘額所在方向填入對應欄位", "依科目名稱筆畫順序決定", "由會計人員自由決定"],
+    "answer": [1],
+    "explanation": "應依該科目的正常餘額方向（資產、費用在借方；負債、權益、收入在貸方）填入對應欄位。",
+    "material_ref": "acc-02-03",
+    "tags": ["試算表"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-02-03-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "下列何者是試算表「抓不到」的錯誤類型？",
+    "options": ["分錄借貸金額不相等", "整筆分錄完全漏記（借貸都沒記）", "過帳金額抄錯", "只過帳借方、忘記過貸方"],
+    "answer": [1],
+    "explanation": "整筆分錄漏記時，借貸雙方都沒有增加，試算表兩欄仍然平衡，因此無法被試算表發現。",
+    "material_ref": "acc-02-03",
+    "tags": ["試算表", "常見錯誤"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-02-03-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "把「水電費用」誤記成「租金費用」，但借貸方向與金額都正確，試算表是否能發現這個錯誤？",
+    "options": ["能，因為科目名稱不同", "不能，因為試算表只檢查借貸金額是否相等，不檢查科目名稱是否正確", "能，但需要額外計算", "不確定，視金額大小而定"],
+    "answer": [1],
+    "explanation": "試算表只能檢查借貸雙方總額是否相等，科目用錯但方向與金額都對的情況，試算表無法偵測。",
+    "material_ref": "acc-02-03",
+    "tags": ["試算表", "常見錯誤"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-02-03-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "試算表借貸兩欄合計相等，代表什麼？",
+    "options": ["公司一定有賺錢", "帳務處理完全正確、沒有任何錯誤", "至少沒有機械性的借貸不平衡錯誤，但不保證科目判斷正確", "不需要再編製財務報表"],
+    "answer": [2],
+    "explanation": "試算表平衡是編製財報的必要條件而非充分條件，只代表借貸機械上平衡，不保證每筆分錄的科目判斷都正確。",
+    "material_ref": "acc-02-03",
+    "tags": ["試算表"],
+    "verified_at": "2026-07-05"
+  }
+]
