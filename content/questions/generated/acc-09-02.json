@@ -1,0 +1,80 @@
+[
+  {
+    "id": "gen-acc-09-02-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "合夥企業每位合夥人應如何設置權益帳戶？",
+    "options": ["所有合夥人共用一個資本帳戶", "每位合夥人各自有獨立的資本帳戶與往來（提取）帳戶", "只有出資最多的合夥人才需要設置帳戶", "合夥企業不需要設置權益帳戶"],
+    "answer": [1],
+    "explanation": "合夥企業中每位合夥人應各自有獨立的資本帳戶與往來（提取）帳戶，以分別追蹤各自的權益變動。",
+    "material_ref": "acc-09-02",
+    "tags": ["合夥會計"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-09-02-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "合夥企業的損益分配依據為何？",
+    "options": ["一律均分，不論契約如何約定", "依合夥契約約定的比例（可能均分、依出資比例或其他約定方式）", "一律依出資比例分配，不能約定其他方式", "由出資最多的合夥人單方決定"],
+    "answer": [1],
+    "explanation": "合夥的損益分配依合夥契約約定的比例進行，可能是均分、依出資比例，或依約定的其他方式。",
+    "material_ref": "acc-09-02",
+    "tags": ["合夥會計"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-09-02-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承教材範例，阿華與阿明合夥約定損益均分，年度淨利100,000元，阿華資本應分配多少？",
+    "options": ["0元", "40,000元", "50,000元", "100,000元"],
+    "answer": [2],
+    "explanation": "約定損益均分，100,000元÷2＝50,000元。",
+    "material_ref": "acc-09-02",
+    "tags": ["合夥會計"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-09-02-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承上題，若改依出資比例分配（阿華60%、阿明40%），阿明資本應分配多少？",
+    "options": ["40,000元", "50,000元", "60,000元", "100,000元"],
+    "answer": [0],
+    "explanation": "依出資比例分配，100,000元×40%＝40,000元。",
+    "material_ref": "acc-09-02",
+    "tags": ["合夥會計"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-09-02-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "把各合夥人的資本帳戶混在一起記錄，會有什麼問題？",
+    "options": ["沒有問題，反正加總金額相同", "無法清楚追蹤各合夥人的權益變動，也不利於損益分配的計算與核對", "只影響損益表，不影響資產負債表", "會導致公司無法設立"],
+    "answer": [1],
+    "explanation": "混在一起記錄會無法清楚追蹤各合夥人的權益變動，不利於損益分配的計算與核對，應分別設立獨立帳戶。",
+    "material_ref": "acc-09-02",
+    "tags": ["合夥會計"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-09-02-06",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "合夥契約可以約定哪些損益分配方式？",
+    "options": ["只能均分，不能有其他方式", "均分、依出資比例，或先給付合夥人薪資後再分配剩餘損益等約定方式", "只能依出資比例分配", "只能由法院裁定"],
+    "answer": [1],
+    "explanation": "合夥契約可以約定均分、依出資比例，或先給付合夥人薪資後再分配剩餘損益等多種方式。",
+    "material_ref": "acc-09-02",
+    "tags": ["合夥會計"],
+    "verified_at": "2026-07-05"
+  }
+]

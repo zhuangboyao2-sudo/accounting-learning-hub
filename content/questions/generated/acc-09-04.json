@@ -1,0 +1,82 @@
+[
+  {
+    "id": "gen-acc-09-04-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依商業會計處理準則第28條，資本公積指下列何者？",
+    "options": ["公司因股本交易所產生之權益", "公司當年度的淨利", "公司所有的現金儲備", "公司向銀行借入的資金"],
+    "answer": [0],
+    "explanation": "商業會計處理準則第28條規定，資本公積指公司因股本交易所產生之權益，應按其性質分別列示。",
+    "material_ref": "acc-09-04",
+    "tags": ["資本公積", "商業會計處理準則"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moea.gov.tw/LawContent.aspx?id=FL011301"]
+  },
+  {
+    "id": "gen-acc-09-04-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依商業會計處理準則第29條，保留盈餘包括哪些項目？",
+    "options": ["只有未分配盈餘一項", "法定盈餘公積、特別盈餘公積、未分配盈餘（或待彌補虧損）", "只有法定盈餘公積一項", "資本公積與未分配盈餘"],
+    "answer": [1],
+    "explanation": "商業會計處理準則第29條規定，保留盈餘包括法定盈餘公積、特別盈餘公積、未分配盈餘（或待彌補虧損）三項。",
+    "material_ref": "acc-09-04",
+    "tags": ["保留盈餘", "商業會計處理準則"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moea.gov.tw/LawContent.aspx?id=FL011301"]
+  },
+  {
+    "id": "gen-acc-09-04-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依規定，盈餘分配（或虧損彌補）應何時方可列帳？",
+    "options": ["公司管理階層決定即可", "俟股東同意或股東會決議後方可列帳", "會計年度結束當天自動列帳", "不需要任何程序，隨時可列帳"],
+    "answer": [1],
+    "explanation": "商業會計處理準則第29條規定，盈餘分配（或虧損彌補）應俟股東同意或股東會決議後方可列帳。",
+    "material_ref": "acc-09-04",
+    "tags": ["保留盈餘"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-09-04-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "股東會決議分配現金股利300,000元，決議日的正確分錄為？",
+    "options": ["借：保留盈餘300,000；貸：應付股利300,000", "借：應付股利300,000；貸：保留盈餘300,000", "借：保留盈餘300,000；貸：銀行存款300,000", "不需要在決議日入帳，發放時才入帳"],
+    "answer": [0],
+    "explanation": "決議日應借記保留盈餘、貸記應付股利，實際發放時才借記應付股利、貸記銀行存款。",
+    "material_ref": "acc-09-04",
+    "tags": ["股利分配"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-09-04-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "法定盈餘公積的主要功能是什麼？",
+    "options": ["可以隨時分配給股東當作股利", "強制累積，限制公司隨意將全部盈餘分配出去，增加財務穩健性", "用來支付員工薪資", "作為公司的短期投資資金"],
+    "answer": [1],
+    "explanation": "法定盈餘公積是依規定強制提撥累積的保留盈餘項目，限制公司隨意將全部盈餘分配出去，增加財務穩健性。",
+    "material_ref": "acc-09-04",
+    "tags": ["法定盈餘公積"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-09-04-06",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "下列關於股利分配的敘述，何者錯誤？",
+    "options": ["決議日借記保留盈餘、貸記應付股利", "發放日借記應付股利、貸記銀行存款", "股利分配可以在股東會決議前就先列帳", "法定盈餘公積不能隨意動用分配給股東"],
+    "answer": [2],
+    "explanation": "股利分配應俟股東同意或股東會決議後方可列帳，不能在決議前就先入帳。",
+    "material_ref": "acc-09-04",
+    "tags": ["股利分配"],
+    "verified_at": "2026-07-05"
+  }
+]

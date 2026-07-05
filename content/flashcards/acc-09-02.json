@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-acc-09-02-01",
+    "subject": "accounting",
+    "front": "合夥企業每位合夥人的權益帳戶如何設置？",
+    "back": "每位合夥人各自有獨立的資本帳戶與往來（提取）帳戶。",
+    "material_ref": "acc-09-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-09-02-02",
+    "subject": "accounting",
+    "front": "合夥的損益分配依據為何？",
+    "back": "依合夥契約約定的比例，可能是均分、依出資比例，或依約定的其他方式（如先給付合夥人薪資後再分配剩餘損益）。",
+    "material_ref": "acc-09-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-09-02-03",
+    "subject": "accounting",
+    "front": "合夥約定損益均分，年度淨利100,000元，如何分錄？",
+    "back": "借：本期損益100,000；貸：甲資本50,000、乙資本50,000。",
+    "material_ref": "acc-09-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-09-02-04",
+    "subject": "accounting",
+    "front": "依出資比例分配損益（60%/40%），淨利100,000元如何分配？",
+    "back": "60,000元分給出資60%的合夥人，40,000元分給出資40%的合夥人。",
+    "material_ref": "acc-09-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-09-02-05",
+    "subject": "accounting",
+    "front": "為什麼要為每位合夥人分別設立獨立帳戶？",
+    "back": "才能清楚追蹤各合夥人的權益變動，方便損益分配的計算與核對。",
+    "material_ref": "acc-09-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-09-02-06",
+    "subject": "accounting",
+    "front": "合夥企業損益分配的常見錯誤？",
+    "back": "沒有依合夥契約約定的方式，一律假設均分。",
+    "material_ref": "acc-09-02",
+    "verified_at": "2026-07-05"
+  }
+]

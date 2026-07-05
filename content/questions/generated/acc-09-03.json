@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-acc-09-03-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依商業會計處理準則第27條，資本（股本）指下列何者？",
+    "options": ["公司帳上所有資產的總額", "業主對商業投入之資本額，並向主管機關登記者", "公司所有負債的總額", "公司當年度的淨利"],
+    "answer": [1],
+    "explanation": "商業會計處理準則第27條規定，資本（或股本）指業主對商業投入之資本額，並向主管機關登記者。",
+    "material_ref": "acc-09-03",
+    "tags": ["股本", "商業會計處理準則"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moea.gov.tw/LawContent.aspx?id=FL011301"]
+  },
+  {
+    "id": "gen-acc-09-03-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "普通股與特別股的主要差異為何？",
+    "options": ["普通股沒有任何權利", "普通股享有表決權；特別股通常在股利或剩餘財產分配上有優先權，但可能不具表決權", "特別股一定比普通股價格便宜", "兩者完全相同，只是名稱不同"],
+    "answer": [1],
+    "explanation": "普通股享有表決權與股利分配權；特別股通常在股利分配或剩餘財產分配上有優先權，但可能不具表決權。",
+    "material_ref": "acc-09-03",
+    "tags": ["普通股", "特別股"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-09-03-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "股票發行價格超過面額的部分，應列為下列何者？",
+    "options": ["保留盈餘", "資本公積（股票發行溢價）", "當期收入", "負債"],
+    "answer": [1],
+    "explanation": "股票發行價格超過面額的部分，列為資本公積（股票發行溢價），不是保留盈餘或收入。",
+    "material_ref": "acc-09-03",
+    "tags": ["股票發行溢價"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-09-03-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承教材範例，面額10元、發行100,000股、發行價格每股12元，資本公積（股票發行溢價）金額為？",
+    "options": ["100,000元", "200,000元", "1,000,000元", "1,200,000元"],
+    "answer": [1],
+    "explanation": "發行溢價＝（12-10）×100,000股＝200,000元。",
+    "material_ref": "acc-09-03",
+    "tags": ["股票發行溢價"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-09-03-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承上題，普通股股本應列示金額為？",
+    "options": ["200,000元", "1,000,000元", "1,200,000元", "0元"],
+    "answer": [1],
+    "explanation": "普通股股本以面額計算：10元×100,000股＝1,000,000元，超過面額的部分才列為資本公積。",
+    "material_ref": "acc-09-03",
+    "tags": ["股本"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-09-03-06",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依商業會計處理準則規定，股本相關事項應揭露哪些資訊？",
+    "options": ["只需揭露股本總額", "股本種類、每股面額、額定股數、已發行股數及特別條件等", "不需要揭露任何資訊", "只需揭露持股最多的股東名單"],
+    "answer": [1],
+    "explanation": "商業會計處理準則第27條規定應揭露股本種類、每股面額、額定股數、已發行股數及特別條件，以及各類股本之權利、優先權及限制。",
+    "material_ref": "acc-09-03",
+    "tags": ["股本"],
+    "verified_at": "2026-07-05"
+  }
+]

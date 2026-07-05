@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-acc-09-04-01",
+    "subject": "accounting",
+    "front": "商業會計處理準則第28條對資本公積的定義？",
+    "back": "公司因股本交易所產生之權益，應按其性質分別列示。",
+    "material_ref": "acc-09-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-09-04-02",
+    "subject": "accounting",
+    "front": "商業會計處理準則第29條，保留盈餘包括哪三項？",
+    "back": "法定盈餘公積、特別盈餘公積、未分配盈餘（或待彌補虧損）。",
+    "material_ref": "acc-09-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-09-04-03",
+    "subject": "accounting",
+    "front": "盈餘分配（或虧損彌補）應何時方可列帳？",
+    "back": "俟股東同意或股東會決議後方可列帳。",
+    "material_ref": "acc-09-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-09-04-04",
+    "subject": "accounting",
+    "front": "股利決議日與發放日的分錄？",
+    "back": "決議日：借保留盈餘、貸應付股利。發放日：借應付股利、貸銀行存款。",
+    "material_ref": "acc-09-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-09-04-05",
+    "subject": "accounting",
+    "front": "法定盈餘公積的功能？",
+    "back": "強制累積，限制公司隨意將全部盈餘分配出去，增加財務穩健性。",
+    "material_ref": "acc-09-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-09-04-06",
+    "subject": "accounting",
+    "front": "股利分配的常見錯誤？",
+    "back": "還沒經股東會決議就先入帳，違反須俟股東同意或股東會決議後方可列帳的規定。",
+    "material_ref": "acc-09-04",
+    "verified_at": "2026-07-05"
+  }
+]

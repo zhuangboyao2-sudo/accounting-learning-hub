@@ -1,0 +1,80 @@
+[
+  {
+    "id": "gen-acc-09-01-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "獨資企業業主投入現金500,000元設立公司，正確分錄為？",
+    "options": ["借：現金500,000；貸：業主資本500,000", "借：業主資本500,000；貸：現金500,000", "借：現金500,000；貸：業主往來500,000", "借：業主往來500,000；貸：現金500,000"],
+    "answer": [0],
+    "explanation": "業主投入資金應借記現金（資產增加）、貸記業主資本（權益增加）。",
+    "material_ref": "acc-09-01",
+    "tags": ["獨資會計"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-09-01-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "業主從公司提取50,000元供自己使用，正確分錄為？",
+    "options": ["借：薪資費用50,000；貸：現金50,000", "借：業主往來50,000；貸：現金50,000", "借：現金50,000；貸：業主往來50,000", "借：業主資本50,000；貸：現金50,000"],
+    "answer": [1],
+    "explanation": "業主提取應借記業主往來（提取）、貸記現金，不能列為公司費用。",
+    "material_ref": "acc-09-01",
+    "tags": ["獨資會計"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-09-01-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "為什麼獨資企業的業主提取不能列為公司費用？",
+    "options": ["因為金額通常太小，不值得記錄", "因為獨資企業沒有支付薪資給業主本人的概念，提取是業主權益的減項", "因為法規明文禁止", "因為業主提取一定要透過股東會決議"],
+    "answer": [1],
+    "explanation": "獨資企業的業主與企業在法律上不完全分離，沒有支付薪資給業主本人的概念，提取是業主權益的減項而非費用。",
+    "material_ref": "acc-09-01",
+    "tags": ["獨資會計"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-09-01-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "期末結帳時，業主往來（提取）科目應如何處理？",
+    "options": ["結轉沖銷業主資本", "永久保留在資產負債表上不結轉", "轉列為費用", "轉列為負債"],
+    "answer": [0],
+    "explanation": "期末結帳時，業主往來（提取）餘額應結轉沖銷業主資本，避免遺留混淆下期餘額。",
+    "material_ref": "acc-09-01",
+    "tags": ["獨資會計"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-09-01-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "獨資企業的本期淨利在期末結帳時應如何處理？",
+    "options": ["結轉業主資本", "結轉業主往來，不影響業主資本", "留在本期損益科目不結轉", "全部視為業主提取"],
+    "answer": [0],
+    "explanation": "本期損益（淨利）於期末結帳時應結轉業主資本，增加業主的權益餘額。",
+    "material_ref": "acc-09-01",
+    "tags": ["獨資會計"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-09-01-06",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "獨資企業與股份有限公司在權益結構上的主要差異是什麼？",
+    "options": ["完全相同，沒有差異", "獨資企業用業主資本／業主往來，沒有股本、股利等概念；股份有限公司則有股本、資本公積、保留盈餘、股利分配等結構", "獨資企業一定比股份有限公司規模大", "獨資企業不需要編製財務報表"],
+    "answer": [1],
+    "explanation": "獨資企業採業主資本、業主往來的簡單權益結構；股份有限公司則有股本、資本公積、保留盈餘、股利分配等較複雜的結構。",
+    "material_ref": "acc-09-01",
+    "tags": ["獨資會計"],
+    "verified_at": "2026-07-05"
+  }
+]

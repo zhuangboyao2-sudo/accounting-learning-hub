@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-acc-09-01-01",
+    "subject": "accounting",
+    "front": "獨資企業常用的兩個權益科目？",
+    "back": "業主資本、業主往來（提取）。",
+    "material_ref": "acc-09-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-09-01-02",
+    "subject": "accounting",
+    "front": "業主投入資金的分錄？",
+    "back": "借：現金（或其他資產）；貸：業主資本。",
+    "material_ref": "acc-09-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-09-01-03",
+    "subject": "accounting",
+    "front": "業主提取的分錄？為什麼不能列為費用？",
+    "back": "借：業主往來；貸：現金。不能列為費用，因為獨資企業沒有支付薪資給業主本人的概念，提取是業主權益的減項。",
+    "material_ref": "acc-09-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-09-01-04",
+    "subject": "accounting",
+    "front": "期末結帳時，業主往來與本期損益如何處理？",
+    "back": "兩者都要結轉沖銷業主資本：本期損益（淨利）增加業主資本，業主往來（提取）減少業主資本。",
+    "material_ref": "acc-09-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-09-01-05",
+    "subject": "accounting",
+    "front": "獨資企業與股份有限公司的權益結構差異？",
+    "back": "獨資企業用簡單的業主資本／業主往來；股份有限公司有股本、資本公積、保留盈餘、股利分配等較複雜的結構。",
+    "material_ref": "acc-09-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-09-01-06",
+    "subject": "accounting",
+    "front": "忘記把業主往來科目結轉沖銷會有什麼問題？",
+    "back": "會遺留在權益底下，混淆下期的餘額，無法正確反映業主資本的實際變動。",
+    "material_ref": "acc-09-01",
+    "verified_at": "2026-07-05"
+  }
+]
