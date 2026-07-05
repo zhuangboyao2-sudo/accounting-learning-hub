@@ -1,0 +1,80 @@
+[
+  {
+    "id": "gen-acc-07-03-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "確定某筆應收帳款收不回來時，正確的沖銷分錄為？",
+    "options": ["借：壞帳費用；貸：應收帳款", "借：備抵壞帳；貸：應收帳款", "借：應收帳款；貸：備抵壞帳", "借：現金；貸：應收帳款"],
+    "answer": [1],
+    "explanation": "沖銷分錄應借記備抵壞帳、貸記應收帳款，不再重複認列壞帳費用（費用已於估列時認列）。",
+    "material_ref": "acc-07-03",
+    "tags": ["壞帳沖銷"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-07-03-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "壞帳沖銷分錄對當期損益的影響為何？",
+    "options": ["增加當期費用，降低淨利", "不影響當期損益，因為壞帳費用已於估列時認列", "增加當期收入", "只影響現金流量表，不影響損益表"],
+    "answer": [1],
+    "explanation": "沖銷只是把備抵壞帳與應收帳款同時減少，壞帳費用已在估列時認列過，沖銷當下不再影響損益。",
+    "material_ref": "acc-07-03",
+    "tags": ["壞帳沖銷"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-07-03-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "已沖銷的應收帳款事後收回，正確的處理步驟為？",
+    "options": ["直接借記現金、貸記雜項收入", "先迴轉沖銷分錄（借應收帳款、貸備抵壞帳），再借記現金、貸記應收帳款", "直接借記現金、貸記備抵壞帳", "不需要處理，視為意外之財"],
+    "answer": [1],
+    "explanation": "應先迴轉原沖銷分錄，恢復應收帳款與備抵壞帳，再正常認列收現分錄。",
+    "material_ref": "acc-07-03",
+    "tags": ["壞帳收回"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-07-03-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承教材範例，客戶倒閉積欠8,000元確定收不回，正確分錄為？",
+    "options": ["借：壞帳費用8,000；貸：應收帳款8,000", "借：備抵壞帳8,000；貸：應收帳款8,000", "借：應收帳款8,000；貸：備抵壞帳8,000", "借：現金8,000；貸：應收帳款8,000"],
+    "answer": [1],
+    "explanation": "確定收不回時應借記備抵壞帳、貸記應收帳款8,000元。",
+    "material_ref": "acc-07-03",
+    "tags": ["壞帳沖銷"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-07-03-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "為什麼已沖銷帳款收回時要先「迴轉」原沖銷分錄，而不是直接認列收現？",
+    "options": ["因為法規強制規定必須這樣做", "為了讓應收帳款與備抵壞帳的科目餘額維持完整，供未來紀錄正確", "因為直接認列收現會導致現金科目錯誤", "沒有特別理由，只是慣例"],
+    "answer": [1],
+    "explanation": "先迴轉沖銷分錄可以讓應收帳款與備抵壞帳的科目餘額維持完整，之後若同一客戶再發生類似情形，帳務紀錄才會正確。",
+    "material_ref": "acc-07-03",
+    "tags": ["壞帳收回"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-07-03-06",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "下列關於壞帳沖銷的敘述，何者錯誤？",
+    "options": ["沖銷時借記備抵壞帳、貸記應收帳款", "沖銷不會重複認列壞帳費用", "沖銷分錄會直接影響當期淨利", "沖銷後應收帳款與備抵壞帳同時減少"],
+    "answer": [2],
+    "explanation": "沖銷分錄不影響當期損益，壞帳費用已在估列時認列，沖銷只是資產負債表科目間的調整。",
+    "material_ref": "acc-07-03",
+    "tags": ["壞帳沖銷"],
+    "verified_at": "2026-07-05"
+  }
+]

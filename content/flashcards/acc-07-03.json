@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-acc-07-03-01",
+    "subject": "accounting",
+    "front": "確定應收帳款收不回時的沖銷分錄？",
+    "back": "借：備抵壞帳；貸：應收帳款。",
+    "material_ref": "acc-07-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-07-03-02",
+    "subject": "accounting",
+    "front": "壞帳沖銷分錄會影響當期損益嗎？",
+    "back": "不會，因為壞帳費用已在估列時認列過，沖銷只是資產負債表科目間的調整。",
+    "material_ref": "acc-07-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-07-03-03",
+    "subject": "accounting",
+    "front": "已沖銷應收帳款事後收回的兩步驟分錄？",
+    "back": "1. 迴轉沖銷：借應收帳款、貸備抵壞帳 2. 認列收現：借現金、貸應收帳款。",
+    "material_ref": "acc-07-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-07-03-04",
+    "subject": "accounting",
+    "front": "為什麼收回已沖銷帳款要先迴轉沖銷分錄，而不是直接記收入？",
+    "back": "為了讓應收帳款與備抵壞帳的科目餘額維持完整，供未來紀錄正確。",
+    "material_ref": "acc-07-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-07-03-05",
+    "subject": "accounting",
+    "front": "壞帳沖銷分錄常見的錯誤是什麼？",
+    "back": "誤借記壞帳費用而非備抵壞帳，導致重複認列費用。",
+    "material_ref": "acc-07-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-07-03-06",
+    "subject": "accounting",
+    "front": "沖銷分錄與估列分錄的差別？",
+    "back": "估列分錄（借壞帳費用、貸備抵壞帳）會影響損益；沖銷分錄（借備抵壞帳、貸應收帳款）不影響損益。",
+    "material_ref": "acc-07-03",
+    "verified_at": "2026-07-05"
+  }
+]

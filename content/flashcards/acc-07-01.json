@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-acc-07-01-01",
+    "subject": "accounting",
+    "front": "直接沖銷法的缺點？",
+    "back": "壞帳費用認列時點常與銷貨收入認列時點不同期間，違反收入費用配合原則，也可能使資產虛列。",
+    "material_ref": "acc-07-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-07-01-02",
+    "subject": "accounting",
+    "front": "備抵法的做法與優點？",
+    "back": "銷貨當期就依經驗預估壞帳、先認列壞帳費用與備抵壞帳，符合收入費用配合原則，應收帳款以淨變現價值列示。",
+    "material_ref": "acc-07-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-07-01-03",
+    "subject": "accounting",
+    "front": "商業會計處理準則第15條對應收帳款備抵呆帳的規定？",
+    "back": "資產負債表日應評估應收帳款無法收回之金額，提列適當之備抵呆帳，列為應收帳款之減項。",
+    "material_ref": "acc-07-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-07-01-04",
+    "subject": "accounting",
+    "front": "備抵壞帳科目的性質？",
+    "back": "應收帳款的抵減科目（資產減項），不是負債科目。",
+    "material_ref": "acc-07-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-07-01-05",
+    "subject": "accounting",
+    "front": "估列壞帳費用的分錄？",
+    "back": "借：壞帳費用；貸：備抵壞帳。",
+    "material_ref": "acc-07-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-07-01-06",
+    "subject": "accounting",
+    "front": "應收帳款「淨變現價值」如何計算？",
+    "back": "應收帳款總額－備抵壞帳。",
+    "material_ref": "acc-07-01",
+    "verified_at": "2026-07-05"
+  }
+]

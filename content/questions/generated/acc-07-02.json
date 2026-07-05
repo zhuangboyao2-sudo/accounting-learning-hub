@@ -1,0 +1,80 @@
+[
+  {
+    "id": "gen-acc-07-02-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承教材範例（期末應收帳款500,000元、呆帳率2%、備抵壞帳調整前為借方2,000元），本期應提列的壞帳費用為？",
+    "options": ["8,000元", "10,000元", "12,000元", "20,000元"],
+    "answer": [2],
+    "explanation": "應有備抵壞帳餘額10,000元，減去調整前餘額（借方2,000元，視為負數）：10,000-(-2,000)=12,000元。",
+    "material_ref": "acc-07-02",
+    "tags": ["餘額百分比法"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-07-02-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "應收帳款餘額百分比法的計算基礎為何？",
+    "options": ["期末應收帳款餘額 × 估計呆帳率", "本期銷貨收入總額 × 估計呆帳率", "期初應收帳款餘額 × 估計呆帳率", "帳齡最長的應收帳款金額"],
+    "answer": [0],
+    "explanation": "餘額百分比法以期末應收帳款餘額乘以估計呆帳率，算出應有的備抵壞帳期末餘額。",
+    "material_ref": "acc-07-02",
+    "tags": ["餘額百分比法"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-07-02-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承教材帳齡分析法範例（合計估計呆帳23,500元、備抵壞帳調整前貸方餘額3,500元），本期應提列的壞帳費用為？",
+    "options": ["3,500元", "20,000元", "23,500元", "27,000元"],
+    "answer": [1],
+    "explanation": "本期應提列壞帳費用＝23,500-3,500＝20,000元。",
+    "material_ref": "acc-07-02",
+    "tags": ["帳齡分析法"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-07-02-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "帳齡分析法的基本邏輯是什麼？",
+    "options": ["所有應收帳款都用同一個呆帳率", "依欠款天數分組，逾期越久適用越高的呆帳率", "只看應收帳款總額，不管欠款時間", "依客戶信用評等單獨計算，與欠款天數無關"],
+    "answer": [1],
+    "explanation": "帳齡分析法把應收帳款依欠款天數分組，各組適用不同呆帳率，逾期越久通常呆帳率越高。",
+    "material_ref": "acc-07-02",
+    "tags": ["帳齡分析法"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-07-02-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "相較於餘額百分比法，帳齡分析法的特點是？",
+    "options": ["計算更簡單，不需要詳細資料", "更精確反映不同逾期程度的收回風險，但工作量較大", "完全不考慮呆帳率", "只適用於服務業，不適用於買賣業"],
+    "answer": [1],
+    "explanation": "帳齡分析法能更精確反映不同逾期程度的風險，但需要詳細帳齡資料，實務工作量較大。",
+    "material_ref": "acc-07-02",
+    "tags": ["帳齡分析法"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-07-02-06",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "使用餘額百分比法或帳齡分析法估列壞帳費用時，下列敘述何者正確？",
+    "options": ["應直接把「估計呆帳總額」當作本期壞帳費用，不必考慮備抵壞帳現有餘額", "應以「估計呆帳總額」與備抵壞帳調整前餘額的差額，作為本期壞帳費用", "備抵壞帳現有餘額永遠是零，不需要考慮", "本期壞帳費用與備抵壞帳餘額無關"],
+    "answer": [1],
+    "explanation": "兩種方法都要先算出期末「應有」的備抵壞帳餘額，再與調整前現有餘額比較差額，才是本期應提列的壞帳費用。",
+    "material_ref": "acc-07-02",
+    "tags": ["壞帳費用估列"],
+    "verified_at": "2026-07-05"
+  }
+]

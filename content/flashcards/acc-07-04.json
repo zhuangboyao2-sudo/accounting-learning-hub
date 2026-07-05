@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-acc-07-04-01",
+    "subject": "accounting",
+    "front": "應收票據的到期價值怎麼算？",
+    "back": "到期價值＝票面金額＋利息（利息＝票面金額×年利率×期間）。",
+    "material_ref": "acc-07-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-07-04-02",
+    "subject": "accounting",
+    "front": "應收票據貼現息怎麼算？",
+    "back": "貼現息＝到期價值×貼現率×貼現期間。",
+    "material_ref": "acc-07-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-07-04-03",
+    "subject": "accounting",
+    "front": "貼現息的計算基礎應以哪個金額為準？",
+    "back": "到期價值，而非票面金額，因為銀行承擔的是到期時應收金額的風險。",
+    "material_ref": "acc-07-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-07-04-04",
+    "subject": "accounting",
+    "front": "貼現實得金額怎麼算？",
+    "back": "貼現實得金額＝到期價值－貼現息。",
+    "material_ref": "acc-07-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-07-04-05",
+    "subject": "accounting",
+    "front": "應收票據比應收帳款多了什麼特點？",
+    "back": "法律上更強的求償力，例如可背書轉讓、拒絕往來等制裁機制。",
+    "material_ref": "acc-07-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-acc-07-04-06",
+    "subject": "accounting",
+    "front": "應收票據也需要提列備抵呆帳嗎？",
+    "back": "需要，依商業會計處理準則第15條，資產負債表日應評估應收票據無法收回之金額，提列適當之備抵呆帳。",
+    "material_ref": "acc-07-04",
+    "verified_at": "2026-07-05"
+  }
+]

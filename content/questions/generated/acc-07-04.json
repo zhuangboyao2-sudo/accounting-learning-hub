@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-acc-07-04-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "應收票據相較於一般應收帳款，主要特點是什麼？",
+    "options": ["利率一定較低", "法律上有更強的求償力（如可背書轉讓、拒絕往來等制裁機制）", "不需要評估備抵呆帳", "只能用於買賣業，不適用於服務業"],
+    "answer": [1],
+    "explanation": "應收票據是持有他人簽發本票或匯票的債權憑證，比一般應收帳款多了法律上更強的求償力。",
+    "material_ref": "acc-07-04",
+    "tags": ["應收票據"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-07-04-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承教材範例（票面金額100,000元、年利率6%、期間3個月），到期價值為？",
+    "options": ["100,000元", "101,000元", "101,500元", "106,000元"],
+    "answer": [2],
+    "explanation": "利息＝100,000×6%×3/12＝1,500元；到期價值＝100,000+1,500＝101,500元。",
+    "material_ref": "acc-07-04",
+    "tags": ["應收票據到期價值"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-07-04-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "應收票據貼現息的計算基礎應以下列何者為準？",
+    "options": ["票面金額", "到期價值", "貼現當日的市價", "原始成本"],
+    "answer": [1],
+    "explanation": "貼現息應以到期價值為計算基礎，因為銀行承擔的是到期時應收金額的風險。",
+    "material_ref": "acc-07-04",
+    "tags": ["應收票據貼現"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-07-04-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承教材範例（到期價值101,500元、貼現率9%、貼現期間1個月），貼現息約為？",
+    "options": ["761元", "1,500元", "9,135元", "101,500元"],
+    "answer": [0],
+    "explanation": "貼現息＝101,500×9%×1/12≈761元。",
+    "material_ref": "acc-07-04",
+    "tags": ["應收票據貼現"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-07-04-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承上題，貼現實得金額為？",
+    "options": ["99,761元", "100,739元", "101,500元", "102,261元"],
+    "answer": [1],
+    "explanation": "貼現實得金額＝到期價值101,500元－貼現息761元＝100,739元。",
+    "material_ref": "acc-07-04",
+    "tags": ["應收票據貼現"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-07-04-06",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依商業會計處理準則第15條，資產負債表日對應收票據應如何處理？",
+    "options": ["不需要特別處理", "應評估無法收回之金額，提列適當之備抵呆帳", "一律轉列為現金", "只有到期未兌現才需要處理"],
+    "answer": [1],
+    "explanation": "商業會計處理準則第15條規定，資產負債表日應評估應收票據無法收回之金額，提列適當之備抵呆帳，與應收帳款的處理原則一致。",
+    "material_ref": "acc-07-04",
+    "tags": ["應收票據", "商業會計處理準則"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moea.gov.tw/LawContent.aspx?id=FL011301"]
+  }
+]

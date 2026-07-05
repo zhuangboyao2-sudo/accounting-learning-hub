@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-acc-07-01-01",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依商業會計處理準則第15條，資產負債表日對應收帳款應如何處理？",
+    "options": ["不需要特別處理，維持原始交易金額即可", "應評估無法收回之金額，提列適當之備抵呆帳，列為應收帳款之減項", "只有上市公司才需要提列備抵呆帳", "應全數轉銷為壞帳費用"],
+    "answer": [1],
+    "explanation": "商業會計處理準則第15條規定，資產負債表日應評估應收帳款無法收回之金額，提列適當之備抵呆帳，列為應收帳款之減項。",
+    "material_ref": "acc-07-01",
+    "tags": ["應收帳款", "商業會計處理準則"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moea.gov.tw/LawContent.aspx?id=FL011301"]
+  },
+  {
+    "id": "gen-acc-07-01-02",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "直接沖銷法的主要缺點是什麼？",
+    "options": ["計算過於複雜", "壞帳費用認列時點常與銷貨收入認列時點不同期間，違反收入費用配合原則", "不符合法規規定，屬於違法做法", "無法用於買賣業"],
+    "answer": [1],
+    "explanation": "直接沖銷法要等確定收不回時才認列壞帳費用，時點常與銷貨收入不同期間，違反收入費用配合原則。",
+    "material_ref": "acc-07-01",
+    "tags": ["備抵法"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-07-01-03",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "備抵壞帳科目的性質為何？",
+    "options": ["負債科目", "應收帳款的抵減科目（資產減項）", "業主權益科目", "收入科目"],
+    "answer": [1],
+    "explanation": "備抵壞帳是應收帳款的抵減科目，用來讓資產負債表上的應收帳款以淨變現價值列示。",
+    "material_ref": "acc-07-01",
+    "tags": ["備抵壞帳"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-07-01-04",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "備抵法在銷貨當期就先認列壞帳費用，主要是為了符合什麼原則？",
+    "options": ["穩健原則", "收入費用配合原則", "重要性原則", "一致性原則"],
+    "answer": [1],
+    "explanation": "備抵法在銷貨當期即依經驗預估壞帳並認列費用，讓費用與同期銷貨收入配合，符合收入費用配合原則。",
+    "material_ref": "acc-07-01",
+    "tags": ["備抵法"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-07-01-05",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承教材範例，估計本期應收帳款有20,000元可能收不回，應提列的分錄為？",
+    "options": ["借：應收帳款20,000；貸：壞帳費用20,000", "借：壞帳費用20,000；貸：備抵壞帳20,000", "借：備抵壞帳20,000；貸：應收帳款20,000", "借：壞帳費用20,000；貸：應收帳款20,000"],
+    "answer": [1],
+    "explanation": "估列壞帳費用的分錄為借記壞帳費用、貸記備抵壞帳，尚未實際沖銷應收帳款。",
+    "material_ref": "acc-07-01",
+    "tags": ["備抵法"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-acc-07-01-06",
+    "subject": "accounting",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "應收帳款以「淨變現價值」列示，是指下列何者？",
+    "options": ["應收帳款總額加上預期利息收入", "應收帳款總額減去備抵壞帳", "應收帳款總額乘以呆帳率", "應收帳款總額不做任何調整"],
+    "answer": [1],
+    "explanation": "淨變現價值＝應收帳款總額－備抵壞帳，反映實際預期可收回的金額。",
+    "material_ref": "acc-07-01",
+    "tags": ["應收帳款"],
+    "verified_at": "2026-07-05"
+  }
+]
