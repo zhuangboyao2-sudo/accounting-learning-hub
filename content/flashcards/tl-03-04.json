@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-tl-03-04-01",
+    "subject": "tax-law",
+    "front": "夫妻所得申報原則？",
+    "back": "除分居得各自辦理外，應由納稅義務人合併申報及計算稅額。",
+    "material_ref": "tl-03-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-03-04-02",
+    "subject": "tax-law",
+    "front": "夫妻合併申報的三種計稅方式？",
+    "back": "各類所得合併計算、薪資分開其餘合併、各類所得分開計算，擇一適用。",
+    "material_ref": "tl-03-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-03-04-03",
+    "subject": "tax-law",
+    "front": "股利盈餘可抵減稅額比例與上限？",
+    "back": "按8.5%計算，每一申報戶每年抵減金額以8萬元為限。",
+    "material_ref": "tl-03-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-03-04-04",
+    "subject": "tax-law",
+    "front": "股利盈餘分開計稅的稅率？",
+    "back": "28%（可選擇按此稅率分開計算應納稅額）。",
+    "material_ref": "tl-03-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-03-04-05",
+    "subject": "tax-law",
+    "front": "盈虧互抵的適用前提？",
+    "back": "所營營利事業均使用「藍色申報書」申報，且未依期限申報綜所稅者不得適用。",
+    "material_ref": "tl-03-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-03-04-06",
+    "subject": "tax-law",
+    "front": "夫妻選擇計稅方式的實務原則？",
+    "back": "比較三種方式，選擇稅額最低者申報。",
+    "material_ref": "tl-03-04",
+    "verified_at": "2026-07-05"
+  }
+]

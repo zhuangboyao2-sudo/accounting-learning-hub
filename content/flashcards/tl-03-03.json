@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-tl-03-03-01",
+    "subject": "tax-law",
+    "front": "標準扣除額與列舉扣除額能同時申報嗎？",
+    "back": "不能，只能擇一適用。",
+    "material_ref": "tl-03-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-03-03-02",
+    "subject": "tax-law",
+    "front": "特別扣除額與標準/列舉扣除額的關係？",
+    "back": "並行適用，不需擇一，特別扣除額是額外可扣除項目。",
+    "material_ref": "tl-03-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-03-03-03",
+    "subject": "tax-law",
+    "front": "國防勞軍捐贈及對政府捐獻的金額限制？",
+    "back": "不受金額限制（一般捐贈以綜合所得總額20%為限）。",
+    "material_ref": "tl-03-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-03-03-04",
+    "subject": "tax-law",
+    "front": "全民健保保險費的列舉扣除額限制？",
+    "back": "不受金額限制（一般人身保險每人每年上限2萬4千元）。",
+    "material_ref": "tl-03-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-03-03-05",
+    "subject": "tax-law",
+    "front": "115年度薪資所得特別扣除額上限？",
+    "back": "227,000元。",
+    "material_ref": "tl-03-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-03-03-06",
+    "subject": "tax-law",
+    "front": "115年度標準扣除額（個人/有配偶）？",
+    "back": "個人136,000元；有配偶者加倍為272,000元。",
+    "material_ref": "tl-03-03",
+    "verified_at": "2026-07-05"
+  }
+]

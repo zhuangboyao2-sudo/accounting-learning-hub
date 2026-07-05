@@ -1,0 +1,82 @@
+[
+  {
+    "id": "gen-tl-03-02-01",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "納稅義務人及其配偶年滿70歲者，免稅額如何處理？",
+    "options": ["不變", "增加50%", "增加100%", "減少50%"],
+    "answer": [1],
+    "explanation": "所得稅法第17條第1項第1款規定，納稅義務人及其配偶年滿70歲者，免稅額增加百分之五十。",
+    "material_ref": "tl-03-02",
+    "tags": ["免稅額", "所得稅法"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0340003"]
+  },
+  {
+    "id": "gen-tl-03-02-02",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "納稅義務人扶養直系尊親屬，申報免稅額的一般年齡門檻為何？",
+    "options": ["年滿60歲，或無謀生能力", "只要是直系尊親屬即可申報，無年齡限制", "須滿70歲才能申報", "須滿65歲才能申報"],
+    "answer": [0],
+    "explanation": "所得稅法第17條第1項第1款第1目規定，納稅義務人及配偶之直系尊親屬，年滿60歲，或無謀生能力，受納稅義務人扶養者，才能列報免稅額。",
+    "material_ref": "tl-03-02",
+    "tags": ["扶養親屬認定"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-03-02-03",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "免稅額的金額是否為所得稅法條文中固定不變的數字？",
+    "options": ["是，永遠不變", "否，依消費者物價指數調整機制，由財政部每年度公告實際適用金額", "每十年調整一次", "由納稅義務人自行決定"],
+    "answer": [1],
+    "explanation": "所得稅法第5條規定免稅額每遇消費者物價指數較上次調整年度累計上漲達3%以上時，按上漲程度調整，由財政部於每年度開始前公告。",
+    "material_ref": "tl-03-02",
+    "tags": ["免稅額調整機制"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-03-02-04",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "納稅義務人之子女已成年，在何種情形下仍可列報扶養免稅額？",
+    "options": ["只要是子女就可以無條件列報", "因在校就學、身心障礙或無謀生能力受扶養者", "只有未婚子女才能列報", "只有與父母同住的子女才能列報"],
+    "answer": [1],
+    "explanation": "所得稅法第17條第1項第1款第2目規定，已成年子女因在校就學、身心障礙或無謀生能力受納稅義務人扶養者，才可列報免稅額。",
+    "material_ref": "tl-03-02",
+    "tags": ["子女扶養認定"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-03-02-05",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "115年度（2026年）個人免稅額（一般，非70歲以上）為多少？",
+    "options": ["60,000元", "85,000元", "101,000元", "151,500元"],
+    "answer": [2],
+    "explanation": "依財政部公告及本站tax-parameters資料，115年度個人免稅額為101,000元，151,500元則是70歲以上增加50%後的金額。",
+    "material_ref": "tl-03-02",
+    "tags": ["115年度免稅額"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://www.mof.gov.tw/singlehtml/384fb3077bb349ea973e7fc6f13b6974?cntId=34b463dc8f1b49f29d440d92a6fd5139"]
+  },
+  {
+    "id": "gen-tl-03-02-06",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "納稅義務人及配偶之同胞兄弟姊妹，在何種情形下可列報扶養免稅額？",
+    "options": ["只要是兄弟姊妹關係即可，不論年齡", "未成年，或已成年而因在校就學、身心障礙或無謀生能力受扶養者", "只有未婚兄弟姊妹才能列報", "須經法院裁定監護關係才能列報"],
+    "answer": [1],
+    "explanation": "所得稅法第17條第1項第1款第3目規定，納稅義務人及配偶之同胞兄弟姊妹未成年，或已成年而因在校就學、身心障礙或無謀生能力受扶養者，才可列報。",
+    "material_ref": "tl-03-02",
+    "tags": ["兄弟姊妹扶養認定"],
+    "verified_at": "2026-07-05"
+  }
+]

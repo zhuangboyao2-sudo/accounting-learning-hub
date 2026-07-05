@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-tl-03-03-01",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "標準扣除額與列舉扣除額的適用關係為何？",
+    "options": ["可以同時申報兩者", "只能擇一申報", "須先申報標準扣除額，再加計列舉扣除額", "由稅捐機關強制指定"],
+    "answer": [1],
+    "explanation": "所得稅法第17條第1項第2款規定，納稅義務人就標準扣除額或列舉扣除額擇一減除，兩者不能同時適用。",
+    "material_ref": "tl-03-03",
+    "tags": ["扣除額擇一", "所得稅法"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0340003"]
+  },
+  {
+    "id": "gen-tl-03-03-02",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "特別扣除額與標準／列舉扣除額的關係為何？",
+    "options": ["特別扣除額也須跟標準或列舉扣除額擇一", "特別扣除額可與標準或列舉扣除額並行適用，不須擇一", "特別扣除額只能在申報列舉扣除額時使用", "特別扣除額已包含在標準扣除額之內"],
+    "answer": [1],
+    "explanation": "特別扣除額是額外可扣除項目，與標準扣除額或列舉扣除額並行適用，不需要擇一。",
+    "material_ref": "tl-03-03",
+    "tags": ["特別扣除額"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-03-03-03",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "有關國防、勞軍之捐贈及對政府之捐獻，其列舉扣除額的金額限制為何？",
+    "options": ["以綜合所得總額20%為限", "不受金額之限制", "以10萬元為限", "以捐贈總額的一半為限"],
+    "answer": [1],
+    "explanation": "所得稅法第17條第1項第2款第2目之1規定，有關國防、勞軍之捐贈及對政府之捐獻，不受金額之限制，是一般捐贈20%上限的例外。",
+    "material_ref": "tl-03-03",
+    "tags": ["捐贈列舉扣除額"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-03-03-04",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "一般捐贈（非國防勞軍或對政府捐獻）的列舉扣除額上限為何？",
+    "options": ["不超過綜合所得總額10%", "不超過綜合所得總額20%", "不超過綜合所得總額50%", "沒有任何限制"],
+    "answer": [1],
+    "explanation": "所得稅法第17條第1項第2款第2目之1規定，一般捐贈總額最高不超過綜合所得總額百分之二十為限。",
+    "material_ref": "tl-03-03",
+    "tags": ["捐贈列舉扣除額"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-03-03-05",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "全民健康保險之保險費的列舉扣除額限制為何？",
+    "options": ["每人每年上限2萬4千元", "不受金額限制", "每人每年上限1萬元", "全民健保費不得列舉扣除"],
+    "answer": [1],
+    "explanation": "所得稅法第17條第1項第2款第2目之2規定，保險費每人每年扣除數額以不超過2萬4千元為限，但全民健康保險之保險費不受金額限制。",
+    "material_ref": "tl-03-03",
+    "tags": ["保險費列舉扣除額"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-03-03-06",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "115年度（2026年）薪資所得特別扣除額的上限為多少？",
+    "options": ["120,000元", "180,000元", "227,000元", "272,000元"],
+    "answer": [2],
+    "explanation": "依本站tax-parameters資料，115年度薪資所得特別扣除額每人每年上限為227,000元。",
+    "material_ref": "tl-03-03",
+    "tags": ["薪資所得特別扣除額"],
+    "verified_at": "2026-07-05"
+  }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-tl-03-01-01",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依所得稅法第13條，綜合所得稅的計徵基礎為何？",
+    "options": ["綜合所得總額", "綜合所得淨額（總額減免稅額及扣除額）", "綜合所得毛額", "全年營業額"],
+    "answer": [1],
+    "explanation": "所得稅法第13條規定，個人之綜合所得稅，就個人綜合所得總額，減除免稅額及扣除額後之綜合所得淨額計徵之。",
+    "material_ref": "tl-03-01",
+    "tags": ["綜合所得稅計徵", "所得稅法"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0340003"]
+  },
+  {
+    "id": "gen-tl-03-01-02",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第14條規定，個人綜合所得總額合併計算的所得類別共有幾類？",
+    "options": ["5類", "8類", "10類", "12類"],
+    "answer": [2],
+    "explanation": "所得稅法第14條規定個人綜合所得總額以全年十類所得合併計算：營利、執行業務、薪資、利息、租賃及權利金、自力耕作漁牧林礦、財產交易、競技競賽機會中獎、退職、其他所得。",
+    "material_ref": "tl-03-01",
+    "tags": ["十類所得"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-03-01-03",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "記帳士的執業所得屬於十類所得中的哪一類？",
+    "options": ["第一類營利所得", "第二類執行業務所得", "第三類薪資所得", "第十類其他所得"],
+    "answer": [1],
+    "explanation": "記帳士屬於執行業務者範疇，其執業所得屬於第14條第一項第二類執行業務所得。",
+    "material_ref": "tl-03-01",
+    "tags": ["執行業務所得"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-03-01-04",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第14條規定，執行業務者的帳簿及憑證應保存幾年？",
+    "options": ["三年", "五年", "七年", "十年"],
+    "answer": [1],
+    "explanation": "所得稅法第14條第1項第二類規定，執行業務者的帳簿及憑證最少應保存五年，與商業會計法、稅捐稽徵法的五年保存期限一致。",
+    "material_ref": "tl-03-01",
+    "tags": ["執行業務者帳簿"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-03-01-05",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "綜合所得稅是否直接對「總收入」課稅？",
+    "options": ["是，直接對總收入課稅", "否，須先減除免稅額與扣除額，以「淨額」計徵", "只對薪資所得直接課稅", "只對營利所得直接課稅"],
+    "answer": [1],
+    "explanation": "依第13條規定，綜合所得稅是以綜合所得總額減除免稅額及扣除額後的「淨額」計徵，並非直接對總收入課稅。",
+    "material_ref": "tl-03-01",
+    "tags": ["綜合所得稅計徵原則"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-03-01-06",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "第十類「其他所得」的定義為何？",
+    "options": ["泛指任何政府認為應課稅的收入", "不屬於前九類之所得，以收入額減除成本及必要費用後之餘額為所得額", "只限於偶發性的贈與收入", "只限於境外收入"],
+    "answer": [1],
+    "explanation": "所得稅法第14條規定，第十類其他所得指不屬於上列各類之所得，以其收入額減除成本及必要費用後之餘額為所得額。",
+    "material_ref": "tl-03-01",
+    "tags": ["其他所得"],
+    "verified_at": "2026-07-05"
+  }
+]
