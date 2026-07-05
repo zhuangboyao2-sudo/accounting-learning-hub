@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-law-01-01-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "記帳士法第1條的立法目的為何？",
+    "options": ["建立記帳士制度，協助納稅義務人記帳及履行納稅義務", "規範會計師的執業資格", "規範公司登記事項", "規範稅捐稽徵程序"],
+    "answer": [0],
+    "explanation": "記帳士法第1條規定：「為建立記帳士制度，協助納稅義務人記帳及履行納稅義務，特制定本法。」",
+    "material_ref": "law-01-01",
+    "tags": ["記帳士法"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law-out.mof.gov.tw/LawContent.aspx?id=FL030279"]
+  },
+  {
+    "id": "gen-law-01-01-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "記帳士法所稱主管機關為下列何者？",
+    "options": ["經濟部", "財政部", "法務部", "考選部"],
+    "answer": [1],
+    "explanation": "記帳士法第3條規定，本法所稱主管機關為財政部。",
+    "material_ref": "law-01-01",
+    "tags": ["記帳士法"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-01-01-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第4條規定，下列何者不得充任記帳士？",
+    "options": ["受破產之宣告尚未復權者", "曾任稅務機關職員但已離職滿三年者", "外國人依法取得記帳士證書者", "考試及格並領有記帳士證書者"],
+    "answer": [0],
+    "explanation": "記帳士法第4條規定，受破產之宣告尚未復權者不得充任記帳士。",
+    "material_ref": "law-01-01",
+    "tags": ["記帳士消極資格"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-01-01-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "已充任記帳士者，若有「曾服公職而受撤職處分，停止任用期間尚未屆滿」之情事，應如何處理？",
+    "options": ["撤銷或廢止其記帳士證書", "停止其執行業務，於原因消滅後仍得執行業務", "不受影響，可繼續執業", "終身禁止再任記帳士"],
+    "answer": [1],
+    "explanation": "第4條第2款至第5款情事（含此款），效果是停止執行業務，於原因消滅後仍得依法執行業務，與第1款、第6款的撤銷或廢止證書不同。",
+    "material_ref": "law-01-01",
+    "tags": ["記帳士消極資格"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-01-01-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "曾因業務上詐欺犯罪受有期徒刑一年以上刑之裁判確定者，若受緩刑宣告，依規定如何？",
+    "options": ["一律不得充任記帳士，沒有例外", "受緩刑宣告者不在此限，仍可充任記帳士", "須等待五年後才能充任", "須經財政部特別核准"],
+    "answer": [1],
+    "explanation": "第4條第1款規定但書明定「受緩刑之宣告，不在此限」，即受緩刑宣告者不受此消極資格限制。",
+    "material_ref": "law-01-01",
+    "tags": ["記帳士消極資格"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-01-01-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "考試及格是否等同於取得記帳士證書並可執業？",
+    "options": ["是，考試及格即可立即執業", "否，還須依法領有記帳士證書，並完成登錄（見登錄相關規定）才能執業", "否，還須再修習兩年才能執業", "考試及格後只能從事會計師業務"],
+    "answer": [1],
+    "explanation": "考試及格只是取得資格的第一步，還須依法領有記帳士證書，並向主管機關辦理登錄後才能執行業務。",
+    "material_ref": "law-01-01",
+    "tags": ["記帳士法"],
+    "verified_at": "2026-07-05"
+  }
+]

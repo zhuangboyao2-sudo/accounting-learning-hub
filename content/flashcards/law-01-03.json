@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-law-01-03-01",
+    "subject": "bookkeeping-law",
+    "front": "記帳士執行業務前須辦理什麼程序？",
+    "back": "向主管機關申請登錄（第7條）。",
+    "material_ref": "law-01-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-01-03-02",
+    "subject": "bookkeeping-law",
+    "front": "曾任稅務機關人員離職後多久內不得在原任職地區執業？",
+    "back": "三年內（第8條）。",
+    "material_ref": "law-01-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-01-03-03",
+    "subject": "bookkeeping-law",
+    "front": "記帳士執行業務區域原則？",
+    "back": "以其登記開業之直轄市、縣市為原則（第9條）。",
+    "material_ref": "law-01-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-01-03-04",
+    "subject": "bookkeeping-law",
+    "front": "在其他縣市執行業務需要另設分事務所嗎？",
+    "back": "不需要，只需向主管機關登記，免設分事務所（第9條）。",
+    "material_ref": "law-01-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-01-03-05",
+    "subject": "bookkeeping-law",
+    "front": "記帳士事務所名稱應如何標示？",
+    "back": "應註明「記帳士事務所」（第10條）。",
+    "material_ref": "law-01-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-01-03-06",
+    "subject": "bookkeeping-law",
+    "front": "第8條旋轉門限制的目的？",
+    "back": "避免曾任稅務機關人員利用熟悉原任職機關運作的優勢，在原任職地區立即執業造成利益衝突。",
+    "material_ref": "law-01-03",
+    "verified_at": "2026-07-05"
+  }
+]

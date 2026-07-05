@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-law-01-01-01",
+    "subject": "bookkeeping-law",
+    "front": "記帳士法第1條的立法目的？",
+    "back": "為建立記帳士制度，協助納稅義務人記帳及履行納稅義務。",
+    "material_ref": "law-01-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-01-01-02",
+    "subject": "bookkeeping-law",
+    "front": "記帳士法所稱主管機關？",
+    "back": "財政部。",
+    "material_ref": "law-01-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-01-01-03",
+    "subject": "bookkeeping-law",
+    "front": "記帳士資格取得的兩種途徑？",
+    "back": "1. 考試及格並依法領有記帳士證書 2. 依第35條領有記帳及報稅代理業務人登錄執業證明書者換領證書。",
+    "material_ref": "law-01-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-01-01-04",
+    "subject": "bookkeeping-law",
+    "front": "第4條不得充任記帳士的六款事由？",
+    "back": "業務犯罪判刑一年以上、受監護或輔助宣告未撤銷、受破產宣告未復權、曾撤職未屆滿、曾免職未滿五年、受除名處分。",
+    "material_ref": "law-01-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-01-01-05",
+    "subject": "bookkeeping-law",
+    "front": "第4條第1款、第6款情事 vs 第2款至第5款情事，效果差異？",
+    "back": "第1款、第6款：撤銷或廢止記帳士證書。第2款至第5款：僅停止執行業務，原因消滅後仍得執業。",
+    "material_ref": "law-01-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-01-01-06",
+    "subject": "bookkeeping-law",
+    "front": "業務詐欺犯罪受緩刑宣告者，可以充任記帳士嗎？",
+    "back": "可以，第4條第1款但書規定受緩刑宣告者不受此限制。",
+    "material_ref": "law-01-01",
+    "verified_at": "2026-07-05"
+  }
+]

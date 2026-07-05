@@ -1,0 +1,80 @@
+[
+  {
+    "id": "gen-law-01-03-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "記帳士於執行業務前，應向主管機關辦理下列何項程序？",
+    "options": ["登錄", "考試", "宣誓", "投保職業責任險（記帳士法未強制規定）"],
+    "answer": [0],
+    "explanation": "記帳士法第7條規定，記帳士於執行業務前，應向主管機關申請登錄。",
+    "material_ref": "law-01-03",
+    "tags": ["登錄"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-01-03-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "曾任稅務機關稅務職系人員者，自離職之日起幾年內不得於其最後任職機關所在地之直轄市、縣市區域內執行記帳士職務？",
+    "options": ["一年", "二年", "三年", "五年"],
+    "answer": [2],
+    "explanation": "記帳士法第8條規定，曾任稅務機關稅務職系人員者，自離職之日起三年內，不得於其最後任職機關所在地之直轄市、縣市區域內執行記帳士職務。",
+    "material_ref": "law-01-03",
+    "tags": ["旋轉門限制"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-01-03-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "記帳士執行業務之區域原則上為何？",
+    "options": ["全國不限區域", "以其登記開業之直轄市、縣市為原則", "僅限於財政部所在地", "須每年重新申請執業區域"],
+    "answer": [1],
+    "explanation": "記帳士法第9條規定，記帳士執行業務之區域以其登記開業之直轄市、縣市為其執行業務區域。",
+    "material_ref": "law-01-03",
+    "tags": ["執業區域"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-01-03-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "記帳士在其他直轄市、縣市執行業務時，應如何處理？",
+    "options": ["必須另外設立分事務所", "應向主管機關登記，免設分事務所", "不得在其他縣市執行業務", "須取得該縣市政府特別許可"],
+    "answer": [1],
+    "explanation": "記帳士法第9條規定，記帳士在其他直轄市、縣市執行業務時，應向主管機關登記，免設分事務所。",
+    "material_ref": "law-01-03",
+    "tags": ["執業區域"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-01-03-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "記帳士事務所的名稱應如何標示？",
+    "options": ["不需要特別標示", "應註明「記帳士事務所」", "應註明「會計師事務所」", "由記帳士自行決定，不受限制"],
+    "answer": [1],
+    "explanation": "記帳士法第10條規定，記帳士應於其執行業務區域設立記帳士事務所，其事務所名稱應註明「記帳士事務所」。",
+    "material_ref": "law-01-03",
+    "tags": ["事務所"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-01-03-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "第8條限制稅務機關離職人員執業區域的主要目的為何？",
+    "options": ["提高記帳士考試難度", "避免利益衝突與旋轉門疑慮", "增加財政部的稅收", "限制記帳士人數"],
+    "answer": [1],
+    "explanation": "此限制是為了避免曾任稅務機關人員利用其熟悉原任職機關運作的優勢，在原任職地區立即執業造成利益衝突。",
+    "material_ref": "law-01-03",
+    "tags": ["旋轉門限制"],
+    "verified_at": "2026-07-05"
+  }
+]

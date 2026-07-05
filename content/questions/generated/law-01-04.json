@@ -1,0 +1,80 @@
+[
+  {
+    "id": "gen-law-01-04-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第11條規定，記帳士名簿應記載下列哪些事項？",
+    "options": ["只需記載姓名與地址", "姓名、記帳士證書字號、執行業務區域、事務所名稱地址電話、開業日期、曾否受過懲戒等", "只需記載考試成績", "只需記載學歷"],
+    "answer": [1],
+    "explanation": "記帳士法第11條列舉六款應記載事項，包括姓名等基本資料、證書字號、執行業務區域、事務所資訊、開業日期及曾否受過懲戒。",
+    "material_ref": "law-01-04",
+    "tags": ["記帳士名簿"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-01-04-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "記帳士名簿是否會記載「曾否受過懲戒」？",
+    "options": ["不會，懲戒紀錄屬於隱私不予記載", "會，這是第11條明定的記載事項之一", "只有嚴重懲戒才會記載", "只有主管機關內部參考，不對外提供"],
+    "answer": [1],
+    "explanation": "記帳士法第11條第6款明定名簿應記載「曾否受過懲戒」，是委任人查證記帳士信譽的管道之一。",
+    "material_ref": "law-01-04",
+    "tags": ["記帳士名簿"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-01-04-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "經登錄之記帳士因停業、復業或原登錄事項變更時，應於多久內申報備查？",
+    "options": ["十日內", "十五日內", "三十日內", "六十日內"],
+    "answer": [2],
+    "explanation": "記帳士法第12條規定，應自事實發生之日起三十日內，向其原登錄之機關申報備查。",
+    "material_ref": "law-01-04",
+    "tags": ["異動申報"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-01-04-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "異動申報應向何機關辦理？",
+    "options": ["向財政部總部辦理", "向其原登錄之機關申報備查", "向記帳士公會全國聯合會辦理", "向法院辦理"],
+    "answer": [1],
+    "explanation": "記帳士法第12條規定，應向其原登錄之機關申報備查，不一定是財政部總部，而是原辦理登錄的機關。",
+    "material_ref": "law-01-04",
+    "tags": ["異動申報"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-01-04-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "下列何者屬於「原登錄事項有變更」，應依第12條辦理申報？",
+    "options": ["記帳士事務所地址搬遷", "記帳士本人的私人休假安排", "委任人的公司名稱變更（與記帳士本人登錄事項無關）", "記帳士的日常業務往來對象"],
+    "answer": [0],
+    "explanation": "事務所地址屬於名簿記載事項之一，若有變更即屬「原登錄事項有變更」，應依第12條於三十日內申報備查。",
+    "material_ref": "law-01-04",
+    "tags": ["異動申報"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-01-04-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "記帳士名簿的功能主要是什麼？",
+    "options": ["純粹內部管理用途，不對外提供任何查證功能", "作為主管機關掌握記帳士執業狀態的紀錄，也是委任人查證記帳士資格與信譽的管道", "僅用於統計記帳士人數", "僅用於課稅目的"],
+    "answer": [1],
+    "explanation": "記帳士名簿是主管機關掌握全體記帳士執業狀態的公開紀錄，也提供委任人查證記帳士資格與信譽（如是否曾受懲戒）的管道。",
+    "material_ref": "law-01-04",
+    "tags": ["記帳士名簿"],
+    "verified_at": "2026-07-05"
+  }
+]

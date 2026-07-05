@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-law-01-04-01",
+    "subject": "bookkeeping-law",
+    "front": "記帳士名簿記載事項有哪六項？",
+    "back": "姓名等基本資料、記帳士證書字號、執行業務區域、事務所名稱地址電話、開業日期、曾否受過懲戒。",
+    "material_ref": "law-01-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-01-04-02",
+    "subject": "bookkeeping-law",
+    "front": "名簿會記載懲戒紀錄嗎？",
+    "back": "會，第11條第6款明定「曾否受過懲戒」為記載事項之一。",
+    "material_ref": "law-01-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-01-04-03",
+    "subject": "bookkeeping-law",
+    "front": "停業、復業或登錄事項變更，應於多久內申報？",
+    "back": "自事實發生之日起三十日內（第12條）。",
+    "material_ref": "law-01-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-01-04-04",
+    "subject": "bookkeeping-law",
+    "front": "異動申報應向哪個機關辦理？",
+    "back": "向其原登錄之機關申報備查。",
+    "material_ref": "law-01-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-01-04-05",
+    "subject": "bookkeeping-law",
+    "front": "記帳士名簿的兩大功能？",
+    "back": "1. 主管機關掌握全體記帳士執業狀態 2. 委任人查證記帳士資格與信譽的管道。",
+    "material_ref": "law-01-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-01-04-06",
+    "subject": "bookkeeping-law",
+    "front": "事務所地址搬遷算不算「原登錄事項有變更」？",
+    "back": "算，事務所地址是名簿記載事項之一，變更須依第12條於三十日內申報。",
+    "material_ref": "law-01-04",
+    "verified_at": "2026-07-05"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "gen-law-01-02-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "請領記帳士證書應向何機關申請？",
+    "options": ["向財政部（主管機關）申請", "向考選部申請", "向記帳士公會申請", "向所在地地方政府申請"],
+    "answer": [0],
+    "explanation": "記帳士法第5條規定，請領記帳士證書應填具申請書並檢同證明資格文件，向主管機關（財政部）申請核發之。",
+    "material_ref": "law-01-02",
+    "tags": ["記帳士證書"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-01-02-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "記帳士執行業務事件時，依第6條規定應如何處理？",
+    "options": ["只需遵循記帳士法規定即可，不需理會其他法令", "應分別依業務事件主管機關法令之規定辦理", "只需遵循記帳士公會章程", "可自行決定辦理方式，不受任何法令拘束"],
+    "answer": [1],
+    "explanation": "記帳士法第6條規定，記帳士於執行業務事件，應分別依業務事件主管機關法令之規定辦理，例如稅務申報仍須遵循稅捐稽徵機關法令。",
+    "material_ref": "law-01-02",
+    "tags": ["記帳士法"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-01-02-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "外國人可以取得記帳士證書嗎？",
+    "options": ["不可以，記帳士僅限中華民國國民", "可以，依中華民國法令取得記帳士證書並充任記帳士", "只能取得臨時證書，不能長期執業", "只能在外國執行業務，不能在台灣執業"],
+    "answer": [1],
+    "explanation": "記帳士法第36條規定，外國人得依中華民國法令取得記帳士證書，並充任記帳士。",
+    "material_ref": "law-01-02",
+    "tags": ["外國人記帳士"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-01-02-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "外國人執行記帳士業務違反相關法令規定時，主管機關可以如何處理？",
+    "options": ["沒有任何處置權限", "除依法處罰外，得將其所領記帳士證書註銷", "只能口頭警告", "必須先徵得該外國人本國政府同意才能處置"],
+    "answer": [1],
+    "explanation": "記帳士法第36條規定，外國人違反相關規定者，除依法處罰外，主管機關得將其所領記帳士證書註銷。",
+    "material_ref": "law-01-02",
+    "tags": ["外國人記帳士"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-01-02-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "請領記帳士證書之資格、條件、應檢附文件等事項，由何機關訂定辦法？",
+    "options": ["由考選部訂定", "由主管機關（財政部）訂定", "由記帳士公會全國聯合會訂定", "由立法院訂定"],
+    "answer": [1],
+    "explanation": "記帳士法第5條第2項規定，請領證書之資格、條件、應檢附文件、證書發給、換發、補發與其他應遵行事項之辦法，由主管機關定之。",
+    "material_ref": "law-01-02",
+    "tags": ["記帳士證書"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-01-02-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "記帳士法規範的內容主要是什麼？",
+    "options": ["記帳士這個身分與執業資格的相關規範，並非取代其他業務法規", "所有稅法的實體規定", "會計師的執業規範", "公司登記的所有細節"],
+    "answer": [0],
+    "explanation": "記帳士法主要規範記帳士的身分、資格取得、業務範圍與責任等，執行具體業務事件仍須遵循各該業務事件主管機關的法令。",
+    "material_ref": "law-01-02",
+    "tags": ["記帳士法"],
+    "verified_at": "2026-07-05"
+  }
+]
