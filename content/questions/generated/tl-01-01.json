@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-tl-01-01-01",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依稅捐稽徵法第2條，本法所稱稅捐是否包括關稅？",
+    "options": ["包括", "不包括", "只包括進口關稅，不包括出口關稅", "視個案而定"],
+    "answer": [1],
+    "explanation": "稅捐稽徵法第2條規定，本法所稱稅捐，指一切法定之國、直轄市、縣（市）及鄉（鎮、市）稅捐，但不包括關稅。",
+    "material_ref": "tl-01-01",
+    "tags": ["稅捐定義", "稅捐稽徵法"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0340001"]
+  },
+  {
+    "id": "gen-tl-01-01-02",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第6條規定，稅捐之徵收與普通債權相比，優先順位為何？",
+    "options": ["稅捐劣後於普通債權", "稅捐優先於普通債權", "兩者順位相同", "須經法院裁定才能決定順位"],
+    "answer": [1],
+    "explanation": "稅捐稽徵法第6條規定，稅捐之徵收，優先於普通債權。",
+    "material_ref": "tl-01-01",
+    "tags": ["稅捐優先權"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-01-01-03",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "法人解散清算時，清算人於分配賸餘財產前應如何處理稅捐？",
+    "options": ["可以先分配財產，稅捐日後再繳", "應依法按稅捐受清償之順序，繳清稅捐", "只需通知稅捐機關即可，不需實際繳納", "清算人不負任何稅捐責任"],
+    "answer": [1],
+    "explanation": "稅捐稽徵法第13條規定，清算人於分配賸餘財產前，應依法按稅捐受清償之順序，繳清稅捐，違反者應就未清繳之稅捐負繳納義務。",
+    "material_ref": "tl-01-01",
+    "tags": ["清算納稅義務"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-01-01-04",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "納稅義務人死亡遺有財產者，遺產分割或交付遺贈前應如何處理？",
+    "options": ["先分割遺產，稅捐由繼承人各自承擔", "應繳清依法應繳納之稅捐後，始得分割遺產或交付遺贈", "只有超過一定金額的遺產才需要先繳稅", "繼承人可以自由選擇是否先繳稅"],
+    "answer": [1],
+    "explanation": "稅捐稽徵法第14條規定，遺囑執行人、繼承人、受遺贈人或遺產管理人，應繳清稅捐後，始得分割遺產或交付遺贈。",
+    "material_ref": "tl-01-01",
+    "tags": ["遺產納稅義務"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-01-01-05",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第11條規定，應自他人取得之憑證及給予他人憑證之存根或副本，應保存幾年？",
+    "options": ["三年", "五年", "十年", "永久保存"],
+    "answer": [1],
+    "explanation": "稅捐稽徵法第11條規定，依稅法規定應自他人取得之憑證及給予他人憑證之存根或副本，應保存五年。",
+    "material_ref": "tl-01-01",
+    "tags": ["憑證保存年限"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-01-01-06",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "營利事業因合併而消滅時，合併前之應納稅捐由誰負繳納義務？",
+    "options": ["原營利事業的負責人個人負責", "由合併後存續或另立之營利事業負繳納之義務", "自動免除，不需繳納", "由主管機關代為吸收"],
+    "answer": [1],
+    "explanation": "稅捐稽徵法第15條規定，營利事業因合併而消滅時，其在合併前之應納稅捐，應由合併後存續或另立之營利事業負繳納之義務。",
+    "material_ref": "tl-01-01",
+    "tags": ["合併納稅義務"],
+    "verified_at": "2026-07-05"
+  }
+]

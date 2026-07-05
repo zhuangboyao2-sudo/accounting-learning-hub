@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-tl-01-02-01",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第21條規定，已在規定期間內申報且無故意詐欺或不正當方法逃漏稅捐者，核課期間為幾年？",
+    "options": ["3年", "5年", "7年", "10年"],
+    "answer": [1],
+    "explanation": "稅捐稽徵法第21條第1款規定，已在規定期間內申報，且無故意以詐欺或其他不正當方法逃漏稅捐者，核課期間為5年。",
+    "material_ref": "tl-01-02",
+    "tags": ["核課期間", "稅捐稽徵法"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0340001"]
+  },
+  {
+    "id": "gen-tl-01-02-02",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "未於規定期間內申報，或故意以詐欺或其他不正當方法逃漏稅捐者，核課期間為幾年？",
+    "options": ["5年", "7年", "10年", "沒有期限限制"],
+    "answer": [1],
+    "explanation": "稅捐稽徵法第21條第3款規定，未於規定期間內申報，或故意以詐欺或其他不正當方法逃漏稅捐者，核課期間為7年。",
+    "material_ref": "tl-01-02",
+    "tags": ["核課期間"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-01-02-03",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第23條規定，稅捐之徵收期間為幾年？",
+    "options": ["3年", "5年", "7年", "10年"],
+    "answer": [1],
+    "explanation": "稅捐稽徵法第23條規定，稅捐之徵收期間為5年，自繳納期間屆滿之翌日起算。",
+    "material_ref": "tl-01-02",
+    "tags": ["徵收期間"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-01-02-04",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "核課期間與徵收期間的主要差異為何？",
+    "options": ["兩者是同一件事，只是名稱不同", "核課期間是稅捐機關「核定應納稅額」的時限；徵收期間是核定後「強制執行收取」的時限", "核課期間只適用於個人，徵收期間只適用於營利事業", "核課期間比徵收期間短"],
+    "answer": [1],
+    "explanation": "核課期間是稅捐機關核定應納稅額的時限（5年或7年）；徵收期間是稅捐核定確定後，強制執行收取的時限（5年），兩者是不同階段。",
+    "material_ref": "tl-01-02",
+    "tags": ["核課期間與徵收期間比較"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-01-02-05",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第22條規定，已在規定期間內申報之稅捐，核課期間自何時起算？",
+    "options": ["自申報日起算", "自繳納期間屆滿之翌日起算", "自次年1月1日起算", "自稅捐機關發現該申報案件之日起算"],
+    "answer": [0],
+    "explanation": "稅捐稽徵法第22條第1款規定，依法應由納稅義務人申報繳納之稅捐，已在規定期間內申報者，自申報日起算核課期間。",
+    "material_ref": "tl-01-02",
+    "tags": ["核課期間起算"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-01-02-06",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "核課期間屆滿後，稅捐機關發現該筆稅捐短漏，是否仍可以補稅處罰？",
+    "options": ["可以，核課期間只是參考用，沒有實質限制", "不可以，核課期間屆滿後不得再補稅處罰，這是納稅義務人的重要保障", "只有金額超過100萬元才不受核課期間限制", "只有稅捐機關同意才受核課期間限制"],
+    "answer": [1],
+    "explanation": "依第21條規定，核課期間屆滿後，即使發現稅捐短漏，也不得再補徵或處罰，是保障納稅義務人法律安定性的重要規定。",
+    "material_ref": "tl-01-02",
+    "tags": ["核課期間效果"],
+    "verified_at": "2026-07-05"
+  }
+]

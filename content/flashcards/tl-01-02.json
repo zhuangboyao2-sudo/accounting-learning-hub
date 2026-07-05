@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-tl-01-02-01",
+    "subject": "tax-law",
+    "front": "已申報且無故意逃漏稅捐的核課期間？",
+    "back": "5年（第21條第1款）。",
+    "material_ref": "tl-01-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-01-02-02",
+    "subject": "tax-law",
+    "front": "未申報或故意詐欺逃漏稅捐的核課期間？",
+    "back": "7年（第21條第3款）。",
+    "material_ref": "tl-01-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-01-02-03",
+    "subject": "tax-law",
+    "front": "稅捐的徵收期間？",
+    "back": "5年，自繳納期間屆滿之翌日起算（第23條）。",
+    "material_ref": "tl-01-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-01-02-04",
+    "subject": "tax-law",
+    "front": "核課期間 vs 徵收期間的差異？",
+    "back": "核課期間是核定應納稅額的時限；徵收期間是核定後強制執行收取的時限。",
+    "material_ref": "tl-01-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-01-02-05",
+    "subject": "tax-law",
+    "front": "已申報稅捐的核課期間起算點？",
+    "back": "自申報日起算（第22條）。",
+    "material_ref": "tl-01-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-01-02-06",
+    "subject": "tax-law",
+    "front": "核課期間屆滿後發現稅捐短漏還能補稅嗎？",
+    "back": "不能，核課期間屆滿後不得再補徵或處罰，是納稅義務人的重要保障。",
+    "material_ref": "tl-01-02",
+    "verified_at": "2026-07-05"
+  }
+]

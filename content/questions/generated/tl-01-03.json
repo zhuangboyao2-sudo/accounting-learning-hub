@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-tl-01-03-01",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "納稅義務人對核定稅捐之處分不服，應先向何機關申請何種程序？",
+    "options": ["直接向行政法院提起行政訴訟", "先向原處分稅捐稽徵機關申請復查", "直接向訴願管轄機關提起訴願", "向立法院陳情"],
+    "answer": [1],
+    "explanation": "稅捐稽徵法第35條規定，納稅義務人對核定稅捐之處分不服，應先申請復查，這是稅務行政救濟的第一層程序。",
+    "material_ref": "tl-01-03",
+    "tags": ["復查程序", "稅捐稽徵法"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0340001"]
+  },
+  {
+    "id": "gen-tl-01-03-02",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "有應納稅額或應補徵稅額者，申請復查的期限為何？",
+    "options": ["繳款書送達後，繳納期間屆滿之翌日起10日內", "繳款書送達後，繳納期間屆滿之翌日起30日內", "繳款書送達後，繳納期間屆滿之翌日起60日內", "繳款書送達後，繳納期間屆滿之翌日起90日內"],
+    "answer": [1],
+    "explanation": "稅捐稽徵法第35條第1項第1款規定，有應納稅額或應補徵稅額者，應於繳款書送達後，繳納期間屆滿之翌日起30日內申請復查。",
+    "material_ref": "tl-01-03",
+    "tags": ["復查期限"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-01-03-03",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "稅捐稽徵機關應於接到復查申請書之翌日起多久內作成復查決定？",
+    "options": ["1個月內", "2個月內", "3個月內", "6個月內"],
+    "answer": [1],
+    "explanation": "稅捐稽徵法第35條第4項規定，稅捐稽徵機關應於接到申請書之翌日起2個月內復查決定，並作成決定書。",
+    "material_ref": "tl-01-03",
+    "tags": ["復查決定期限"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-01-03-04",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "若稅捐稽徵機關逾期未作成復查決定，納稅義務人可以如何處理？",
+    "options": ["只能繼續等待，沒有其他救濟方式", "得逕行提起訴願", "直接申請強制執行停止", "向記帳士公會陳情"],
+    "answer": [1],
+    "explanation": "稅捐稽徵法第35條第5項規定，復查決定期間屆滿後稅捐稽徵機關仍未作成決定者，納稅義務人得逕行提起訴願。",
+    "material_ref": "tl-01-03",
+    "tags": ["復查逾期救濟"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-01-03-05",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "台灣稅務行政救濟的三層程序依序為何？",
+    "options": ["訴願→復查→行政訴訟", "復查→訴願→行政訴訟", "行政訴訟→復查→訴願", "復查→行政訴訟→訴願"],
+    "answer": [1],
+    "explanation": "台灣稅務行政救濟的標準三層架構為：復查（向原處分機關）→訴願→行政訴訟，須依序進行。",
+    "material_ref": "tl-01-03",
+    "tags": ["行政救濟層級"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-tl-01-03-06",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第38條規定，經行政救濟終結決定應退還稅款者，是否需要加計利息？",
+    "options": ["不需要加計利息，只退還原稅額", "需要，按退稅額依當年度郵政儲金一年期定期儲金固定利率按日加計利息一併退還", "只有超過100萬元才需要加計利息", "利息由納稅義務人自行負擔"],
+    "answer": [1],
+    "explanation": "稅捐稽徵法第38條規定，應退還稅款者，應自納稅義務人繳納之日起至填發收入退還書或國庫支票之日止，按退稅額加計利息一併退還。",
+    "material_ref": "tl-01-03",
+    "tags": ["退稅加計利息"],
+    "verified_at": "2026-07-05"
+  }
+]

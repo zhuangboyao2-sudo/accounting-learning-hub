@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-tl-01-01-01",
+    "subject": "tax-law",
+    "front": "稅捐稽徵法第2條所稱稅捐是否包括關稅？",
+    "back": "不包括，關稅另有關稅法規範。",
+    "material_ref": "tl-01-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-01-01-02",
+    "subject": "tax-law",
+    "front": "稅捐與普通債權的優先順位？",
+    "back": "稅捐之徵收優先於普通債權（第6條）。",
+    "material_ref": "tl-01-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-01-01-03",
+    "subject": "tax-law",
+    "front": "法人解散清算時的納稅義務？",
+    "back": "清算人於分配賸餘財產前，應依法按稅捐受清償之順序，繳清稅捐（第13條）。",
+    "material_ref": "tl-01-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-01-01-04",
+    "subject": "tax-law",
+    "front": "納稅義務人死亡遺有財產的處理原則？",
+    "back": "應繳清稅捐後，始得分割遺產或交付遺贈（第14條）。",
+    "material_ref": "tl-01-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-01-01-05",
+    "subject": "tax-law",
+    "front": "稅捐憑證保存年限？",
+    "back": "五年（第11條），與商業會計法第38條會計憑證保存五年相呼應。",
+    "material_ref": "tl-01-01",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-01-01-06",
+    "subject": "tax-law",
+    "front": "營利事業合併消滅的稅捐責任？",
+    "back": "合併前應納稅捐由合併後存續或另立之營利事業負繳納之義務（第15條）。",
+    "material_ref": "tl-01-01",
+    "verified_at": "2026-07-05"
+  }
+]

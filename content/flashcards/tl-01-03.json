@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-tl-01-03-01",
+    "subject": "tax-law",
+    "front": "稅務行政救濟的三層程序？",
+    "back": "復查（原處分機關）→訴願→行政訴訟。",
+    "material_ref": "tl-01-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-01-03-02",
+    "subject": "tax-law",
+    "front": "申請復查的期限？",
+    "back": "繳款書送達後，繳納期間屆滿之翌日起30日內（第35條）。",
+    "material_ref": "tl-01-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-01-03-03",
+    "subject": "tax-law",
+    "front": "稅捐稽徵機關作成復查決定的期限？",
+    "back": "接到申請書之翌日起2個月內。",
+    "material_ref": "tl-01-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-01-03-04",
+    "subject": "tax-law",
+    "front": "稅捐稽徵機關逾期未作成復查決定怎麼辦？",
+    "back": "納稅義務人得逕行提起訴願。",
+    "material_ref": "tl-01-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-01-03-05",
+    "subject": "tax-law",
+    "front": "行政救濟終結應退稅款是否加計利息？",
+    "back": "是，依當年度郵政儲金一年期定期儲金固定利率按日加計利息一併退還（第38條）。",
+    "material_ref": "tl-01-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-tl-01-03-06",
+    "subject": "tax-law",
+    "front": "可以跳過復查直接提起訴願嗎？",
+    "back": "不可以，除非稅捐機關逾期未作成復查決定。",
+    "material_ref": "tl-01-03",
+    "verified_at": "2026-07-05"
+  }
+]
