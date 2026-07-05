@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-law-04-03-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依商業會計法第10條，會計基礎原則上採用何種基礎？",
+    "options": ["現金收付制", "權責發生制", "混合制，由商業自由選擇", "沒有規定，依國際會計準則辦理"],
+    "answer": [1],
+    "explanation": "商業會計法第10條規定，會計基礎採用權責發生制；平時採現金收付制者，決算時應照權責發生制調整。",
+    "material_ref": "law-04-03",
+    "tags": ["權責發生制", "商業會計法"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=J0080009"]
+  },
+  {
+    "id": "gen-law-04-03-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "商業的會計年度原則上為何？",
+    "options": ["每年一月一日起至十二月三十一日止", "每年四月一日起至隔年三月三十一日止", "每年七月一日起至隔年六月三十日止", "由商業自行決定，不受任何限制"],
+    "answer": [0],
+    "explanation": "商業會計法第6條規定，商業以每年一月一日起至十二月三十一日止為會計年度，但法律另有規定或營業上有特殊需要者不在此限。",
+    "material_ref": "law-04-03",
+    "tags": ["會計年度"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-04-03-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "商業以外國貨幣記帳者，決算報表應如何處理？",
+    "options": ["直接以外國貨幣列示，不需折算", "應折合國幣列示", "由商業自行選擇是否折算", "只有跨國企業才需要折算"],
+    "answer": [1],
+    "explanation": "商業會計法第7條規定，商業應以國幣為記帳本位，以外國貨幣記帳者，仍應在決算報表中將外國貨幣折合國幣。",
+    "material_ref": "law-04-03",
+    "tags": ["記帳本位"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-04-03-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第9條規定，商業支出達一定金額者，應如何支付？",
+    "options": ["一律使用現金支付", "應使用匯票、本票、支票、劃撥、電匯、轉帳或其他核定之支付工具，並載明受款人", "只能使用現金或支票，不得使用電匯", "沒有任何支付方式的限制"],
+    "answer": [1],
+    "explanation": "商業會計法第9條規定，商業支出達一定金額者，應使用匯票、本票、支票、劃撥、電匯、轉帳或其他經主管機關核定之支付工具或方法，並載明受款人。",
+    "material_ref": "law-04-03",
+    "tags": ["支付工具限制"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-04-03-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "第9條限制大額支出支付工具的主要目的為何？",
+    "options": ["增加銀行的手續費收入", "留下可追蹤的金流紀錄，防杜逃漏稅與不法金流", "限制商業的現金持有量", "與稅務無關，純粹是會計慣例"],
+    "answer": [1],
+    "explanation": "此規定是為了讓大額支出留下可追蹤的金流紀錄，防杜逃漏稅與不法金流。",
+    "material_ref": "law-04-03",
+    "tags": ["支付工具限制"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-04-03-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "商業會計之記載除記帳數字外，應以何種文字為之？",
+    "options": ["英文", "我國文字", "當地通用文字", "任何文字皆可"],
+    "answer": [1],
+    "explanation": "商業會計法第8條規定，商業會計之記載除記帳數字適用阿拉伯字外，應以我國文字為之。",
+    "material_ref": "law-04-03",
+    "tags": ["記帳文字"],
+    "verified_at": "2026-07-05"
+  }
+]

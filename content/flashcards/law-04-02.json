@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-law-04-02-01",
+    "subject": "bookkeeping-law",
+    "front": "股份有限公司主辦會計人員任免的同意門檻？",
+    "back": "董事會以董事過半數之出席，及出席董事過半數之同意。",
+    "material_ref": "law-04-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-04-02-02",
+    "subject": "bookkeeping-law",
+    "front": "有限公司主辦會計人員任免的同意門檻？",
+    "back": "全體股東過半數之同意。",
+    "material_ref": "law-04-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-04-02-03",
+    "subject": "bookkeeping-law",
+    "front": "無限公司、兩合公司主辦會計人員任免的同意門檻？",
+    "back": "全體無限責任股東過半數之同意。",
+    "material_ref": "law-04-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-04-02-04",
+    "subject": "bookkeeping-law",
+    "front": "會計人員離職或變更職務應於多久內辦理交代？",
+    "back": "五日內。",
+    "material_ref": "law-04-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-04-02-05",
+    "subject": "bookkeeping-law",
+    "front": "商業會計事務可委由誰處理？",
+    "back": "會計師或依法取得代他人處理會計事務資格之人（如記帳士）。",
+    "material_ref": "law-04-02",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-04-02-06",
+    "subject": "bookkeeping-law",
+    "front": "公司章程對主辦會計人員任免有較高規定時如何處理？",
+    "back": "從公司章程之較高規定。",
+    "material_ref": "law-04-02",
+    "verified_at": "2026-07-05"
+  }
+]

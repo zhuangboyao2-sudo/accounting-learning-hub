@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-law-04-03-01",
+    "subject": "bookkeeping-law",
+    "front": "商業會計法第10條對會計基礎的規定？",
+    "back": "採用權責發生制；平時採現金收付制者，決算時應照權責發生制調整。",
+    "material_ref": "law-04-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-04-03-02",
+    "subject": "bookkeeping-law",
+    "front": "商業會計年度原則上為何？",
+    "back": "每年一月一日起至十二月三十一日止（但法律另有規定或營業特殊需要者不在此限）。",
+    "material_ref": "law-04-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-04-03-03",
+    "subject": "bookkeeping-law",
+    "front": "以外國貨幣記帳者，決算報表如何處理？",
+    "back": "應在決算報表中將外國貨幣折合國幣。",
+    "material_ref": "law-04-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-04-03-04",
+    "subject": "bookkeeping-law",
+    "front": "商業支出達一定金額者應如何支付？",
+    "back": "應使用匯票、本票、支票、劃撥、電匯、轉帳或其他核定支付工具，並載明受款人。",
+    "material_ref": "law-04-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-04-03-05",
+    "subject": "bookkeeping-law",
+    "front": "第9條支付工具限制的目的？",
+    "back": "留下可追蹤的金流紀錄，防杜逃漏稅與不法金流。",
+    "material_ref": "law-04-03",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-04-03-06",
+    "subject": "bookkeeping-law",
+    "front": "商業會計記載應以何種文字為之？",
+    "back": "我國文字（記帳數字適用阿拉伯字）。",
+    "material_ref": "law-04-03",
+    "verified_at": "2026-07-05"
+  }
+]

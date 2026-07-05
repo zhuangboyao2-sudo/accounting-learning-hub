@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-law-04-02-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "股份有限公司主辦會計人員之任免，應經何種同意程序？",
+    "options": ["全體股東同意", "董事會以董事過半數之出席，及出席董事過半數之同意", "總經理一人決定即可", "監察人單獨決定"],
+    "answer": [1],
+    "explanation": "商業會計法第5條規定，股份有限公司主辦會計人員之任免，應由董事會以董事過半數之出席，及出席董事過半數之同意。",
+    "material_ref": "law-04-02",
+    "tags": ["會計人員任免"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=J0080009"]
+  },
+  {
+    "id": "gen-law-04-02-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "有限公司主辦會計人員之任免，應經何種同意程序？",
+    "options": ["董事會決議即可", "全體股東過半數之同意", "只需公司負責人同意", "不需要任何同意程序"],
+    "answer": [1],
+    "explanation": "商業會計法第5條規定，有限公司主辦會計人員之任免，應有全體股東過半數之同意。",
+    "material_ref": "law-04-02",
+    "tags": ["會計人員任免"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-04-02-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "會計人員離職或變更職務時，應於幾日內辦理交代？",
+    "options": ["三日內", "五日內", "十日內", "十五日內"],
+    "answer": [1],
+    "explanation": "商業會計法第5條第4項規定，會計人員應依法處理會計事務，其離職或變更職務時，應於五日內辦理交代。",
+    "material_ref": "law-04-02",
+    "tags": ["會計人員交接"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-04-02-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "商業會計事務可以委由何人處理？",
+    "options": ["只能由公司內部員工處理", "會計師或依法取得代他人處理會計事務資格之人（如記帳士）", "任何人皆可，不需資格限制", "只能由公司負責人親自處理"],
+    "answer": [1],
+    "explanation": "商業會計法第5條第5項規定，商業會計事務之處理，得委由會計師或依法取得代他人處理會計事務資格之人處理之。",
+    "material_ref": "law-04-02",
+    "tags": ["委外處理會計事務"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-04-02-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "無限公司主辦會計人員之任免，應經何種同意程序？",
+    "options": ["全體無限責任股東過半數之同意", "只需一位股東同意", "須經法院核准", "不需要任何程序"],
+    "answer": [0],
+    "explanation": "商業會計法第5條規定，無限公司、兩合公司主辦會計人員之任免，應有全體無限責任股東過半數之同意。",
+    "material_ref": "law-04-02",
+    "tags": ["會計人員任免"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-04-02-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "若公司章程對主辦會計人員任免有較高規定，應如何處理？",
+    "options": ["一律依商業會計法之最低門檻辦理", "從公司章程之較高規定", "由主管機關個案決定", "章程規定無效，一律依法律規定"],
+    "answer": [1],
+    "explanation": "商業會計法第5條規定，主辦會計人員之任免，公司章程有較高規定者，從其規定。",
+    "material_ref": "law-04-02",
+    "tags": ["會計人員任免"],
+    "verified_at": "2026-07-05"
+  }
+]

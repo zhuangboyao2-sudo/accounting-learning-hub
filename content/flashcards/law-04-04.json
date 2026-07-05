@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-law-04-04-01",
+    "subject": "bookkeeping-law",
+    "front": "會計憑證分哪兩類？",
+    "back": "原始憑證與記帳憑證。",
+    "material_ref": "law-04-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-04-04-02",
+    "subject": "bookkeeping-law",
+    "front": "原始憑證分哪三種？",
+    "back": "外來憑證、對外憑證、內部憑證。",
+    "material_ref": "law-04-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-04-04-03",
+    "subject": "bookkeeping-law",
+    "front": "記帳憑證分哪三種？",
+    "back": "收入傳票、支出傳票、轉帳傳票。",
+    "material_ref": "law-04-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-04-04-04",
+    "subject": "bookkeeping-law",
+    "front": "商業必須設置的會計帳簿是哪兩種？",
+    "back": "普通序時帳簿及總分類帳簿。",
+    "material_ref": "law-04-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-04-04-05",
+    "subject": "bookkeeping-law",
+    "front": "商業會計法第33條的憑證真實性原則？",
+    "back": "非根據真實事項，不得造具任何會計憑證，並不得在會計帳簿表冊作任何記錄。",
+    "material_ref": "law-04-04",
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "fc-law-04-04-06",
+    "subject": "bookkeeping-law",
+    "front": "序時帳簿與分類帳簿的差異？",
+    "back": "序時帳簿以事項發生時序記錄；分類帳簿以事項歸屬的會計項目記錄。",
+    "material_ref": "law-04-04",
+    "verified_at": "2026-07-05"
+  }
+]

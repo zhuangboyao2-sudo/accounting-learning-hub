@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-law-04-01-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "商業會計法所稱中央主管機關為下列何者？",
+    "options": ["財政部", "經濟部", "考選部", "內政部"],
+    "answer": [1],
+    "explanation": "商業會計法第3條規定，本法所稱主管機關：在中央為經濟部。",
+    "material_ref": "law-04-01",
+    "tags": ["商業會計法", "主管機關"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=J0080009"]
+  },
+  {
+    "id": "gen-law-04-01-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "商業會計法所稱「商業」的範圍依何法律規定？",
+    "options": ["依商業登記法、公司法及其他法律之規定", "僅限於公司法規定的公司", "僅限於獨資商業", "由財政部個別認定"],
+    "answer": [0],
+    "explanation": "商業會計法第2條規定，本法所稱商業，指以營利為目的之事業，其範圍依商業登記法、公司法及其他法律之規定。",
+    "material_ref": "law-04-01",
+    "tags": ["商業會計法"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-04-01-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "縣（市）主管機關對商業會計法的權責為何？",
+    "options": ["商業會計法令與政策之制訂", "受理登記之商業，其商業會計事務之管理", "受理登記之公司，其商業會計事務之管理", "沒有任何權責"],
+    "answer": [1],
+    "explanation": "商業會計法第3條規定，縣（市）主管機關負責受理登記之商業，其商業會計事務之管理。",
+    "material_ref": "law-04-01",
+    "tags": ["主管機關權責"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-04-01-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第82條規定，小規模之合夥或獨資商業如何處理？",
+    "options": ["必須完全適用商業會計法", "得不適用本法之規定", "只需適用一半的條文", "只有登記滿五年的商業才能適用"],
+    "answer": [1],
+    "explanation": "商業會計法第82條規定，小規模之合夥或獨資商業，得不適用本法之規定，認定標準由中央主管機關斟酌各地經濟情形定之。",
+    "material_ref": "law-04-01",
+    "tags": ["小規模商業例外"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-04-01-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "公營事業會計事務之處理，依商業會計法第1條規定如何適用？",
+    "options": ["完全不適用商業會計法", "除其他法律另有規定者外，適用本法之規定", "只有虧損的公營事業才適用", "須經立法院逐案核准才適用"],
+    "answer": [1],
+    "explanation": "商業會計法第1條第2項規定，公營事業會計事務之處理，除其他法律另有規定者外，適用本法之規定。",
+    "material_ref": "law-04-01",
+    "tags": ["適用範圍"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-04-01-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "商業會計法主管機關與記帳士法主管機關是否相同？",
+    "options": ["相同，都是財政部", "不同，商業會計法主管機關為經濟部，記帳士法主管機關為財政部", "相同，都是經濟部", "不同，商業會計法主管機關為財政部，記帳士法主管機關為經濟部"],
+    "answer": [1],
+    "explanation": "商業會計法中央主管機關為經濟部；記帳士法主管機關為財政部，兩者不同，是常見的混淆考點。",
+    "material_ref": "law-04-01",
+    "tags": ["主管機關比較"],
+    "verified_at": "2026-07-05"
+  }
+]

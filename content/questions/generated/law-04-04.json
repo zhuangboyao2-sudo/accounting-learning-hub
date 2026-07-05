@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-law-04-04-01",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依商業會計法第15條，會計憑證分為哪兩類？",
+    "options": ["內部憑證與外部憑證", "原始憑證與記帳憑證", "收入傳票與支出傳票", "序時帳簿與分類帳簿"],
+    "answer": [1],
+    "explanation": "商業會計法第15條規定，商業會計憑證分原始憑證與記帳憑證兩類。",
+    "material_ref": "law-04-04",
+    "tags": ["會計憑證"],
+    "verified_at": "2026-07-05",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=J0080009"]
+  },
+  {
+    "id": "gen-law-04-04-02",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "原始憑證依第16條規定分為哪三種？",
+    "options": ["外來憑證、對外憑證、內部憑證", "收入傳票、支出傳票、轉帳傳票", "序時帳簿、分類帳簿、總分類帳簿", "現金憑證、票據憑證、電子憑證"],
+    "answer": [0],
+    "explanation": "商業會計法第16條規定，原始憑證分外來憑證（自商業本身以外之人取得）、對外憑證（給與商業本身以外之人）、內部憑證（商業本身自行製存）三種。",
+    "material_ref": "law-04-04",
+    "tags": ["原始憑證"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-04-04-03",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "記帳憑證依第17條規定分為哪三種？",
+    "options": ["外來憑證、對外憑證、內部憑證", "收入傳票、支出傳票、轉帳傳票", "普通序時帳簿、特種序時帳簿、總分類帳簿", "資產、負債、權益"],
+    "answer": [1],
+    "explanation": "商業會計法第17條規定，記帳憑證分收入傳票、支出傳票、轉帳傳票三種。",
+    "material_ref": "law-04-04",
+    "tags": ["記帳憑證"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-04-04-04",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依商業會計法第23條，商業必須設置的會計帳簿為下列何者？",
+    "options": ["普通序時帳簿及總分類帳簿", "特種序時帳簿及明細分類帳簿", "只需總分類帳簿即可", "所有種類的帳簿都必須設置"],
+    "answer": [0],
+    "explanation": "商業會計法第23條規定，商業必須設置之會計帳簿為普通序時帳簿及總分類帳簿；製造業或營業範圍較大者，得另設其他帳簿。",
+    "material_ref": "law-04-04",
+    "tags": ["會計帳簿"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-04-04-05",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依商業會計法第33條，會計憑證與帳簿記錄的基本原則為何？",
+    "options": ["可依商業需要自行編造，不需真實根據", "非根據真實事項，不得造具任何會計憑證，並不得在會計帳簿表冊作任何記錄", "只要主管機關同意，可以記載不實事項", "只有上市公司才需要遵循真實性原則"],
+    "answer": [1],
+    "explanation": "商業會計法第33條規定，非根據真實事項，不得造具任何會計憑證，並不得在會計帳簿表冊作任何記錄，是會計誠信原則的基本法源。",
+    "material_ref": "law-04-04",
+    "tags": ["會計憑證真實性"],
+    "verified_at": "2026-07-05"
+  },
+  {
+    "id": "gen-law-04-04-06",
+    "subject": "bookkeeping-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "序時帳簿與分類帳簿的差異為何？",
+    "options": ["序時帳簿以會計事項發生之時序為主記錄；分類帳簿以會計事項歸屬之會計項目為主記錄", "兩者完全相同，只是名稱不同", "序時帳簿只用於製造業；分類帳簿只用於買賣業", "分類帳簿是序時帳簿的一種"],
+    "answer": [0],
+    "explanation": "商業會計法第20條規定，序時帳簿以會計事項發生之時序為主而記錄；分類帳簿以會計事項歸屬之會計項目為主而記錄。",
+    "material_ref": "law-04-04",
+    "tags": ["會計帳簿"],
+    "verified_at": "2026-07-05"
+  }
+]
