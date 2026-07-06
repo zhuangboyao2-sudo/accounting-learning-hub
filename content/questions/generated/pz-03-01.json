@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gen-pz-03-01-01",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "俗稱的「勞保費」實際上是由哪三個險種組成？",
+    "options": ["普通事故保險、就業保險、職業災害保險", "普通事故保險、健康保險、退休保險", "就業保險、健康保險、意外保險", "職業災害保險、健康保險、退休保險"],
+    "answer": [0],
+    "explanation": "勞保費由普通事故保險（勞工保險條例）、就業保險（就業保險法）、職業災害保險（勞工職業災害保險及保護法）三個法源不同的險種合併投保、合併扣款組成。",
+    "material_ref": "pz-03-01",
+    "tags": ["勞保架構"],
+    "verified_at": "2026-07-06",
+    "sources": ["https://www.bli.gov.tw/0100493.html"]
+  },
+  {
+    "id": "gen-pz-03-01-02",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "第一類被保險人（有一定雇主之受僱者）勞保費之負擔比例為何？",
+    "options": ["雇主50%、員工40%、政府10%", "雇主70%、員工20%、政府10%", "雇主60%、員工30%、政府10%", "雇主100%、員工0%"],
+    "answer": [1],
+    "explanation": "第一類被保險人勞保費負擔比例為雇主70%、員工20%、政府10%。",
+    "material_ref": "pz-03-01",
+    "tags": ["勞保負擔比例"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-03-01-03",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "職業災害保險費之負擔方式為何？",
+    "options": ["雇主與員工各半負擔", "全額由雇主負擔，不算入勞保費12.5%的分擔比例", "全額由員工負擔", "由政府全額補助"],
+    "answer": [1],
+    "explanation": "職業災害保險費率依行業別分級，全額由雇主負擔，不算入普通事故保險與就業保險合計的12.5%分擔比例計算中。",
+    "material_ref": "pz-03-01",
+    "tags": ["職業災害保險"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-03-01-04",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "勞保費的計算方式，與健保費相比有何不同？",
+    "options": ["兩者都按整月計算", "勞保費按實際加保天數比例計算，健保費按整月計算", "勞保費按整月計算，健保費按天數計算", "兩者都按天數計算"],
+    "answer": [1],
+    "explanation": "勞保費按實際加保「天數」比例計算，員工月中到職或離職需按比例計算；健保費則不論月初或月中到職，一律按整個「月」計算。",
+    "material_ref": "pz-03-01",
+    "tags": ["計算方式比較"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-03-01-05",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "員工月投保薪資30,000元，勞保費率12.5%，雇主負擔比例70%，雇主負擔金額為何？",
+    "options": ["2,625元", "3,750元", "750元", "1,500元"],
+    "answer": [0],
+    "explanation": "雇主負擔＝30,000×12.5%×70%＝2,625元。",
+    "material_ref": "pz-03-01",
+    "tags": ["計算題"],
+    "verified_at": "2026-07-06"
+  }
+]

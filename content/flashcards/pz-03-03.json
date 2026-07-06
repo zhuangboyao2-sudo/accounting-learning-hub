@@ -1,0 +1,34 @@
+[
+  {
+    "id": "fc-pz-03-03-01",
+    "subject": "practice-zone",
+    "front": "勞退新制雇主提繳率？由誰負擔？",
+    "back": "6%，全額雇主負擔。",
+    "material_ref": "pz-03-03",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-03-03-02",
+    "subject": "practice-zone",
+    "front": "員工自願提繳勞退範圍？稅務處理？",
+    "back": "0%至6%；可自綜合所得總額全數扣除，不計入薪資所得課稅。",
+    "material_ref": "pz-03-03",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-03-03-03",
+    "subject": "practice-zone",
+    "front": "勞保、健保、勞退的投保薪資級距關係？",
+    "back": "三張各自獨立的分級表，級距上下限不同；勞退提繳工資上限（15萬）遠高於勞保、健保。",
+    "material_ref": "pz-03-03",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-03-03-04",
+    "subject": "practice-zone",
+    "front": "月提繳工資該用底薪還是實際工資認定？",
+    "back": "實際工資（含固定津貼、獎金等經常性給與），不是只看勞動契約底薪。",
+    "material_ref": "pz-03-03",
+    "verified_at": "2026-07-06"
+  }
+]

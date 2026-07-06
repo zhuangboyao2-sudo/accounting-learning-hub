@@ -1,0 +1,34 @@
+[
+  {
+    "id": "fc-pz-03-02-01",
+    "subject": "practice-zone",
+    "front": "第一類被保險人健保費負擔比例？",
+    "back": "雇主60%、員工30%、政府10%。",
+    "material_ref": "pz-03-02",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-03-02-02",
+    "subject": "practice-zone",
+    "front": "眷屬人數超過3人，健保費怎麼計算？",
+    "back": "一律以4人（本人＋眷屬3人）計算，不因人數再多而增加。",
+    "material_ref": "pz-03-02",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-03-02-03",
+    "subject": "practice-zone",
+    "front": "健保費的計算單位是什麼？和勞保費有何不同？",
+    "back": "按整月計算（不論月初或月中到職）；勞保費按實際天數計算，兩者不同。",
+    "material_ref": "pz-03-02",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-03-02-04",
+    "subject": "practice-zone",
+    "front": "員工月中離職，當月健保費由誰負擔？",
+    "back": "由下一個投保單位負責，原雇主免繳當月保費（月底離職才由原雇主負擔當月）。",
+    "material_ref": "pz-03-02",
+    "verified_at": "2026-07-06"
+  }
+]

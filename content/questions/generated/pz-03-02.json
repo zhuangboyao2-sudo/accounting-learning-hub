@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gen-pz-03-02-01",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "第一類被保險人健保費之負擔比例為何？",
+    "options": ["雇主70%、員工20%、政府10%", "雇主60%、員工30%、政府10%", "雇主50%、員工50%", "雇主100%"],
+    "answer": [1],
+    "explanation": "第一類被保險人健保費負擔比例為雇主60%、員工30%、政府10%，與勞保費的70/20/10比例不同。",
+    "material_ref": "pz-03-02",
+    "tags": ["健保負擔比例"],
+    "verified_at": "2026-07-06",
+    "sources": ["https://www.gssradar.com/2015436039350363210231449/2025-28590-190"]
+  },
+  {
+    "id": "gen-pz-03-02-02",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "健保費計算時，眷屬人數超過3人時如何處理？",
+    "options": ["依實際眷屬人數全額計算", "一律以4人（本人＋眷屬3人）計算", "免計眷屬健保費", "改按固定金額計算"],
+    "answer": [1],
+    "explanation": "眷屬人數超過3人者，一律以4人（本人1人＋眷屬3人）計算，不會因眷屬人數再多而持續增加保費。",
+    "material_ref": "pz-03-02",
+    "tags": ["眷屬計費上限"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-03-02-03",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "員工月中離職，該月健保費應由誰負擔？",
+    "options": ["原雇主負擔全月健保費", "由員工下一個投保單位負責，原雇主免繳當月保費", "由員工自行負擔全額", "由健保署免收當月保費"],
+    "answer": [1],
+    "explanation": "健保費按整月計算，員工月中離職時，由下一個投保單位負責當月健保費，原雇主免繳當月保費；若月底離職，則由現任雇主負擔並扣繳當月健保費。",
+    "material_ref": "pz-03-02",
+    "tags": ["整月計算規則"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-03-02-04",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "員工月投保薪資30,000元，無眷屬，健保費率5.17%，雇主負擔比例60%，雇主負擔金額為何？",
+    "options": ["931元", "1,551元", "1,862元", "465元"],
+    "answer": [0],
+    "explanation": "雇主負擔＝30,000×5.17%×60%×（1＋0）≈931元。",
+    "material_ref": "pz-03-02",
+    "tags": ["計算題"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-03-02-05",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "勞保與健保之投保薪資級距上下限，是否相同？",
+    "options": ["完全相同，可共用同一張級距表", "不同，須分開查閱各自的級距表", "勞保沒有級距上限", "健保沒有級距下限"],
+    "answer": [1],
+    "explanation": "勞保投保薪資級距與健保投保薪資級距上下限並不相同，實務作業時須分別對照各自的級距表。",
+    "material_ref": "pz-03-02",
+    "tags": ["投保薪資級距"],
+    "verified_at": "2026-07-06"
+  }
+]

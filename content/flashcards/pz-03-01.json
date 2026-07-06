@@ -1,0 +1,34 @@
+[
+  {
+    "id": "fc-pz-03-01-01",
+    "subject": "practice-zone",
+    "front": "「勞保費」由哪三個險種組成？",
+    "back": "普通事故保險、就業保險（合稱勞保費率12.5%）、職業災害保險（另計，雇主全額負擔）。",
+    "material_ref": "pz-03-01",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-03-01-02",
+    "subject": "practice-zone",
+    "front": "第一類被保險人勞保費負擔比例？",
+    "back": "雇主70%、員工20%、政府10%。",
+    "material_ref": "pz-03-01",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-03-01-03",
+    "subject": "practice-zone",
+    "front": "職業災害保險費由誰負擔？",
+    "back": "全額由雇主負擔，依行業風險程度分級，不含在12.5%分擔比例內。",
+    "material_ref": "pz-03-01",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-03-01-04",
+    "subject": "practice-zone",
+    "front": "勞保費按什麼單位計算？月中到職離職如何處理？",
+    "back": "按天計算，月中到職或離職須按實際加保天數比例計算。",
+    "material_ref": "pz-03-01",
+    "verified_at": "2026-07-06"
+  }
+]

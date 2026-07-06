@@ -10,7 +10,9 @@
     "https://www.etax.nat.gov.tw/etwmain/tax-info/understanding/tax-q-and-a/national/individual-income-tax/withheld-rule/rule/BZYB5p2",
     "https://www.nhi.gov.tw/ch/cp-4516-74b0f-2613-1.html",
     "https://law-out.mof.gov.tw/LawContent.aspx?id=FL005962",
-    "https://www.etax.nat.gov.tw/etwmain/tax-info/innotative-tax-e-reference/withheld/regulation/Prj8q2V"
+    "https://www.etax.nat.gov.tw/etwmain/tax-info/innotative-tax-e-reference/withheld/regulation/Prj8q2V",
+    "https://law.lia-roc.org.tw/Law/Content?lsid=FL067880",
+    "https://www.bli.gov.tw/0013083.html"
   ],
   "notes": "本檔為民國115年度（即西元2026年度）稅務參數，適用於116年（2027年）5月申報。每人基本生活所需之費用金額115年度官方公告尚未查得明確數字，故未列入，待查得後補上（見計畫 §8.2）。",
   "individualIncomeTax": {
@@ -64,5 +66,28 @@
     "businessIncomeTaxSettlement": "每年5月1日至5月31日",
     "businessTax401": "雙月申報，於次期開始15日內（奇數月15日前）",
     "withholdingStatement": "次年1月底前申報，2月10日前填發納稅義務人（遇連續3日以上國定假日順延）"
+  },
+  "minimumWage": {
+    "monthly": 29500,
+    "hourly": 196
+  },
+  "laborInsurance": {
+    "generalRate": 0.125,
+    "employmentInsuranceRateIncluded": 0.01,
+    "note": "勞保費率12.5%，內含就業保險費率1%（一般事故保險費率11.5%＋就業保險費率1%）",
+    "allocation": { "employer": 0.7, "employee": 0.2, "government": 0.1 },
+    "allocationNote": "有一定雇主之受僱者（第一類被保險人）分擔比例；職業災害保險費率依行業別而定，由雇主全額負擔，不含在上述12.5%及分擔比例內",
+    "insuredSalaryRange": { "min": 11100, "max": 45800 }
+  },
+  "nationalHealthInsurance": {
+    "rate": 0.0517,
+    "allocation": { "employer": 0.6, "employee": 0.3, "government": 0.1 },
+    "allocationNote": "一般受僱者（第一類被保險人）分擔比例；眷屬健保費依附投保，每一被保險人眷屬人數計費上限為4人（本人＋眷屬合計）",
+    "insuredSalaryRange": { "min": 29500, "max": 313000 }
+  },
+  "laborPension": {
+    "employerContributionRate": 0.06,
+    "note": "雇主強制提繳月提繳工資之6%至勞工個人退休金專戶，全額雇主負擔；勞工得自願另提繳0%至6%",
+    "contributionWageRange": { "min": 1500, "max": 150000 }
   }
 }

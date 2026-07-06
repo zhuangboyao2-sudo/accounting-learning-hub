@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gen-pz-03-03-01",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "勞退新制雇主提繳率為何？由誰負擔？",
+    "options": ["6%，全額雇主負擔", "6%，雇主員工各半負擔", "3%，全額雇主負擔", "6%，全額員工負擔"],
+    "answer": [0],
+    "explanation": "雇主應按月提繳不低於月提繳工資6%之退休金至勞工個人退休金專戶，全額由雇主負擔。",
+    "material_ref": "pz-03-03",
+    "tags": ["勞退提繳"],
+    "verified_at": "2026-07-06",
+    "sources": ["https://www.bli.gov.tw/0013083.html"]
+  },
+  {
+    "id": "gen-pz-03-03-02",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "員工自願提繳勞退的比例範圍為何？自願提繳部分是否計入薪資所得課稅？",
+    "options": ["0%至6%；計入薪資所得課稅", "0%至6%；不計入薪資所得課稅，可自綜合所得總額全數扣除", "固定6%；計入薪資所得課稅", "0%至10%；不計入課稅"],
+    "answer": [1],
+    "explanation": "員工可自願提繳0%至6%，該部分依所得稅法規定可自當年度個人綜合所得總額中全數扣除，不計入薪資所得課稅。",
+    "material_ref": "pz-03-03",
+    "tags": ["自願提繳"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-03-03-03",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "勞保投保薪資、健保投保薪資、勞退月提繳工資，三者的級距關係為何？",
+    "options": ["三者是同一張級距表", "三者是各自獨立的分級表，級距上下限不同", "只有勞保有級距表，其餘沒有", "健保與勞退共用同一張級距表"],
+    "answer": [1],
+    "explanation": "勞保投保薪資、健保投保薪資、勞退月提繳工資是三張各自獨立的分級表，金額級距並不完全相同（勞退上限遠高於勞保與健保）。",
+    "material_ref": "pz-03-03",
+    "tags": ["投保薪資級距比較"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-03-03-04",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "月提繳工資的認定基礎為何？",
+    "options": ["僅看勞動契約約定的底薪", "應以員工當月實際工資（含固定津貼、獎金等經常性給與）對照分級表", "以最低基本工資計算即可", "由員工自行申報決定"],
+    "answer": [1],
+    "explanation": "月提繳工資應以勞工當月實際工資對照分級表，包含本薪及按月給付之固定津貼、獎金等經常性給與，而非僅看勞動契約上約定的底薪。",
+    "material_ref": "pz-03-03",
+    "tags": ["提繳工資認定"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-03-03-05",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "員工月提繳工資32,000元，未自願提繳，雇主每月應提繳金額為何？",
+    "options": ["960元", "1,920元", "3,200元", "1,600元"],
+    "answer": [1],
+    "explanation": "雇主每月提繳金額＝32,000×6%＝1,920元。",
+    "material_ref": "pz-03-03",
+    "tags": ["計算題"],
+    "verified_at": "2026-07-06"
+  }
+]
