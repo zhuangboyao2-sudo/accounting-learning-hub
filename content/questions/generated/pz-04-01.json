@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gen-pz-04-01-01",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "營利事業所得稅暫繳申報的期間為何？",
+    "options": ["每年5月1日至5月31日", "每年9月1日至9月30日", "每年1月1日至1月31日", "每年3月1日至3月31日"],
+    "answer": [1],
+    "explanation": "營利事業所得稅暫繳申報期間為每年9月1日至9月30日。",
+    "material_ref": "pz-04-01",
+    "tags": ["行事曆"],
+    "verified_at": "2026-07-06",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=G0340003&flno=71"]
+  },
+  {
+    "id": "gen-pz-04-01-02",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "全年稅務行事曆中，哪些月份被視為申報「旺季」（多項義務重疊）？",
+    "options": ["3月、7月、11月", "1月、2月、5月、9月", "只有5月", "全年平均分布，沒有旺季"],
+    "answer": [1],
+    "explanation": "1月要處理年度扣繳彙報、2月要填發憑單、5月是綜所稅與營所稅雙結算申報加雙月營業稅、9月是暫繳申報加雙月營業稅，這幾個月工作量明顯集中。",
+    "material_ref": "pz-04-01",
+    "tags": ["行事曆規劃"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-04-01-03",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "一般營業人（非零稅率）之營業稅申報週期為何？",
+    "options": ["每月申報", "每2個月申報一次（雙月）", "每季申報", "每半年申報"],
+    "answer": [1],
+    "explanation": "一般營業人以每2個月為一期申報營業稅401（或403），於次期開始15日內申報；零稅率營業人得申請改為按月申報。",
+    "material_ref": "pz-04-01",
+    "tags": ["營業稅申報週期"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-04-01-04",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "企業在1月份須同時處理哪兩項年度彙報作業？",
+    "options": ["只有扣繳憑單彙報", "扣繳憑單彙報與二代健保補充保費扣費明細彙報", "只有二代健保彙報", "只有營業稅申報"],
+    "answer": [1],
+    "explanation": "企業於1月底前須同時彙報上年度扣繳憑單／免扣繳憑單，以及二代健保補充保費扣費明細，兩者期限一致。",
+    "material_ref": "pz-04-01",
+    "tags": ["1月彙報作業"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-04-01-05",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "個人辦理綜合所得稅結算申報的期間為何？",
+    "options": ["每年5月1日至5月31日", "每年3月1日至3月31日", "每年1月1日至1月31日", "每年9月1日至9月30日"],
+    "answer": [0],
+    "explanation": "綜合所得稅結算申報期間為每年5月1日至5月31日。",
+    "material_ref": "pz-04-01",
+    "tags": ["行事曆"],
+    "verified_at": "2026-07-06"
+  }
+]

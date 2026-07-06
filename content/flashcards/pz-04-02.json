@@ -1,0 +1,34 @@
+[
+  {
+    "id": "fc-pz-04-02-01",
+    "subject": "practice-zone",
+    "front": "分戶資料限制下載的申請期間？",
+    "back": "每年2月15日至3月16日。",
+    "material_ref": "pz-04-02",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-04-02-02",
+    "subject": "practice-zone",
+    "front": "沒收到扣繳憑單，還要申報那筆所得嗎？",
+    "back": "要，只要有所得就有申報義務，可透過歸戶資料下載核對。",
+    "material_ref": "pz-04-02",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-04-02-03",
+    "subject": "practice-zone",
+    "front": "所得資料開放下載的大致時點？",
+    "back": "4月28日起，供5月申報前核對準備。",
+    "material_ref": "pz-04-02",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-04-02-04",
+    "subject": "practice-zone",
+    "front": "股利計稅方式選錯了，還能更正嗎？",
+    "back": "可以，在核課確定前仍可依規定申請更正。",
+    "material_ref": "pz-04-02",
+    "verified_at": "2026-07-06"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gen-pz-04-04-01",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依行政程序法第48條第4項規定，稅務期限之末日若遇星期日、國定假日，一般如何處理？",
+    "options": ["提前一天截止", "以該日之次日為期間之末日（順延一天）", "整個假期都不計入期限", "須另外申請展延"],
+    "answer": [1],
+    "explanation": "行政程序法第48條第4項規定，法定期間之末日如為星期日、國定假日或其他休息日者，以該日之次日為期間之末日，這是一般性的單日順延規則。",
+    "material_ref": "pz-04-04",
+    "tags": ["假日順延通則"],
+    "verified_at": "2026-07-06",
+    "sources": ["https://web.law.ntpc.gov.tw/Scripts/FLAWDOC03.aspx?rtype=E&ecode=I00100&ecase=%EF%BC%8890%EF%BC%89%E6%B3%95%E5%BE%8B&eno=023564"]
+  },
+  {
+    "id": "gen-pz-04-04-02",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "1月扣繳憑單彙報期限，若1月遇連續3日以上國定假日，順延至何時？",
+    "options": ["順延一天", "延長至2月5日", "延長至3月1日", "不予順延"],
+    "answer": [1],
+    "explanation": "扣繳憑單／免扣繳憑單彙報期限（原1月底），若1月遇連續3日以上國定假日，特別延長至2月5日，與一般單日順延規則不同。",
+    "material_ref": "pz-04-04",
+    "tags": ["特殊順延規則"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-04-04-03",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "扣繳憑單填發期限，若1月遇連續3日以上國定假日，順延至何時？",
+    "options": ["2月10日（不順延）", "2月15日", "2月28日", "3月10日"],
+    "answer": [1],
+    "explanation": "扣繳憑單填發期限（原2月10日），若1月遇連續3日以上國定假日，延長至2月15日。",
+    "material_ref": "pz-04-04",
+    "tags": ["特殊順延規則"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-04-04-04",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "透過便利商店代收稅款，通常有何種限制？",
+    "options": ["無金額限制", "有金額上限（如3萬元以下），超過須改用其他繳納方式", "只能繳交所得稅", "只能繳交營業稅"],
+    "answer": [1],
+    "explanation": "便利商店代收稅款通常有金額上限（如3萬元以下），應納稅額超過限額須改用銀行臨櫃、自動櫃員機、晶片金融卡等其他繳納方式。",
+    "material_ref": "pz-04-04",
+    "tags": ["繳納方式"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-04-04-05",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "面對農曆春節等長假期間涵蓋的申報期限，建議的規劃心態為何？",
+    "options": ["假期前不用急，反正會順延", "把假期視為警訊，提前於假期前1-2週完成申報準備", "等假期結束後再開始準備", "順延規則保證足夠時間，無須提前規劃"],
+    "answer": [1],
+    "explanation": "應把國定假期視為「提前完成申報」的警訊而非拖延的理由，因為假期前後人力調度困難，提前規劃才是穩健的作業方式。",
+    "material_ref": "pz-04-04",
+    "tags": ["時程規劃建議"],
+    "verified_at": "2026-07-06"
+  }
+]

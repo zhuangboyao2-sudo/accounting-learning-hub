@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gen-pz-04-03-01",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "企業決定當年度採「查帳申報」，其帳務準備工作應何時開始？",
+    "options": ["5月申報前才開始整理即可", "應橫跨全年度持續進行憑證整理，不能臨時補齊", "只需在9月暫繳時準備", "查帳申報不需要特別準備"],
+    "answer": [1],
+    "explanation": "查帳申報須確保全年帳冊憑證完整，這項工作橫跨全年度，無法在5月申報前臨時補齊，通常應在年度中甚至年初就與記帳士討論決定申報方式。",
+    "material_ref": "pz-04-03",
+    "tags": ["申報方式規劃"],
+    "verified_at": "2026-07-06",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=G0340003&flno=71"]
+  },
+  {
+    "id": "gen-pz-04-03-02",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "9月暫繳稅款與隔年5月結算稅額之間，企業應注意什麼？",
+    "options": ["兩者必然相等，無須額外注意", "若當年度獲利大幅成長，暫繳金額可能不足，5月結算須補繳較大金額，應提前預留現金", "暫繳稅款與結算稅額無關", "暫繳稅款一律高於結算稅額"],
+    "answer": [1],
+    "explanation": "暫繳稅款計算基礎（上年度應納稅額二分之一或前6個月試算）與實際結算稅額可能有落差，獲利成長時暫繳往往不足，企業應提前預留現金因應可能的補稅。",
+    "material_ref": "pz-04-03",
+    "tags": ["暫繳與結算銜接"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-04-03-03",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "企業當年度新增免稅或特種稅額計算業務，應何時切換為403申報書？",
+    "options": ["年底結算時一次更正即可", "發生兼營事實的當期就應切換", "等到查帳時再處理", "不需要切換，401可以繼續使用"],
+    "answer": [1],
+    "explanation": "應於發生兼營事實的當期就切換申報書格式，若拖到年底才更正，將涉及先前各期進項稅額比例扣抵的追溯調整，增加帳務複雜度。",
+    "material_ref": "pz-04-03",
+    "tags": ["401/403切換時機"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-04-03-04",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "企業每逢單數月15日前，須申報哪兩個月的營業稅？",
+    "options": ["當月與次月", "前兩個月（雙月週期）", "全年累計", "上一季"],
+    "answer": [1],
+    "explanation": "一般營業人以每2個月為一期申報營業稅，於次期開始15日內申報前兩個月的銷售額（例如3月15日前申報1-2月銷售額）。",
+    "material_ref": "pz-04-03",
+    "tags": ["營業稅申報週期"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-04-03-05",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "企業全年須彙整哪些對象的扣繳與免扣繳資料，於1月底前彙報？",
+    "options": ["只有員工", "員工、股東、廠房出租人、執行業務廠商等所有給付對象", "只有股東", "只有廠商，不含員工"],
+    "answer": [1],
+    "explanation": "企業應彙整全體員工、股東、廠房出租人、執行業務廠商（如會計師、記帳士）等所有給付對象之扣繳與免扣繳資料，於1月底前彙報稽徵機關。",
+    "material_ref": "pz-04-03",
+    "tags": ["1月彙報作業"],
+    "verified_at": "2026-07-06"
+  }
+]

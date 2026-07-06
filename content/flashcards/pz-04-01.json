@@ -1,0 +1,34 @@
+[
+  {
+    "id": "fc-pz-04-01-01",
+    "subject": "practice-zone",
+    "front": "全年稅務行事曆的4個「旺季」月份？",
+    "back": "1月（扣繳彙報）、2月（憑單填發）、5月（綜所稅/營所稅結算+雙月營業稅）、9月（暫繳+雙月營業稅）。",
+    "material_ref": "pz-04-01",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-04-01-02",
+    "subject": "practice-zone",
+    "front": "一般營業人營業稅申報週期？",
+    "back": "每2個月一期（雙月），於次期開始15日內申報；零稅率營業人可申請按月申報。",
+    "material_ref": "pz-04-01",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-04-01-03",
+    "subject": "practice-zone",
+    "front": "營所稅暫繳申報 vs 結算申報的期間？",
+    "back": "暫繳：9月1-30日；結算：5月1-31日。",
+    "material_ref": "pz-04-01",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-04-01-04",
+    "subject": "practice-zone",
+    "front": "1月企業須同時彙報哪兩項年度資料？",
+    "back": "扣繳憑單/免扣繳憑單彙報，以及二代健保補充保費扣費明細彙報（均1月底前）。",
+    "material_ref": "pz-04-01",
+    "verified_at": "2026-07-06"
+  }
+]

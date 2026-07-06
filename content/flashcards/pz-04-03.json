@@ -1,0 +1,34 @@
+[
+  {
+    "id": "fc-pz-04-03-01",
+    "subject": "practice-zone",
+    "front": "查帳申報的帳務準備工作何時該開始？",
+    "back": "橫跨全年度持續整理，不能等5月申報前臨時補齊。",
+    "material_ref": "pz-04-03",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-04-03-02",
+    "subject": "practice-zone",
+    "front": "9月暫繳與5月結算稅額有落差時，企業該注意什麼？",
+    "back": "獲利成長年度暫繳往往不足，應提前預留現金因應5月可能的鉅額補稅。",
+    "material_ref": "pz-04-03",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-04-03-03",
+    "subject": "practice-zone",
+    "front": "新增兼營免稅業務，何時該切換401改用403？",
+    "back": "發生兼營事實的當期就切換，拖到年底會涉及追溯調整先前各期進項比例扣抵。",
+    "material_ref": "pz-04-03",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-04-03-04",
+    "subject": "practice-zone",
+    "front": "企業1月須彙報哪些對象的扣繳資料？",
+    "back": "員工、股東、廠房出租人、執行業務廠商（如會計師、記帳士）等所有給付對象。",
+    "material_ref": "pz-04-03",
+    "verified_at": "2026-07-06"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "fc-pz-04-04-01",
+    "subject": "practice-zone",
+    "front": "稅務期限遇假日的一般順延規則？",
+    "back": "行政程序法第48條第4項：以該日之次日為期間之末日（順延一天）。",
+    "material_ref": "pz-04-04",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-04-04-02",
+    "subject": "practice-zone",
+    "front": "1月遇連續3日以上國定假日，扣繳憑單彙報與填發各順延至何時？",
+    "back": "彙報延至2月5日；填發延至2月15日（與一般單日順延不同）。",
+    "material_ref": "pz-04-04",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-04-04-03",
+    "subject": "practice-zone",
+    "front": "便利商店代收稅款的限制？",
+    "back": "通常有金額上限（如3萬元以下），超過須改用其他繳納方式。",
+    "material_ref": "pz-04-04",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-04-04-04",
+    "subject": "practice-zone",
+    "front": "面對長假期涵蓋申報期限，正確的規劃心態？",
+    "back": "視為警訊提前準備，而非依賴順延規則拖延，避免假期前後人力調度困難。",
+    "material_ref": "pz-04-04",
+    "verified_at": "2026-07-06"
+  }
+]

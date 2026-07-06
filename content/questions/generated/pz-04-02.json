@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gen-pz-04-02-01",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "個人申請「分戶資料限制下載」的期間為何？",
+    "options": ["每年2月15日至3月16日", "每年5月1日至5月31日", "每年1月1日至1月31日", "全年皆可申請"],
+    "answer": [0],
+    "explanation": "分戶資料限制下載或不提供全部扣除額資料的申請期間為每年2月15日至3月16日。",
+    "material_ref": "pz-04-02",
+    "tags": ["個人申報時程"],
+    "verified_at": "2026-07-06",
+    "sources": ["https://tax.nat.gov.tw/alltax.html?id=1"]
+  },
+  {
+    "id": "gen-pz-04-02-02",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "個人若未收到扣繳憑單，是否還有申報該筆所得的義務？",
+    "options": ["沒有，沒收到憑單就不用申報", "仍有申報義務，可透過歸戶資料下載核對並主動確認", "只有超過100萬元才需要申報", "須等憑單補發後才能申報"],
+    "answer": [1],
+    "explanation": "只要有所得就有申報義務，不能以未收到憑單為由不申報；可透過財政部電子申報系統下載的歸戶所得資料核對，並主動聯繫給付單位確認。",
+    "material_ref": "pz-04-02",
+    "tags": ["申報義務"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-04-02-03",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "二代健保補充保費扣費證明與所得稅扣繳憑單，兩者關係為何？",
+    "options": ["是同一份文件", "是兩份不同的文件，須分別核對", "補充保費證明可取代扣繳憑單", "扣繳憑單已包含補充保費資訊"],
+    "answer": [1],
+    "explanation": "二代健保補充保費扣費證明與所得稅扣繳憑單是兩份不同的文件，個人核對申報資料時應一併檢視兩者。",
+    "material_ref": "pz-04-02",
+    "tags": ["申報準備"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-04-02-04",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "股利所得計稅方式（合併或分開計稅）選定後，若發現選擇有誤，是否還能更正？",
+    "options": ["絕對不能更正", "在核課確定前，仍可依規定申請更正", "只能等隔年重新選擇", "更正需要罰款"],
+    "answer": [1],
+    "explanation": "在核課確定前，若發現股利所得計稅方式選擇有誤，仍可依規定申請更正，並非一經申報即永久確定不可更改。",
+    "material_ref": "pz-04-02",
+    "tags": ["股利計稅方式"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-04-02-05",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "財政部電子申報繳稅服務系統開放使用憑證下載當年度所得及扣除額資料的時點約為何？",
+    "options": ["1月初", "4月28日起", "6月中", "12月底"],
+    "answer": [1],
+    "explanation": "財政部電子申報繳稅服務系統通常於4月28日起開放使用憑證下載當年度所得及扣除額資料，供納稅義務人於5月申報前核對準備。",
+    "material_ref": "pz-04-02",
+    "tags": ["申報準備時程"],
+    "verified_at": "2026-07-06"
+  }
+]
