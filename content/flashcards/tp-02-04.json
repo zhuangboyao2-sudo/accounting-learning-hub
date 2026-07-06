@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fc-tp-02-04-01",
+    "subject": "tax-practice",
+    "front": "營所稅結算申報期間？",
+    "back": "每年5月1日至5月31日。",
+    "material_ref": "tp-02-04",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-tp-02-04-02",
+    "subject": "tax-practice",
+    "front": "營所稅應退（補）稅額怎麼算？",
+    "back": "應納稅額－暫繳稅額－扣繳稅額－投資抵減稅額等已繳納稅款。",
+    "material_ref": "tp-02-04",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-tp-02-04-03",
+    "subject": "tax-practice",
+    "front": "為什麼實際獲利下降時，擴大書審申報可能反而較不利？",
+    "back": "擴大書審純益率是固定標準，不會因實際獲利下降而降稅，查帳申報才能反映真實盈虧。",
+    "material_ref": "tp-02-04",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-tp-02-04-04",
+    "subject": "tax-practice",
+    "front": "擴大書審4大常見錯誤申報樣態？",
+    "back": "漏報（或分散）收入、虛開發票、未據實辦理扣繳、未正確填寫公司行業代號。",
+    "material_ref": "tp-02-04",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-tp-02-04-05",
+    "subject": "tax-practice",
+    "front": "選擇申報方式前該做什麼準備？",
+    "back": "先分別試算擴大書審與查帳申報的稅負，選擇較有利者（前提是帳務條件允許）。",
+    "material_ref": "tp-02-04",
+    "verified_at": "2026-07-06"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gen-tp-02-04-01",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "會計年度採曆年制之營利事業，結算申報期間為何？",
+    "options": ["每年3月1日至3月31日", "每年5月1日至5月31日", "每年9月1日至9月30日", "每年12月1日至12月31日"],
+    "answer": [1],
+    "explanation": "營利事業所得稅結算申報期間為每年5月1日至5月31日。",
+    "material_ref": "tp-02-04",
+    "tags": ["結算申報"],
+    "verified_at": "2026-07-06",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=G0340003&flno=71"]
+  },
+  {
+    "id": "gen-tp-02-04-02",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "C公司全年營業收入3,000萬元，擴大書審純益率8%，其全年所得額為何？",
+    "options": ["150萬元", "240萬元", "300萬元", "600萬元"],
+    "answer": [1],
+    "explanation": "全年所得額＝3,000萬×8%＝240萬元。",
+    "material_ref": "tp-02-04",
+    "tags": ["擴大書審", "計算題"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tp-02-04-03",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承上題，全年所得額240萬元，適用稅率20%，扣除9月已繳暫繳稅額10萬元後，應補稅額為何？",
+    "options": ["48萬元", "38萬元", "58萬元", "10萬元"],
+    "answer": [1],
+    "explanation": "應納稅額＝240萬×20%＝48萬元；應補稅額＝48萬－暫繳稅額10萬＝38萬元。",
+    "material_ref": "tp-02-04",
+    "tags": ["結算申報", "計算題"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tp-02-04-04",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "當企業實際帳載純益率低於擴大書審純益率標準時，選擇擴大書審申報會有什麼結果？",
+    "options": ["稅額會自動降低反映實際獲利", "仍須依固定的擴大書審純益率計算，稅負不會因實際獲利下降而降低", "可以申請退還差額", "自動轉為查帳申報"],
+    "answer": [1],
+    "explanation": "擴大書審純益率是固定標準，不會因為當年度實際獲利下降而降低稅負，這是擴大書審申報的核心風險，此時查帳申報可能更省稅。",
+    "material_ref": "tp-02-04",
+    "tags": ["擴大書審", "查帳申報比較"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tp-02-04-05",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "下列何者不屬於國稅局公告的擴大書審4大常見錯誤申報樣態？",
+    "options": ["漏報或分散收入", "虛開發票", "未正確填寫公司行業代號", "提前申報結算申報書"],
+    "answer": [3],
+    "explanation": "4大常見錯誤為漏報（或分散）收入、虛開發票、未據實辦理扣繳、未正確填寫公司行業代號；提前申報不在此列。",
+    "material_ref": "tp-02-04",
+    "tags": ["擴大書審", "常見錯誤"],
+    "verified_at": "2026-07-06"
+  }
+]

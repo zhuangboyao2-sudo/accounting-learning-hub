@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fc-tp-02-03-01",
+    "subject": "tax-practice",
+    "front": "營所稅暫繳申報期間？",
+    "back": "每年9月1日至9月30日（會計年度採曆年制者）。",
+    "material_ref": "tp-02-03",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-tp-02-03-02",
+    "subject": "tax-practice",
+    "front": "一般暫繳申報的稅額怎麼算？",
+    "back": "上年度結算申報應納稅額×1/2。",
+    "material_ref": "tp-02-03",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-tp-02-03-03",
+    "subject": "tax-practice",
+    "front": "試算暫繳申報僅限哪些企業適用？",
+    "back": "帳冊完備、使用藍色申報書或經會計師查核簽證，並如期辦理暫繳申報者；以前6個月營業收入試算。",
+    "material_ref": "tp-02-03",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-tp-02-03-04",
+    "subject": "tax-practice",
+    "front": "獨資合夥組織需要辦理暫繳嗎？",
+    "back": "不需要，屬於免辦理暫繳申報及繳納之情形。",
+    "material_ref": "tp-02-03",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-tp-02-03-05",
+    "subject": "tax-practice",
+    "front": "暫繳稅額多少以下可免辦理暫繳？",
+    "back": "上年度應納稅額二分之一計算之暫繳稅額在新臺幣2,000元以下者。",
+    "material_ref": "tp-02-03",
+    "verified_at": "2026-07-06"
+  }
+]

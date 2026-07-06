@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fc-tp-02-01-01",
+    "subject": "tax-practice",
+    "front": "營所稅公式型所得的三大標準？",
+    "back": "擴大書審純益率、所得額標準、同業利潤標準。",
+    "material_ref": "tp-02-01",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-tp-02-01-02",
+    "subject": "tax-practice",
+    "front": "擴大書審適用門檻？",
+    "back": "營業收入淨額及非營業收入合計3,000萬元以下（部分行業限1,000萬元以下）。",
+    "material_ref": "tp-02-01",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-tp-02-01-03",
+    "subject": "tax-practice",
+    "front": "擴大書審全年所得額怎麼算？",
+    "back": "（營收淨額＋非營業收入）×擴大書審純益率。",
+    "material_ref": "tp-02-01",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-tp-02-01-04",
+    "subject": "tax-practice",
+    "front": "同業利潤標準何時適用？特性是什麼？",
+    "back": "稽徵機關調查時納稅義務人未依限提示帳簿文據者適用；淨利率通常較高，具懲罰性質。",
+    "material_ref": "tp-02-01",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-tp-02-01-05",
+    "subject": "tax-practice",
+    "front": "收件編號第3碼「7」代表什麼申報方式？",
+    "back": "3,000萬元以下擴大書面審核案件。",
+    "material_ref": "tp-02-01",
+    "verified_at": "2026-07-06"
+  }
+]

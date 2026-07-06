@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gen-tp-02-01-01",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "營利事業所得稅公式型所得的計算方式，包括下列哪三種標準？",
+    "options": ["查帳標準、簽證標準、書審標準", "擴大書審純益率、所得額標準、同業利潤標準", "藍色標準、白色標準、查核標準", "5%標準、10%標準、20%標準"],
+    "answer": [1],
+    "explanation": "公式型所得包括擴大書審純益率標準、所得額標準、同業利潤標準三種，均以營業收入為基礎乘上財政部核定之百分比計算。",
+    "material_ref": "tp-02-01",
+    "tags": ["申報方式"],
+    "verified_at": "2026-07-06",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=G0340003&flno=80"]
+  },
+  {
+    "id": "gen-tp-02-01-02",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "擴大書審申報適用之營業收入及非營業收入合計門檻通常為多少？",
+    "options": ["500萬元以下", "1,000萬元以下", "3,000萬元以下（部分行業限1,000萬元以下）", "1億元以下"],
+    "answer": [2],
+    "explanation": "擴大書審申報通常適用於營業收入淨額及非營業收入合計3,000萬元以下之中小企業，部分行業限制在1,000萬元以下。",
+    "material_ref": "tp-02-01",
+    "tags": ["擴大書審"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tp-02-01-03",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "某零售業公司擴大書審純益率6%，全年營收淨額2,500萬元、非營業收入400萬元，其全年所得額為何？",
+    "options": ["150萬元", "174萬元", "200萬元", "290萬元"],
+    "answer": [1],
+    "explanation": "全年所得額＝（2,500萬＋400萬）×6%＝174萬元。",
+    "material_ref": "tp-02-01",
+    "tags": ["擴大書審", "計算題"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tp-02-01-04",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第83條規定，同業利潤標準適用於何種情形？",
+    "options": ["所有營利事業皆可自由選用", "納稅義務人於稽徵機關調查時未依限提示課稅所得額相關帳簿文據者", "只適用於金融業", "只適用於虧損企業"],
+    "answer": [1],
+    "explanation": "第83條規定，納稅義務人未於規定期限內提示有關證明所得額之帳簿文據者，稽徵機關得依查得之資料或同業利潤標準核定其所得額。",
+    "material_ref": "tp-02-01",
+    "tags": ["同業利潤標準"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tp-02-01-05",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "結算申報書收件編號第3碼為「7」，代表該公司採用何種申報方式？",
+    "options": ["會計師簽證申報案件", "藍色申報案件", "3,000萬元以下擴大書面審核案件", "公營事業申報案件"],
+    "answer": [2],
+    "explanation": "收件編號第3碼「7」代表3,000萬元以下擴大書面審核案件。",
+    "material_ref": "tp-02-01",
+    "tags": ["申報方式"],
+    "verified_at": "2026-07-06"
+  }
+]
