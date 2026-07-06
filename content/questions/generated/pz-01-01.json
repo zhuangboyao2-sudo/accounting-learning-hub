@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gen-pz-01-01-01",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "傳產工廠若為公司組織，其扣繳義務人依第89條規定為何人？",
+    "options": ["實際經手發放薪資的會計人員", "公司負責人", "國稅局指派之承辦人員", "全體股東"],
+    "answer": [1],
+    "explanation": "第89條規定，公、民營、公有、公用等事業、合作社給付者，以其負責人為扣繳義務人，而非實際經手作業的會計或人資人員。",
+    "material_ref": "pz-01-01",
+    "tags": ["扣繳義務人"],
+    "verified_at": "2026-07-06",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=G0340003&flno=88"]
+  },
+  {
+    "id": "gen-pz-01-01-02",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "扣繳義務人應於何時將上一個月已扣稅款向國庫繳清？",
+    "options": ["每月10日前", "每月底前", "每季15日前", "次年1月底前"],
+    "answer": [0],
+    "explanation": "第92條規定，扣繳義務人應於每月10日前，將上一個月內已扣稅款向國庫繳清。",
+    "material_ref": "pz-01-01",
+    "tags": ["扣繳期限"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-01-01-03",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "扣繳義務人每次應扣繳稅額不超過新臺幣2,000元者，原則上免予扣繳，但下列何種所得不適用此門檻？",
+    "options": ["一般租金所得", "一般執行業務報酬", "短期票券利息等分離課稅所得", "一般權利金所得"],
+    "answer": [2],
+    "explanation": "短期票券利息、依金融資產證券化條例發行之受益證券利息、政府舉辦獎券中獎獎金等分離課稅所得，不適用2,000元免扣繳門檻，即使金額很小仍應依規定扣繳。",
+    "material_ref": "pz-01-01",
+    "tags": ["免扣繳門檻"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-01-01-04",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "扣繳義務人未依規定扣繳稅款，但已於期限內補繳應扣未扣稅款及補報扣繳憑單者，依第114條規定處罰為何？",
+    "options": ["按應扣未扣稅額處1倍以下罰鍰", "按應扣未扣稅額處3倍以下罰鍰", "一律免罰", "按應扣未扣稅額處5倍罰鍰"],
+    "answer": [0],
+    "explanation": "已於期限內補繳並補報者，按應扣未扣或短扣之稅額處1倍以下罰鍰；未於期限內補繳或不按實補報者，才處3倍以下罰鍰。",
+    "material_ref": "pz-01-01",
+    "tags": ["罰則"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-01-01-05",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "應扣未扣或短扣之稅額在新臺幣多少元以下，經限期責令補繳並補報後已依限辦理者，免予處罰？",
+    "options": ["1,000元", "2,000元", "3,000元", "5,000元"],
+    "answer": [2],
+    "explanation": "應扣未扣或短扣之稅額在新臺幣3,000元以下，經限期責令補繳並補報後，已依限繳納及補報者，免予處罰。",
+    "material_ref": "pz-01-01",
+    "tags": ["罰則", "減免處罰"],
+    "verified_at": "2026-07-06"
+  }
+]

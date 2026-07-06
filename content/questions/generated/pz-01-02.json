@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gen-pz-01-02-01",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "薪資所得扣繳，扣繳義務人可選擇的兩種方式為何？",
+    "options": ["查薪資所得扣繳稅額表，或按全月給付總額扣取固定比率", "只能查表，無其他選擇", "只能按固定比率，無其他選擇", "由國稅局逐案核定"],
+    "answer": [0],
+    "explanation": "薪資所得扣繳可選擇依薪資所得扣繳稅額表（考量配偶及受扶養親屬人數），或按全月給付總額扣取固定比率5%。",
+    "material_ref": "pz-01-02",
+    "tags": ["薪資扣繳"],
+    "verified_at": "2026-07-06",
+    "sources": ["https://law-out.mof.gov.tw/LawContent.aspx?id=FL005962"]
+  },
+  {
+    "id": "gen-pz-01-02-02",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "境內居住之執行業務者，其報酬扣繳率為何？",
+    "options": ["5%", "10%", "15%", "20%"],
+    "answer": [1],
+    "explanation": "境內居住之執行業務者，其報酬按給付額扣繳10%；非境內居住者則按20%扣繳。",
+    "material_ref": "pz-01-02",
+    "tags": ["執行業務報酬"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-01-02-03",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "工廠以非即期支票給付執行業務者報酬，扣繳時點為何？",
+    "options": ["支票兌現日", "支票所載發票日", "支票交付予對方之次月", "年度結算申報時"],
+    "answer": [1],
+    "explanation": "以非即期支票給付應扣繳範圍所得，扣繳義務人應於支票所載發票日辦理扣繳，而非等到支票兌現日。",
+    "material_ref": "pz-01-02",
+    "tags": ["扣繳時點"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-01-02-04",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "工廠給付會計師記帳費用3萬元，依10%扣繳率計算，應扣繳稅款為何？",
+    "options": ["1,500元", "3,000元", "6,000元", "300元"],
+    "answer": [1],
+    "explanation": "應扣繳稅款＝30,000×10%＝3,000元。",
+    "material_ref": "pz-01-02",
+    "tags": ["執行業務報酬", "計算題"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-01-02-05",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "執行業務者稿費、版稅等全年合計不超過18萬元享免稅優惠，這與給付當下的扣繳義務有何關係？",
+    "options": ["兩者互相牴觸，扣繳義務因此免除", "給付當下仍應先依規定扣繳，18萬元免稅是所得人結算申報時才適用的計算結果", "只要當年度可能免稅，給付時就不用扣繳", "18萬元免稅優惠取代扣繳制度"],
+    "answer": [1],
+    "explanation": "給付當下的扣繳義務與所得人結算申報時的免稅額度是兩個獨立層次，扣繳義務人仍應先依10%扣繳，若所得人事後結算申報符合免稅規定，扣繳稅款多繳部分可透過結算申報退還。",
+    "material_ref": "pz-01-02",
+    "tags": ["執行業務報酬"],
+    "verified_at": "2026-07-06"
+  }
+]

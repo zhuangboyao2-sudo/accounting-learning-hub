@@ -1,0 +1,49 @@
+---
+id: pz-01-03
+title: 租金、利息、權利金、佣金扣繳實務
+subject: practice-zone
+chapter: 1
+order: 3
+law_basis: [所得稅法, 各類所得扣繳率標準]
+verified_at: 2026-07-06
+sources:
+  - https://law-out.mof.gov.tw/LawContent.aspx?id=FL005962
+  - https://www.etax.nat.gov.tw/etwmain/tax-info/innotative-tax-e-reference/withheld/regulation/Prj8q2V
+---
+
+## 現行扣繳率一覽（境內居住之個人或境內有固定營業場所之營利事業）
+
+《各類所得扣繳率標準》第2條規定，傳產工廠常見的幾類所得扣繳率如下：
+
+```
+租金：按給付額扣取<TaxParam path="withholdingRates.rent.rate" format="percent" />
+利息（一般）：按給付額扣取<TaxParam path="withholdingRates.interest.rate" format="percent" />
+權利金：按給付額扣取<TaxParam path="withholdingRates.royalty.rate" format="percent" />
+佣金：按給付額扣取<TaxParam path="withholdingRates.commission.rate" format="percent" />
+```
+
+非境內居住之個人或境內無固定營業場所之營利事業，上述各項扣繳率則多為20%——這與「稅務相關法規」科目介紹過的「境內居住者」判斷標準（在境內有住所並經常居住，或一課稅年度內在境內居留合計滿183天）直接相關，扣繳義務人給付所得前應先確認對方的居住者身分，才能適用正確稅率。
+
+## 租金扣繳實務
+
+工廠承租廠房、辦公室、設備等支付租金時，應按給付額扣取<TaxParam path="withholdingRates.rent.rate" format="percent" />。若房東要求給付「淨額」（即房東實拿金額不因扣繳而減少，稅款由承租方吸收），實務上須用「還原稅前給付額」的方式計算，扣繳義務人仍應依還原後的給付總額計算並解繳稅款，不能只按房東實拿金額計稅。
+
+## 利息扣繳實務
+
+工廠支付借款利息（如向股東借款、民間借貸）予境內居住之個人，應按給付額扣取<TaxParam path="withholdingRates.interest.rate" format="percent" />。若利息給付對象是金融機構，則依規定金融機構存款利息由其自行依規定辦理，一般借款利息才需要由借款人（給付人）辦理扣繳。
+
+## 權利金與佣金扣繳實務
+
+工廠支付專利權、商標權、著作權等授權金（權利金），或支付仲介、代理商之佣金，均按給付額扣取<TaxParam path="withholdingRates.royalty.rate" format="percent" />／<TaxParam path="withholdingRates.commission.rate" format="percent" />。這類支出常見於傳產工廠與國外技術母廠簽訂授權合約、或透過國內代理商銷售產品的情境。
+
+## 免予扣繳之起扣門檻
+
+除薪資另有查表起扣標準外，上述租金、利息、權利金、佣金等所得，扣繳義務人**每次應扣繳稅額不超過新臺幣<TaxParam path="withholdingRates.minimumWithholdingThreshold" />元者，免予扣繳**，但仍應列單申報免扣繳憑單。
+
+計算範例：工廠支付權利金2萬元，應扣繳稅款＝20,000×10%＝2,000元，剛好達到門檻，仍應辦理扣繳（門檻是「不超過」2,000元免扣，等於2,000元仍須扣繳）；若權利金給付額為1.9萬元，應扣繳稅款＝19,000×10%＝1,900元，未超過2,000元，可免予扣繳，但仍應列單申報免扣繳憑單。
+
+## 常見錯誤
+
+- 誤以為只要是租金、利息等給付都要一律按20%扣繳，忽略境內居住者與非境內居住者適用不同扣繳率，前者通常是10%
+- 房東要求「淨額」給付時，誤以房東實拿金額作為計算稅基，忽略應以還原稅前之給付總額計算扣繳稅款
+- 誤以為扣繳稅額低於2,000元門檻就完全不用理會，忽略即使免予扣繳，仍應列單申報免扣繳憑單，非完全免除申報義務

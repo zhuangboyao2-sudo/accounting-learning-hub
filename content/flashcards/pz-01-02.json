@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fc-pz-01-02-01",
+    "subject": "practice-zone",
+    "front": "薪資扣繳的兩種方式？",
+    "back": "查薪資所得扣繳稅額表（考量配偶、扶養親屬），或按全月給付總額扣取固定5%。",
+    "material_ref": "pz-01-02",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-01-02-02",
+    "subject": "practice-zone",
+    "front": "境內居住之執行業務者報酬扣繳率？",
+    "back": "10%（非境內居住者20%）。",
+    "material_ref": "pz-01-02",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-01-02-03",
+    "subject": "practice-zone",
+    "front": "以非即期支票給付執行業務報酬，扣繳時點？",
+    "back": "支票所載發票日，而非兌現日。",
+    "material_ref": "pz-01-02",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-01-02-04",
+    "subject": "practice-zone",
+    "front": "給付記帳費用3萬元，扣繳稅款多少？",
+    "back": "3,000元（30,000×10%）。",
+    "material_ref": "pz-01-02",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-01-02-05",
+    "subject": "practice-zone",
+    "front": "稿費18萬元免稅額度與給付當下扣繳義務的關係？",
+    "back": "兩個獨立層次：給付當下仍先按10%扣繳；免稅是所得人結算申報時的計算結果，多繳部分可退還。",
+    "material_ref": "pz-01-02",
+    "verified_at": "2026-07-06"
+  }
+]

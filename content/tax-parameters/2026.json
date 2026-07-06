@@ -8,7 +8,9 @@
     "https://law-out.mof.gov.tw/LawContent.aspx?id=FL006082",
     "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0340028",
     "https://www.etax.nat.gov.tw/etwmain/tax-info/understanding/tax-q-and-a/national/individual-income-tax/withheld-rule/rule/BZYB5p2",
-    "https://www.nhi.gov.tw/ch/cp-4516-74b0f-2613-1.html"
+    "https://www.nhi.gov.tw/ch/cp-4516-74b0f-2613-1.html",
+    "https://law-out.mof.gov.tw/LawContent.aspx?id=FL005962",
+    "https://www.etax.nat.gov.tw/etwmain/tax-info/innotative-tax-e-reference/withheld/regulation/Prj8q2V"
   ],
   "notes": "本檔為民國115年度（即西元2026年度）稅務參數，適用於116年（2027年）5月申報。每人基本生活所需之費用金額115年度官方公告尚未查得明確數字，故未列入，待查得後補上（見計畫 §8.2）。",
   "individualIncomeTax": {
@@ -42,7 +44,11 @@
     "salary": { "rate": 0.05, "note": "得依薪資所得扣繳辦法之扣繳稅額表，或按全月給付總額扣取5%" },
     "professionalFees": { "rate": 0.10 },
     "rent": { "rate": 0.10 },
-    "interest": { "rate": 0.10, "note": "軍公教退休金優惠存款利息免予扣繳" }
+    "interest": { "rate": 0.10, "note": "軍公教退休金優惠存款利息免予扣繳" },
+    "commission": { "rate": 0.10 },
+    "royalty": { "rate": 0.10 },
+    "prizeAndCompetition": { "rate": 0.10, "note": "政府舉辦之獎券中獎獎金，每聯（組、注）獎額不超過5,000元者免予扣繳，超過者按20%扣繳" },
+    "minimumWithholdingThreshold": 2000
   },
   "secondGenNhiSupplementaryPremium": {
     "rate": 0.0211,

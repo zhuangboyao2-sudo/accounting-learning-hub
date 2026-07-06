@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gen-pz-01-03-01",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "工廠承租廠房支付租金予境內居住之房東，扣繳率為何？",
+    "options": ["5%", "10%", "15%", "20%"],
+    "answer": [1],
+    "explanation": "境內居住者之租金所得，按給付額扣取10%；非境內居住者則為20%。",
+    "material_ref": "pz-01-03",
+    "tags": ["租金扣繳"],
+    "verified_at": "2026-07-06",
+    "sources": ["https://law-out.mof.gov.tw/LawContent.aspx?id=FL005962"]
+  },
+  {
+    "id": "gen-pz-01-03-02",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "房東要求收取「淨額」租金（房東實拿金額不因扣繳而減少）時，扣繳義務人應如何計算扣繳稅款？",
+    "options": ["按房東實拿金額計稅即可", "須用還原稅前給付總額計算並解繳稅款", "可以不用扣繳", "改按20%計算"],
+    "answer": [1],
+    "explanation": "若稅款由承租方吸收，實務上須用還原稅前給付額的方式計算，扣繳義務人仍應依還原後之給付總額計算並解繳稅款。",
+    "material_ref": "pz-01-03",
+    "tags": ["租金扣繳"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-01-03-03",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "工廠支付權利金2萬元予境內居住之權利人，依10%扣繳率計算，應扣繳稅款為何？是否達起扣門檻？",
+    "options": ["1,800元，未達門檻免扣繳", "2,000元，達門檻應予扣繳", "2,200元，達門檻應予扣繳", "0元，一律免扣繳"],
+    "answer": [1],
+    "explanation": "應扣繳稅款＝20,000×10%＝2,000元；門檻是「不超過」2,000元免扣，故2,000元仍應扣繳。",
+    "material_ref": "pz-01-03",
+    "tags": ["權利金扣繳", "計算題"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-01-03-04",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "工廠支付權利金1.9萬元，應扣繳稅款1,900元，未超過2,000元門檻，是否仍須辦理申報？",
+    "options": ["完全免除任何申報義務", "免予扣繳，但仍應列單申報免扣繳憑單", "須改為20%扣繳", "須等到下次給付時一併扣繳"],
+    "answer": [1],
+    "explanation": "未達起扣門檻可免予扣繳，但扣繳義務人仍應列單申報免扣繳憑單，並非完全免除申報義務。",
+    "material_ref": "pz-01-03",
+    "tags": ["免扣繳門檻", "計算題"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-01-03-05",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "境內居住者與非境內居住者適用之租金、利息、權利金、佣金扣繳率，最主要的差異為何？",
+    "options": ["兩者完全相同", "境內居住者通常為10%，非境內居住者通常為20%", "境內居住者通常為20%，非境內居住者通常為10%", "只有境內居住者需要扣繳"],
+    "answer": [1],
+    "explanation": "境內居住之個人或境內有固定營業場所之營利事業，租金、利息、權利金、佣金等通常適用10%；非境內居住者則通常為20%。",
+    "material_ref": "pz-01-03",
+    "tags": ["扣繳率比較"],
+    "verified_at": "2026-07-06"
+  }
+]

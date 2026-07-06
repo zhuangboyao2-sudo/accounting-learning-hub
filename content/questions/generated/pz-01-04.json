@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gen-pz-01-04-01",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "給付所得因未達起扣點而未扣繳稅款者，扣繳義務人是否仍須辦理申報？",
+    "options": ["完全不用申報", "須於次年1月底前列單申報，並於2月10日前填發免扣繳憑單", "只需口頭告知稽徵機關", "只有超過100萬元才需要申報"],
+    "answer": [1],
+    "explanation": "第89條第3項規定，未達起扣點或不屬扣繳範圍而未扣繳稅款者，仍應於每年1月底前列單申報主管稽徵機關，並於2月10日前填發免扣繳憑單予納稅義務人。",
+    "material_ref": "pz-01-04",
+    "tags": ["免扣繳憑單"],
+    "verified_at": "2026-07-06",
+    "sources": ["https://www.etax.nat.gov.tw/etwmain/tax-info/understanding/tax-q-and-a/national/individual-income-tax/penalty/PVgmpKV"]
+  },
+  {
+    "id": "gen-pz-01-04-02",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "扣繳義務人已依規定扣繳稅款，但未依限填報或填發扣繳憑單，依第114條第2款規定，其處罰依據與未依規定扣繳稅款（第114條第1款）有何不同？",
+    "options": ["兩者處罰依據完全相同", "第2款是按扣繳稅額處一定比例罰鍰，第1款是按應扣未扣稅額處1-3倍罰鍰", "第2款沒有罰則", "第1款沒有罰則"],
+    "answer": [1],
+    "explanation": "第114條第1款規範未依規定扣繳稅款（按應扣未扣或短扣稅額處1倍以下或3倍以下罰鍰）；第2款規範已扣繳但未依限填報或填發憑單（按扣繳稅額處一定比例罰鍰），兩者處罰依據不同。",
+    "material_ref": "pz-01-04",
+    "tags": ["罰則"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-01-04-03",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "扣繳義務人逾第92條規定期限繳納已扣稅款者，依第114條第3款規定如何處罰？",
+    "options": ["每逾2日加徵1%滯納金", "按應扣未扣稅額處3倍罰鍰", "一律移送法辦", "免罰"],
+    "answer": [0],
+    "explanation": "第114條第3款規定，扣繳義務人逾期繳納已扣稅款者，每逾2日加徵1%滯納金，這與應扣未扣的處罰是分開計算的兩種情形。",
+    "material_ref": "pz-01-04",
+    "tags": ["滯納金"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-01-04-04",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "已扣繳但未依限填報扣繳憑單，若於填報期限屆滿後10日內自動補報，且補報給付總額未超過應申報總額之30%，依減免處罰標準規定為何？",
+    "options": ["仍全額處罰", "免予處罰", "處5倍罰鍰", "須加倍補稅"],
+    "answer": [1],
+    "explanation": "依稅務違章案件減免處罰標準，已於填報或填發期限屆滿後10日內自動補報或填發，且補報之給付總額未超過應申報總額30%者，免予處罰。",
+    "material_ref": "pz-01-04",
+    "tags": ["減免處罰"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-01-04-05",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "扣繳義務人辦理扣繳憑單申報，可採用哪些方式？",
+    "options": ["只能人工臨櫃申報", "人工、磁片或網路方式，向扣繳單位所在地主管稽徵機關辦理", "只能透過會計師代辦", "只能傳真申報"],
+    "answer": [1],
+    "explanation": "扣繳義務人可以人工、磁片或網路方式，向扣繳單位所在地之主管稽徵機關辦理申報，實務上多數企業採用網路申報。",
+    "material_ref": "pz-01-04",
+    "tags": ["申報方式"],
+    "verified_at": "2026-07-06"
+  }
+]

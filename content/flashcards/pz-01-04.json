@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fc-pz-01-04-01",
+    "subject": "practice-zone",
+    "front": "免扣繳憑單的申報與填發期限？",
+    "back": "次年1月底前列單申報，2月10日前填發納稅義務人（與扣繳憑單相同）。",
+    "material_ref": "pz-01-04",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-01-04-02",
+    "subject": "practice-zone",
+    "front": "第114條第1款與第2款處罰對象有何不同？",
+    "back": "第1款：未依規定扣繳稅款（按應扣未扣稅額處1-3倍罰鍰）；第2款：已扣繳但未依限填報填發憑單（按扣繳稅額處一定比例罰鍰）。",
+    "material_ref": "pz-01-04",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-01-04-03",
+    "subject": "practice-zone",
+    "front": "扣繳稅款逾期未繳的處罰？",
+    "back": "每逾2日加徵1%滯納金（與應扣未扣的處罰分開計算）。",
+    "material_ref": "pz-01-04",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-01-04-04",
+    "subject": "practice-zone",
+    "front": "已扣繳未依限填報，10日內自動補報且補報額未超過應報總額30%，結果為何？",
+    "back": "免予處罰。",
+    "material_ref": "pz-01-04",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-01-04-05",
+    "subject": "practice-zone",
+    "front": "扣繳憑單可用哪些方式申報？",
+    "back": "人工、磁片或網路方式，向扣繳單位所在地主管稽徵機關辦理，實務多採網路申報。",
+    "material_ref": "pz-01-04",
+    "verified_at": "2026-07-06"
+  }
+]

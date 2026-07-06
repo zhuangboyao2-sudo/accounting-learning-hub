@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fc-pz-01-01-01",
+    "subject": "practice-zone",
+    "front": "公司組織給付所得時，誰是扣繳義務人？",
+    "back": "公司負責人（即使實際作業由會計或人資人員處理）。",
+    "material_ref": "pz-01-01",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-01-01-02",
+    "subject": "practice-zone",
+    "front": "扣繳稅款的繳納期限？年度彙報期限？填發憑單期限？",
+    "back": "每月10日前繳納上月稅款；次年1月底前彙報；2月10日前填發納稅義務人。",
+    "material_ref": "pz-01-01",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-01-01-03",
+    "subject": "practice-zone",
+    "front": "免予扣繳的起扣門檻是多少？有例外嗎？",
+    "back": "每次應扣繳稅額不超過2,000元免予扣繳；但短期票券利息、中獎獎金等分離課稅所得不適用此門檻。",
+    "material_ref": "pz-01-01",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-01-01-04",
+    "subject": "practice-zone",
+    "front": "未依規定扣繳稅款，已補繳補報 vs 未補繳/未按實補報，罰鍰各為何？",
+    "back": "已補繳補報：1倍以下罰鍰；未補繳或未按實補報：3倍以下罰鍰。",
+    "material_ref": "pz-01-01",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-01-01-05",
+    "subject": "practice-zone",
+    "front": "應扣未扣稅額在多少以下，補繳補報後免罰？",
+    "back": "新臺幣3,000元以下。",
+    "material_ref": "pz-01-01",
+    "verified_at": "2026-07-06"
+  }
+]

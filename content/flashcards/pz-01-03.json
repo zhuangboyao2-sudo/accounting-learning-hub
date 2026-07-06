@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fc-pz-01-03-01",
+    "subject": "practice-zone",
+    "front": "境內居住者的租金、利息、權利金、佣金扣繳率？",
+    "back": "皆為10%（非境內居住者通常20%）。",
+    "material_ref": "pz-01-03",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-01-03-02",
+    "subject": "practice-zone",
+    "front": "房東要求收「淨額」租金，扣繳稅款怎麼算？",
+    "back": "須還原成稅前給付總額計算，不能只按房東實拿金額計稅。",
+    "material_ref": "pz-01-03",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-01-03-03",
+    "subject": "practice-zone",
+    "front": "權利金2萬元，扣繳稅款2,000元，是否需要扣繳？",
+    "back": "需要，門檻是「不超過」2,000元免扣，剛好2,000元仍須扣繳。",
+    "material_ref": "pz-01-03",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-01-03-04",
+    "subject": "practice-zone",
+    "front": "給付金額未達2,000元起扣門檻，是否完全免除申報義務？",
+    "back": "否，免予扣繳但仍應列單申報免扣繳憑單。",
+    "material_ref": "pz-01-03",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-01-03-05",
+    "subject": "practice-zone",
+    "front": "支付利息予金融機構 vs 一般借款人，扣繳義務有何不同？",
+    "back": "金融機構存款利息由金融機構自行依規定辦理；一般借款利息才需由借款人（給付人）辦理扣繳。",
+    "material_ref": "pz-01-03",
+    "verified_at": "2026-07-06"
+  }
+]
