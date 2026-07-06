@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gen-tp-03-01-01",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "一般買賣業、服務業之營業人專營應稅銷售，應使用何種申報書？",
+    "options": ["401", "403", "404", "405"],
+    "answer": [0],
+    "explanation": "401申報書適用於一般稅額計算、專營應稅（含零稅率）之營業人。",
+    "material_ref": "tp-03-01",
+    "tags": ["申報書代號"],
+    "verified_at": "2026-07-06",
+    "sources": ["https://www.etax.nat.gov.tw/etwmain/api/functions/etw212w/download/189b50a490600000c0cddfef1a752804/%E7%87%9F%E6%A5%AD%E4%BA%BA%E9%8A%B7%E5%94%AE%E9%A1%8D%E8%88%87%E7%A8%85%E9%A1%8D%E7%94%B3%E5%A0%B1%E6%9B%B8%E5%8F%8A%E8%AA%AA%E6%98%8E%E6%AC%84(401%E3%80%81403%E5%8F%8A404)A4%E6%A0%BC%E5%BC%8F.pdf"]
+  },
+  {
+    "id": "gen-tp-03-01-02",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "月銷售額低於財政部規定標準、免用統一發票之小規模營業人，由稽徵機關查定課徵，使用何種代號的繳款書，每幾個月繳納一次？",
+    "options": ["401，每2個月", "403，每2個月", "405，每3個月", "404，每月"],
+    "answer": [2],
+    "explanation": "405為查定課徵之小規模營業人繳款書，由稽徵機關按季（每3個月）開單繳納。",
+    "material_ref": "tp-03-01",
+    "tags": ["申報書代號"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tp-03-01-03",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "401申報書「進項總金額」欄與「得扣抵進項稅額」欄的差異為何？",
+    "options": ["兩者是同一個數字", "進項總金額是全部憑證所載金額（含不得扣抵部分），得扣抵進項稅額才是實際可扣抵之金額", "進項總金額只包含固定資產，得扣抵進項稅額只包含進貨費用", "兩者都不包含普通收據金額"],
+    "answer": [1],
+    "explanation": "進項總金額涵蓋含稅額得扣抵、不得扣抵之憑證及普通收據等憑證所載金額總數；得扣抵進項稅額才是實際可用來扣抵銷項稅額的金額。",
+    "material_ref": "tp-03-01",
+    "tags": ["401申報書結構"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tp-03-01-04",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "401申報書零稅率銷售額欄位如何分類填列？",
+    "options": ["不需分類，合計填入即可", "按「非經海關出口應注明文件者」與「經海關出口免附證明文件者」分欄填列", "按境內與境外分欄填列", "按月份分欄填列"],
+    "answer": [1],
+    "explanation": "零稅率銷售額欄需按「非經海關出口應注明文件者」與「經海關出口免附證明文件者」分別填明於對應欄位。",
+    "material_ref": "tp-03-01",
+    "tags": ["401申報書結構", "零稅率"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tp-03-01-05",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "海關代徵營業稅繳納證扣抵聯，應計入401申報書何處？",
+    "options": ["銷項欄", "進項欄，作為得扣抵進項稅額之一部分", "稅額計算欄的應退稅額", "不須計入申報書"],
+    "answer": [1],
+    "explanation": "海關代徵營業稅繳納證扣抵聯屬於進項欄項目，其記載之營業稅額可作為得扣抵進項稅額之一部分。",
+    "material_ref": "tp-03-01",
+    "tags": ["401申報書結構", "進口貨物營業稅"],
+    "verified_at": "2026-07-06"
+  }
+]

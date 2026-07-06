@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gen-tp-03-03-01",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "同時兼營應稅買賣與免稅農產品銷售之賣場，應使用何種申報書？",
+    "options": ["401", "403", "404", "405"],
+    "answer": [1],
+    "explanation": "403申報書適用於一般稅額計算但兼營免稅或特種稅額計算之營業人；專營特種稅額計算者才用404。",
+    "material_ref": "tp-03-03",
+    "tags": ["申報書代號", "兼營營業人"],
+    "verified_at": "2026-07-06",
+    "sources": ["https://www.etax.nat.gov.tw/etwmain/api/functions/etw212w/download/189b50a490600000c0cddfef1a752804/%E7%87%9F%E6%A5%AD%E4%BA%BA%E9%8A%B7%E5%94%AE%E9%A1%8D%E8%88%87%E7%A8%85%E9%A1%8D%E7%94%B3%E5%A0%B1%E6%9B%B8%E5%8F%8A%E8%AA%AA%E6%98%8E%E6%AC%84(401%E3%80%81403%E5%8F%8A404)A4%E6%A0%BC%E5%BC%8F.pdf"]
+  },
+  {
+    "id": "gen-tp-03-03-02",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "403申報書與401申報書相比，銷項欄每一類發票多出哪個欄位？",
+    "options": ["零稅率銷售額", "免稅銷售額", "退回及折讓", "應稅稅額"],
+    "answer": [1],
+    "explanation": "403申報書每類發票欄位都多出「免稅銷售額」一欄，用來填列兼營之免稅收入部分。",
+    "material_ref": "tp-03-03",
+    "tags": ["403申報書結構"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tp-03-03-03",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "403申報書進項欄的「應比例計算得扣抵進項稅額」欄，其用意為何？",
+    "options": ["讓兼營營業人可以全額扣抵進項稅額", "反映兼營營業人須依免稅與應稅銷售額比例分攤可扣抵之進項稅額", "只適用於固定資產進項", "只適用於零稅率銷售"],
+    "answer": [1],
+    "explanation": "兼營營業人的進項稅額不能全額扣抵，須依兼營營業人營業稅額計算辦法，按免稅銷售額占全部銷售額之比例分攤不得扣抵部分。",
+    "material_ref": "tp-03-03",
+    "tags": ["兼營營業人", "比例扣抵"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tp-03-03-04",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "403申報書為何有「年底調整」欄位，而401沒有？",
+    "options": ["401營業人不需要申報", "兼營營業人須依全年實際免稅與應稅銷售額比例重新精算暫估之進項稅額扣抵比例，多退少補", "403申報書比401少一期申報", "年底調整只是格式差異，無實質意義"],
+    "answer": [1],
+    "explanation": "兼營營業人各期先以當期比例暫估可扣抵進項稅額，年度結束後須依全年實際比例重新精算，多退少補，401專營應稅營業人沒有免稅收入需要分攤，故無此欄位。",
+    "material_ref": "tp-03-03",
+    "tags": ["403申報書結構", "年底調整"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tp-03-03-05",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "夜總會、有娛樂節目之餐飲店的特種稅額，於403申報書「特種稅額」欄之稅率為何？",
+    "options": ["5%", "10%", "15%", "25%"],
+    "answer": [2],
+    "explanation": "403申報書特種稅額欄規定，夜總會、有娛樂節目之餐飲店適用稅率15%；酒家及有陪侍服務之茶室、咖啡廳、酒吧等適用稅率25%。",
+    "material_ref": "tp-03-03",
+    "tags": ["403申報書結構", "特種稅額"],
+    "verified_at": "2026-07-06"
+  }
+]

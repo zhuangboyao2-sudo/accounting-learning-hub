@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fc-tp-03-03-01",
+    "subject": "tax-practice",
+    "front": "403申報書適用對象？何時該改用404？",
+    "back": "兼營免稅或特種稅額計算之營業人用403；專營特種稅額計算者改用404。",
+    "material_ref": "tp-03-03",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-tp-03-03-02",
+    "subject": "tax-practice",
+    "front": "403銷項欄比401多出什麼欄位？",
+    "back": "每類發票都多出「免稅銷售額」一欄。",
+    "material_ref": "tp-03-03",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-tp-03-03-03",
+    "subject": "tax-practice",
+    "front": "為什麼403進項欄叫「應比例計算得扣抵進項稅額」？",
+    "back": "兼營營業人須依免稅與應稅銷售額比例分攤，不能像401一樣全額扣抵。",
+    "material_ref": "tp-03-03",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-tp-03-03-04",
+    "subject": "tax-practice",
+    "front": "403申報書「年底調整」欄的用途？",
+    "back": "各期先按當期比例暫估可扣抵進項稅額，年度結束後依全年實際比例重新精算，多退少補。",
+    "material_ref": "tp-03-03",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-tp-03-03-05",
+    "subject": "tax-practice",
+    "front": "夜總會/有娛樂節目餐飲店 vs 酒家/侍應茶室的特種稅額稅率？",
+    "back": "夜總會等15%；酒家及有陪侍服務之茶室、咖啡廳、酒吧等25%。",
+    "material_ref": "tp-03-03",
+    "verified_at": "2026-07-06"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fc-tp-03-02-01",
+    "subject": "tax-practice",
+    "front": "第39條規定哪三種溢付稅額可以申請退還？",
+    "back": "零稅率銷售溢付、取得固定資產溢付、合併轉讓解散廢止註銷登記之溢付；其餘原則上留抵。",
+    "material_ref": "tp-03-02",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-tp-03-02-02",
+    "subject": "tax-practice",
+    "front": "得退稅限額合計怎麼算？",
+    "back": "零稅率銷售額合計×5%＋固定資產得扣抵之進項稅額。",
+    "material_ref": "tp-03-02",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-tp-03-02-03",
+    "subject": "tax-practice",
+    "front": "本期應退稅額如何在留抵稅額與限額間取捨？",
+    "back": "取兩者較小者為應退稅額；留抵稅額較大時，差額轉入本期累積留抵稅額結轉下期。",
+    "material_ref": "tp-03-02",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-tp-03-02-04",
+    "subject": "tax-practice",
+    "front": "留抵稅額40萬、退稅限額65萬，應退多少？留抵多少？",
+    "back": "應退40萬元（全額），累積留抵0元。",
+    "material_ref": "tp-03-02",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-tp-03-02-05",
+    "subject": "tax-practice",
+    "front": "留抵稅額120萬、退稅限額65萬，應退多少？結轉多少？",
+    "back": "應退65萬元（受限額限制），結轉下期累積留抵55萬元。",
+    "material_ref": "tp-03-02",
+    "verified_at": "2026-07-06"
+  }
+]

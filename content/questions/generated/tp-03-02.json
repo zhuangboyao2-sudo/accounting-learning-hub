@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gen-tp-03-02-01",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第39條規定，下列何種溢付稅額屬於可申請退還之情形？",
+    "options": ["一般進貨累積之溢付稅額", "因銷售零稅率貨物或勞務而溢付之營業稅", "交際應酬費用之進項稅額", "酬勞員工個人之進項稅額"],
+    "answer": [1],
+    "explanation": "第39條規定，因銷售零稅率貨物或勞務、因取得固定資產、因合併轉讓解散廢止註銷登記而溢付之營業稅，稽徵機關查明後應予退還；其餘原則上留抵。",
+    "material_ref": "tp-03-02",
+    "tags": ["溢付稅額退還"],
+    "verified_at": "2026-07-06",
+    "sources": ["https://www.etax.nat.gov.tw/etwmain/api/functions/etw212w/download/189b50a490600000c0cddfef1a752804/%E7%87%9F%E6%A5%AD%E4%BA%BA%E9%8A%B7%E5%94%AE%E9%A1%8D%E8%88%87%E7%A8%85%E9%A1%8D%E7%94%B3%E5%A0%B1%E6%9B%B8%E5%8F%8A%E8%AA%AA%E6%98%8E%E6%AC%84(401%E3%80%81403%E5%8F%8A404)A4%E6%A0%BC%E5%BC%8F.pdf"]
+  },
+  {
+    "id": "gen-tp-03-02-02",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "得退稅限額合計的計算公式為何？",
+    "options": ["零稅率銷售額合計×10%", "零稅率銷售額合計×5%＋固定資產得扣抵之進項稅額", "應稅銷售額合計×5%", "上期累積留抵稅額全額"],
+    "answer": [1],
+    "explanation": "得退稅限額合計＝零稅率銷售額合計×5%＋固定資產得扣抵之進項稅額。",
+    "material_ref": "tp-03-02",
+    "tags": ["退稅限額計算"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tp-03-02-03",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "某工廠本期申報留抵稅額40萬元，得退稅限額合計65萬元，本期應退稅額與累積留抵稅額分別為何？",
+    "options": ["應退40萬元，累積留抵0元", "應退65萬元，累積留抵0元", "應退25萬元，累積留抵15萬元", "應退0元，累積留抵40萬元"],
+    "answer": [0],
+    "explanation": "申報留抵稅額（40萬）小於得退稅限額（65萬），故全額退還40萬元，累積留抵稅額為0元。",
+    "material_ref": "tp-03-02",
+    "tags": ["退稅限額計算", "計算題"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tp-03-02-04",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "某工廠本期申報留抵稅額120萬元，得退稅限額合計65萬元，本期應退稅額與累積留抵稅額分別為何？",
+    "options": ["應退120萬元，累積留抵0元", "應退65萬元，累積留抵55萬元", "應退55萬元，累積留抵65萬元", "應退0元，累積留抵120萬元"],
+    "answer": [1],
+    "explanation": "申報留抵稅額（120萬）大於得退稅限額（65萬），故受限額限制，應退65萬元，差額120萬－65萬＝55萬元轉入本期累積留抵稅額，結轉下期。",
+    "material_ref": "tp-03-02",
+    "tags": ["退稅限額計算", "計算題"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tp-03-02-05",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "一般營業人單純進項大於銷項所產生的溢付稅額，原則上應如何處理？",
+    "options": ["一律申請退還現金", "留抵應納營業稅，結轉下期繼續扣抵", "直接沖銷不予處理", "轉為下年度營所稅扣抵"],
+    "answer": [1],
+    "explanation": "第39條規定，除零稅率、固定資產、合併轉讓解散註銷三種情形外，其餘溢付稅額原則上應由營業人留抵應納營業稅。",
+    "material_ref": "tp-03-02",
+    "tags": ["溢付稅額退還"],
+    "verified_at": "2026-07-06"
+  }
+]
