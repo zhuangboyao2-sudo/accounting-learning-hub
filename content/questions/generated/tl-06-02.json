@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gen-tl-06-02-01",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "銷售第8條免稅貨物或勞務之營業人，依第8條第2項規定，可否申請放棄適用免稅？",
+    "options": ["不可以，免稅為強制規定", "可以，經財政部核准後依加值型規定計算營業稅額", "只有政府機關可以申請", "須經立法院同意"],
+    "answer": [1],
+    "explanation": "第8條第2項規定，銷售免稅貨物或勞務之營業人，得申請財政部核准放棄適用免稅規定，依第四章第一節（加值型）規定計算營業稅額。",
+    "material_ref": "tl-06-02",
+    "tags": ["放棄適用免稅"],
+    "verified_at": "2026-07-06",
+    "sources": ["https://law-out.mof.gov.tw/LawContent.aspx?id=FL006082"]
+  },
+  {
+    "id": "gen-tl-06-02-02",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "營業人放棄適用免稅經財政部核准後，多久內不得變更？",
+    "options": ["1年", "2年", "3年", "5年"],
+    "answer": [2],
+    "explanation": "第8條第2項規定，放棄適用免稅經核准後3年內不得變更。",
+    "material_ref": "tl-06-02",
+    "tags": ["放棄適用免稅"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tl-06-02-03",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "免稅貨物出口需要用大量進項的營業人，放棄免稅改為應稅計算的主要好處為何？",
+    "options": ["可以不用開統一發票", "進項稅額可依規定扣抵，溢付部分可能退還", "可以免除申報義務", "可以適用更低的稅率"],
+    "answer": [1],
+    "explanation": "免稅營業人之進項稅額不得申請退還，須認列為成本；放棄免稅改為加值型計稅後，進項稅額可扣抵銷項稅額，若有溢付甚至可申請退還，對進項稅額龐大的產業較有利。",
+    "material_ref": "tl-06-02",
+    "tags": ["放棄適用免稅", "稅務規劃"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tl-06-02-04",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第9條規定，下列何者屬於免徵營業稅之進口貨物？",
+    "options": ["一般進口機械設備", "本國之古物", "進口自用乘人小汽車", "進口交際應酬用之貨物"],
+    "answer": [1],
+    "explanation": "第9條第3款規定，本國之古物進口免徵營業稅。",
+    "material_ref": "tl-06-02",
+    "tags": ["免稅進口貨物"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tl-06-02-05",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第9-1條規定，進口小麥、大麥、玉米或黃豆之營業稅，可由何機關機動調整，不受第10條稅率限制？",
+    "options": ["財政部單獨調整", "行政院機動調整", "立法院決議調整", "各地稽徵機關自行調整"],
+    "answer": [1],
+    "explanation": "第9-1條規定，為因應經濟特殊情況調節物資供應，進口小麥、大麥、玉米或黃豆應徵之營業稅，得由行政院機動調整，不受第10條規定限制。",
+    "material_ref": "tl-06-02",
+    "tags": ["機動調整"],
+    "verified_at": "2026-07-06"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gen-tl-06-04-01",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "進口貨物之營業稅，依第20條規定應以何者為稅基計算？",
+    "options": ["國外賣方之發票金額", "關稅完稅價格加計進口稅後之數額", "貨物之市場零售價格", "貨物之帳面成本"],
+    "answer": [1],
+    "explanation": "第20條規定，進口貨物按關稅完稅價格加計進口稅後之數額，依第10條規定之稅率計算營業稅額。",
+    "material_ref": "tl-06-04",
+    "tags": ["進口貨物營業稅"],
+    "verified_at": "2026-07-06",
+    "sources": ["https://law-out.mof.gov.tw/LawContent.aspx?id=FL006082"]
+  },
+  {
+    "id": "gen-tl-06-04-02",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "某批進口機械關稅完稅價格100萬元，進口稅5萬元，無應徵貨物稅，依第20條規定其營業稅額為何（稅率5%）？",
+    "options": ["50,000元", "52,500元", "55,000元", "100,000元"],
+    "answer": [1],
+    "explanation": "營業稅額＝(100萬＋5萬)×5%＝52,500元。",
+    "material_ref": "tl-06-04",
+    "tags": ["進口貨物營業稅", "計算題"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tl-06-04-03",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "進口貨物之營業稅，依第41條規定由何機關代徵？",
+    "options": ["國稅局", "海關", "財政部", "地方稅捐稽徵處"],
+    "answer": [1],
+    "explanation": "第41條規定，貨物進口時應徵之營業稅，由海關代徵之；其徵收及行政救濟程序，準用關稅法及海關緝私條例之規定辦理。",
+    "material_ref": "tl-06-04",
+    "tags": ["進口貨物營業稅", "海關代徵"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tl-06-04-04",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "進口貨物之貨物若另應徵貨物稅，依第20條規定計算營業稅之方式為何？",
+    "options": ["只按關稅完稅價格計算，不理會貨物稅", "按關稅完稅價格加計進口稅及貨物稅額後之數額計算", "貨物稅與營業稅擇一課徵", "貨物稅可扣抵營業稅"],
+    "answer": [1],
+    "explanation": "第20條第2項規定，貨物如係應徵貨物稅、菸酒稅或菸品健康福利捐者，應按前項數額加計貨物稅額、菸酒稅額或菸品健康福利捐金額後計算營業稅額。",
+    "material_ref": "tl-06-04",
+    "tags": ["進口貨物營業稅"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tl-06-04-05",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "進口貨物之海關代徵營業稅繳納證，依第33條規定是否可作為進項稅額扣抵憑證？",
+    "options": ["不可以，只有統一發票可以扣抵", "可以，屬財政部核定載有營業稅額之合法憑證", "只有進口機器設備才能用來扣抵", "須另外申請稽徵機關核准才能扣抵"],
+    "answer": [1],
+    "explanation": "第33條第3款規定，其他經財政部核定載有營業稅額之憑證亦可作為進項稅額扣抵依據，海關代徵營業稅繳納證即屬此類憑證。",
+    "material_ref": "tl-06-04",
+    "tags": ["進口貨物營業稅", "扣抵憑證"],
+    "verified_at": "2026-07-06"
+  }
+]
