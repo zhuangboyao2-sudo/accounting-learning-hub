@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-pz-05-04-01",
+    "subject": "practice-zone",
+    "front": "遺失統一發票扣抵聯或收執聯，如何取得替代憑證？",
+    "back": "取得原銷售營業人蓋章證明之存根聯影本，或以未遺失聯之影本自行蓋章證明。",
+    "material_ref": "pz-05-04",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-05-04-02",
+    "subject": "practice-zone",
+    "front": "雲端發票專屬獎的參加資格是什麼？",
+    "back": "僅限使用財政部核准載具儲存雲端發票的買方，紙本發票不參加此獎項。",
+    "material_ref": "pz-05-04",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-05-04-03",
+    "subject": "practice-zone",
+    "front": "買方以未歸戶載具索取雲端發票中獎，營業人的通知義務期限是多久？",
+    "back": "應於統一發票開獎日翌日起10日內以簡訊、電子郵件等方式通知中獎人並提供證明聯。",
+    "material_ref": "pz-05-04",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-05-04-04",
+    "subject": "practice-zone",
+    "front": "已設定匯款帳戶的中獎獎金，何時匯入？有何稅務優惠？",
+    "back": "開獎日次月自動匯入，且免依印花稅法規定扣繳4%印花稅。",
+    "material_ref": "pz-05-04",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-05-04-05",
+    "subject": "practice-zone",
+    "front": "電子發票證明聯最多可以列印幾次？",
+    "back": "以列印一次為限，遺失原則上不予補發。",
+    "material_ref": "pz-05-04",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-05-04-06",
+    "subject": "practice-zone",
+    "front": "因可歸責於營業人的系統錯誤導致買受人無法領獎，應於何時辦理賠償？",
+    "back": "應於查獲日起15日內辦理賠償或償還。",
+    "material_ref": "pz-05-04",
+    "verified_at": "2026-07-06"
+  }
+]

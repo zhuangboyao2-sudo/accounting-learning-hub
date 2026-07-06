@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-pz-05-02-01",
+    "subject": "practice-zone",
+    "front": "買賣業、製造業銷售貨物，原則上應何時開立統一發票？",
+    "back": "以發貨時為限；但發貨前已收之貨款部分，應先行開立。",
+    "material_ref": "pz-05-02",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-05-02-02",
+    "subject": "practice-zone",
+    "front": "尚未申報的錯誤發票應如何處理？",
+    "back": "收回買方各聯、註明作廢並黏貼於存根聯上，重新開立正確發票。",
+    "material_ref": "pz-05-02",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-05-02-03",
+    "subject": "practice-zone",
+    "front": "已申報的發票發現金額錯誤，應如何處理？",
+    "back": "不能直接作廢，須改由買方出具銷貨退回、進貨退出或折讓證明單處理。",
+    "material_ref": "pz-05-02",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-05-02-04",
+    "subject": "practice-zone",
+    "front": "折讓單開立後，進貨方與銷貨方各應於何時申報扣減稅額？",
+    "back": "進貨方於當期申報扣減進項稅額；銷貨方可選擇當期或次期申報扣減銷項稅額。",
+    "material_ref": "pz-05-02",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-05-02-05",
+    "subject": "practice-zone",
+    "front": "電子發票買受人為非營業人／營業人時，傳輸存證的時限各是多久？",
+    "back": "非營業人：開立後48小時內；營業人：開立後7日內。",
+    "material_ref": "pz-05-02",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-05-02-06",
+    "subject": "practice-zone",
+    "front": "三聯式發票若買方以信用卡付款，備註欄應加註什麼？",
+    "back": "信用卡卡號末四碼，以利日後查帳核對。",
+    "material_ref": "pz-05-02",
+    "verified_at": "2026-07-06"
+  }
+]

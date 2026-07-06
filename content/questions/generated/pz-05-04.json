@@ -1,0 +1,82 @@
+[
+  {
+    "id": "gen-pz-05-04-01",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "工廠遺失統一發票的扣抵聯或收執聯，可用何種方式代替作為進項稅額扣抵憑證？",
+    "options": ["自行手寫聲明書代替", "取得原銷售營業人蓋章證明之存根聯影本", "無法補救，該筆進項稅額須放棄扣抵", "向國稅局申請重新核發空白發票"],
+    "answer": [1],
+    "explanation": "遺失扣抵聯或收執聯者，得取得原銷售營業人蓋章證明之存根聯影本，或以未遺失聯之影本自行蓋章證明，作為進項稅額扣抵憑證或記帳憑證。",
+    "material_ref": "pz-05-04",
+    "tags": ["發票遺失"],
+    "verified_at": "2026-07-06",
+    "sources": ["https://cnctpro.com/uniform-invoice-%E7%B5%B1%E4%B8%80%E7%99%BC%E7%A5%A8/"]
+  },
+  {
+    "id": "gen-pz-05-04-02",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "雲端發票專屬獎的參加資格為何？",
+    "options": ["所有消費者皆自動參加", "僅限使用財政部核准載具儲存雲端發票的買方", "僅限持信用卡付款的買方", "僅限公司行號買受人"],
+    "answer": [1],
+    "explanation": "雲端發票專屬獎是財政部為推廣電子發票而設，僅使用載具儲存雲端發票的買方才享有此對獎資格，紙本發票不參加此獎項。",
+    "material_ref": "pz-05-04",
+    "tags": ["雲端發票", "統一發票給獎辦法"],
+    "verified_at": "2026-07-06",
+    "sources": ["https://invoice.etax.nat.gov.tw/cloudNowNumber.html"]
+  },
+  {
+    "id": "gen-pz-05-04-03",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "買方使用未歸戶的會員載具索取雲端發票並中獎，營業人應於統一發票開獎日翌日起幾日內完成通知？",
+    "options": ["3日內", "5日內", "10日內", "15日內"],
+    "answer": [2],
+    "explanation": "電子發票實施作業要點第24點規定，買受人以未歸戶載具索取之雲端發票中獎時，營業人應於開獎日翌日起10日內以簡訊、電子郵件或其他適當方式通知中獎人，並提供證明聯供兌獎。",
+    "material_ref": "pz-05-04",
+    "tags": ["雲端發票", "中獎通知"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-05-04-04",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "買方已於電子發票整合服務平台設定匯款帳戶並中獎，該獎金匯入方式與稅務優惠為何？",
+    "options": ["需親自領取現金，並扣繳4%印花稅", "開獎日次月自動匯入，且免依印花稅法扣繳4%印花稅", "僅百萬元獎以上才自動匯款", "須等隔年報稅時一併退還"],
+    "answer": [1],
+    "explanation": "已設定匯款帳戶者，中獎獎金於開獎日次月自動匯入指定帳戶，且此方式免依印花稅法規定扣繳4%印花稅。",
+    "material_ref": "pz-05-04",
+    "tags": ["雲端發票", "領獎"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-05-04-05",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "電子發票證明聯最多可以列印幾次？",
+    "options": ["不限次數", "1次", "2次", "依買方要求可重複列印"],
+    "answer": [1],
+    "explanation": "電子發票證明聯以列印一次為限，列印後遺失原則上不予補發，以避免重複兌獎或重複記帳。",
+    "material_ref": "pz-05-04",
+    "tags": ["電子發票證明聯"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-05-04-06",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "因可歸責於營業人的電子發票系統錯誤（如重複開立、漏傳），導致買受人無法領獎或誤領、溢領獎金，營業人應於查獲日起幾日內辦理賠償或償還？",
+    "options": ["7日內", "10日內", "15日內", "30日內"],
+    "answer": [2],
+    "explanation": "電子發票實施作業要點規定，因可歸責於營業人之事由致買受人未能領取、誤領或溢領獎金者，應由營業人於查獲日起15日內辦理賠償或償還。",
+    "material_ref": "pz-05-04",
+    "tags": ["雲端發票", "營業人責任"],
+    "verified_at": "2026-07-06"
+  }
+]

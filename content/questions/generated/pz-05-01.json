@@ -1,0 +1,82 @@
+[
+  {
+    "id": "gen-pz-05-01-01",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "金屬加工廠銷售半成品給有統一編號的下游組裝廠，應開立何種統一發票？",
+    "options": ["二聯式統一發票", "三聯式統一發票", "特種統一發票", "普通收據"],
+    "answer": [1],
+    "explanation": "統一發票使用辦法第7條規定，三聯式統一發票專供營業人銷售貨物或勞務與營業人時使用，讓買方能持扣抵聯申報扣抵進項稅額。",
+    "material_ref": "pz-05-01",
+    "tags": ["發票種類"],
+    "verified_at": "2026-07-06",
+    "sources": ["https://law-out.mof.gov.tw/LawContent.aspx?id=FL006082"]
+  },
+  {
+    "id": "gen-pz-05-01-02",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "二聯式統一發票的第二聯是什麼聯別？",
+    "options": ["扣抵聯", "收執聯", "存證聯", "存根聯"],
+    "answer": [1],
+    "explanation": "二聯式統一發票第一聯為存根聯由開立人保存，第二聯為收執聯交付買受人收執；二聯式沒有扣抵聯。",
+    "material_ref": "pz-05-01",
+    "tags": ["發票種類"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-05-01-03",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "營業人銷售貨物與有統一編號的營業人，卻誤開二聯式統一發票，將依何法規論處？",
+    "options": ["營業稅法第48條", "所得稅法第114條", "稅捐稽徵法第44條", "商業會計法第71條"],
+    "answer": [0],
+    "explanation": "銷售貨物與營業人應開立三聯式統一發票，若誤開二聯式，依營業稅法第48條規定論處。",
+    "material_ref": "pz-05-01",
+    "tags": ["發票種類", "罰則"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-05-01-04",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "下列敘述何者正確描述「雲端發票」與「電子發票」的關係？",
+    "options": ["雲端發票與電子發票是完全不同的兩種發票制度", "雲端發票是電子發票中未列印證明聯的子集", "電子發票是雲端發票中已歸戶的部分", "兩者是同義詞，可互換使用"],
+    "answer": [1],
+    "explanation": "電子發票是以網際網路或電子方式開立、傳輸、接收的統一發票之統稱；雲端發票則是其中買方使用財政部核准載具、且未列印電子發票證明聯的子集。",
+    "material_ref": "pz-05-01",
+    "tags": ["電子發票", "雲端發票"],
+    "verified_at": "2026-07-06",
+    "sources": ["https://law-out.mof.gov.tw/lawcontent.aspx?id=fl041411"]
+  },
+  {
+    "id": "gen-pz-05-01-05",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "買受人持共通性載具向工廠直營門市索取雲端發票，門市人員的正確處理方式為何？",
+    "options": ["可視現場忙碌程度自行決定是否受理", "原則上不得拒絕", "僅限持會員卡的老客戶才可受理", "須加收手續費才能受理"],
+    "answer": [1],
+    "explanation": "電子發票實施作業要點規定，買受人於交易時以共通性載具索取雲端發票，營業人不得拒絕（本法第六條第四款所定境外電商業者除外）。",
+    "material_ref": "pz-05-01",
+    "tags": ["雲端發票", "載具"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-05-01-06",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "特種統一發票是供哪一類營業人使用？",
+    "options": ["依第四章第一節（一般稅額）計算稅額之營業人", "依第四章第二節（特種稅額，如查定課徵）計算稅額之營業人", "僅限公用事業使用", "僅限外銷貨物之營業人使用"],
+    "answer": [1],
+    "explanation": "統一發票使用辦法第7條規定，特種統一發票專供依本法第四章第二節規定計算稅額（即特種稅額計算，如查定課徵）之營業人使用。",
+    "material_ref": "pz-05-01",
+    "tags": ["發票種類"],
+    "verified_at": "2026-07-06"
+  }
+]

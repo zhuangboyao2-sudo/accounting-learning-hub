@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fc-pz-05-01-01",
+    "subject": "practice-zone",
+    "front": "賣給有統一編號的營業人，應開立哪一種統一發票？",
+    "back": "三聯式統一發票（存根聯、扣抵聯、收執聯），讓買方能申報扣抵進項稅額。",
+    "material_ref": "pz-05-01",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-05-01-02",
+    "subject": "practice-zone",
+    "front": "二聯式統一發票的兩聯分別是什麼？",
+    "back": "第一聯存根聯（開立人自留）、第二聯收執聯（交付買受人收執）。",
+    "material_ref": "pz-05-01",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-05-01-03",
+    "subject": "practice-zone",
+    "front": "賣給營業人卻誤開二聯式統一發票，會如何論處？",
+    "back": "依營業稅法第48條規定論處。",
+    "material_ref": "pz-05-01",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-05-01-04",
+    "subject": "practice-zone",
+    "front": "電子發票與雲端發票的關係是什麼？",
+    "back": "電子發票是以電子方式開立、傳輸、接收的統一發票之統稱；雲端發票是其中買方用財政部核准載具、未列印證明聯的子集。",
+    "material_ref": "pz-05-01",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-05-01-05",
+    "subject": "practice-zone",
+    "front": "買方持共通性載具索取雲端發票，營業人可以拒絕嗎？",
+    "back": "原則上不得拒絕（境外電商業者例外）。",
+    "material_ref": "pz-05-01",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-05-01-06",
+    "subject": "practice-zone",
+    "front": "特種統一發票供哪一類營業人使用？",
+    "back": "依營業稅法第四章第二節規定計算稅額（特種稅額，如查定課徵）之營業人。",
+    "material_ref": "pz-05-01",
+    "verified_at": "2026-07-06"
+  }
+]
