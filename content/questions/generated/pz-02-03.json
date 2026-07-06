@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gen-pz-02-03-01",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "投資人同一天收到A公司與B公司發放的現金股利，是否合併計算是否達2萬元門檻？",
+    "options": ["合併計算，因為同一天發放", "分別計算，不同公司之股利一律視為不同筆", "只計算金額較高的一筆", "由投資人自行選擇"],
+    "answer": [1],
+    "explanation": "不同公司發放之股利，即使發放日相同，仍分別視為不同筆，各自判斷是否達2萬元門檻。",
+    "material_ref": "pz-02-03",
+    "tags": ["單筆認定"],
+    "verified_at": "2026-07-06",
+    "sources": ["https://www.nhi.gov.tw/ch/cp-2893-bba7c-3150-1.html"]
+  },
+  {
+    "id": "gen-pz-02-03-02",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "同一公司現金股利與股票股利發放日相同時，如何計算是否達門檻？",
+    "options": ["分開計算各自的金額", "合併計算，合計達2萬元即整筆課徵", "只計算現金股利部分", "只計算股票股利部分"],
+    "answer": [1],
+    "explanation": "同一公司現金股利與股票股利，發放日相同時，金額合併計算，合計達2萬元即整筆課徵補充保費。",
+    "material_ref": "pz-02-03",
+    "tags": ["單筆認定"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-02-03-03",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "某公司配發股票股利2,000股（面額10元），無現金股利，補充保費如何計算？",
+    "options": ["以市價計算", "股票股數×面額10元×2.11%＝422元", "免計算，因為沒有現金股利", "改按1%計算"],
+    "answer": [1],
+    "explanation": "股票股利換算金額＝2,000×10＝20,000元（達門檻），補充保費＝20,000×2.11%＝422元，以面額10元計算，非市價。",
+    "material_ref": "pz-02-03",
+    "tags": ["股票股利計算", "計算題"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-02-03-04",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "股票股利補充保費計算是否適用股票的市場價格？",
+    "options": ["是，以除權息當日市價計算", "否，一律以面額10元計算", "以配發前一日收盤價計算", "以年度平均市價計算"],
+    "answer": [1],
+    "explanation": "股票股利換算補充保費計費金額時，一律以面額10元計算，而非市場價格。",
+    "material_ref": "pz-02-03",
+    "tags": ["股票股利計算"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-02-03-05",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "公司同一基準日僅發放股票股利、無現金股利，且無其他現金可扣款時，補充保費如何處理？",
+    "options": ["直接免除該筆補充保費", "扣費義務人通知保險對象，由健保署於次年收取", "改由公司自行吸收負擔", "股東須立即以現金補足"],
+    "answer": [1],
+    "explanation": "若現金股利不足以支應應扣取之補充保費，或該基準日僅發放股票股利，扣費義務人應通知保險對象，由保險人（健保署）於次年收取。",
+    "material_ref": "pz-02-03",
+    "tags": ["股票股利", "扣費義務人責任"],
+    "verified_at": "2026-07-06"
+  }
+]

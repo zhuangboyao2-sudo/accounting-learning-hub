@@ -1,0 +1,34 @@
+[
+  {
+    "id": "fc-pz-02-01-01",
+    "subject": "practice-zone",
+    "front": "二代健保補充保費的六大計費項目？",
+    "back": "獎金（超過月投保金額4倍部分）、兼職薪資所得、執行業務收入、股利所得、利息所得、租金收入。",
+    "material_ref": "pz-02-01",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-02-01-02",
+    "subject": "practice-zone",
+    "front": "補充保費現行費率？誰負責扣取？",
+    "back": "2.11%；由給付單位（扣費義務人）於給付時代為扣取，民眾免自行繳納。",
+    "material_ref": "pz-02-01",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-02-01-03",
+    "subject": "practice-zone",
+    "front": "補充保費與所得稅扣繳的關係？",
+    "back": "完全獨立：法源、用途、計算基礎、繳納單位都不同，須分別計算申報。",
+    "material_ref": "pz-02-01",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-02-01-04",
+    "subject": "practice-zone",
+    "front": "補充保費的扣取時點？",
+    "back": "實際給付、轉帳給付或匯撥給付之時。",
+    "material_ref": "pz-02-01",
+    "verified_at": "2026-07-06"
+  }
+]

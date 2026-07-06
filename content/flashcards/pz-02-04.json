@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fc-pz-02-04-01",
+    "subject": "practice-zone",
+    "front": "補充保費繳納期限？與所得稅扣繳期限有何不同？",
+    "back": "給付日之次月底前；所得稅扣繳是每月10日前，兩者不同。",
+    "material_ref": "pz-02-04",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-02-04-02",
+    "subject": "practice-zone",
+    "front": "雇主身分投保的股利所得何時免扣補充保費？",
+    "back": "已計入投保金額計算的部分免扣，避免重複計費；未列入投保金額部分仍可能被扣。",
+    "material_ref": "pz-02-04",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-02-04-03",
+    "subject": "practice-zone",
+    "front": "扣費義務人年度彙報扣費明細的期限？",
+    "back": "每年1月31日前（與所得稅扣繳憑單彙報期限一致）。",
+    "material_ref": "pz-02-04",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-02-04-04",
+    "subject": "practice-zone",
+    "front": "補充保費被溢扣，如何申請退還？",
+    "back": "扣取日次月起6個月內先向扣費義務人申請；逾期改向健保署申請。",
+    "material_ref": "pz-02-04",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-02-04-05",
+    "subject": "practice-zone",
+    "front": "應補繳之補充保費單次金額未達多少可免補繳？",
+    "back": "新臺幣100元。",
+    "material_ref": "pz-02-04",
+    "verified_at": "2026-07-06"
+  }
+]

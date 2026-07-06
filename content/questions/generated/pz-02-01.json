@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gen-pz-02-01-01",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "二代健保補充保費的六大計費項目不包括下列何者？",
+    "options": ["股利所得", "利息所得", "租金收入", "薪資所得（一般月薪）"],
+    "answer": [3],
+    "explanation": "六大計費項目為：全年累計超過當月投保金額4倍部分之獎金、兼職薪資所得、執行業務收入、股利所得、利息所得、租金收入；一般月薪已反映在投保金額中，不屬補充保費計費項目。",
+    "material_ref": "pz-02-01",
+    "tags": ["二代健保補充保費"],
+    "verified_at": "2026-07-06",
+    "sources": ["https://www.nhi.gov.tw/ch/cp-4516-74b0f-2613-1.html"]
+  },
+  {
+    "id": "gen-pz-02-01-02",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "二代健保補充保費由誰負責扣取？",
+    "options": ["民眾自行向健保署繳納", "由給付單位（扣費義務人）於給付時代為扣取", "由稽徵機關代為扣取", "由銀行自動從存款帳戶扣款"],
+    "answer": [1],
+    "explanation": "補充保費由給付單位（扣費義務人）於給付當下代為扣取，民眾（保險對象）不須自行繳納。",
+    "material_ref": "pz-02-01",
+    "tags": ["扣費義務人"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-02-01-03",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "二代健保補充保費與所得稅扣繳，兩者的關係為何？",
+    "options": ["補充保費是所得稅扣繳的一部分", "兩者完全獨立，法源、用途、計算基礎皆不同", "扣了所得稅就不用扣補充保費", "補充保費可抵減應納所得稅"],
+    "answer": [1],
+    "explanation": "補充保費依全民健康保險法課徵、挹注健保基金；所得稅扣繳依所得稅法課徵、繳交國庫；兩者完全獨立，須分別計算與申報。",
+    "material_ref": "pz-02-01",
+    "tags": ["二代健保與所得稅扣繳比較"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-02-01-04",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "二代健保補充保費的扣取時點依規定為何？",
+    "options": ["約定應付日", "實際給付、轉帳給付或匯撥給付之時", "年度結算申報時", "每年1月1日"],
+    "answer": [1],
+    "explanation": "《全民健康保險扣取及繳納補充保險費辦法》第2條規定，扣取時點為實際給付、轉帳給付或匯撥給付之時，與所得稅扣繳的給付時點概念一致。",
+    "material_ref": "pz-02-01",
+    "tags": ["扣取時點"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-02-01-05",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "二代健保補充保費的現行費率為何？",
+    "options": ["1.11%", "2.11%", "5.11%", "10%"],
+    "answer": [1],
+    "explanation": "現行二代健保補充保費費率為2.11%。",
+    "material_ref": "pz-02-01",
+    "tags": ["費率"],
+    "verified_at": "2026-07-06"
+  }
+]

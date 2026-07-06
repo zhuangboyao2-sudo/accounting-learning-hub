@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gen-pz-02-04-01",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "扣費義務人扣取補充保費後，應於何時向健保署繳納？",
+    "options": ["給付日之次月底前", "給付日之次月10日前", "給付日之次日", "年度結算申報時"],
+    "answer": [0],
+    "explanation": "《全民健康保險扣取及繳納補充保險費辦法》第4條規定，扣費義務人應於給付日之次月底前填具繳款書向保險人繳納，與所得稅扣繳的次月10日期限不同。",
+    "material_ref": "pz-02-04",
+    "tags": ["繳納期限"],
+    "verified_at": "2026-07-06",
+    "sources": ["https://law.lia-roc.org.tw/Law/Content?lsid=FL067880"]
+  },
+  {
+    "id": "gen-pz-02-04-02",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "公司負責人以雇主身分投保，其股利所得若已計入投保金額計算保險費，是否仍須扣取補充保費？",
+    "options": ["仍須全額扣取", "免扣取，避免同一筆所得重複計費", "須扣半額", "須改按20%扣取"],
+    "answer": [1],
+    "explanation": "第4條第2項規定，以雇主或自營業主身分參加健保期間，已計入投保金額計算之股利所得，免扣取補充保費，避免與投保金額重複計費。",
+    "material_ref": "pz-02-04",
+    "tags": ["免扣取情形"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-02-04-03",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "扣費義務人應於何時將上一年度扣取之補充保費金額填報扣費明細彙報保險人？",
+    "options": ["每年1月31日前", "每年5月31日前", "每年9月30日前", "每年12月31日前"],
+    "answer": [0],
+    "explanation": "第10條規定，扣費義務人應於每年1月31日前，將上一年度扣取之補充保費金額填報扣費明細彙報保險人，與所得稅扣繳憑單彙報期限一致。",
+    "material_ref": "pz-02-04",
+    "tags": ["年度彙報"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-02-04-04",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "保險對象發現遭扣費義務人溢扣補充保費，應如何申請退還？",
+    "options": ["只能向健保署申請", "扣取日次月起6個月內向扣費義務人申請退還，逾期改向保險人申請", "須等到隔年報稅時一併處理", "無法申請退還"],
+    "answer": [1],
+    "explanation": "第9條規定，保險對象得於扣取日次月起6個月內向扣費義務人申請退還溢扣款項；逾期則改向保險人（健保署）申請退還。",
+    "material_ref": "pz-02-04",
+    "tags": ["溢扣退還"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-pz-02-04-05",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "股利未扣足補充保費須補繳，若單次應補繳金額未達新臺幣100元，如何處理？",
+    "options": ["仍須補繳", "得免補繳", "須加倍補繳", "須經健保署核准才能免繳"],
+    "answer": [1],
+    "explanation": "第7條規定，因無現金股利或現金不足扣取而應補繳者，如單次金額未達新臺幣100元，得免補繳。",
+    "material_ref": "pz-02-04",
+    "tags": ["補繳規定"],
+    "verified_at": "2026-07-06"
+  }
+]

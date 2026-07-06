@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fc-pz-02-03-01",
+    "subject": "practice-zone",
+    "front": "不同公司同天發放的股利，是否合併判斷2萬門檻？",
+    "back": "不合併，不同公司之股利一律視為不同筆，分別判斷。",
+    "material_ref": "pz-02-03",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-02-03-02",
+    "subject": "practice-zone",
+    "front": "同一公司現金股利與股票股利同一天發放，如何計算？",
+    "back": "合併計算：（股票股數×面額10元＋現金股利）×2.11%。",
+    "material_ref": "pz-02-03",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-02-03-03",
+    "subject": "practice-zone",
+    "front": "股票股利補充保費計算公式？",
+    "back": "股票股數×面額10元×2.11%（以面額計算，非市價）。",
+    "material_ref": "pz-02-03",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-02-03-04",
+    "subject": "practice-zone",
+    "front": "股利分配時，誰是扣費義務人？",
+    "back": "公司負責人。",
+    "material_ref": "pz-02-03",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-02-03-05",
+    "subject": "practice-zone",
+    "front": "只發股票股利、現金不足扣補充保費時怎麼辦？",
+    "back": "扣費義務人通知保險對象，差額由健保署於次年收取。",
+    "material_ref": "pz-02-03",
+    "verified_at": "2026-07-06"
+  }
+]

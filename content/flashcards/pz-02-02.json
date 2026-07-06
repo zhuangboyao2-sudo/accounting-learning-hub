@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fc-pz-02-02-01",
+    "subject": "practice-zone",
+    "front": "股利25,000元（達2萬門檻），補充保費怎麼算？",
+    "back": "25,000×2.11%（整筆課徵，不是只算超過部分）。",
+    "material_ref": "pz-02-02",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-02-02-02",
+    "subject": "practice-zone",
+    "front": "獎金類別的補充保費計算邏輯，與股利/利息/租金有何不同？",
+    "back": "獎金只就「超過當月投保金額4倍」的部分課徵；股利等5類是達2萬門檻後整筆課徵。",
+    "material_ref": "pz-02-02",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-02-02-03",
+    "subject": "practice-zone",
+    "front": "未達2萬元門檻的股利、利息、租金，補充保費怎麼處理？",
+    "back": "完全免扣，不是按比例減少。",
+    "material_ref": "pz-02-02",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-02-02-04",
+    "subject": "practice-zone",
+    "front": "補充保費的單筆給付金額計算上限？",
+    "back": "1,000萬元，超過部分不再計收。",
+    "material_ref": "pz-02-02",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-pz-02-02-05",
+    "subject": "practice-zone",
+    "front": "支付會計師報酬3萬元，要扣哪兩筆款？",
+    "back": "所得稅執行業務報酬扣繳3,000元（10%）+ 二代健保補充保費633元（2.11%），分別計算不互抵。",
+    "material_ref": "pz-02-02",
+    "verified_at": "2026-07-06"
+  }
+]

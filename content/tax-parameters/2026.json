@@ -53,9 +53,11 @@
   "secondGenNhiSupplementaryPremium": {
     "rate": 0.0211,
     "itemThresholdNTD": 20000,
-    "itemThresholdNote": "股利、利息、租金、執行業務、兼職薪資，每筆或全年合計超過2萬元部分扣取",
+    "itemThresholdNote": "股利、利息、租金、執行業務收入、兼職薪資所得單筆給付達2萬元（含）以上者，就給付全額（非僅超過部分）扣取2.11%；未達2萬元者免扣",
+    "singlePaymentCapNTD": 10000000,
+    "singlePaymentCapNote": "上述6類所得單筆給付金額超過1,000萬元之部分，不再計收補充保費",
     "highBonusThresholdMultiple": 4,
-    "highBonusNote": "當月獎金超過月投保金額4倍部分扣取"
+    "highBonusNote": "全年累計超過當月投保金額4倍部分之獎金，僅就超過部分扣取2.11%（此類無下限，但超過4倍後之部分逾1,000萬元者以1,000萬元為限）"
   },
   "filingDeadlines": {
     "individualIncomeTaxSettlement": "每年5月1日至5月31日",
