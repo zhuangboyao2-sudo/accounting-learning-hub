@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gen-tp-01-01-01",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "已成年子女的所得資料，須符合何種條件才能被納稅義務人於申報系統中自動下載歸戶？",
+    "options": ["只要現在有扶養關係即可下載", "須課稅年度之前一年度被納稅義務人或配偶列報扶養", "須年滿30歲以上才能下載", "已成年子女的所得資料一律不能下載"],
+    "answer": [1],
+    "explanation": "已成年（含課稅年度中成年）且課稅年度之前一年度被納稅義務人或配偶列報扶養之子女，其所得資料才會併入歸戶下載範圍。",
+    "material_ref": "tp-01-01",
+    "tags": ["所得歸戶"],
+    "verified_at": "2026-07-06",
+    "sources": ["https://tax.nat.gov.tw/alltax.html?id=1"]
+  },
+  {
+    "id": "gen-tp-01-01-02",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "直系尊親屬及兄弟姊妹之所得資料，須符合何種條件才會被歸戶下載？",
+    "options": ["只要今年開始列報扶養即可下載", "須課稅年度之前兩個年度連續被列報扶養", "只有配偶的直系尊親屬才能下載", "一律不能下載，須自行申報"],
+    "answer": [1],
+    "explanation": "課稅年度之前兩個年度連續被納稅義務人或配偶列報扶養之直系尊親屬及兄弟姊妹，其所得資料才會併入歸戶下載範圍。",
+    "material_ref": "tp-01-01",
+    "tags": ["所得歸戶"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tp-01-01-03",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "下載當年度所得及扣除額資料，須使用下列何種方式驗證身分？",
+    "options": ["身分證字號即可，無須其他驗證", "自然人憑證、健保卡＋密碼、行動自然人憑證或查詢碼等憑證", "只能親自到國稅局臨櫃辦理", "只有會計師事務所才能代為下載"],
+    "answer": [1],
+    "explanation": "須使用自然人憑證、健保卡＋密碼、行動自然人憑證、醫事人員憑證或查詢碼等憑證，登入申報系統後才能下載查詢當年度所得及扣除額資料。",
+    "material_ref": "tp-01-01",
+    "tags": ["申報方式"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tp-01-01-04",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "「分戶資料限制下載」的申請期間為何？",
+    "options": ["全年皆可申請", "每年2月15日至3月16日", "只能在申報期間5月申請", "只能在12月申請"],
+    "answer": [1],
+    "explanation": "納稅義務人或其配偶、已成年子女或直系尊親屬，得於每年2月15日至3月16日申請分戶資料限制下載或不提供全部扣除額資料。",
+    "material_ref": "tp-01-01",
+    "tags": ["分戶限制下載"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tp-01-01-05",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "下載到國稅局歸戶的所得資料後，實務上建議如何處理？",
+    "options": ["照單全收直接申報，無須核對", "應與自己保管的扣（免）繳憑單、股利憑單逐項核對", "只需核對總金額是否為整數", "只有超過100萬元才需要核對"],
+    "answer": [1],
+    "explanation": "歸戶資料可能因扣繳單位申報錯誤或時間差而不完整，實務上應與自己保管的憑單逐項核對，避免申報錯誤。",
+    "material_ref": "tp-01-01",
+    "tags": ["申報實務"],
+    "verified_at": "2026-07-06"
+  }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-tp-01-03-01",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "個人獲配股利或盈餘，依規定可選擇哪兩種計稅方式？",
+    "options": ["合併計稅與分開計稅", "標準扣除額與列舉扣除額", "查定課徵與加值型課稅", "零稅率與免稅"],
+    "answer": [0],
+    "explanation": "自107年度起，個人居住者獲配股利或盈餘，可選擇合併計稅減除股利可抵減稅額，或單一稅率分開計稅。",
+    "material_ref": "tp-01-03",
+    "tags": ["股利所得計稅方式"],
+    "verified_at": "2026-07-06",
+    "sources": ["https://www.etax.nat.gov.tw/etwmain/tax-info/understanding/tax-saving-manual/national/individual-income-tax/gLA3Vax"]
+  },
+  {
+    "id": "gen-tp-01-03-02",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "採合併計稅方式時，全戶股利及盈餘可抵減稅額之計算比例與上限各為何？",
+    "options": ["5%，上限5萬元", "8.5%，上限8萬元", "10%，上限10萬元", "28%，無上限"],
+    "answer": [1],
+    "explanation": "合併計稅時，按全戶股利及盈餘合計金額之8.5%計算可抵減稅額，每一申報戶上限8萬元。",
+    "material_ref": "tp-01-03",
+    "tags": ["股利所得計稅方式"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tp-01-03-03",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "採分開計稅方式時，全戶股利及盈餘適用何種稅率？",
+    "options": ["依綜合所得稅率級距課稅", "28%單一稅率", "5%固定稅率", "免稅"],
+    "answer": [1],
+    "explanation": "分開計稅時，全戶股利及盈餘不計入綜合所得總額，改以28%單一稅率分開計算稅額。",
+    "material_ref": "tp-01-03",
+    "tags": ["股利所得計稅方式"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tp-01-03-04",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "以8萬元抵減上限反推，全戶股利及盈餘合計金額約在多少以下可全額享有合併計稅之抵減優惠？",
+    "options": ["約10萬元", "約50萬元", "約94萬元", "約200萬元"],
+    "answer": [2],
+    "explanation": "8萬元÷8.5%約等於94萬元，股利及盈餘合計金額在此門檻以下的納稅義務人，選擇合併計稅可全額享有抵減。",
+    "material_ref": "tp-01-03",
+    "tags": ["股利所得計稅方式"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tp-01-03-05",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "股利收入無論選擇合併或分開計稅，都可能另外產生何種費用？",
+    "options": ["證券交易稅", "二代健保補充保費", "契稅", "印花稅"],
+    "answer": [1],
+    "explanation": "股利所得超過起徵門檻可能觸發二代健保補充保費，這是與所得稅計稅方式選擇無關的獨立扣費機制。",
+    "material_ref": "tp-01-03",
+    "tags": ["股利所得計稅方式", "二代健保"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tp-01-03-06",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "適用分開計稅（28%單一稅率）的股利所得，還須額外併入何種制度計算？",
+    "options": ["最低稅負制（基本所得額）", "營業稅計算", "二代健保費率表", "累進差額計算"],
+    "answer": [0],
+    "explanation": "選擇分開計稅之股利所得，須併入最低稅負制（基本所得額）計算，可能產生額外的基本稅額。",
+    "material_ref": "tp-01-03",
+    "tags": ["股利所得計稅方式", "最低稅負制"],
+    "verified_at": "2026-07-06"
+  }
+]

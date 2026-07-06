@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gen-tp-01-04-01",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "納稅義務人有所得但未收到扣繳憑單，是否仍須申報？",
+    "options": ["不用，沒有憑單就不算有所得", "須申報，國稅局對各類所得均有蒐集及歸戶機制", "只有超過100萬元才需要申報", "只有公司負責人才需要申報"],
+    "answer": [1],
+    "explanation": "只要有所得，無論有無扣繳憑單，均應詳實申報，國稅局對納稅義務人的各類所得均有蒐集及掌握機制。",
+    "material_ref": "tp-01-04",
+    "tags": ["常見錯誤"],
+    "verified_at": "2026-07-06",
+    "sources": ["https://www.etax.nat.gov.tw/etwmain/tax-info/understanding/tax-saving-manual/national/individual-income-tax/gLA3Vax"]
+  },
+  {
+    "id": "gen-tp-01-04-02",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "全年所得未達課稅起徵點但有股利所得者，若未辦理申報，會有什麼影響？",
+    "options": ["沒有影響，反正不用繳稅", "無法取得股利可抵減稅額大於應納稅額之退稅", "會被要求補稅", "會被處以罰鍰"],
+    "answer": [1],
+    "explanation": "股利所得可抵減稅額若大於應納稅額，差額可以退稅，但前提是要完成申報程序，未申報等於放棄退稅權利。",
+    "material_ref": "tp-01-04",
+    "tags": ["常見錯誤", "股利所得"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tp-01-04-03",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "統一發票中獎獎金每聯獎額不超過多少元者免予扣繳，且該獎金是否併入綜合所得總額申報？",
+    "options": ["1,000元；須併入申報", "5,000元；不併入申報", "10,000元；須併入申報", "無金額限制；不併入申報"],
+    "answer": [1],
+    "explanation": "統一發票中獎獎金每聯獎額不超過5,000元者免予扣繳；中獎獎金係採分離課稅，就源扣繳20%後不併入綜合所得總額，也無須填入申報書。",
+    "material_ref": "tp-01-04",
+    "tags": ["分離課稅所得"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tp-01-04-04",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "原申報溢繳之稅款，其退稅請求權原則上自繳納之日起多久內不行使而消滅？",
+    "options": ["1年", "3年", "5年", "10年"],
+    "answer": [2],
+    "explanation": "溢繳稅款之退稅請求權原則上自繳納之日起5年內不行使而消滅。",
+    "material_ref": "tp-01-04",
+    "tags": ["更正申報", "退稅期限"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tp-01-04-05",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "納稅義務人故意以詐欺或其他不正當方法逃漏綜所稅，其核課期間為何？",
+    "options": ["3年", "5年", "7年", "永久追溯"],
+    "answer": [2],
+    "explanation": "一般漏報核課期間為5年，但故意以詐欺或其他不正當方法逃漏稅捐者，核課期間延長為7年。",
+    "material_ref": "tp-01-04",
+    "tags": ["核課期間"],
+    "verified_at": "2026-07-06"
+  }
+]

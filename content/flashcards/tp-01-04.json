@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fc-tp-01-04-01",
+    "subject": "tax-practice",
+    "front": "沒有收到扣繳憑單的所得需要申報嗎？",
+    "back": "需要，國稅局對各類所得均有蒐集及歸戶機制，無論有無憑單均應詳實申報。",
+    "material_ref": "tp-01-04",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-tp-01-04-02",
+    "subject": "tax-practice",
+    "front": "統一發票中獎獎金如何課稅？",
+    "back": "分離課稅，就源扣繳20%（每聯不超過5,000元免扣繳），不併入綜合所得總額，也不須填入申報書。",
+    "material_ref": "tp-01-04",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-tp-01-04-03",
+    "subject": "tax-practice",
+    "front": "全年所得未達起徵點但有股利所得，為何仍要申報？",
+    "back": "因為股利可抵減稅額若大於應納稅額可申請退稅，但須完成申報程序才能取得退稅。",
+    "material_ref": "tp-01-04",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-tp-01-04-04",
+    "subject": "tax-practice",
+    "front": "溢繳稅款的退稅請求權期限？",
+    "back": "自繳納之日起5年內不行使而消滅。",
+    "material_ref": "tp-01-04",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-tp-01-04-05",
+    "subject": "tax-practice",
+    "front": "故意逃漏稅捐的核課期間？一般漏報呢？",
+    "back": "故意詐欺或不正當方法逃漏7年；一般漏報5年。",
+    "material_ref": "tp-01-04",
+    "verified_at": "2026-07-06"
+  }
+]

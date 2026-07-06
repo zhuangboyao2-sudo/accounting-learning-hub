@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-tp-01-02-01",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "王先生單身、無扶養親屬，全年薪資收入80萬元，適用薪資所得特別扣除額22.7萬元，其薪資所得為何？",
+    "options": ["800,000元", "573,000元", "227,000元", "1,027,000元"],
+    "answer": [1],
+    "explanation": "薪資所得＝800,000－227,000＝573,000元。",
+    "material_ref": "tp-01-02",
+    "tags": ["稅額計算", "計算題"],
+    "verified_at": "2026-07-06",
+    "sources": ["https://www.etax.nat.gov.tw/etwmain/tax-info/understanding/tax-saving-manual/national/individual-income-tax/gLA3Vax"]
+  },
+  {
+    "id": "gen-tp-01-02-02",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承上題，王先生綜合所得總額573,000元，減除免稅額101,000元、標準扣除額（單身）136,000元後，綜合所得淨額為何？",
+    "options": ["336,000元", "573,000元", "437,000元", "672,000元"],
+    "answer": [0],
+    "explanation": "綜合所得淨額＝573,000－101,000－136,000＝336,000元。",
+    "material_ref": "tp-01-02",
+    "tags": ["稅額計算", "計算題"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tp-01-02-03",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "承上題，綜合所得淨額336,000元適用稅率5%、累進差額0，應納稅額為何？",
+    "options": ["16,800元", "33,600元", "10,080元", "0元"],
+    "answer": [0],
+    "explanation": "應納稅額＝336,000×5%－0＝16,800元。",
+    "material_ref": "tp-01-02",
+    "tags": ["稅額計算", "計算題"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tp-01-02-04",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "累進差額的作用為何？",
+    "options": ["用來增加應納稅額的懲罰性數字", "把分段累進計算簡化為淨額乘最高適用稅率再減一固定數字的捷徑", "只適用於營利事業所得稅，個人綜所稅不適用", "是一種可以退還的稅額扣抵"],
+    "answer": [1],
+    "explanation": "累進差額讓計算不必逐級距分段計算，而是用「綜合所得淨額×最高適用稅率－累進差額」直接算出正確的應納稅額。",
+    "material_ref": "tp-01-02",
+    "tags": ["累進差額"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tp-01-02-05",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "綜合所得淨額100萬元，適用稅率12%、累進差額42,700元，應納稅額為何？",
+    "options": ["120,000元", "77,300元", "100,000元", "84,700元"],
+    "answer": [1],
+    "explanation": "應納稅額＝1,000,000×12%－42,700＝77,300元。",
+    "material_ref": "tp-01-02",
+    "tags": ["稅額計算", "計算題"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tp-01-02-06",
+    "subject": "tax-practice",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "應納稅額計算完成後，減除已扣繳稅額所得結果稱為什麼？",
+    "options": ["綜合所得淨額", "應退（補）稅額", "累進差額", "免稅額"],
+    "answer": [1],
+    "explanation": "應納稅額減除扣繳稅額、可扣抵稅額後之餘額，為應退（補）稅額；若為正數須補稅，若為負數（扣繳大於應納）則可退稅。",
+    "material_ref": "tp-01-02",
+    "tags": ["稅額計算"],
+    "verified_at": "2026-07-06"
+  }
+]

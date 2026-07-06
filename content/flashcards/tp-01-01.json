@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fc-tp-01-01-01",
+    "subject": "tax-practice",
+    "front": "已成年子女何時可自動歸戶下載所得資料？",
+    "back": "課稅年度之前一年度被納稅義務人或配偶列報扶養者。",
+    "material_ref": "tp-01-01",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-tp-01-01-02",
+    "subject": "tax-practice",
+    "front": "直系尊親屬及兄弟姊妹何時可自動歸戶下載所得資料？",
+    "back": "課稅年度之前兩個年度連續被列報扶養者。",
+    "material_ref": "tp-01-01",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-tp-01-01-03",
+    "subject": "tax-practice",
+    "front": "下載當年度所得及扣除額資料需要哪些憑證？",
+    "back": "自然人憑證、健保卡＋密碼、行動自然人憑證、醫事人員憑證或查詢碼等。",
+    "material_ref": "tp-01-01",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-tp-01-01-04",
+    "subject": "tax-practice",
+    "front": "分戶資料限制下載的申請期間？",
+    "back": "每年2月15日至3月16日。",
+    "material_ref": "tp-01-01",
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "fc-tp-01-01-05",
+    "subject": "tax-practice",
+    "front": "下載到的歸戶所得資料為什麼還要核對？",
+    "back": "可能因扣繳單位申報錯誤或時間差而不完整，應與自己保管的扣（免）繳憑單、股利憑單逐項核對。",
+    "material_ref": "tp-01-01",
+    "verified_at": "2026-07-06"
+  }
+]
