@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-tl-05-02-01",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "傳產工廠外銷貨物，依第7條規定其營業稅稅率為何？",
+    "options": ["5%", "10%", "0%（零稅率）", "免徵（不列入課稅體系）"],
+    "answer": [2],
+    "explanation": "第7條第1款規定外銷貨物之營業稅稅率為零，仍須申報銷售額，但稅率為0%。",
+    "material_ref": "tl-05-02",
+    "tags": ["零稅率"],
+    "verified_at": "2026-07-06",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0340080"]
+  },
+  {
+    "id": "gen-tl-05-02-02",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "醫院提供之醫療勞務，依第8條規定其營業稅待遇為何？",
+    "options": ["適用零稅率", "免徵營業稅", "適用一般稅率5%", "適用特種稅率15%"],
+    "answer": [1],
+    "explanation": "第8條第1項第3款規定，醫院、診所、療養院提供之醫療勞務、藥品、病房之住宿及膳食免徵營業稅。",
+    "material_ref": "tl-05-02",
+    "tags": ["免稅"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tl-05-02-03",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "外銷貨物（零稅率）與醫療勞務（免稅），兩者對應之進項稅額待遇有何不同？",
+    "options": ["兩者的進項稅額都可以扣抵並退還", "兩者的進項稅額都不能扣抵退還", "零稅率之進項稅額可扣抵並可能退還；免稅之進項稅額不得申請退還", "免稅之進項稅額可退還；零稅率不可退還"],
+    "answer": [2],
+    "explanation": "零稅率仍在課稅體系內，進項稅額可扣抵、多繳的可退還；免稅則完全跳出課稅體系，第19條第2項規定專營免稅貨物或勞務者進項稅額不得申請退還，須認列為成本費用。",
+    "material_ref": "tl-05-02",
+    "tags": ["零稅率與免稅之區別"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tl-05-02-04",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "報社銷售其發行之報紙與銷售廣告版位，依第8條第9款規定，營業稅待遇分別為何？",
+    "options": ["兩者皆免稅", "兩者皆應課稅", "銷售報紙免稅，銷售廣告應課稅", "銷售報紙應課稅，銷售廣告免稅"],
+    "answer": [2],
+    "explanation": "第8條第9款規定報社銷售報紙等出版品免稅，但但書明定報社銷售之廣告及電視臺之廣告播映不包括在內，仍應課徵營業稅。",
+    "material_ref": "tl-05-02",
+    "tags": ["免稅", "常見陷阱"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tl-05-02-05",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "出售土地與出售土地上之房屋建物，依第8條規定營業稅待遇為何？",
+    "options": ["兩者皆免稅", "兩者皆應課稅", "出售土地免稅，出售房屋應課稅", "出售土地應課稅，出售房屋免稅"],
+    "answer": [2],
+    "explanation": "第8條第1項第1款僅免稅「出售之土地」本身，房屋建物之銷售不在此免稅範圍，仍應依規定課徵營業稅。",
+    "material_ref": "tl-05-02",
+    "tags": ["免稅", "常見陷阱"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tl-05-02-06",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "保稅區營業人銷售與國際運輸用船舶所使用之修繕勞務，依第7條規定適用何種稅率？",
+    "options": ["零稅率", "免稅（不計入銷售額）", "一般稅率5%", "特種稅率15%"],
+    "answer": [0],
+    "explanation": "第7條第7款規定，銷售與國際運輸用之船舶、航空器及遠洋漁船所使用之貨物或修繕勞務，適用零稅率。",
+    "material_ref": "tl-05-02",
+    "tags": ["零稅率"],
+    "verified_at": "2026-07-06"
+  }
+]

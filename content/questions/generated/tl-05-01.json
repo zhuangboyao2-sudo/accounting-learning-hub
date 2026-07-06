@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-tl-05-01-01",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依加值型及非加值型營業稅法第1條，下列何者應課徵營業稅？",
+    "options": ["僅境內銷售貨物", "僅境內銷售勞務", "僅進口貨物", "境內銷售貨物或勞務及進口貨物"],
+    "answer": [3],
+    "explanation": "第1條規定，在中華民國境內銷售貨物或勞務及進口貨物，均應依本法課徵營業稅。",
+    "material_ref": "tl-05-01",
+    "tags": ["課稅範圍"],
+    "verified_at": "2026-07-06",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=G0340080"]
+  },
+  {
+    "id": "gen-tl-05-01-02",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "外國事業在中華民國境內無固定營業場所，銷售勞務予境內營業人（買受人非個人自用），依第2條規定納稅義務人為何？",
+    "options": ["外國事業本身", "境內勞務買受人", "海關", "免課徵營業稅"],
+    "answer": [1],
+    "explanation": "第2條第3款規定，此種情形之納稅義務人為勞務買受人，須就給付額依規定稅率計算繳納，與一般由銷售人納稅的原則相反。",
+    "material_ref": "tl-05-01",
+    "tags": ["納稅義務人"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tl-05-01-03",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "依第6條規定，下列何者不屬於營業稅法上之營業人？",
+    "options": ["以營利為目的之私營事業", "有銷售貨物行為之公益團體", "在境內有固定營業場所之外國事業", "完全沒有銷售貨物或勞務行為的私人住宅"],
+    "answer": [3],
+    "explanation": "第6條規定營業人須有銷售貨物或勞務之行為（或具備列舉的其他要件），單純自住而無銷售行為者不屬於營業人。",
+    "material_ref": "tl-05-01",
+    "tags": ["營業人定義"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tl-05-01-04",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "非以營利為目的之機關團體，若有銷售貨物或勞務之行為，依第6條規定是否為營業人？",
+    "options": ["是，仍屬營業人", "否，非營利機構一律排除在營業稅法之外", "只有政府機關才排除，民間團體仍是營業人", "須經財政部個案核准才算"],
+    "answer": [0],
+    "explanation": "第6條第2款明定，非以營利為目的之事業、機關、團體、組織，只要有銷售貨物或勞務，即為營業人。",
+    "material_ref": "tl-05-01",
+    "tags": ["營業人定義"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tl-05-01-05",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "境外業者經由網際網路銷售電子勞務予境內自然人，依第6條第4款規定屬於何種身分？",
+    "options": ["不須辦理稅籍登記", "屬於營業人，須依規定課徵營業稅", "僅適用零稅率，免課徵", "僅個人買受人須自行申報"],
+    "answer": [1],
+    "explanation": "第6條第4款規定，境外事業經由網際網路或其他數位方式銷售電子勞務予境內自然人者，屬於營業人，須辦理稅籍登記並報繳營業稅。",
+    "material_ref": "tl-05-01",
+    "tags": ["跨境電商", "營業人定義"],
+    "verified_at": "2026-07-06"
+  },
+  {
+    "id": "gen-tl-05-01-06",
+    "subject": "tax-law",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "一般營業人銷項稅額減進項稅額之計稅方式，依第1-1條規定屬於何種營業稅？",
+    "options": ["非加值型營業稅", "加值型營業稅", "特種銷售稅", "關稅"],
+    "answer": [1],
+    "explanation": "第1-1條規定，依第四章第一節計算稅額者為加值型營業稅，即銷項稅額減進項稅額之計算方式，一般營業人適用。",
+    "material_ref": "tl-05-01",
+    "tags": ["加值型與非加值型"],
+    "verified_at": "2026-07-06"
+  }
+]
