@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fc-pz-06-04-01",
+    "subject": "practice-zone",
+    "front": "逾規定申報期限幾日仍未申報銷售額，稽徵機關得逕行核定並補徵？",
+    "back": "30日。",
+    "material_ref": "pz-06-04",
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "fc-pz-06-04-02",
+    "subject": "practice-zone",
+    "front": "逾期申報未逾30日與逾30日，滯報金／怠報金各如何計算？",
+    "back": "未逾30日：每逾2日按應納稅額加徵1%滯報金；逾30日：按核定應納稅額加徵30%怠報金。",
+    "material_ref": "pz-06-04",
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "fc-pz-06-04-03",
+    "subject": "practice-zone",
+    "front": "稅捐稽徵法第48條之1的自動補報補繳免罰，須同時完成哪三件事？",
+    "back": "補開發票、補報銷售額、補繳稅款並加計利息，三者缺一不可。",
+    "material_ref": "pz-06-04",
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "fc-pz-06-04-04",
+    "subject": "practice-zone",
+    "front": "收到國稅局查詢函，正確的第一步是什麼？",
+    "back": "先確認問的是哪一期、哪一項數字及回覆期限，再核對憑證，而非急著辯解。",
+    "material_ref": "pz-06-04",
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "fc-pz-06-04-05",
+    "subject": "practice-zone",
+    "front": "已申報的營業稅資料事後發現金額錯誤，可以直接塗改原申報書嗎？",
+    "back": "不可以，應向主管稽徵機關申請更正並補附說明資料。",
+    "material_ref": "pz-06-04",
+    "verified_at": "2026-07-07"
+  }
+]

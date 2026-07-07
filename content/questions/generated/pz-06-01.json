@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-pz-06-01-01",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "營業稅原則上以多久為一期申報？",
+    "options": ["每月", "每二月", "每季", "每半年"],
+    "answer": [1],
+    "explanation": "營業稅法第35條規定，營業人不論有無銷售額，應以每二月為一期，於次期開始15日內申報銷售額、應納或溢付營業稅額。",
+    "material_ref": "pz-06-01",
+    "tags": ["申報週期"],
+    "verified_at": "2026-07-07",
+    "sources": ["https://law-out.mof.gov.tw/LawContent.aspx?id=FL006082"]
+  },
+  {
+    "id": "gen-pz-06-01-02",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "1-2月為一期的營業稅，應於何時前申報？",
+    "options": ["2月底前", "3月15日前", "3月底前", "4月15日前"],
+    "answer": [1],
+    "explanation": "每二月為一期，應於次期開始15日內申報，1-2月這一期的次期即3月，因此應於3月15日前申報。",
+    "material_ref": "pz-06-01",
+    "tags": ["申報週期"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "gen-pz-06-01-03",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "哪一類營業人可以申請改為每月一期申報？",
+    "options": ["所有營業人皆可自由選擇", "銷售貨物或勞務適用零稅率之營業人", "僅限公開發行公司", "僅限查定課徵之小規模營業人"],
+    "answer": [1],
+    "explanation": "營業稅法第35條規定，銷售貨物或勞務依規定適用零稅率者，得申請以每月為一期申報，但同一年度內不得變更。",
+    "material_ref": "pz-06-01",
+    "tags": ["申報週期", "零稅率"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "gen-pz-06-01-04",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "零稅率營業人申請改為每月一期申報後，下列敘述何者正確？",
+    "options": ["可隨時改回雙月申報", "同一年度內不得變更", "僅能維持一期後即須改回", "須每半年重新申請一次"],
+    "answer": [1],
+    "explanation": "零稅率營業人申請按月申報後，同一年度內不得變更，須等到下一年度才能重新選擇申報週期。",
+    "material_ref": "pz-06-01",
+    "tags": ["申報週期", "零稅率"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "gen-pz-06-01-05",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "使用統一發票的營業人申報營業稅時，應同時檢附何種文件？",
+    "options": ["公司章程", "統一發票明細表", "營利事業所得稅結算申報書", "股東會議紀錄"],
+    "answer": [1],
+    "explanation": "營業稅法第35條規定，使用統一發票之營業人申報時，並應檢附統一發票明細表。",
+    "material_ref": "pz-06-01",
+    "tags": ["申報文件"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "gen-pz-06-01-06",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "日常憑證彙整作業中，「有出貨無發票」或「有發票無出貨」的異常，最適合在哪個節奏抓出來？",
+    "options": ["僅雙月申報前一次性檢查", "每月結時核對存貨進出與發票金額", "只在年度決算時檢查", "由稽徵機關查核時才發現"],
+    "answer": [1],
+    "explanation": "月結時核對當月存貨進出與發票金額是否一致，能及早發現漏開發票或發票與出貨不符的異常，不需等到雙月申報前才臨時處理。",
+    "material_ref": "pz-06-01",
+    "tags": ["憑證彙整"],
+    "verified_at": "2026-07-07"
+  }
+]

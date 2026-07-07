@@ -1,0 +1,82 @@
+[
+  {
+    "id": "gen-pz-06-04-01",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "營業人逾規定申報期限幾日仍未申報銷售額者，主管稽徵機關得依查得資料逕行核定其銷售額及應納稅額並補徵？",
+    "options": ["10日", "15日", "30日", "60日"],
+    "answer": [2],
+    "explanation": "營業稅法第43條規定，逾規定申報限期30日尚未申報銷售額者，主管稽徵機關得依照查得之資料逕行核定其銷售額及應納稅額並補徵之。",
+    "material_ref": "pz-06-04",
+    "tags": ["逾期申報"],
+    "verified_at": "2026-07-07",
+    "sources": ["https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=G0340080&flno=49"]
+  },
+  {
+    "id": "gen-pz-06-04-02",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "營業人逾期申報但未逾30日，依規定每逾2日按應納稅額加徵多少比例的滯報金？",
+    "options": ["0.5%", "1%", "3%", "5%"],
+    "answer": [1],
+    "explanation": "營業稅法第49條規定，未逾30日者，每逾2日按應納稅額加徵1%滯報金，金額不得少於新臺幣1,200元，不得超過1萬2千元。",
+    "material_ref": "pz-06-04",
+    "tags": ["滯報金"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "gen-pz-06-04-03",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "營業人逾期申報超過30日者，依規定按核定應納稅額加徵多少比例的怠報金？",
+    "options": ["10%", "20%", "30%", "50%"],
+    "answer": [2],
+    "explanation": "營業稅法第49條規定，逾30日者，按核定應納稅額加徵30%怠報金，金額不得少於新臺幣3,000元，不得超過3萬元。",
+    "material_ref": "pz-06-04",
+    "tags": ["怠報金"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "gen-pz-06-04-04",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "工廠自行發現短漏開發票，若已於未經檢舉、未經稽徵機關調查前補正，依稅捐稽徵法第48條之1規定，須同時完成哪些事項才能免罰？",
+    "options": ["只要補開發票即可", "補開發票並補報銷售額即可，繳稅可延後", "補開發票、補報銷售額、補繳稅款並加計利息三者缺一不可", "只要主動打電話向國稅局說明即可"],
+    "answer": [2],
+    "explanation": "財政部國稅局提醒，補開發票只是其中一步，若未同時補申報銷售額並補繳稅款加計利息，仍不符合免罰規定，可能面臨補稅及處罰。",
+    "material_ref": "pz-06-04",
+    "tags": ["自動補報補繳", "稅捐稽徵法48條之1"],
+    "verified_at": "2026-07-07",
+    "sources": ["https://www.feccpa.com.tw/setupacompanyintaipei/%E7%87%9F%E6%A5%AD%E4%BA%BA%E9%80%BE%E7%94%B3%E5%A0%B1%E6%9C%9F%E5%BE%8C%E8%A3%9C%E9%96%8B%E7%AB%8B%E7%B5%B1%E4%B8%80%E7%99%BC%E7%A5%A8%E9%81%A9%E7%94%A8%E5%85%8D%E7%BD%B0%E8%A6%81%E4%BB%B6/"]
+  },
+  {
+    "id": "gen-pz-06-04-05",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "工廠收到國稅局查詢函，正確的第一步處理方式為何？",
+    "options": ["立即致電辯解自己沒有問題", "先確認問的是哪一期、哪一項數字及回覆期限，再核對憑證", "置之不理，等對方再次來函", "直接請記帳士全權代為否認"],
+    "answer": [1],
+    "explanation": "收到查詢函應先確認問的是哪一期、哪一張憑證或哪一項數字、回覆期限為何，再調出對應憑證清冊逐筆核對，而非急著辯解。",
+    "material_ref": "pz-06-04",
+    "tags": ["查詢函處理"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "gen-pz-06-04-06",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "已申報的營業稅資料事後發現金額有誤，正確的處理方式為何？",
+    "options": ["直接在原申報書上塗改後重新繳交", "向主管稽徵機關申請更正並補附說明資料", "不予理會，等稽徵機關主動發現再處理", "只能等到年度結束才能一併調整"],
+    "answer": [1],
+    "explanation": "已申報資料不得任意塗改，應向主管稽徵機關申請更正並補附說明資料，更正後應納稅額增加者通常須補繳差額並加計利息。",
+    "material_ref": "pz-06-04",
+    "tags": ["更正申報"],
+    "verified_at": "2026-07-07"
+  }
+]

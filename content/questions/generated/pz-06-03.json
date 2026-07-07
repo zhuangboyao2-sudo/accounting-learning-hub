@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-pz-06-03-01",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "營業人有應納營業稅額者，申報時應如何處理？",
+    "options": ["先申報後繳納", "先繳納後檢同繳納收據一併申報", "可延後至次期一併繳納", "免繳款，待稽徵機關通知後再繳"],
+    "answer": [1],
+    "explanation": "營業稅法第35條規定，有應納稅額者，應先向公庫繳納後，檢同繳納收據一併申報。",
+    "material_ref": "pz-06-03",
+    "tags": ["稅額繳納"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "gen-pz-06-03-02",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "便利商店代收營業稅款，適用於多少金額以下、印有條碼的繳款書？",
+    "options": ["1萬元以下", "3萬元以下", "5萬元以下", "10萬元以下"],
+    "answer": [1],
+    "explanation": "3萬元以下、印有條碼的繳款書，可至統一、全家、萊爾富、OK等4家便利商店以現金或超商認可之支付工具繳納，無須支付手續費。",
+    "material_ref": "pz-06-03",
+    "tags": ["繳稅方式"],
+    "verified_at": "2026-07-07",
+    "sources": ["https://www.tax.taichung.gov.tw/4499/4916/4962/7547/"]
+  },
+  {
+    "id": "gen-pz-06-03-03",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "以自動櫃員機（ATM）轉帳繳納營業稅，須至貼有何種標誌的ATM操作？",
+    "options": ["「提款+轉帳+繳稅」標誌", "「跨行：提款+轉帳+繳稅」標誌", "「外幣兌換」標誌", "任何ATM皆可，無須特別標誌"],
+    "answer": [1],
+    "explanation": "應持金融卡或晶片金融卡，至貼有「跨行：提款+轉帳+繳稅」標誌之自動櫃員機或網路銀行（eATM）依指示操作，無須支付手續費。",
+    "material_ref": "pz-06-03",
+    "tags": ["繳稅方式"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "gen-pz-06-03-04",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "多元繳稅管道（超商、信用卡、ATM等）的繳納截止時間，開放至繳納期間屆滿後多久？",
+    "options": ["當日24時前", "屆滿後1日24時前", "屆滿後3日24時前", "屆滿後7日24時前"],
+    "answer": [2],
+    "explanation": "多元管道繳納截止日開放至繳納期間屆滿後3日24時前，但超過原繳納期間繳納的案件，仍屬逾期繳納。",
+    "material_ref": "pz-06-03",
+    "tags": ["繳稅方式", "繳納期限"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "gen-pz-06-03-05",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "在繳納期間屆滿後3日24時前，用超商代收方式補繳原繳納期間內未繳的稅款，是否算逾期？",
+    "options": ["不算逾期，因為系統仍受理", "仍屬逾期繳納，會被加徵滯納金", "只要3日內繳納一律視為準時", "視繳納金額大小而定"],
+    "answer": [1],
+    "explanation": "3日24時前的彈性只是多元管道系統仍可受理繳款，並非法規給予的延長繳納期限，超過原繳納期限仍屬逾期繳納。",
+    "material_ref": "pz-06-03",
+    "tags": ["繳稅方式", "繳納期限"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "gen-pz-06-03-06",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "工廠委託記帳士辦理營業稅申報，下列敘述何者正確？",
+    "options": ["委託後試算邏輯與應繳稅額會不同於自行辦理", "工廠仍應自行核對記帳士回傳的應納稅額與憑證金額是否一致", "委託記帳士後無須再保留任何進銷項憑證", "委託記帳士即可免除逾期申報之滯報金"],
+    "answer": [1],
+    "explanation": "委託記帳士辦理只是把彙整與填寫工作外包，試算邏輯與應繳稅額不會改變，工廠仍應自行核對記帳士回傳結果與自己彙整憑證是否一致。",
+    "material_ref": "pz-06-03",
+    "tags": ["稅額試算"],
+    "verified_at": "2026-07-07"
+  }
+]

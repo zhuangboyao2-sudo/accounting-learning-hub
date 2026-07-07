@@ -1,0 +1,81 @@
+[
+  {
+    "id": "gen-pz-06-02-01",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "財政部電子申報繳稅服務網公告的營業稅網路申報作業程序，第一步驟為何？",
+    "options": ["下載申報軟體", "申請身分認證", "資料建檔及審核", "上傳作業"],
+    "answer": [1],
+    "explanation": "官方公告的五步驟依序為：一、申請身分認證；二、下載安裝申報軟體；三、資料建檔及審核；四、上傳作業；五、列印報繳紀錄。",
+    "material_ref": "pz-06-02",
+    "tags": ["網路申報"],
+    "verified_at": "2026-07-07",
+    "sources": ["https://tax.nat.gov.tw/alltax.html?id=2"]
+  },
+  {
+    "id": "gen-pz-06-02-02",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "工商憑證是由哪個機關核發？",
+    "options": ["財政部", "經濟部", "內政部", "考選部"],
+    "answer": [1],
+    "explanation": "工商憑證由經濟部核發，與公司統一編號綁定，可用於營業稅、營所稅等各項網路申報與登記業務。",
+    "material_ref": "pz-06-02",
+    "tags": ["網路申報", "憑證"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "gen-pz-06-02-03",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "自然人憑證是由哪個機關核發？",
+    "options": ["經濟部", "內政部", "財政部", "勞動部"],
+    "answer": [1],
+    "explanation": "自然人憑證由內政部核發，綁定個人身分證字號，適合獨資、合夥組織或負責人以個人身分辦理申報。",
+    "material_ref": "pz-06-02",
+    "tags": ["網路申報", "憑證"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "gen-pz-06-02-04",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "工廠若未申請工商憑證或自然人憑證，仍可透過何種方式辦理身分認證進行網路申報？",
+    "options": ["無法申報，必須先取得憑證", "簡化憑證（帳號密碼）", "傳真身分證影本", "電話語音報稅"],
+    "answer": [1],
+    "explanation": "身分認證可選擇工商憑證，或申請簡化憑證（帳號密碼），後者不需額外硬體讀卡機即可上網申報。",
+    "material_ref": "pz-06-02",
+    "tags": ["網路申報", "憑證"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "gen-pz-06-02-05",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "網路申報軟體的格式檢核功能，主要驗證的是什麼？",
+    "options": ["申報金額是否正確", "統一編號位數、字軌格式等欄位格式", "公司是否有欠稅", "營業人是否符合零稅率資格"],
+    "answer": [1],
+    "explanation": "申報軟體的格式檢核僅驗證欄位格式（如統一編號位數、字軌格式），不會驗證金額是否算對，上傳前仍須由會計人員自行覆核金額。",
+    "material_ref": "pz-06-02",
+    "tags": ["網路申報"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "gen-pz-06-02-06",
+    "subject": "practice-zone",
+    "source": { "type": "generated" },
+    "type": "single-choice",
+    "stem": "完成網路申報上傳作業後，下一步應該做什麼？",
+    "options": ["立即刪除本機建檔資料", "列印或下載報繳紀錄", "重新輸入一次資料以防萬一", "等候國稅局主動寄送確認信"],
+    "answer": [1],
+    "explanation": "上傳作業完成後，應列印或下載報繳紀錄，作為完成申報的證明，日後如遇申報爭議可作為佐證。",
+    "material_ref": "pz-06-02",
+    "tags": ["網路申報"],
+    "verified_at": "2026-07-07"
+  }
+]

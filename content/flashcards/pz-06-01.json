@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fc-pz-06-01-01",
+    "subject": "practice-zone",
+    "front": "營業稅原則上以多久為一期？申報期限是次期開始多少天內？",
+    "back": "以每二月為一期，於次期開始15日內申報。",
+    "material_ref": "pz-06-01",
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "fc-pz-06-01-02",
+    "subject": "practice-zone",
+    "front": "哪一類營業人可以申請改為每月一期申報？有何限制？",
+    "back": "銷售貨物或勞務適用零稅率之營業人；申請後同一年度內不得變更。",
+    "material_ref": "pz-06-01",
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "fc-pz-06-01-03",
+    "subject": "practice-zone",
+    "front": "使用統一發票的營業人申報營業稅時應檢附什麼文件？",
+    "back": "統一發票明細表。",
+    "material_ref": "pz-06-01",
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "fc-pz-06-01-04",
+    "subject": "practice-zone",
+    "front": "月結時除了核對「有沒有開發票」，還要核對什麼？",
+    "back": "發票金額是否等於出貨單金額，抓出漏開發票或金額不符的異常。",
+    "material_ref": "pz-06-01",
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "fc-pz-06-01-05",
+    "subject": "practice-zone",
+    "front": "1-2月為一期的營業稅，應於何時前申報？",
+    "back": "3月15日前。",
+    "material_ref": "pz-06-01",
+    "verified_at": "2026-07-07"
+  }
+]
