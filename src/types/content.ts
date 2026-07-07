@@ -71,3 +71,20 @@ export interface TaxParameters {
   sources: string[];
   [key: string]: unknown;
 }
+
+export interface JournalEntryLine {
+  account: string;
+  side: "debit" | "credit";
+  amount: number;
+}
+
+export interface JournalEntryScenario {
+  id: string;
+  scenario: string;
+  lines: JournalEntryLine[];
+  explanation: string;
+  material_ref?: string;
+  tags?: string[];
+  verified_at: string;
+  sources?: string[];
+}

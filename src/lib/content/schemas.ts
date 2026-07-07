@@ -72,3 +72,33 @@ export const taxParametersSchema = z
     sources: z.array(z.string().url()),
   })
   .passthrough();
+
+const journalEntryLineSchema = z.object({
+  account: z.string().min(1),
+  side: z.enum(["debit", "credit"]),
+  amount: z.number().positive(),
+});
+
+export const journalEntryScenarioSchema = z
+  .object({
+    id: z.string().min(1),
+    scenario: z.string().min(1),
+    lines: z.array(journalEntryLineSchema).min(2),
+    explanation: z.string().min(1),
+    material_ref: z.string().optional(),
+    tags: z.array(z.string()).optional(),
+    verified_at: dateStringSchema,
+    sources: z.array(z.string().url()).optional(),
+  })
+  .refine(
+    (scenario) => {
+      const debitTotal = scenario.lines
+        .filter((line) => line.side === "debit")
+        .reduce((sum, line) => sum + line.amount, 0);
+      const creditTotal = scenario.lines
+        .filter((line) => line.side === "credit")
+        .reduce((sum, line) => sum + line.amount, 0);
+      return debitTotal === creditTotal;
+    },
+    { message: "借貸金額合計不相等" },
+  );
