@@ -42,6 +42,22 @@ export class AppDatabase extends Dexie {
       userCards: "++id, materialId, createdAt",
       simProgress: "id, scenarioId",
     });
+
+    // v2：attempts 補上 subject/materialRef/chosenAnswer 欄位，供 Phase 2 練習模式與後續錯題本使用
+    this.version(2)
+      .stores({
+        attempts: "++id, questionId, chosenAt, subject, materialRef",
+      })
+      .upgrade((tx) =>
+        tx
+          .table("attempts")
+          .toCollection()
+          .modify((attempt) => {
+            if (attempt.subject === undefined) attempt.subject = "accounting";
+            if (attempt.materialRef === undefined) attempt.materialRef = undefined;
+            if (attempt.chosenAnswer === undefined) attempt.chosenAnswer = [];
+          }),
+      );
   }
 }
 

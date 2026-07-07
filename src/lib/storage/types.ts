@@ -1,5 +1,7 @@
 // 使用者資料型別，對應 DEVELOPMENT_PLAN.md §4.2 IndexedDB 使用者資料表
 
+import type { Subject } from "@/types/content";
+
 export interface MaterialProgress {
   materialId: string;
   status: "unread" | "in-progress" | "done";
@@ -15,6 +17,9 @@ export interface Note {
 export interface Attempt {
   id?: number;
   questionId: string;
+  subject: Subject;
+  materialRef?: string;
+  chosenAnswer: number[];
   correct: boolean;
   chosenAt: string;
 }

@@ -46,6 +46,7 @@ export interface Question {
   material_ref?: string;
   tags?: string[];
   verified_at: string;
+  sources?: string[];
 }
 
 export interface Flashcard {

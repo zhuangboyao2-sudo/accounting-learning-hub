@@ -46,6 +46,7 @@ export const questionSchema = z.object({
   material_ref: z.string().optional(),
   tags: z.array(z.string()).optional(),
   verified_at: dateStringSchema,
+  sources: z.array(z.string().url()).optional(),
 });
 
 export const flashcardSchema = z.object({

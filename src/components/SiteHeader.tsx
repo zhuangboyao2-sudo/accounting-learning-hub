@@ -14,6 +14,9 @@ export function SiteHeader() {
           <Link href="/materials" className="hover:underline">
             教材
           </Link>
+          <Link href="/quiz/practice" className="hover:underline">
+            練習
+          </Link>
           <Link href="/reference" className="hover:underline">
             速查工具
           </Link>
