@@ -1,0 +1,137 @@
+[
+  {
+    "id": "je-b3-01",
+    "scenario": "期末以直線法提列本月生產設備折舊費用 5,000 元。",
+    "lines": [
+      { "account": "折舊費用", "side": "debit", "amount": 5000 },
+      { "account": "累計折舊", "side": "credit", "amount": 5000 }
+    ],
+    "explanation": "折舊為當期費用，借記折舊費用；固定資產不直接減記，改貸記備抵科目累計折舊。",
+    "material_ref": "acc-05-02",
+    "tags": ["折舊", "調整分錄"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "je-b3-02",
+    "scenario": "年初已預付全年廠房租金 120,000 元列為預付費用，本月應認列當月租金費用 10,000 元。",
+    "lines": [
+      { "account": "租金費用", "side": "debit", "amount": 10000 },
+      { "account": "預付費用", "side": "credit", "amount": 10000 }
+    ],
+    "explanation": "預付費用隨時間受益而逐月轉列費用，借記租金費用、貸記預付費用，使資產減少、費用增加。",
+    "material_ref": "acc-03-02",
+    "tags": ["預付費用", "調整分錄"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "je-b3-03",
+    "scenario": "本月出售商品，依存貨紀錄結轉對應之銷貨成本 45,000 元。",
+    "lines": [
+      { "account": "銷貨成本", "side": "debit", "amount": 45000 },
+      { "account": "存貨", "side": "credit", "amount": 45000 }
+    ],
+    "explanation": "商品售出時，原列存貨之成本應結轉為銷貨成本，借記銷貨成本、貸記存貨，使存貨減少、費用性質之銷貨成本增加。",
+    "material_ref": "acc-04-02",
+    "tags": ["存貨", "銷貨成本"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "je-b3-04",
+    "scenario": "客戶退回先前賒銷商品，原未稅售價 8,000 元、營業稅（稅率 5%）400 元，合計沖銷應收帳款 8,400 元。",
+    "lines": [
+      { "account": "銷貨退回及折讓", "side": "debit", "amount": 8000 },
+      { "account": "銷項稅額", "side": "debit", "amount": 400 },
+      { "account": "應收帳款", "side": "credit", "amount": 8400 }
+    ],
+    "explanation": "銷貨退回為收入減項，借記銷貨退回及折讓；原已認列之銷項稅額也須沖回，借記銷項稅額；應收帳款隨之沖減含稅總額。",
+    "material_ref": "acc-02-01",
+    "tags": ["營業稅", "銷貨退回"],
+    "verified_at": "2026-07-07",
+    "sources": [
+      "https://www.etax.nat.gov.tw/etwmain/tax-info/understanding/tax-q-and-a/national/profit-seeking-enterprise-income-tax/file-payment/62nOrYR",
+      "https://law-out.mof.gov.tw/LawContent.aspx?id=FL006082"
+    ]
+  },
+  {
+    "id": "je-b3-05",
+    "scenario": "發放年終獎金，薪資費用總額 500,000 元，依規定代扣薪資所得稅 5%（25,000 元）及二代健保補充保費 2.11%（10,550 元），餘額以銀行存款支付。",
+    "lines": [
+      { "account": "薪資費用", "side": "debit", "amount": 500000 },
+      { "account": "代扣稅款", "side": "credit", "amount": 35550 },
+      { "account": "銀行存款", "side": "credit", "amount": 464450 }
+    ],
+    "explanation": "薪資費用以總額認列；代扣之薪資所得稅與二代健保補充保費合計貸記代扣稅款，待日後分別申報繳納，實際撥付員工的是扣除兩項後的淨額。",
+    "material_ref": "acc-02-02",
+    "tags": ["扣繳", "二代健保", "薪資"],
+    "verified_at": "2026-07-07",
+    "sources": [
+      "https://www.etax.nat.gov.tw/etwmain/tax-info/understanding/tax-q-and-a/national/individual-income-tax/withheld-rule/rule/BZYB5p2",
+      "https://www.nhi.gov.tw/ch/cp-4516-74b0f-2613-1.html"
+    ]
+  },
+  {
+    "id": "je-b3-06",
+    "scenario": "短期銀行借款 300,000 元到期，以銀行存款清償本金。",
+    "lines": [
+      { "account": "短期借款", "side": "debit", "amount": 300000 },
+      { "account": "銀行存款", "side": "credit", "amount": 300000 }
+    ],
+    "explanation": "清償借款本金使負債減少，借記短期借款；以銀行存款支付則貸記銀行存款。",
+    "material_ref": "acc-08-01",
+    "tags": ["負債", "還款"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "je-b3-07",
+    "scenario": "公司以銀行存款發放現金股利 200,000 元予股東。",
+    "lines": [
+      { "account": "保留盈餘", "side": "debit", "amount": 200000 },
+      { "account": "銀行存款", "side": "credit", "amount": 200000 }
+    ],
+    "explanation": "發放股利使歷年累積之保留盈餘減少（借記），並以銀行存款支付（貸記）。",
+    "material_ref": "acc-09-04",
+    "tags": ["股利", "保留盈餘"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "je-b3-08",
+    "scenario": "以銀行存款實際繳納前一年度估列之營利事業所得稅 60,000 元。",
+    "lines": [
+      { "account": "應付所得稅", "side": "debit", "amount": 60000 },
+      { "account": "銀行存款", "side": "credit", "amount": 60000 }
+    ],
+    "explanation": "實際繳納時，借記應付所得稅使該負債結清，貸記銀行存款。",
+    "material_ref": "acc-08-01",
+    "tags": ["營所稅", "繳稅"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "je-b3-09",
+    "scenario": "向供應商賒購原物料存貨，取得三聯式發票，未稅金額 25,000 元、營業稅（稅率 5%）1,250 元，貨款尚未支付。",
+    "lines": [
+      { "account": "存貨", "side": "debit", "amount": 25000 },
+      { "account": "進項稅額", "side": "debit", "amount": 1250 },
+      { "account": "應付帳款", "side": "credit", "amount": 26250 }
+    ],
+    "explanation": "進貨未稅金額列入存貨成本，進項稅額可扣抵，借記進項稅額；應付帳款為含稅總價。",
+    "material_ref": "acc-04-01",
+    "tags": ["營業稅", "進項稅額", "存貨"],
+    "verified_at": "2026-07-07",
+    "sources": [
+      "https://www.etax.nat.gov.tw/etwmain/tax-info/understanding/tax-q-and-a/national/profit-seeking-enterprise-income-tax/file-payment/62nOrYR",
+      "https://law-out.mof.gov.tw/LawContent.aspx?id=FL006082"
+    ]
+  },
+  {
+    "id": "je-b3-10",
+    "scenario": "期末盤點發現存貨較帳面短少，須認列存貨盤虧 3,000 元並轉列銷貨成本。",
+    "lines": [
+      { "account": "銷貨成本", "side": "debit", "amount": 3000 },
+      { "account": "存貨", "side": "credit", "amount": 3000 }
+    ],
+    "explanation": "盤點短少之存貨視為已耗用，借記銷貨成本、貸記存貨，使存貨帳面與實際盤點數一致。",
+    "material_ref": "acc-04-04",
+    "tags": ["存貨", "期末調整"],
+    "verified_at": "2026-07-07"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "je-b1-01",
+    "scenario": "股東以現金增資 500,000 元，存入公司銀行帳戶。",
+    "lines": [
+      { "account": "銀行存款", "side": "debit", "amount": 500000 },
+      { "account": "股本", "side": "credit", "amount": 500000 }
+    ],
+    "explanation": "股東投入資金屬於權益增加，貸記股本；資金存入銀行帳戶則借記銀行存款。",
+    "material_ref": "acc-09-03",
+    "tags": ["權益", "增資"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "je-b1-02",
+    "scenario": "向供應商賒購商品一批，作為存貨，貨款 80,000 元尚未支付。",
+    "lines": [
+      { "account": "存貨", "side": "debit", "amount": 80000 },
+      { "account": "應付帳款", "side": "credit", "amount": 80000 }
+    ],
+    "explanation": "賒購商品先增加存貨（資產），因尚未付款而增加應付帳款（負債）。",
+    "material_ref": "acc-02-01",
+    "tags": ["進貨", "應付帳款"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "je-b1-03",
+    "scenario": "將商品賒銷予客戶，貨款 120,000 元約定月結，客戶尚未付款。",
+    "lines": [
+      { "account": "應收帳款", "side": "debit", "amount": 120000 },
+      { "account": "銷貨收入", "side": "credit", "amount": 120000 }
+    ],
+    "explanation": "賒銷商品時收入已實現，貸記銷貨收入；因尚未收現，借記應收帳款。",
+    "material_ref": "acc-02-01",
+    "tags": ["銷貨", "應收帳款"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "je-b1-04",
+    "scenario": "以現金支付前期賒購商品之應付帳款 80,000 元。",
+    "lines": [
+      { "account": "應付帳款", "side": "debit", "amount": 80000 },
+      { "account": "現金", "side": "credit", "amount": 80000 }
+    ],
+    "explanation": "清償應付帳款使負債減少（借記），並以現金支付使資產減少（貸記）。",
+    "material_ref": "acc-08-01",
+    "tags": ["應付帳款", "現金支付"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "je-b1-05",
+    "scenario": "收到客戶清償前期應收帳款 50,000 元，存入銀行帳戶。",
+    "lines": [
+      { "account": "銀行存款", "side": "debit", "amount": 50000 },
+      { "account": "應收帳款", "side": "credit", "amount": 50000 }
+    ],
+    "explanation": "收現使銀行存款增加（借記），應收帳款隨之減少（貸記）。",
+    "material_ref": "acc-07-01",
+    "tags": ["應收帳款", "收現"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "je-b1-06",
+    "scenario": "以現金支付本月辦公室租金 30,000 元。",
+    "lines": [
+      { "account": "租金費用", "side": "debit", "amount": 30000 },
+      { "account": "現金", "side": "credit", "amount": 30000 }
+    ],
+    "explanation": "租金為當期費用，發生時借記租金費用；以現金支付則貸記現金。",
+    "material_ref": "acc-02-02",
+    "tags": ["費用", "現金支付"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "je-b1-07",
+    "scenario": "以現金購入生產用機器設備一台，價款 200,000 元。",
+    "lines": [
+      { "account": "機器設備", "side": "debit", "amount": 200000 },
+      { "account": "現金", "side": "credit", "amount": 200000 }
+    ],
+    "explanation": "購入供營業使用之固定資產應列為資產（借記機器設備），以現金支付則貸記現金。",
+    "material_ref": "acc-05-01",
+    "tags": ["固定資產", "現金支付"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "je-b1-08",
+    "scenario": "以現金發放本月員工薪資 150,000 元（不涉及代扣事項）。",
+    "lines": [
+      { "account": "薪資費用", "side": "debit", "amount": 150000 },
+      { "account": "現金", "side": "credit", "amount": 150000 }
+    ],
+    "explanation": "薪資為當期人事費用，發生時借記薪資費用；以現金支付則貸記現金。",
+    "material_ref": "acc-02-02",
+    "tags": ["薪資", "現金支付"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "je-b1-09",
+    "scenario": "向銀行取得短期借款 300,000 元，款項存入公司銀行帳戶。",
+    "lines": [
+      { "account": "銀行存款", "side": "debit", "amount": 300000 },
+      { "account": "短期借款", "side": "credit", "amount": 300000 }
+    ],
+    "explanation": "取得銀行借款使銀行存款增加（借記），並增加短期借款負債（貸記）。",
+    "material_ref": "acc-08-01",
+    "tags": ["負債", "短期借款"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "je-b1-10",
+    "scenario": "現銷商品予客戶，貨款 60,000 元當場收現，存入銀行帳戶。",
+    "lines": [
+      { "account": "銀行存款", "side": "debit", "amount": 60000 },
+      { "account": "銷貨收入", "side": "credit", "amount": 60000 }
+    ],
+    "explanation": "現銷商品收入實現且立即收現，借記銀行存款，貸記銷貨收入。",
+    "material_ref": "acc-02-01",
+    "tags": ["銷貨", "現金收入"],
+    "verified_at": "2026-07-07"
+  }
+]

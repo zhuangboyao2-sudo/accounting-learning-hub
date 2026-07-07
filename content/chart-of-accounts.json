@@ -21,5 +21,6 @@
   { "category": "費用", "name": "銷貨成本", "normalBalance": "debit", "description": "已銷售商品所對應的成本" },
   { "category": "費用", "name": "薪資費用", "normalBalance": "debit", "description": "員工薪資、獎金等人事費用" },
   { "category": "費用", "name": "租金費用", "normalBalance": "debit", "description": "租用辦公室、廠房等支付的租金" },
-  { "category": "費用", "name": "折舊費用", "normalBalance": "debit", "description": "本期固定資產耗用而認列的折舊金額" }
+  { "category": "費用", "name": "折舊費用", "normalBalance": "debit", "description": "本期固定資產耗用而認列的折舊金額" },
+  { "category": "費用", "name": "所得稅費用", "normalBalance": "debit", "description": "本期依營利事業所得稅相關規定估列的所得稅費用" }
 ]

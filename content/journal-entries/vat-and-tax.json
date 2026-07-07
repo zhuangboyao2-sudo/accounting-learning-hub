@@ -1,0 +1,151 @@
+[
+  {
+    "id": "je-b2-01",
+    "scenario": "開立三聯式發票賒銷商品，未稅售價 100,000 元，另加計營業稅（稅率 5%）5,000 元，客戶尚未付款。",
+    "lines": [
+      { "account": "應收帳款", "side": "debit", "amount": 105000 },
+      { "account": "銷貨收入", "side": "credit", "amount": 100000 },
+      { "account": "銷項稅額", "side": "credit", "amount": 5000 }
+    ],
+    "explanation": "銷貨收入以未稅金額入帳；發票上代收之營業稅（稅率 5%）貸記銷項稅額，屬代政府收取之負債；應收帳款為含稅總價。",
+    "material_ref": "acc-02-01",
+    "tags": ["營業稅", "銷項稅額", "賒銷"],
+    "verified_at": "2026-07-07",
+    "sources": [
+      "https://www.etax.nat.gov.tw/etwmain/tax-info/understanding/tax-q-and-a/national/profit-seeking-enterprise-income-tax/file-payment/62nOrYR",
+      "https://law-out.mof.gov.tw/LawContent.aspx?id=FL006082"
+    ]
+  },
+  {
+    "id": "je-b2-02",
+    "scenario": "向供應商賒購原物料作為存貨，取得三聯式發票，未稅金額 40,000 元，營業稅（稅率 5%）2,000 元，貨款尚未支付。",
+    "lines": [
+      { "account": "存貨", "side": "debit", "amount": 40000 },
+      { "account": "進項稅額", "side": "debit", "amount": 2000 },
+      { "account": "應付帳款", "side": "credit", "amount": 42000 }
+    ],
+    "explanation": "進貨未稅金額列入存貨成本；取得之進項稅額可扣抵銷項稅額，借記進項稅額；應付帳款為含稅總價。",
+    "material_ref": "acc-04-01",
+    "tags": ["營業稅", "進項稅額", "賒購"],
+    "verified_at": "2026-07-07",
+    "sources": [
+      "https://www.etax.nat.gov.tw/etwmain/tax-info/understanding/tax-q-and-a/national/profit-seeking-enterprise-income-tax/file-payment/62nOrYR",
+      "https://law-out.mof.gov.tw/LawContent.aspx?id=FL006082"
+    ]
+  },
+  {
+    "id": "je-b2-03",
+    "scenario": "以銀行存款支付購買生產設備款項，未稅金額 300,000 元，另支付營業稅（稅率 5%）15,000 元。",
+    "lines": [
+      { "account": "機器設備", "side": "debit", "amount": 300000 },
+      { "account": "進項稅額", "side": "debit", "amount": 15000 },
+      { "account": "銀行存款", "side": "credit", "amount": 315000 }
+    ],
+    "explanation": "購置固定資產取得三聯式發票，其進項稅額同樣可扣抵，借記進項稅額；付款以銀行存款支付含稅總額。",
+    "material_ref": "acc-05-01",
+    "tags": ["營業稅", "進項稅額", "固定資產"],
+    "verified_at": "2026-07-07",
+    "sources": [
+      "https://www.etax.nat.gov.tw/etwmain/tax-info/understanding/tax-q-and-a/national/profit-seeking-enterprise-income-tax/file-payment/62nOrYR",
+      "https://law-out.mof.gov.tw/LawContent.aspx?id=FL006082"
+    ]
+  },
+  {
+    "id": "je-b2-04",
+    "scenario": "現銷商品予客戶並開立發票，未稅售價 50,000 元，營業稅（稅率 5%）2,500 元，貨款當場存入銀行帳戶。",
+    "lines": [
+      { "account": "銀行存款", "side": "debit", "amount": 52500 },
+      { "account": "銷貨收入", "side": "credit", "amount": 50000 },
+      { "account": "銷項稅額", "side": "credit", "amount": 2500 }
+    ],
+    "explanation": "現銷含稅款項全數收現，銀行存款借記含稅總額，銷貨收入與銷項稅額分別以未稅售價及稅額貸記。",
+    "material_ref": "acc-02-01",
+    "tags": ["營業稅", "銷項稅額", "現銷"],
+    "verified_at": "2026-07-07",
+    "sources": [
+      "https://www.etax.nat.gov.tw/etwmain/tax-info/understanding/tax-q-and-a/national/profit-seeking-enterprise-income-tax/file-payment/62nOrYR",
+      "https://law-out.mof.gov.tw/LawContent.aspx?id=FL006082"
+    ]
+  },
+  {
+    "id": "je-b2-05",
+    "scenario": "雙月營業稅結算：本期銷項稅額累計 20,000 元、進項稅額累計 12,000 元，結轉本期應納營業稅。",
+    "lines": [
+      { "account": "銷項稅額", "side": "debit", "amount": 20000 },
+      { "account": "進項稅額", "side": "credit", "amount": 12000 },
+      { "account": "應付營業稅", "side": "credit", "amount": 8000 }
+    ],
+    "explanation": "期末結算時將銷項稅額與進項稅額互相沖銷，差額（銷項大於進項）轉列應付營業稅，即 401 申報書之應納稅額。",
+    "material_ref": "acc-03-04",
+    "tags": ["營業稅", "期末結算"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "je-b2-06",
+    "scenario": "以銀行存款繳納上期結算之應付營業稅 8,000 元。",
+    "lines": [
+      { "account": "應付營業稅", "side": "debit", "amount": 8000 },
+      { "account": "銀行存款", "side": "credit", "amount": 8000 }
+    ],
+    "explanation": "實際繳納營業稅時，借記應付營業稅使負債減少，貸記銀行存款。",
+    "material_ref": "acc-08-01",
+    "tags": ["營業稅", "繳稅"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "je-b2-07",
+    "scenario": "支付廠房租金 100,000 元予出租人，依規定就租賃所得扣繳 10% 稅款 10,000 元，餘額 90,000 元以銀行存款支付。",
+    "lines": [
+      { "account": "租金費用", "side": "debit", "amount": 100000 },
+      { "account": "代扣稅款", "side": "credit", "amount": 10000 },
+      { "account": "銀行存款", "side": "credit", "amount": 90000 }
+    ],
+    "explanation": "租金費用依總額認列；代扣之 10% 稅款屬代政府暫收，貸記代扣稅款，待日後申報繳納；餘額才實際支付予出租人。",
+    "material_ref": "acc-02-02",
+    "tags": ["扣繳", "租金"],
+    "verified_at": "2026-07-07",
+    "sources": [
+      "https://www.etax.nat.gov.tw/etwmain/tax-info/understanding/tax-q-and-a/national/individual-income-tax/withheld-rule/rule/BZYB5p2"
+    ]
+  },
+  {
+    "id": "je-b2-08",
+    "scenario": "發放員工薪資，薪資費用總額 200,000 元，依規定代扣薪資所得稅 5% 共 10,000 元，餘額 190,000 元以銀行轉帳支付。",
+    "lines": [
+      { "account": "薪資費用", "side": "debit", "amount": 200000 },
+      { "account": "代扣稅款", "side": "credit", "amount": 10000 },
+      { "account": "銀行存款", "side": "credit", "amount": 190000 }
+    ],
+    "explanation": "薪資費用以總額認列；代扣之 5% 所得稅款貸記代扣稅款，待次年 1 月申報繳納，實際撥付員工的是稅後淨額。",
+    "material_ref": "acc-02-02",
+    "tags": ["扣繳", "薪資"],
+    "verified_at": "2026-07-07",
+    "sources": [
+      "https://www.etax.nat.gov.tw/etwmain/tax-info/understanding/tax-q-and-a/national/individual-income-tax/withheld-rule/rule/BZYB5p2"
+    ]
+  },
+  {
+    "id": "je-b2-09",
+    "scenario": "以銀行存款代員工向國稅局繳納前述代扣稅款合計 20,000 元。",
+    "lines": [
+      { "account": "代扣稅款", "side": "debit", "amount": 20000 },
+      { "account": "銀行存款", "side": "credit", "amount": 20000 }
+    ],
+    "explanation": "實際代繳時，借記代扣稅款使該負債結清，貸記銀行存款。",
+    "material_ref": "acc-08-01",
+    "tags": ["扣繳", "繳稅"],
+    "verified_at": "2026-07-07"
+  },
+  {
+    "id": "je-b2-10",
+    "scenario": "年度結算時，估列本期應負擔之營利事業所得稅費用 60,000 元，尚未實際繳納。",
+    "lines": [
+      { "account": "所得稅費用", "side": "debit", "amount": 60000 },
+      { "account": "應付所得稅", "side": "credit", "amount": 60000 }
+    ],
+    "explanation": "依權責發生制，年度結算時應先認列所得稅費用並貸記應付所得稅，待次年 5 月結算申報時再實際繳納。",
+    "material_ref": "acc-03-02",
+    "tags": ["營所稅", "調整分錄"],
+    "verified_at": "2026-07-07"
+  }
+]
