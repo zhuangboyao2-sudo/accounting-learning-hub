@@ -1,7 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import type { Question, Subject } from "@/types/content";
+import type { Question } from "@/types/content";
 
 // 練習題順序在元件掛載時隨機洗牌（Math.random），若走一般 SSR 會導致伺服器端與
 // client hydration 兩次洗牌結果不同而出現 hydration mismatch，因此強制只在瀏覽器端渲染。
@@ -13,6 +13,6 @@ const PracticeSession = dynamic(
   },
 );
 
-export function PracticeSessionClientOnly(props: { subject: Subject; questions: Question[] }) {
+export function PracticeSessionClientOnly(props: { questions: Question[] }) {
   return <PracticeSession {...props} />;
 }

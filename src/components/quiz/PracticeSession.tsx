@@ -5,7 +5,8 @@ import Link from "next/link";
 import { storage } from "@/lib/storage";
 import { shuffle } from "@/lib/quiz/shuffle";
 import { isCorrect } from "@/lib/quiz/scoring";
-import type { Question, Subject } from "@/types/content";
+import { SUBJECTS } from "@/types/content";
+import type { Question } from "@/types/content";
 
 const KEY_TO_INDEX: Record<string, number> = {
   "1": 0,
@@ -18,13 +19,7 @@ const KEY_TO_INDEX: Record<string, number> = {
   d: 3,
 };
 
-export function PracticeSession({
-  subject,
-  questions,
-}: {
-  subject: Subject;
-  questions: Question[];
-}) {
+export function PracticeSession({ questions }: { questions: Question[] }) {
   const order = useMemo(() => shuffle(questions), [questions]);
   const [index, setIndex] = useState(0);
   const [chosen, setChosen] = useState<number[]>([]);
@@ -45,7 +40,7 @@ export function PracticeSession({
         setScore((s) => ({ correct: s.correct + (correct ? 1 : 0), total: s.total + 1 }));
         void storage.addAttempt({
           questionId: question.id,
-          subject,
+          subject: question.subject,
           materialRef: question.material_ref,
           chosenAnswer: answer,
           correct,
@@ -53,7 +48,7 @@ export function PracticeSession({
         });
       }
     },
-    [question, submitted, subject],
+    [question, submitted],
   );
 
   useEffect(() => {
@@ -110,6 +105,9 @@ export function PracticeSession({
         第 {index + 1} / {order.length} 題
       </p>
       <div className="rounded-lg border border-zinc-200 p-6 dark:border-zinc-800">
+        <p className="mb-2 text-xs font-medium text-zinc-500 dark:text-zinc-400">
+          {SUBJECTS.find((s) => s.id === question.subject)?.label}
+        </p>
         <p className="whitespace-pre-wrap">{question.stem}</p>
 
         {question.type === "essay" ? (
@@ -176,7 +174,10 @@ export function PracticeSession({
             <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">{question.explanation}</p>
             <div className="mt-4 flex flex-wrap items-center gap-3 text-sm">
               {question.material_ref ? (
-                <Link href={`/materials/${subject}/${question.material_ref}`} className="hover:underline">
+                <Link
+                  href={`/materials/${question.subject}/${question.material_ref}`}
+                  className="hover:underline"
+                >
                   回教材
                 </Link>
               ) : null}

@@ -29,7 +29,7 @@ export default async function PracticeSubjectPage({
       {questions.length === 0 ? (
         <p className="text-zinc-500 dark:text-zinc-400">此科目尚無題目。</p>
       ) : (
-        <PracticeSessionClientOnly subject={subjectInfo.id} questions={questions} />
+        <PracticeSessionClientOnly questions={questions} />
       )}
     </main>
   );

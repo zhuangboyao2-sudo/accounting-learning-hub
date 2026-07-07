@@ -17,6 +17,9 @@ export function SiteHeader() {
           <Link href="/quiz/practice" className="hover:underline">
             練習
           </Link>
+          <Link href="/quiz/wrong-answers" className="hover:underline">
+            錯題本
+          </Link>
           <Link href="/reference" className="hover:underline">
             速查工具
           </Link>
