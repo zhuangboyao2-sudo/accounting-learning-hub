@@ -1,0 +1,66 @@
+name: Maintenance Reminders
+
+on:
+  schedule:
+    # 每月 1 日 01:00 UTC（台北時間 09:00）執行連結檢查；同日視月份額外開對應維運提醒 Issue
+    - cron: "0 1 1 * *"
+  workflow_dispatch:
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: 執行內容驗證（含待複驗清單）
+        id: validate
+        run: npm run validate-content 2>&1 | tee validate-output.txt
+        continue-on-error: true
+      - name: 執行來源連結檢查
+        id: linkcheck
+        run: npm run check-source-links 2>&1 | tee linkcheck-output.txt
+        continue-on-error: true
+      - name: 開立每月維運 Issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const validateOutput = fs.readFileSync('validate-output.txt', 'utf-8');
+            const linkcheckOutput = fs.readFileSync('linkcheck-output.txt', 'utf-8');
+            const month = new Date().getMonth() + 1;
+
+            const repoUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}/blob/main`;
+            let extra = '';
+            if ([1, 5, 12].includes(month)) {
+              const file = month === 1 ? 'annual-01-tax-parameters.md'
+                : month === 5 ? 'annual-04-06-exam-syllabus.md'
+                : 'annual-12-past-exams-review.md';
+              extra += `\n\n---\n\n## 本月為年度維運時間點\n\n請依 [docs/maintenance/${file}](${repoUrl}/docs/maintenance/${file}) 執行年度任務。`;
+            }
+            if ([4, 7, 10].includes(month)) {
+              extra += `\n\n---\n\n## 本月為季度優化提醒\n\n請依 [docs/maintenance/quarterly-optimization.md](${repoUrl}/docs/maintenance/quarterly-optimization.md) 執行 §8.3 數據驅動優化循環。`;
+            }
+
+            const body = [
+              '## 內容驗證與待複驗清單',
+              '```',
+              validateOutput.slice(0, 5000),
+              '```',
+              '',
+              '## 來源連結檢查',
+              '```',
+              linkcheckOutput.slice(0, 5000),
+              '```',
+              extra,
+            ].join('\n');
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `[維運提醒] ${new Date().getFullYear()}年${month}月 內容檢查`,
+              body,
+            });

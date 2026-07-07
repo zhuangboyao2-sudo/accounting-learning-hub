@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "validate-content": "tsx scripts/validate-content.ts",
+    "check-source-links": "tsx scripts/check-source-links.ts",
     "test": "vitest run"
   },
   "dependencies": {
