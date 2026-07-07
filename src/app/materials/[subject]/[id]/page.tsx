@@ -17,6 +17,10 @@ import {
 } from "@/components/materials/FontSizeProvider";
 import { NoteEditor } from "@/components/materials/NoteEditor";
 import { MarkCompleteButton } from "@/components/materials/MarkCompleteButton";
+import { SectionQuiz } from "@/components/materials/SectionQuiz";
+import { getQuestionsByMaterialRef } from "@/lib/quiz/questions";
+
+const SECTION_QUIZ_MIN_QUESTIONS = 3;
 
 export function generateStaticParams() {
   return getAllMaterials().flatMap(({ subject, items }) =>
@@ -43,6 +47,8 @@ export default async function MaterialSectionPage({
   });
 
   const { prev, next } = getAdjacentMaterials(subjectInfo.id, id);
+  const sectionQuestions = getQuestionsByMaterialRef(id);
+  const hasEnoughQuestionsForQuiz = sectionQuestions.length >= SECTION_QUIZ_MIN_QUESTIONS;
 
   return (
     <main className="mx-auto w-full max-w-3xl flex-1 px-6 py-10">
@@ -56,12 +62,18 @@ export default async function MaterialSectionPage({
           <h1 className="text-2xl font-semibold">{material.frontmatter.title}</h1>
           <div className="flex items-center gap-3">
             <FontSizeControl />
-            <MarkCompleteButton materialId={id} />
+            {!hasEnoughQuestionsForQuiz ? <MarkCompleteButton materialId={id} /> : null}
           </div>
         </div>
 
         <ArticleBody>{content}</ArticleBody>
       </FontSizeProvider>
+
+      {hasEnoughQuestionsForQuiz ? (
+        <div className="mt-8 border-t border-zinc-200 pt-6 dark:border-zinc-800">
+          <SectionQuiz materialId={id} questions={sectionQuestions} />
+        </div>
+      ) : null}
 
       <NoteEditor materialId={id} />
 

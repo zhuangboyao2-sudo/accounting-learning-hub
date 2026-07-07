@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { storage } from "@/lib/storage";
 import { shuffle } from "@/lib/quiz/shuffle";
@@ -19,13 +19,27 @@ const KEY_TO_INDEX: Record<string, number> = {
   d: 3,
 };
 
-export function PracticeSession({ questions }: { questions: Question[] }) {
-  const order = useMemo(() => shuffle(questions), [questions]);
+export function PracticeSession({
+  questions,
+  limit,
+  showMaterialLink = true,
+  onComplete,
+}: {
+  questions: Question[];
+  limit?: number;
+  showMaterialLink?: boolean;
+  onComplete?: (result: { correct: number; total: number }) => void;
+}) {
+  const order = useMemo(() => {
+    const shuffled = shuffle(questions);
+    return limit ? shuffled.slice(0, limit) : shuffled;
+  }, [questions, limit]);
   const [index, setIndex] = useState(0);
   const [chosen, setChosen] = useState<number[]>([]);
   const [submitted, setSubmitted] = useState(false);
   const [feedbackSent, setFeedbackSent] = useState(false);
   const [score, setScore] = useState({ correct: 0, total: 0 });
+  const completeFired = useRef(false);
 
   const question = order[index];
   const isLast = index === order.length - 1;
@@ -52,7 +66,7 @@ export function PracticeSession({ questions }: { questions: Question[] }) {
   );
 
   useEffect(() => {
-    if (question.type !== "single-choice" || submitted) return;
+    if (!question || question.type !== "single-choice" || submitted) return;
     function handleKeyDown(e: KeyboardEvent) {
       const optionIndex = KEY_TO_INDEX[e.key.toLowerCase()];
       if (optionIndex === undefined || !question.options || optionIndex >= question.options.length) return;
@@ -85,6 +99,14 @@ export function PracticeSession({ questions }: { questions: Question[] }) {
       createdAt: new Date().toISOString(),
     });
   }
+
+  useEffect(() => {
+    if (index >= order.length && !completeFired.current) {
+      completeFired.current = true;
+      onComplete?.(score);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [index, order.length]);
 
   if (index >= order.length) {
     return (
@@ -173,7 +195,7 @@ export function PracticeSession({ questions }: { questions: Question[] }) {
             ) : null}
             <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">{question.explanation}</p>
             <div className="mt-4 flex flex-wrap items-center gap-3 text-sm">
-              {question.material_ref ? (
+              {showMaterialLink && question.material_ref ? (
                 <Link
                   href={`/materials/${question.subject}/${question.material_ref}`}
                   className="hover:underline"

@@ -13,6 +13,11 @@ const PracticeSession = dynamic(
   },
 );
 
-export function PracticeSessionClientOnly(props: { questions: Question[] }) {
+export function PracticeSessionClientOnly(props: {
+  questions: Question[];
+  limit?: number;
+  showMaterialLink?: boolean;
+  onComplete?: (result: { correct: number; total: number }) => void;
+}) {
   return <PracticeSession {...props} />;
 }
