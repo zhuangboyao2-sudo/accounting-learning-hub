@@ -1,14 +1,14 @@
 import { describe, expect, it } from "vitest";
-import { getLatestWrongQuestionIds, isCorrect } from "./scoring";
+import { getLatestWrongQuestionIds, isCorrect, scoreExam } from "./scoring";
 import type { Question } from "@/types/content";
 import type { Attempt } from "@/lib/storage/types";
 
-function makeQuestion(answer: number[]): Question {
+function makeQuestion(answer: number[], id = "q1", type?: Question["type"]): Question {
   return {
-    id: "q1",
+    id,
     subject: "accounting",
     source: { type: "generated" },
-    type: answer.length > 1 ? "multi-choice" : "single-choice",
+    type: type ?? (answer.length > 1 ? "multi-choice" : "single-choice"),
     stem: "stem",
     options: ["a", "b", "c", "d"],
     answer,
@@ -87,5 +87,31 @@ describe("getLatestWrongQuestionIds", () => {
 
   it("沒有任何作答紀錄：回傳空集合", () => {
     expect(getLatestWrongQuestionIds([])).toEqual(new Set());
+  });
+});
+
+describe("scoreExam", () => {
+  it("全對", () => {
+    const questions = [makeQuestion([1], "q1"), makeQuestion([0], "q2")];
+    const answers = { q1: [1], q2: [0] };
+    expect(scoreExam(questions, answers)).toEqual({ correct: 2, total: 2 });
+  });
+
+  it("全錯", () => {
+    const questions = [makeQuestion([1], "q1"), makeQuestion([0], "q2")];
+    const answers = { q1: [0], q2: [1] };
+    expect(scoreExam(questions, answers)).toEqual({ correct: 0, total: 2 });
+  });
+
+  it("部分未作答視為錯，仍計入 total", () => {
+    const questions = [makeQuestion([1], "q1"), makeQuestion([0], "q2")];
+    const answers = { q1: [1] };
+    expect(scoreExam(questions, answers)).toEqual({ correct: 1, total: 2 });
+  });
+
+  it("essay 題型不計分、不計入 total", () => {
+    const questions = [makeQuestion([1], "q1"), makeQuestion([0], "q2", "essay")];
+    const answers = { q1: [1], q2: [0] };
+    expect(scoreExam(questions, answers)).toEqual({ correct: 1, total: 1 });
   });
 });
