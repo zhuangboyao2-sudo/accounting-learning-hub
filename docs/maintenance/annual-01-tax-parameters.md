@@ -19,7 +19,7 @@
   - 法規未變 → 僅更新 `verified_at` 為當次查證日期
   - 法規有修正 → 修正內容數字，並於文末加註「修法紀錄」（原規定 → 現行規定 → 生效日）
 - [ ] 5. 待複驗清單清空後，再次執行 `npm run validate-content` 確認通過
-- [ ] 6. 同步更新速查工具區的「當年度申報期限總表」（`content/glossary.json` 或對應頁面資料來源）與 `public/templates/` 內含年度數字的 Excel 範本
+- [ ] 6. 同步更新速查工具區的「當年度申報期限總表」（`content/glossary.json` 或對應頁面資料來源）與 `public/templates/` 內含年度數字的範本（`vat-filing-checklist.csv`、`withholding-calculation.csv`、`inventory-tracker.csv`、`monthly-closing-checklist.csv`；主要是 `withholding-calculation.csv` 的各類所得扣繳率與免扣繳門檻）
 - [ ] 7. 執行 `npm outdated` 檢視相依套件，小版本可直接升級；major 升級僅在安全性需要或阻礙開發時進行，且需另開分支（§8.5）
 - [ ] 8. 全部完成後 commit，並在對應 GitHub Issue 留言記錄本次執行結果，關閉 Issue
 
