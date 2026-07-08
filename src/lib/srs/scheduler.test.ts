@@ -1,8 +1,10 @@
 import { describe, expect, it } from "vitest";
 import { State } from "ts-fsrs";
-import { createNewCardState, gradeCard, Rating } from "./scheduler";
+import { createNewCardState, gradeCard, Rating, shouldPullCardForward } from "./scheduler";
+import type { SrsCardState } from "@/lib/storage/types";
 
 const NOW = new Date("2026-07-08T00:00:00.000Z");
+const NOW_ISO = NOW.toISOString();
 
 describe("createNewCardState", () => {
   it("新卡片 due 即為 now，狀態為 New", () => {
@@ -50,5 +52,42 @@ describe("gradeCard", () => {
     const afterAgain = gradeCard(card, Rating.Again, now);
     expect(afterAgain.lapses).toBe(lapsesBefore + 1);
     expect(afterAgain.state).toBe(State.Relearning);
+  });
+});
+
+function makeSrsState(overrides: Partial<SrsCardState> = {}): SrsCardState {
+  return {
+    cardId: "fc-1",
+    due: NOW_ISO,
+    stability: 1,
+    difficulty: 1,
+    reps: 1,
+    lapses: 0,
+    state: State.Review,
+    scheduledDays: 1,
+    learningSteps: 0,
+    paused: false,
+    ...overrides,
+  };
+}
+
+describe("shouldPullCardForward", () => {
+  it("沒有現有排程紀錄：不需提前（新卡本來就會出現在今日到期佇列）", () => {
+    expect(shouldPullCardForward(undefined, NOW_ISO)).toBe(false);
+  });
+
+  it("已暫停：不提前", () => {
+    const state = makeSrsState({ due: "2026-08-01T00:00:00.000Z", paused: true });
+    expect(shouldPullCardForward(state, NOW_ISO)).toBe(false);
+  });
+
+  it("已到期：不需提前", () => {
+    const state = makeSrsState({ due: "2026-07-01T00:00:00.000Z" });
+    expect(shouldPullCardForward(state, NOW_ISO)).toBe(false);
+  });
+
+  it("尚未到期且未暫停：需要提前", () => {
+    const state = makeSrsState({ due: "2026-08-01T00:00:00.000Z" });
+    expect(shouldPullCardForward(state, NOW_ISO)).toBe(true);
   });
 });

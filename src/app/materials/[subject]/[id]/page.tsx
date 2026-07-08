@@ -19,6 +19,7 @@ import { NoteEditor } from "@/components/materials/NoteEditor";
 import { MarkCompleteButton } from "@/components/materials/MarkCompleteButton";
 import { SectionQuiz } from "@/components/materials/SectionQuiz";
 import { getQuestionsByMaterialRef } from "@/lib/quiz/questions";
+import { getFlashcardsByMaterialRef } from "@/lib/content/flashcards";
 
 const SECTION_QUIZ_MIN_QUESTIONS = 3;
 
@@ -71,7 +72,11 @@ export default async function MaterialSectionPage({
 
       {hasEnoughQuestionsForQuiz ? (
         <div className="mt-8 border-t border-zinc-200 pt-6 dark:border-zinc-800">
-          <SectionQuiz materialId={id} questions={sectionQuestions} />
+          <SectionQuiz
+            materialId={id}
+            questions={sectionQuestions}
+            flashcards={getFlashcardsByMaterialRef(id)}
+          />
         </div>
       ) : null}
 

@@ -47,3 +47,13 @@ export function gradeCard(current: SrsCardState, grade: Grade, now: Date): SrsCa
   const { card: nextCard } = scheduler.next(toFsrsCard(current), now, grade);
   return toSrsCardState(current.cardId, nextCard, current.paused);
 }
+
+/**
+ * 判斷是否要把卡片到期日提前到現在（節末快測答錯時使用）。
+ * 沒有排程紀錄的新卡本來就會出現在今日到期佇列，不需處理；已暫停或已到期的卡片也不動。
+ */
+export function shouldPullCardForward(existing: SrsCardState | undefined, nowIso: string): boolean {
+  if (!existing) return false;
+  if (existing.paused || existing.due <= nowIso) return false;
+  return true;
+}

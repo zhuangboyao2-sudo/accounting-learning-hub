@@ -2,10 +2,23 @@
 
 import { useEffect, useState } from "react";
 import { storage } from "@/lib/storage";
+import { shouldPullCardForward } from "@/lib/srs/scheduler";
 import { PracticeSessionClientOnly } from "@/components/quiz/PracticeSessionClientOnly";
-import type { Question } from "@/types/content";
+import type { Question, Flashcard } from "@/types/content";
 
 const QUIZ_LIMIT = 5;
+
+/** 未全對時，把本節複習卡的到期日提前到現在，讓卡片進入今日複習佇列（教材↔題庫↔複習卡串聯） */
+async function scheduleFlashcardsForReview(flashcards: Flashcard[]) {
+  const nowIso = new Date().toISOString();
+  await Promise.all(
+    flashcards.map(async (flashcard) => {
+      const existing = await storage.getSrsCard(flashcard.id);
+      if (!shouldPullCardForward(existing, nowIso)) return;
+      await storage.setSrsCard({ ...existing!, due: nowIso });
+    }),
+  );
+}
 
 /**
  * 節末快測：取代 Phase 1 的手動標記完成（見 MarkCompleteButton.tsx 的說明）。
@@ -14,9 +27,11 @@ const QUIZ_LIMIT = 5;
 export function SectionQuiz({
   materialId,
   questions,
+  flashcards,
 }: {
   materialId: string;
   questions: Question[];
+  flashcards: Flashcard[];
 }) {
   const [done, setDone] = useState<boolean | null>(null);
   const [result, setResult] = useState<{ correct: number; total: number } | null>(null);
@@ -37,6 +52,8 @@ export function SectionQuiz({
         status: "done",
         updatedAt: new Date().toISOString(),
       });
+    } else if (r.total > 0) {
+      void scheduleFlashcardsForReview(flashcards);
     }
   }
 
