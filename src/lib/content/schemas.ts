@@ -102,3 +102,25 @@ export const journalEntryScenarioSchema = z
     },
     { message: "借貸金額合計不相等" },
   );
+
+const simScenarioMonthSchema = z.object({
+  month: z.number().int().min(1).max(12),
+  narrative: z.string().min(1),
+  transactions: z.array(journalEntryScenarioSchema).min(1),
+});
+
+export const simScenarioSchema = z.object({
+  id: z.string().min(1),
+  companyName: z.string().min(1),
+  industry: z.string().min(1),
+  verified_at: dateStringSchema,
+  sources: z.array(z.string().url()).optional(),
+  openingEntry: journalEntryScenarioSchema,
+  months: z
+    .array(simScenarioMonthSchema)
+    .length(12)
+    .refine(
+      (months) => new Set(months.map((m) => m.month)).size === 12,
+      { message: "months 必須恰好涵蓋 1-12 月，且不可重複" },
+    ),
+});

@@ -13,6 +13,7 @@ import {
   glossaryEntrySchema,
   taxParametersSchema,
   journalEntryScenarioSchema,
+  simScenarioSchema,
 } from "../src/lib/content/schemas";
 
 const ROOT = join(__dirname, "..");
@@ -145,6 +146,7 @@ validateMaterials();
 validateJsonArray(join(CONTENT_DIR, "questions"), questionSchema);
 validateJsonArray(join(CONTENT_DIR, "flashcards"), flashcardSchema);
 validateJsonArray(join(CONTENT_DIR, "journal-entries"), journalEntryScenarioSchema);
+validateJsonArray(join(CONTENT_DIR, "sim-scenarios"), simScenarioSchema);
 validateGlossary();
 validateTaxParameters();
 
