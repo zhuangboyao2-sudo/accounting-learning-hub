@@ -13,7 +13,9 @@ import {
 } from "@/lib/dashboard/stats";
 import { SubjectProgressChart } from "@/components/dashboard/SubjectProgressChart";
 import { ExamScoreChart } from "@/components/dashboard/ExamScoreChart";
-import type { Flashcard, MaterialFrontmatter, Subject } from "@/types/content";
+import { generateAnalysisReportMarkdown } from "@/lib/dashboard/report";
+import type { Attempt, Feedback, MaterialProgress, SrsCardState } from "@/lib/storage/types";
+import type { Flashcard, MaterialFrontmatter, Question, Subject } from "@/types/content";
 
 interface MaterialGroup {
   subject: Subject;
@@ -24,9 +26,11 @@ interface MaterialGroup {
 export function Dashboard({
   materialGroups,
   flashcards,
+  allQuestions,
 }: {
   materialGroups: MaterialGroup[];
   flashcards: Flashcard[];
+  allQuestions: Question[];
 }) {
   const [loaded, setLoaded] = useState(false);
   const [completion, setCompletion] = useState<SubjectCompletion[]>([]);
@@ -37,6 +41,12 @@ export function Dashboard({
   });
   const [dueCardCount, setDueCardCount] = useState(0);
   const [examScores, setExamScores] = useState<ExamScorePoint[]>([]);
+  const [reportData, setReportData] = useState<{
+    attempts: Attempt[];
+    srsCards: SrsCardState[];
+    progress: MaterialProgress[];
+    feedback: Feedback[];
+  } | null>(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -48,7 +58,8 @@ export function Dashboard({
       storage.listExamSessions(),
       storage.listUserCards(),
       storage.listAllSrsCards(),
-    ]).then(([progress, attempts, examSessions, userCards, srsCards]) => {
+      storage.listFeedback(),
+    ]).then(([progress, attempts, examSessions, userCards, srsCards, feedback]) => {
       if (cancelled) return;
       setCompletion(computeSubjectCompletion(materialGroups, progress));
       setAccuracy(computeRecentAccuracy(attempts, now));
@@ -57,6 +68,7 @@ export function Dashboard({
         (c): c is typeof c & { id: number } => c.id !== undefined,
       );
       setDueCardCount(buildDueQueue(flashcards, cardsWithId, srsCards, nowIso).length);
+      setReportData({ attempts, srsCards, progress, feedback });
       setLoaded(true);
     });
     return () => {
@@ -65,18 +77,44 @@ export function Dashboard({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  function exportReport() {
+    if (!reportData) return;
+    const markdown = generateAnalysisReportMarkdown({
+      ...reportData,
+      materials: materialGroups.flatMap((g) => g.items),
+      questions: allQuestions,
+      now: new Date(),
+    });
+    const blob = new Blob([markdown], { type: "text/markdown;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `learning-analysis-${new Date().toISOString().slice(0, 10)}.md`;
+    a.click();
+    URL.revokeObjectURL(url);
+  }
+
   if (!loaded) {
     return <p className="text-zinc-500 dark:text-zinc-400">載入中…</p>;
   }
 
   return (
     <div className="space-y-8">
-      <Link
-        href="/today"
-        className="inline-block rounded-md bg-zinc-900 px-4 py-2 text-sm font-medium text-white dark:bg-zinc-100 dark:text-zinc-900"
-      >
-        開始今日學習
-      </Link>
+      <div className="flex flex-wrap items-center gap-3">
+        <Link
+          href="/today"
+          className="inline-block rounded-md bg-zinc-900 px-4 py-2 text-sm font-medium text-white dark:bg-zinc-100 dark:text-zinc-900"
+        >
+          開始今日學習
+        </Link>
+        <button
+          type="button"
+          onClick={exportReport}
+          className="rounded-md bg-zinc-100 px-4 py-2 text-sm font-medium text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300"
+        >
+          匯出學習分析報告
+        </button>
+      </div>
 
       <div className="grid gap-4 sm:grid-cols-2">
         <div className="rounded-lg border border-zinc-200 p-4 dark:border-zinc-800">
