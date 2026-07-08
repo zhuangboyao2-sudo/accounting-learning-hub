@@ -94,6 +94,8 @@ export interface StorageProvider {
   getSrsCard(cardId: string): Promise<SrsCardState | undefined>;
   setSrsCard(card: SrsCardState): Promise<void>;
   listDueSrsCards(now: string): Promise<SrsCardState[]>;
+  /** 讀取全部複習卡排程狀態（含未到期／已暫停），供 buildDueQueue 判斷新卡與排除暫停卡 */
+  listAllSrsCards(): Promise<SrsCardState[]>;
 
   addExamSession(session: Omit<ExamSession, "id">): Promise<void>;
   listExamSessions(): Promise<ExamSession[]>;

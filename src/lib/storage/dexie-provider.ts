@@ -58,6 +58,9 @@ export class DexieStorageProvider implements StorageProvider {
       .and((card) => !card.paused)
       .toArray();
   }
+  listAllSrsCards() {
+    return this.db.srsCards.toArray();
+  }
 
   addExamSession(session: Omit<ExamSession, "id">) {
     return this.db.examSessions.add(session as ExamSession).then(() => undefined);
