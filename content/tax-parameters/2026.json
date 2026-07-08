@@ -35,6 +35,7 @@
     "rate": 0.20,
     "smallProfitExemptionThreshold": 120000,
     "halfTaxBufferThreshold": 200000,
+    "halfTaxMultiplier": 0.5,
     "note": "課稅所得額12萬元以下免徵；超過12萬元至20萬元者，應納稅額不得超過超過12萬元部分之半數；超過20萬元者，全額按20%課徵。"
   },
   "businessTax": {
