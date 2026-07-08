@@ -52,7 +52,11 @@ export class DexieStorageProvider implements StorageProvider {
     return this.db.srsCards.put(card).then(() => undefined);
   }
   listDueSrsCards(now: string) {
-    return this.db.srsCards.where("due").belowOrEqual(now).toArray();
+    return this.db.srsCards
+      .where("due")
+      .belowOrEqual(now)
+      .and((card) => !card.paused)
+      .toArray();
   }
 
   addExamSession(session: Omit<ExamSession, "id">) {

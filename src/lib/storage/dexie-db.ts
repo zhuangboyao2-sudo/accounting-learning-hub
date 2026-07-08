@@ -58,6 +58,24 @@ export class AppDatabase extends Dexie {
             if (attempt.chosenAnswer === undefined) attempt.chosenAnswer = [];
           }),
       );
+
+    // v3：srsCards 補上 ts-fsrs 排程所需的 state/scheduledDays/learningSteps，
+    // 以及卡片瀏覽器「暫停」功能需要的 paused 欄位，供 Phase 4 複習卡使用
+    this.version(3)
+      .stores({
+        srsCards: "cardId, due",
+      })
+      .upgrade((tx) =>
+        tx
+          .table("srsCards")
+          .toCollection()
+          .modify((card) => {
+            if (card.state === undefined) card.state = 0;
+            if (card.scheduledDays === undefined) card.scheduledDays = 0;
+            if (card.learningSteps === undefined) card.learningSteps = 0;
+            if (card.paused === undefined) card.paused = false;
+          }),
+      );
   }
 }
 

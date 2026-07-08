@@ -31,6 +31,11 @@ export interface SrsCardState {
   difficulty: number;
   reps: number;
   lapses: number;
+  /** FSRS State enum：0=New, 1=Learning, 2=Review, 3=Relearning */
+  state: number;
+  scheduledDays: number;
+  learningSteps: number;
+  paused: boolean;
   lastReviewedAt?: string;
 }
 
