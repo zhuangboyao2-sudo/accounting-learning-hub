@@ -26,6 +26,9 @@ export function SiteHeader() {
           <Link href="/reference" className="hover:underline">
             速查工具
           </Link>
+          <Link href="/tools" className="hover:underline">
+            實務工具
+          </Link>
         </nav>
         <div className="ml-auto">
           <SearchBox index={index} />
