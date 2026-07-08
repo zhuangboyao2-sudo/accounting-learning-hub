@@ -88,3 +88,19 @@ export interface JournalEntryScenario {
   verified_at: string;
   sources?: string[];
 }
+
+export interface SimScenarioMonth {
+  month: number;
+  narrative: string;
+  transactions: JournalEntryScenario[];
+}
+
+export interface SimScenario {
+  id: string;
+  companyName: string;
+  industry: string;
+  verified_at: string;
+  sources?: string[];
+  openingEntry: JournalEntryScenario;
+  months: SimScenarioMonth[];
+}
