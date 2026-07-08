@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import {
+  computeIncomeStatementTotals,
   computeNetIncome,
   computeVatForPeriod,
   computeWithholdingTotal,
@@ -56,6 +57,33 @@ describe("computeNetIncome", () => {
     const ledger = sumLedgerByAccount(transactions);
     // 收入淨額 900（1000-100），費用 300，淨利 600
     expect(computeNetIncome(ledger, accounts)).toBe(600);
+  });
+});
+
+describe("computeIncomeStatementTotals", () => {
+  const accounts: ChartOfAccountsEntry[] = [
+    { category: "收入", name: "銷貨收入", normalBalance: "credit", description: "" },
+    { category: "費用", name: "薪資費用", normalBalance: "debit", description: "" },
+    { category: "資產", name: "現金", normalBalance: "debit", description: "" },
+  ];
+
+  it("分別回傳 revenue／expense／netIncome，供營所稅試算器使用", () => {
+    const transactions = [
+      makeTx("t1", [
+        { account: "現金", side: "debit", amount: 1000 },
+        { account: "銷貨收入", side: "credit", amount: 1000 },
+      ]),
+      makeTx("t2", [
+        { account: "薪資費用", side: "debit", amount: 300 },
+        { account: "現金", side: "credit", amount: 300 },
+      ]),
+    ];
+    const ledger = sumLedgerByAccount(transactions);
+    expect(computeIncomeStatementTotals(ledger, accounts)).toEqual({
+      revenue: 1000,
+      expense: 300,
+      netIncome: 700,
+    });
   });
 });
 

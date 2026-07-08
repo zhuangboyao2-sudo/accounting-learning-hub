@@ -19,11 +19,21 @@ export function sumLedgerByAccount(transactions: JournalEntryScenario[]): Map<st
   return ledger;
 }
 
-/** 依會計科目表的 category 分類，加總收入類（貸-借）減費用類（借-貸），算出本期淨利。 */
-export function computeNetIncome(
+export interface IncomeStatementTotals {
+  revenue: number;
+  expense: number;
+  netIncome: number;
+}
+
+/**
+ * 依會計科目表的 category 分類，加總收入類（貸-借）與費用類（借-貸）。
+ * revenue/expense 個別回傳，供營所稅試算器（calculateBusinessIncomeTax）使用；
+ * netIncome 供年底結帳關卡使用。
+ */
+export function computeIncomeStatementTotals(
   ledger: Map<string, AccountBalance>,
   accounts: ChartOfAccountsEntry[],
-): number {
+): IncomeStatementTotals {
   const categoryByName = new Map(accounts.map((a) => [a.name, a.category]));
   let revenue = 0;
   let expense = 0;
@@ -32,7 +42,15 @@ export function computeNetIncome(
     if (category === "收入") revenue += balance.credit - balance.debit;
     else if (category === "費用") expense += balance.debit - balance.credit;
   }
-  return revenue - expense;
+  return { revenue, expense, netIncome: revenue - expense };
+}
+
+/** 依會計科目表的 category 分類，加總收入類（貸-借）減費用類（借-貸），算出本期淨利。 */
+export function computeNetIncome(
+  ledger: Map<string, AccountBalance>,
+  accounts: ChartOfAccountsEntry[],
+): number {
+  return computeIncomeStatementTotals(ledger, accounts).netIncome;
 }
 
 export interface PeriodVat {

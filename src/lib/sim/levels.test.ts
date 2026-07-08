@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { buildLevelSequence } from "./levels";
+import { buildLevelSequence, findResumeIndex } from "./levels";
 import type { SimScenario } from "@/types/content";
 
 function makeScenario(monthCount = 12): SimScenario {
@@ -65,5 +65,23 @@ describe("buildLevelSequence", () => {
       { type: "month", month: 1 },
       { type: "month", month: 2 },
     ]);
+  });
+});
+
+describe("findResumeIndex", () => {
+  it("沒有任何完成紀錄：從第 0 關開始", () => {
+    expect(findResumeIndex(5, new Set())).toBe(0);
+  });
+
+  it("前幾關已完成：從第一個未完成的關卡開始", () => {
+    expect(findResumeIndex(5, new Set([0, 1, 2]))).toBe(3);
+  });
+
+  it("中間有關卡未完成：仍回傳最早的未完成關卡（不可跳關）", () => {
+    expect(findResumeIndex(5, new Set([0, 2, 3]))).toBe(1);
+  });
+
+  it("全部完成：回傳 levelCount", () => {
+    expect(findResumeIndex(3, new Set([0, 1, 2]))).toBe(3);
   });
 });

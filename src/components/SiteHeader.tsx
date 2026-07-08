@@ -33,6 +33,9 @@ export function SiteHeader() {
           <Link href="/tools" className="hover:underline">
             實務工具
           </Link>
+          <Link href="/simulation" className="hover:underline">
+            全年模擬
+          </Link>
           <Link href="/settings" className="hover:underline">
             設定
           </Link>
