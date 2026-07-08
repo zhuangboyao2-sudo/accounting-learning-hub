@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getSearchIndex } from "@/lib/content/search-index";
 import { SearchBox } from "@/components/SearchBox";
+import { ThemeToggle } from "@/components/ThemeProvider";
 
 export function SiteHeader() {
   const index = getSearchIndex();
@@ -33,8 +34,9 @@ export function SiteHeader() {
             實務工具
           </Link>
         </nav>
-        <div className="ml-auto">
+        <div className="ml-auto flex items-center gap-3">
           <SearchBox index={index} />
+          <ThemeToggle />
         </div>
       </div>
     </header>
