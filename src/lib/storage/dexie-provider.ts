@@ -85,7 +85,7 @@ export class DexieStorageProvider implements StorageProvider {
   }
 
   addUserCard(card: Omit<UserCard, "id">) {
-    return this.db.userCards.add(card as UserCard).then(() => undefined);
+    return this.db.userCards.add(card as UserCard).then((id) => id as number);
   }
   listUserCards() {
     return this.db.userCards.toArray();

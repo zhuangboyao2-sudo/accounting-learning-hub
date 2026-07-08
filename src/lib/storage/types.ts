@@ -106,7 +106,8 @@ export interface StorageProvider {
   getSetting<T = unknown>(key: string): Promise<T | undefined>;
   setSetting(key: string, value: unknown): Promise<void>;
 
-  addUserCard(card: Omit<UserCard, "id">): Promise<void>;
+  /** 回傳新卡片的自動遞增 id，供呼叫端立即用 userCardId(id) 建立對應的 SrsCardState */
+  addUserCard(card: Omit<UserCard, "id">): Promise<number>;
   listUserCards(): Promise<UserCard[]>;
 
   getSimProgress(scenarioId: string, month: number): Promise<SimProgress | undefined>;
