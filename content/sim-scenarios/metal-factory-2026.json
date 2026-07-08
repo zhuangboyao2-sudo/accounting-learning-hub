@@ -1,0 +1,437 @@
+{
+  "id": "metal-factory-2026",
+  "companyName": "誠信金屬加工股份有限公司",
+  "industry": "金屬零件代工",
+  "verified_at": "2026-07-08",
+  "sources": [
+    "https://www.etax.nat.gov.tw/etwmain/tax-info/understanding/tax-q-and-a/national/profit-seeking-enterprise-income-tax/file-payment/62nOrYR",
+    "https://law-out.mof.gov.tw/LawContent.aspx?id=FL006082",
+    "https://www.etax.nat.gov.tw/etwmain/tax-info/understanding/tax-q-and-a/national/individual-income-tax/withheld-rule/rule/BZYB5p2"
+  ],
+  "openingEntry": {
+    "id": "sim-opening",
+    "scenario": "股東於年初共同出資 1,000,000 元現金，成立誠信金屬加工股份有限公司，存入公司銀行帳戶。",
+    "lines": [
+      { "account": "銀行存款", "side": "debit", "amount": 1000000 },
+      { "account": "股本", "side": "credit", "amount": 1000000 }
+    ],
+    "explanation": "股東投入資金列為權益增加，貸記股本；資金存入銀行帳戶則借記銀行存款。這是公司全年帳務的起點。",
+    "material_ref": "acc-09-03",
+    "tags": ["模擬公司", "設立"],
+    "verified_at": "2026-07-08"
+  },
+  "months": [
+    {
+      "month": 1,
+      "narrative": "1 月：公司剛成立，添購生產設備並發放首月薪資。",
+      "transactions": [
+        {
+          "id": "sim-01-01",
+          "scenario": "以銀行存款購入生產用機器設備，未稅價 300,000 元，另支付營業稅（稅率 5%）15,000 元。",
+          "lines": [
+            { "account": "機器設備", "side": "debit", "amount": 300000 },
+            { "account": "進項稅額", "side": "debit", "amount": 15000 },
+            { "account": "銀行存款", "side": "credit", "amount": 315000 }
+          ],
+          "explanation": "購入供營業使用的固定資產列為機器設備；取得三聯式發票的進項稅額可扣抵，借記進項稅額。",
+          "material_ref": "acc-05-01",
+          "tags": ["模擬公司", "固定資產", "營業稅"],
+          "verified_at": "2026-07-08"
+        },
+        {
+          "id": "sim-01-02",
+          "scenario": "發放 1 月員工薪資，薪資費用總額 35,000 元，依規定代扣薪資所得稅 5%（1,750 元），餘額以銀行轉帳支付。",
+          "lines": [
+            { "account": "薪資費用", "side": "debit", "amount": 35000 },
+            { "account": "代扣稅款", "side": "credit", "amount": 1750 },
+            { "account": "銀行存款", "side": "credit", "amount": 33250 }
+          ],
+          "explanation": "薪資費用以總額認列；代扣之 5% 所得稅款貸記代扣稅款，待次年 1 月彙報繳納。",
+          "material_ref": "acc-02-02",
+          "tags": ["模擬公司", "扣繳", "薪資"],
+          "verified_at": "2026-07-08"
+        }
+      ]
+    },
+    {
+      "month": 2,
+      "narrative": "2 月：向供應商賒購原料，備妥生產所需存貨。",
+      "transactions": [
+        {
+          "id": "sim-02-01",
+          "scenario": "向供應商賒購原料，取得三聯式發票，未稅金額 150,000 元，營業稅（稅率 5%）7,500 元，貨款尚未支付。",
+          "lines": [
+            { "account": "存貨", "side": "debit", "amount": 150000 },
+            { "account": "進項稅額", "side": "debit", "amount": 7500 },
+            { "account": "應付帳款", "side": "credit", "amount": 157500 }
+          ],
+          "explanation": "進貨未稅金額列入存貨成本，進項稅額可扣抵；應付帳款為含稅總價，尚未付款。",
+          "material_ref": "acc-04-01",
+          "tags": ["模擬公司", "進貨", "營業稅"],
+          "verified_at": "2026-07-08"
+        },
+        {
+          "id": "sim-02-02",
+          "scenario": "發放 2 月員工薪資，金額與代扣比照 1 月（薪資費用 35,000 元，代扣 1,750 元，銀行支付 33,250 元）。",
+          "lines": [
+            { "account": "薪資費用", "side": "debit", "amount": 35000 },
+            { "account": "代扣稅款", "side": "credit", "amount": 1750 },
+            { "account": "銀行存款", "side": "credit", "amount": 33250 }
+          ],
+          "explanation": "每月薪資發放模式相同：總額認列費用，代扣稅款留待年度彙報。",
+          "material_ref": "acc-02-02",
+          "tags": ["模擬公司", "扣繳", "薪資"],
+          "verified_at": "2026-07-08"
+        }
+      ]
+    },
+    {
+      "month": 3,
+      "narrative": "3 月：首批產品完工出貨，開立發票賒銷予客戶。",
+      "transactions": [
+        {
+          "id": "sim-03-01",
+          "scenario": "開立三聯式發票，賒銷產品予客戶，未稅售價 220,000 元，營業稅（稅率 5%）11,000 元；同時結轉對應銷貨成本 88,000 元（占未稅售價 40%）。",
+          "lines": [
+            { "account": "應收帳款", "side": "debit", "amount": 231000 },
+            { "account": "銷貨收入", "side": "credit", "amount": 220000 },
+            { "account": "銷項稅額", "side": "credit", "amount": 11000 },
+            { "account": "銷貨成本", "side": "debit", "amount": 88000 },
+            { "account": "存貨", "side": "credit", "amount": 88000 }
+          ],
+          "explanation": "銷貨收入以未稅金額認列，銷項稅額貸記代政府收取；應收帳款為含稅總價。永續盤存制下，銷貨同時結轉銷貨成本、減少存貨，兩個經濟事實合併記錄。",
+          "material_ref": "acc-04-02",
+          "tags": ["模擬公司", "銷貨", "營業稅", "銷貨成本"],
+          "verified_at": "2026-07-08"
+        },
+        {
+          "id": "sim-03-02",
+          "scenario": "發放 3 月員工薪資，金額與代扣比照前兩月（薪資費用 35,000 元，代扣 1,750 元，銀行支付 33,250 元）。",
+          "lines": [
+            { "account": "薪資費用", "side": "debit", "amount": 35000 },
+            { "account": "代扣稅款", "side": "credit", "amount": 1750 },
+            { "account": "銀行存款", "side": "credit", "amount": 33250 }
+          ],
+          "explanation": "每月薪資發放模式相同。",
+          "material_ref": "acc-02-02",
+          "tags": ["模擬公司", "扣繳", "薪資"],
+          "verified_at": "2026-07-08"
+        }
+      ]
+    },
+    {
+      "month": 4,
+      "narrative": "4 月：收現 3 月賒銷貨款。",
+      "transactions": [
+        {
+          "id": "sim-04-01",
+          "scenario": "收到客戶清償 3 月賒銷貨款 231,000 元，存入公司銀行帳戶。",
+          "lines": [
+            { "account": "銀行存款", "side": "debit", "amount": 231000 },
+            { "account": "應收帳款", "side": "credit", "amount": 231000 }
+          ],
+          "explanation": "收現使銀行存款增加，應收帳款隨之減少。",
+          "material_ref": "acc-07-01",
+          "tags": ["模擬公司", "應收帳款", "收現"],
+          "verified_at": "2026-07-08"
+        },
+        {
+          "id": "sim-04-02",
+          "scenario": "發放 4 月員工薪資，金額與代扣比照前幾月（薪資費用 35,000 元，代扣 1,750 元，銀行支付 33,250 元）。",
+          "lines": [
+            { "account": "薪資費用", "side": "debit", "amount": 35000 },
+            { "account": "代扣稅款", "side": "credit", "amount": 1750 },
+            { "account": "銀行存款", "side": "credit", "amount": 33250 }
+          ],
+          "explanation": "每月薪資發放模式相同。",
+          "material_ref": "acc-02-02",
+          "tags": ["模擬公司", "扣繳", "薪資"],
+          "verified_at": "2026-07-08"
+        }
+      ]
+    },
+    {
+      "month": 5,
+      "narrative": "5 月：申報並繳納 3-4 月營業稅。",
+      "transactions": [
+        {
+          "id": "sim-05-01",
+          "scenario": "以銀行存款繳納 3-4 月結算之應付營業稅 11,000 元。",
+          "lines": [
+            { "account": "應付營業稅", "side": "debit", "amount": 11000 },
+            { "account": "銀行存款", "side": "credit", "amount": 11000 }
+          ],
+          "explanation": "實際繳納時，借記應付營業稅使該負債結清，貸記銀行存款。",
+          "material_ref": "acc-08-01",
+          "tags": ["模擬公司", "營業稅", "繳稅"],
+          "verified_at": "2026-07-08"
+        },
+        {
+          "id": "sim-05-02",
+          "scenario": "發放 5 月員工薪資，金額與代扣比照前幾月（薪資費用 35,000 元，代扣 1,750 元，銀行支付 33,250 元）。",
+          "lines": [
+            { "account": "薪資費用", "side": "debit", "amount": 35000 },
+            { "account": "代扣稅款", "side": "credit", "amount": 1750 },
+            { "account": "銀行存款", "side": "credit", "amount": 33250 }
+          ],
+          "explanation": "每月薪資發放模式相同。",
+          "material_ref": "acc-02-02",
+          "tags": ["模擬公司", "扣繳", "薪資"],
+          "verified_at": "2026-07-08"
+        }
+      ]
+    },
+    {
+      "month": 6,
+      "narrative": "6 月：補充原料存貨，準備下半年生產。",
+      "transactions": [
+        {
+          "id": "sim-06-01",
+          "scenario": "向供應商賒購原料，未稅金額 150,000 元，營業稅（稅率 5%）7,500 元，貨款尚未支付。",
+          "lines": [
+            { "account": "存貨", "side": "debit", "amount": 150000 },
+            { "account": "進項稅額", "side": "debit", "amount": 7500 },
+            { "account": "應付帳款", "side": "credit", "amount": 157500 }
+          ],
+          "explanation": "進貨未稅金額列入存貨成本，進項稅額可扣抵。",
+          "material_ref": "acc-04-01",
+          "tags": ["模擬公司", "進貨", "營業稅"],
+          "verified_at": "2026-07-08"
+        },
+        {
+          "id": "sim-06-02",
+          "scenario": "發放 6 月員工薪資，金額與代扣比照前幾月（薪資費用 35,000 元，代扣 1,750 元，銀行支付 33,250 元）。",
+          "lines": [
+            { "account": "薪資費用", "side": "debit", "amount": 35000 },
+            { "account": "代扣稅款", "side": "credit", "amount": 1750 },
+            { "account": "銀行存款", "side": "credit", "amount": 33250 }
+          ],
+          "explanation": "每月薪資發放模式相同。",
+          "material_ref": "acc-02-02",
+          "tags": ["模擬公司", "扣繳", "薪資"],
+          "verified_at": "2026-07-08"
+        }
+      ]
+    },
+    {
+      "month": 7,
+      "narrative": "7 月：第二批產品出貨，並提列上半年折舊。",
+      "transactions": [
+        {
+          "id": "sim-07-01",
+          "scenario": "開立三聯式發票，賒銷產品予客戶，未稅售價 280,000 元，營業稅（稅率 5%）14,000 元；同時結轉對應銷貨成本 112,000 元（占未稅售價 40%）。",
+          "lines": [
+            { "account": "應收帳款", "side": "debit", "amount": 294000 },
+            { "account": "銷貨收入", "side": "credit", "amount": 280000 },
+            { "account": "銷項稅額", "side": "credit", "amount": 14000 },
+            { "account": "銷貨成本", "side": "debit", "amount": 112000 },
+            { "account": "存貨", "side": "credit", "amount": 112000 }
+          ],
+          "explanation": "銷貨收入與銷項稅額依含稅發票金額拆分認列，同時結轉銷貨成本、減少存貨。",
+          "material_ref": "acc-04-02",
+          "tags": ["模擬公司", "銷貨", "營業稅", "銷貨成本"],
+          "verified_at": "2026-07-08"
+        },
+        {
+          "id": "sim-07-02",
+          "scenario": "以直線法提列 1-6 月機器設備累計折舊，上半年折舊費用合計 15,000 元。",
+          "lines": [
+            { "account": "折舊費用", "side": "debit", "amount": 15000 },
+            { "account": "累計折舊", "side": "credit", "amount": 15000 }
+          ],
+          "explanation": "折舊為當期費用，借記折舊費用；固定資產不直接減記，改貸記備抵科目累計折舊。",
+          "material_ref": "acc-05-02",
+          "tags": ["模擬公司", "折舊"],
+          "verified_at": "2026-07-08"
+        },
+        {
+          "id": "sim-07-03",
+          "scenario": "發放 7 月員工薪資，金額與代扣比照前幾月（薪資費用 35,000 元，代扣 1,750 元，銀行支付 33,250 元）。",
+          "lines": [
+            { "account": "薪資費用", "side": "debit", "amount": 35000 },
+            { "account": "代扣稅款", "side": "credit", "amount": 1750 },
+            { "account": "銀行存款", "side": "credit", "amount": 33250 }
+          ],
+          "explanation": "每月薪資發放模式相同。",
+          "material_ref": "acc-02-02",
+          "tags": ["模擬公司", "扣繳", "薪資"],
+          "verified_at": "2026-07-08"
+        }
+      ]
+    },
+    {
+      "month": 8,
+      "narrative": "8 月：收現 7 月賒銷貨款。",
+      "transactions": [
+        {
+          "id": "sim-08-01",
+          "scenario": "收到客戶清償 7 月賒銷貨款 294,000 元，存入公司銀行帳戶。",
+          "lines": [
+            { "account": "銀行存款", "side": "debit", "amount": 294000 },
+            { "account": "應收帳款", "side": "credit", "amount": 294000 }
+          ],
+          "explanation": "收現使銀行存款增加，應收帳款隨之減少。",
+          "material_ref": "acc-07-01",
+          "tags": ["模擬公司", "應收帳款", "收現"],
+          "verified_at": "2026-07-08"
+        },
+        {
+          "id": "sim-08-02",
+          "scenario": "發放 8 月員工薪資，金額與代扣比照前幾月（薪資費用 35,000 元，代扣 1,750 元，銀行支付 33,250 元）。",
+          "lines": [
+            { "account": "薪資費用", "side": "debit", "amount": 35000 },
+            { "account": "代扣稅款", "side": "credit", "amount": 1750 },
+            { "account": "銀行存款", "side": "credit", "amount": 33250 }
+          ],
+          "explanation": "每月薪資發放模式相同。",
+          "material_ref": "acc-02-02",
+          "tags": ["模擬公司", "扣繳", "薪資"],
+          "verified_at": "2026-07-08"
+        }
+      ]
+    },
+    {
+      "month": 9,
+      "narrative": "9 月：申報並繳納 7-8 月營業稅。",
+      "transactions": [
+        {
+          "id": "sim-09-01",
+          "scenario": "以銀行存款繳納 7-8 月結算之應付營業稅 14,000 元。",
+          "lines": [
+            { "account": "應付營業稅", "side": "debit", "amount": 14000 },
+            { "account": "銀行存款", "side": "credit", "amount": 14000 }
+          ],
+          "explanation": "實際繳納時，借記應付營業稅使該負債結清，貸記銀行存款。",
+          "material_ref": "acc-08-01",
+          "tags": ["模擬公司", "營業稅", "繳稅"],
+          "verified_at": "2026-07-08"
+        },
+        {
+          "id": "sim-09-02",
+          "scenario": "發放 9 月員工薪資，金額與代扣比照前幾月（薪資費用 35,000 元，代扣 1,750 元，銀行支付 33,250 元）。",
+          "lines": [
+            { "account": "薪資費用", "side": "debit", "amount": 35000 },
+            { "account": "代扣稅款", "side": "credit", "amount": 1750 },
+            { "account": "銀行存款", "side": "credit", "amount": 33250 }
+          ],
+          "explanation": "每月薪資發放模式相同。",
+          "material_ref": "acc-02-02",
+          "tags": ["模擬公司", "扣繳", "薪資"],
+          "verified_at": "2026-07-08"
+        }
+      ]
+    },
+    {
+      "month": 10,
+      "narrative": "10 月：補充原料存貨，準備年底出貨旺季。",
+      "transactions": [
+        {
+          "id": "sim-10-01",
+          "scenario": "向供應商賒購原料，未稅金額 150,000 元，營業稅（稅率 5%）7,500 元，貨款尚未支付。",
+          "lines": [
+            { "account": "存貨", "side": "debit", "amount": 150000 },
+            { "account": "進項稅額", "side": "debit", "amount": 7500 },
+            { "account": "應付帳款", "side": "credit", "amount": 157500 }
+          ],
+          "explanation": "進貨未稅金額列入存貨成本，進項稅額可扣抵。",
+          "material_ref": "acc-04-01",
+          "tags": ["模擬公司", "進貨", "營業稅"],
+          "verified_at": "2026-07-08"
+        },
+        {
+          "id": "sim-10-02",
+          "scenario": "發放 10 月員工薪資，金額與代扣比照前幾月（薪資費用 35,000 元，代扣 1,750 元，銀行支付 33,250 元）。",
+          "lines": [
+            { "account": "薪資費用", "side": "debit", "amount": 35000 },
+            { "account": "代扣稅款", "side": "credit", "amount": 1750 },
+            { "account": "銀行存款", "side": "credit", "amount": 33250 }
+          ],
+          "explanation": "每月薪資發放模式相同。",
+          "material_ref": "acc-02-02",
+          "tags": ["模擬公司", "扣繳", "薪資"],
+          "verified_at": "2026-07-08"
+        }
+      ]
+    },
+    {
+      "month": 11,
+      "narrative": "11 月：年底出貨旺季，出貨量為全年最大一筆。",
+      "transactions": [
+        {
+          "id": "sim-11-01",
+          "scenario": "開立三聯式發票，賒銷產品予客戶，未稅售價 300,000 元，營業稅（稅率 5%）15,000 元；同時結轉對應銷貨成本 120,000 元（占未稅售價 40%）。",
+          "lines": [
+            { "account": "應收帳款", "side": "debit", "amount": 315000 },
+            { "account": "銷貨收入", "side": "credit", "amount": 300000 },
+            { "account": "銷項稅額", "side": "credit", "amount": 15000 },
+            { "account": "銷貨成本", "side": "debit", "amount": 120000 },
+            { "account": "存貨", "side": "credit", "amount": 120000 }
+          ],
+          "explanation": "銷貨收入與銷項稅額依含稅發票金額拆分認列，同時結轉銷貨成本、減少存貨。此筆貨款將於次年度收現，年底應收帳款餘額不為零屬正常情形。",
+          "material_ref": "acc-04-02",
+          "tags": ["模擬公司", "銷貨", "營業稅", "銷貨成本"],
+          "verified_at": "2026-07-08"
+        },
+        {
+          "id": "sim-11-02",
+          "scenario": "發放 11 月員工薪資，金額與代扣比照前幾月（薪資費用 35,000 元，代扣 1,750 元，銀行支付 33,250 元）。",
+          "lines": [
+            { "account": "薪資費用", "side": "debit", "amount": 35000 },
+            { "account": "代扣稅款", "side": "credit", "amount": 1750 },
+            { "account": "銀行存款", "side": "credit", "amount": 33250 }
+          ],
+          "explanation": "每月薪資發放模式相同。",
+          "material_ref": "acc-02-02",
+          "tags": ["模擬公司", "扣繳", "薪資"],
+          "verified_at": "2026-07-08"
+        }
+      ]
+    },
+    {
+      "month": 12,
+      "narrative": "12 月：年末現銷出清部分庫存，並提列下半年折舊，結束全年營運。",
+      "transactions": [
+        {
+          "id": "sim-12-01",
+          "scenario": "現銷產品予客戶並開立發票，未稅售價 210,000 元，營業稅（稅率 5%）10,500 元，貨款當場存入銀行帳戶；同時結轉對應銷貨成本 84,000 元（占未稅售價 40%）。",
+          "lines": [
+            { "account": "銀行存款", "side": "debit", "amount": 220500 },
+            { "account": "銷貨收入", "side": "credit", "amount": 210000 },
+            { "account": "銷項稅額", "side": "credit", "amount": 10500 },
+            { "account": "銷貨成本", "side": "debit", "amount": 84000 },
+            { "account": "存貨", "side": "credit", "amount": 84000 }
+          ],
+          "explanation": "現銷含稅款項全數收現，銀行存款借記含稅總額；同時結轉銷貨成本、減少存貨。",
+          "material_ref": "acc-04-02",
+          "tags": ["模擬公司", "銷貨", "營業稅", "銷貨成本"],
+          "verified_at": "2026-07-08"
+        },
+        {
+          "id": "sim-12-02",
+          "scenario": "以直線法提列 7-12 月機器設備累計折舊，下半年折舊費用合計 15,000 元。",
+          "lines": [
+            { "account": "折舊費用", "side": "debit", "amount": 15000 },
+            { "account": "累計折舊", "side": "credit", "amount": 15000 }
+          ],
+          "explanation": "年度第二次折舊提列，累計折舊全年合計 30,000 元。",
+          "material_ref": "acc-05-02",
+          "tags": ["模擬公司", "折舊"],
+          "verified_at": "2026-07-08"
+        },
+        {
+          "id": "sim-12-03",
+          "scenario": "發放 12 月員工薪資，金額與代扣比照前幾月（薪資費用 35,000 元，代扣 1,750 元，銀行支付 33,250 元）。",
+          "lines": [
+            { "account": "薪資費用", "side": "debit", "amount": 35000 },
+            { "account": "代扣稅款", "side": "credit", "amount": 1750 },
+            { "account": "銀行存款", "side": "credit", "amount": 33250 }
+          ],
+          "explanation": "全年最後一次薪資發放，模式與前 11 個月相同。",
+          "material_ref": "acc-02-02",
+          "tags": ["模擬公司", "扣繳", "薪資"],
+          "verified_at": "2026-07-08"
+        }
+      ]
+    }
+  ]
+}
