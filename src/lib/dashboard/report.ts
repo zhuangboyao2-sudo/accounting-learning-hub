@@ -1,5 +1,12 @@
-import type { Attempt, Feedback, MaterialProgress, SrsCardState } from "@/lib/storage/types";
+import type { Attempt, CauseTag, Feedback, MaterialProgress, SrsCardState } from "@/lib/storage/types";
 import type { MaterialFrontmatter, Question } from "@/types/content";
+
+export const CAUSE_TAG_LABELS: Record<CauseTag, string> = {
+  concept: "概念不懂",
+  calculation: "計算錯誤",
+  carelessness: "粗心",
+  misread: "題意誤解",
+};
 
 export interface ChapterErrorRate {
   materialId: string;
@@ -128,6 +135,24 @@ export function findUnclearExplanations(
   }));
 }
 
+export interface CauseTagSummary {
+  tag: CauseTag;
+  label: string;
+  count: number;
+}
+
+/** 依答錯原因標記分組計數（只計已標記的答錯紀錄），依次數由高到低排序。 */
+export function summarizeCauseTags(attempts: Attempt[]): CauseTagSummary[] {
+  const counts = new Map<CauseTag, number>();
+  for (const attempt of attempts) {
+    if (attempt.correct || !attempt.causeTag) continue;
+    counts.set(attempt.causeTag, (counts.get(attempt.causeTag) ?? 0) + 1);
+  }
+  return [...counts.entries()]
+    .map(([tag, count]) => ({ tag, label: CAUSE_TAG_LABELS[tag], count }))
+    .sort((a, b) => b.count - a.count);
+}
+
 export interface AnalysisReportInput {
   attempts: Attempt[];
   srsCards: SrsCardState[];
@@ -146,6 +171,7 @@ export function generateAnalysisReportMarkdown(input: AnalysisReportInput): stri
   const highLapseCards = findHighLapseCards(srsCards);
   const staleChapters = findStaleChapters(materials, progress, now);
   const unclear = findUnclearExplanations(feedback, questions);
+  const causeTags = summarizeCauseTags(attempts);
 
   const lines: string[] = [];
   lines.push(`# 學習分析報告`, ``, `匯出時間：${now.toISOString().slice(0, 10)}`, ``);
@@ -166,6 +192,16 @@ export function generateAnalysisReportMarkdown(input: AnalysisReportInput): stri
   } else {
     for (const row of repeatedWrong) {
       lines.push(`- 【答錯 ${row.wrongCount} 次】${row.stem}`);
+    }
+  }
+  lines.push(``);
+
+  lines.push(`## 答錯原因分布`, ``);
+  if (causeTags.length === 0) {
+    lines.push(`（尚無標記紀錄）`);
+  } else {
+    for (const row of causeTags) {
+      lines.push(`- ${row.label}：${row.count} 次`);
     }
   }
   lines.push(``);

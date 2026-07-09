@@ -5,6 +5,7 @@ import {
   findStaleChapters,
   findUnclearExplanations,
   rankChapterErrorRates,
+  summarizeCauseTags,
 } from "./report";
 import type { Attempt, Feedback, MaterialProgress, SrsCardState } from "@/lib/storage/types";
 import type { MaterialFrontmatter, Question } from "@/types/content";
@@ -159,5 +160,27 @@ describe("findUnclearExplanations", () => {
     expect(findUnclearExplanations(feedback, questions)).toEqual([
       { questionId: "q1", stem: "題目一" },
     ]);
+  });
+});
+
+describe("summarizeCauseTags", () => {
+  it("依 causeTag 分組計數，依次數由高到低排序", () => {
+    const attempts = [
+      makeAttempt({ causeTag: "carelessness" }),
+      makeAttempt({ causeTag: "carelessness" }),
+      makeAttempt({ causeTag: "concept" }),
+    ];
+    expect(summarizeCauseTags(attempts)).toEqual([
+      { tag: "carelessness", label: "粗心", count: 2 },
+      { tag: "concept", label: "概念不懂", count: 1 },
+    ]);
+  });
+
+  it("答對的紀錄與未標記的答錯紀錄都不計入", () => {
+    const attempts = [
+      makeAttempt({ correct: true, causeTag: "concept" }),
+      makeAttempt({ correct: false }),
+    ];
+    expect(summarizeCauseTags(attempts)).toEqual([]);
   });
 });
