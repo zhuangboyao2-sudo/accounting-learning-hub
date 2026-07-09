@@ -2,6 +2,7 @@ import type { EntityTable } from "dexie";
 import { getDb, simProgressId } from "./dexie-db";
 import type {
   Attempt,
+  CauseTag,
   ExamSession,
   Feedback,
   MaterialProgress,
@@ -36,13 +37,16 @@ export class DexieStorageProvider implements StorageProvider {
   }
 
   addAttempt(attempt: Omit<Attempt, "id">) {
-    return this.db.attempts.add(attempt as Attempt).then(() => undefined);
+    return this.db.attempts.add(attempt as Attempt).then((id) => id as number);
   }
   listAttempts(questionId?: string) {
     if (questionId) {
       return this.db.attempts.where("questionId").equals(questionId).toArray();
     }
     return this.db.attempts.toArray();
+  }
+  setAttemptCause(attemptId: number, causeTag: CauseTag) {
+    return this.db.attempts.update(attemptId, { causeTag }).then(() => undefined);
   }
 
   getSrsCard(cardId: string) {

@@ -14,6 +14,8 @@ export interface Note {
   updatedAt: string;
 }
 
+export type CauseTag = "concept" | "calculation" | "carelessness" | "misread";
+
 export interface Attempt {
   id?: number;
   questionId: string;
@@ -22,6 +24,8 @@ export interface Attempt {
   chosenAnswer: number[];
   correct: boolean;
   chosenAt: string;
+  /** 答錯原因標記（概念不懂／計算錯誤／粗心／題意誤解），只在練習模式提供 */
+  causeTag?: CauseTag;
 }
 
 export interface SrsCardState {
@@ -88,8 +92,10 @@ export interface StorageProvider {
   getNote(materialId: string): Promise<Note | undefined>;
   setNote(note: Note): Promise<void>;
 
-  addAttempt(attempt: Omit<Attempt, "id">): Promise<void>;
+  /** 回傳新紀錄的自動遞增 id，供答錯後補填 causeTag 使用 */
+  addAttempt(attempt: Omit<Attempt, "id">): Promise<number>;
   listAttempts(questionId?: string): Promise<Attempt[]>;
+  setAttemptCause(attemptId: number, causeTag: CauseTag): Promise<void>;
 
   getSrsCard(cardId: string): Promise<SrsCardState | undefined>;
   setSrsCard(card: SrsCardState): Promise<void>;
