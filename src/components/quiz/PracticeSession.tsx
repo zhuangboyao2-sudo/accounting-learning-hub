@@ -7,6 +7,7 @@ import { shuffle } from "@/lib/quiz/shuffle";
 import { isCorrect } from "@/lib/quiz/scoring";
 import { SUBJECTS } from "@/types/content";
 import type { Question } from "@/types/content";
+import type { CauseTag } from "@/lib/storage/types";
 
 const KEY_TO_INDEX: Record<string, number> = {
   "1": 0,
@@ -17,6 +18,13 @@ const KEY_TO_INDEX: Record<string, number> = {
   b: 1,
   c: 2,
   d: 3,
+};
+
+const CAUSE_LABELS: Record<CauseTag, string> = {
+  concept: "概念不懂",
+  calculation: "計算錯誤",
+  carelessness: "粗心",
+  misread: "題意誤解",
 };
 
 export function PracticeSession({
@@ -39,6 +47,8 @@ export function PracticeSession({
   const [submitted, setSubmitted] = useState(false);
   const [feedbackSent, setFeedbackSent] = useState(false);
   const [score, setScore] = useState({ correct: 0, total: 0 });
+  const [lastAttemptId, setLastAttemptId] = useState<number | null>(null);
+  const [causeTag, setCauseTag] = useState<CauseTag | null>(null);
   const completeFired = useRef(false);
 
   const question = order[index];
@@ -52,18 +62,26 @@ export function PracticeSession({
       const correct = question.type === "essay" ? null : isCorrect(question, answer);
       if (correct !== null) {
         setScore((s) => ({ correct: s.correct + (correct ? 1 : 0), total: s.total + 1 }));
-        void storage.addAttempt({
-          questionId: question.id,
-          subject: question.subject,
-          materialRef: question.material_ref,
-          chosenAnswer: answer,
-          correct,
-          chosenAt: new Date().toISOString(),
-        });
+        void storage
+          .addAttempt({
+            questionId: question.id,
+            subject: question.subject,
+            materialRef: question.material_ref,
+            chosenAnswer: answer,
+            correct,
+            chosenAt: new Date().toISOString(),
+          })
+          .then(setLastAttemptId);
       }
     },
     [question, submitted],
   );
+
+  function markCause(tag: CauseTag) {
+    if (!lastAttemptId || causeTag) return;
+    setCauseTag(tag);
+    void storage.setAttemptCause(lastAttemptId, tag);
+  }
 
   useEffect(() => {
     if (!question || question.type !== "single-choice" || submitted) return;
@@ -88,6 +106,8 @@ export function PracticeSession({
     setChosen([]);
     setSubmitted(false);
     setFeedbackSent(false);
+    setLastAttemptId(null);
+    setCauseTag(null);
   }
 
   function sendFeedback() {
@@ -194,6 +214,27 @@ export function PracticeSession({
               </p>
             ) : null}
             <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">{question.explanation}</p>
+            {correct === false ? (
+              <div className="mt-3 flex flex-wrap items-center gap-2 text-xs">
+                <span className="text-zinc-500 dark:text-zinc-400">答錯原因：</span>
+                {(Object.keys(CAUSE_LABELS) as CauseTag[]).map((tag) => (
+                  <button
+                    key={tag}
+                    type="button"
+                    onClick={() => markCause(tag)}
+                    disabled={causeTag !== null}
+                    aria-pressed={causeTag === tag}
+                    className={`rounded px-2 py-1 disabled:opacity-50 ${
+                      causeTag === tag
+                        ? "bg-zinc-900 text-white dark:bg-zinc-100 dark:text-zinc-900"
+                        : "bg-zinc-100 text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300"
+                    }`}
+                  >
+                    {CAUSE_LABELS[tag]}
+                  </button>
+                ))}
+              </div>
+            ) : null}
             <div className="mt-4 flex flex-wrap items-center gap-3 text-sm">
               {showMaterialLink && question.material_ref ? (
                 <Link
