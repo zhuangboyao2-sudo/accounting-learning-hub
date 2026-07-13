@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { storage } from "@/lib/storage";
 import { isBackupStale } from "@/lib/settings/backup";
+import { CloudSyncSection } from "./CloudSyncSection";
 
 const SCHEMA_VERSION = 1;
 
@@ -61,6 +62,8 @@ export function SettingsPanel() {
 
   return (
     <div className="space-y-8">
+      <CloudSyncSection />
+
       <section>
         <h2 className="mb-2 text-lg font-medium">資料備份</h2>
         <p className="mb-3 text-sm text-zinc-600 dark:text-zinc-400">

@@ -12,6 +12,7 @@
     "test": "vitest run"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.110.3",
     "dexie": "^4.4.4",
     "gray-matter": "^4.0.3",
     "next": "16.2.10",

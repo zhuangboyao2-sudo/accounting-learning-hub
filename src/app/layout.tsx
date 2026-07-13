@@ -3,6 +3,7 @@ import "./globals.css";
 import { SiteHeader } from "@/components/SiteHeader";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import { ServiceWorkerRegister } from "@/components/ServiceWorkerRegister";
+import { SyncInit } from "@/components/SyncInit";
 
 export const metadata: Metadata = {
   title: "會計學習網站",
@@ -27,6 +28,7 @@ export default function RootLayout({
           {children}
         </ThemeProvider>
         <ServiceWorkerRegister />
+        <SyncInit />
       </body>
     </html>
   );

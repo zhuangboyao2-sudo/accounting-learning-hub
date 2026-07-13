@@ -23,19 +23,21 @@ UI 元件 → StorageProvider（介面不變）→ DexieProvider（不動）
 
 > 註：DEVELOPMENT_PLAN §4.3 原構想是「替換 provider」，但那會犧牲離線優先。此偏離已記入計畫 §10.3。UI 層仍只碰 StorageProvider 介面，約束不變。
 
-## 資料模型
+## 資料模型（2026-07-13 實作定案）
 
-- Dexie 九張表（progress、notes、attempts、srs_cards、exam_sessions、feedback、settings、user_cards、sim_progress）各對應一張 Postgres 表
-- 雲端表共同欄位：`user_id uuid`（RLS：`user_id = auth.uid()`）、`updated_at timestamptz`
-- 本地每筆記錄需有 `updatedAt`（既有 schema 已多數具備，缺的表做 Dexie migration 補上）
+- 雲端採**單一通用表** `user_data(user_id, table_name, key, data jsonb, updated_at, device_id)`，主鍵 `(user_id, table_name, key)`：Dexie 九張表的資料列以 jsonb 原樣存放，本地 schema 演進時雲端不需跟著遷移（較原規劃「九張對應表」簡化，理由記於此）
+- RLS：`auth.uid() = user_id`，單一 policy
+- schema 見 [supabase/schema.sql](../../supabase/schema.sql)，於 Dashboard SQL Editor 執行一次
 
-## 同步引擎
+## 同步引擎（src/lib/sync/）
 
-- **變更追蹤**：本地寫入時將 `(table, key)` 記入 `sync_outbox` 表（Dexie 新表）；上傳成功後移除
-- **Push**：outbox 有項目時 debounce（約 5 秒）批次上傳；離線時累積，`online` 事件恢復後補送
-- **Pull**：啟動時與登入時拉取 `updated_at > lastPulledAt` 的記錄，寫回 Dexie
-- **衝突**：last-write-wins（比 `updatedAt`）；`attempts`、`exam_sessions` 為 append-only 天然無衝突
-- **首次啟用**：登入後把本地全量資料上傳（等同既有 JSON 備份的雲端版）
+- **變更追蹤**：DexieProvider 每次寫入後通知 `setStorageWriteListener`，引擎將 `(table, key)` 記入 `syncOutbox` 表（Dexie v4），主鍵 `table|key` 使重複寫入自然合併；上傳成功且期間無新寫入才移除
+- **Push**：debounce 3 秒批次 upsert（每批 500 筆），`updated_at`、`device_id` 由客戶端寫入；離線時累積，`online` 事件恢復後補送
+- **Pull**：啟動、恢復連線、回到前景、每 5 分鐘拉取 `updated_at > lastPulledAt` 且 `device_id` 非本機的記錄寫回 Dexie；`lastPulledAt` 取批次最大伺服器時間戳（避免本地時鐘偏差），存 localStorage（裝置本地狀態，不入同步範圍）
+- **衝突**：本地有未上傳變更的資料列以本地為準略過雲端版本，其餘雲端覆蓋本地；配合推送端無條件 upsert，整體為 last-write-wins
+- **首次啟用**：登入後全量入列上傳＋自 epoch 全量拉取
+- **匯入備份**：屬整批覆蓋，觸發「刪除雲端全部資料→全量重傳」，避免舊資料列復活
+- **已知限制**：`attempts`／`examSessions`／`feedback`／`userCards` 以本地自動遞增 id 為同步鍵，兩台裝置「同時離線」各自新增時可能撞號（LWW 保留一筆）；單人依序使用裝置＋自動同步下機率極低，接受此限制
 
 ## UI（僅設定頁）
 
