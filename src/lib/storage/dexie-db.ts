@@ -14,6 +14,14 @@ import type {
 /** sim_progress 的實際儲存列，複合鍵 scenarioId+month 轉成單一字串主鍵以簡化型別 */
 export type SimProgressRecord = SimProgress & { id: string };
 
+/** 雲端同步待上傳佇列的一列；id 為 `${table}|${key}`，同一筆資料重複寫入時自然合併 */
+export interface SyncOutboxEntry {
+  id: string;
+  table: string;
+  key: string;
+  changedAt: string;
+}
+
 export function simProgressId(scenarioId: string, month: number): string {
   return `${scenarioId}:${month}`;
 }
@@ -28,6 +36,7 @@ export class AppDatabase extends Dexie {
   settings!: EntityTable<Setting, "key">;
   userCards!: EntityTable<UserCard, "id">;
   simProgress!: EntityTable<SimProgressRecord, "id">;
+  syncOutbox!: EntityTable<SyncOutboxEntry, "id">;
 
   constructor() {
     super("accounting-learning-hub");
@@ -76,6 +85,11 @@ export class AppDatabase extends Dexie {
             if (card.paused === undefined) card.paused = false;
           }),
       );
+
+    // v4：雲端同步待上傳佇列（見 docs/specs/cloud-sync.md）
+    this.version(4).stores({
+      syncOutbox: "id",
+    });
   }
 }
 
